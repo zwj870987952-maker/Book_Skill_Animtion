@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\arm-rotation-supination-pronation.md": "a789d9c36ab1ba808824ff546dba52344381d70f92dc64cbd7cc9f1a8f01c324",
+    "references\\capabilities\\bony-landmarks-blockout.md": "ebb3fe13f3855eaffba1a2843a059e51bb58a8b926179e04aa94c9c12c4494d2",
+    "references\\capabilities\\chest-back-torso-muscle-volume.md": "8e6b85c34a005f5db1355d9d753b5907d0b3b74fe9042c707cf64e8eb3390f86",
+    "references\\capabilities\\facial-features-planes-volume.md": "44112535205c21f4b1908c7e8bc2438b1e274ca290c868e4efef8ed36eeb8524",
+    "references\\capabilities\\hand-anatomy-carpal-arch.md": "674560a2f0db31f7f9eb2e93fde202dcfa9c6e857d026a1876df81ebe720cc44",
+    "references\\capabilities\\knee-foot-arch-ankle-mechanics.md": "9206bf6f9dfd3d5ed2d57724506102424fb12cc7611d280fad83f3ac59c4be41",
+    "references\\capabilities\\leg-muscles-quads-asymmetry.md": "d2d035ba3eea670cabdb07ede5f900dfc58d84bc019dcd0fa0c66f9b7b1b9659",
+    "references\\capabilities\\male-vs-female-proportions-fat.md": "42fbd778e8a5c3e59ed1ebb159cc6827d453d355621df75cd8db2b935f003dad",
+    "references\\capabilities\\neck-muscles-sternocleidomastoid.md": "6d08a0aa0e55bc7b1c91a73e3fd76a3472f7a342767214b6ee15f17689949070",
+    "references\\capabilities\\planar-head-skull-architecture.md": "311564d352cf1e7e71a0b45edb1f2ade4c673a93ebe0d12a65ab31986b253584",
+    "references\\capabilities\\shoulder-girdle-deltoid-interlock.md": "f54e9b668bde2cbb3eaa676ca8df90b41c30c6cba1d6862a778b7eb6dca5eafb",
+    "references\\capabilities\\torso-movable-masses-contrapposto.md": "f23e966e925da388da94c7c0a53d93e7549993e5371110e0322633aea575abed",
+    "references\\capability-index.md": "2706b3315f59a12b99f3dc4a583adccf2a606981fe4c37b547df05feb5bf2472",
+    "references\\cheatsheet.md": "1a2589954def68dc4c7a027a68d9efc74157c92dd59ef53caa7944bf4b876052",
+    "references\\glossary.md": "ec979d3fa56c63150085cfa26a4798c3d123be5f3283f566ea23ea7af51635ed",
+    "references\\overview.md": "595bfe7fbb9300d6237e0f4824ff40bdd2e8f06e1e644e474f415e6837974f52",
+    "SKILL.md": "4102b6806022c86d995a8fcb516aa286cc9359034c5aaf48f7f97916746a5f3e"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.anatomy-for-sculptors",
+  "bundle_sha256": "8e22a351c38bf9bd63f45c3d514e6c93dc9cbf838238cfdb4844984fbf531003",
+  "variant": "single",
+  "run_id": "run-20261006-201749-722449",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

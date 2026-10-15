@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\acting-drama-storytelling-pose.md": "c282ddeb6e47d7c77efff0664b2d97b17a3d8d6d4d1cf7e54856f3557f6e2bc9",
+    "references\\capabilities\\asymmetry-law-of-thirds.md": "04f5f2ab1d8318127329fdc66d364aad2cbbf5e15eadb29b14510dc319cd6ecb",
+    "references\\capabilities\\directional-applied-force.md": "ffbd2c73fb834bbe7e241f38f595c35b5fa3a0838baa0da25e0158842e956524",
+    "references\\capabilities\\fabric-drape-folds-mechanics.md": "efdccea76c66b9ae2722bd7889115921f80b88a7a2d6e9adfd788fa36c0bc5dc",
+    "references\\capabilities\\force-rhythm-rollercoaster.md": "b8527f21f18ac7e4162865fcd5b83bd3f45f3eebf5eb194a81ecf2ee5768ec32",
+    "references\\capabilities\\human-animal-comparative-force.md": "2ee6da7cb9671ca4376234e8974a2133464c8f97b5240b47fab01725e7d18e40",
+    "references\\capabilities\\line-texture-pencil-pressure.md": "6f5125ed703683d4b6e405b164486000943ca3e598581a0e5b4d59b6e0efee19",
+    "references\\capabilities\\opposing-curves-torso.md": "4b506131f6505ab508903a7028d912a81124507d5fc9a551dbd30f84502abaf6",
+    "references\\capabilities\\quick-sketch-reportage.md": "ca4948fddc55f5787c82d369caee8d28ccb00fb090c63de2025bed33fd20c1b6",
+    "references\\capabilities\\silhouette-negative-space.md": "5a74cacb85f76d5e23172a0847afc190569223cbdf92ef0a18ff8bbbe7588f14",
+    "references\\capabilities\\straight-vs-curved-shapes.md": "6eca2404a45ccbd45e169befdeaecf693e57ed33d7b169fa0ea609167dc5f59e",
+    "references\\capabilities\\wrapping-lines-cross-contour.md": "ee19e4923379aec2db6472e3a6c7cd46b041be5f59fe74be44a5fb6d8bef8ea3",
+    "references\\capability-index.md": "848b12ffe7489419a1a16880540d1f7ac2c434570288e7ab37e5a77ffd3c4bcf",
+    "references\\cheatsheet.md": "d1955a75c4819ddab49244e7806109d8f6d82ecaab8da37a4f9be115788f7c9a",
+    "references\\glossary.md": "6485c66a91b671b1d3ee6f9a3a095b7e4aec5ec506a7440f3a7aa881944e5c43",
+    "references\\overview.md": "34a43e65d361dd2ca68df8dc81e369e9ccfc26abb320eb1d8402df68ea564659",
+    "SKILL.md": "084f30c797b0b9dcfe036102c9108b75817d752b6436171d75874fd6a613b102"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.force-life-drawing",
+  "bundle_sha256": "1de1bed4491f4562aa97bf5c4269b16ccddf4c187195931b1a3a5db7d9bc0023",
+  "variant": "single",
+  "run_id": "run-20261006-184754-06bf87",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bundle_id": "bundle.timing-for-animation",
+  "destinations": {
+    "cap.timing.timing-spacing-core": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.slow-in-slow-out": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.anticipation-execution": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.follow-through-overlapping": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.weight-force-calculator": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.walk-run-cycles": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.quadruped-locomotion": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.hold-and-reaction": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.dialogue-lip-sync": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.camera-motion-timing": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.fast-action-troubleshooting": {
+      "served_by": "timing-for-animation"
+    },
+    "cap.timing.inanimate-physics": {
+      "served_by": "timing-for-animation"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\aspect-ratio-framing-psychology.md": "e4260fe231f1786f84af8ea3fd9611a1a2f22d6fedcca0afb2c141aa4a72b902",
+    "references\\capabilities\\black-white-value-distribution.md": "066aee35b0861b4cdff7f248ab0c48a656520b3bc6b2709027bf713c734c3577",
+    "references\\capabilities\\chiaroscuro-lighting-mood.md": "034ead74eba1a7d2473c2dd352491f8b5f7fee3c0fa280e40257987e0c821142",
+    "references\\capabilities\\dynamic-geometric-tension.md": "de9206220e93f77d63cb0f09651eacab66ec4805bcc27de33de8b11a81d4992f",
+    "references\\capabilities\\eye-leading-focal-paths.md": "2de4c248b0048b048a191fbedf9c11ce86e47118d0e9fdc601ed67b8b5dac785",
+    "references\\capabilities\\horizon-line-psychology.md": "fe5432b1fc65b8c7c1f1f17cdc42b1f73eaff76936484b46c70cddaacaa234d3",
+    "references\\capabilities\\lens-perspective-wide-vs-telephoto.md": "af62b6442c65df37eb39a2f39690470f50ef063660f2e8eeb671a8972a179796",
+    "references\\capabilities\\negative-space-graphic-economy.md": "92b41146b1c35b82c8f6881705dfb4db0a903c853df0ea6ca38067f5a40d9a62",
+    "references\\capabilities\\scale-contrast-dominance.md": "3dbec8ced60277b6d7cf1b911b4186e43a00da23cc71de642531567243df82e8",
+    "references\\capabilities\\storyboard-cadence-editorial-flow.md": "82388016a641bd472976b0240b765fed83ee797628b4f7fe7127f731e695937b",
+    "references\\capabilities\\three-layer-spatial-depth.md": "0461fb307b0ae93a3fafa1b72c86f8c147c47d1e13e42d0822462bd298ba6568",
+    "references\\capabilities\\visual-continuity-eye-trace.md": "c912d8266f7f6ca5af71d24a565f10df24f3ca0933ed76389585cddd8b30f9ea",
+    "references\\capability-index.md": "17cb23501691e993f7a2ceb9f2ff6ea5799a2732a03b1c4946ebe632a48d553f",
+    "references\\cheatsheet.md": "a47229f856883ae619e33cfb74dfb9c79d3447a4a63dd9481efc20044b7b5a19",
+    "references\\glossary.md": "3cbbe73b78bcbf7b400e512799b17e850eee37bc9c46ac336ef271e9df15251b",
+    "references\\overview.md": "c693273172c8c2c396ec989ccbc460fa0d9c44615b5d73da9b239ccf6efef628",
+    "SKILL.md": "d8fdd5f01c141dc1b3ca12cd446c1a14168d62564b0b8c52b0c19a7422b17ad9"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.framed-ink",
+  "bundle_sha256": "5cc12864d55b02a0d1305b215df5d831f6408ced5c80be07fe63ec36c7cde486",
+  "variant": "single",
+  "run_id": "run-20261006-204927-fac811",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "capabilities": {
+    "cap.hayama-character-design.gestural-skeleton-line-of-action": "cards/gestural-skeleton-line-of-action.md",
+    "cap.hayama-character-design.cranial-crosshair-3d-rotation": "cards/cranial-crosshair-3d-rotation.md",
+    "cap.hayama-character-design.heroic-facial-expressions-shadow": "cards/heroic-facial-expressions-shadow.md",
+    "cap.hayama-character-design.block-hair-airflow-dynamics": "cards/block-hair-airflow-dynamics.md",
+    "cap.hayama-character-design.torso-box-contrapposto": "cards/torso-box-contrapposto.md",
+    "cap.hayama-character-design.shoulder-arm-muscular-linkage": "cards/shoulder-arm-muscular-linkage.md",
+    "cap.hayama-character-design.hand-construction-power-grip": "cards/hand-construction-power-grip.md",
+    "cap.hayama-character-design.leg-foreshortening-ground-contact": "cards/leg-foreshortening-ground-contact.md",
+    "cap.hayama-character-design.extreme-foreshortening-combat": "cards/extreme-foreshortening-combat.md",
+    "cap.hayama-character-design.drapery-folds-costume-wind": "cards/drapery-folds-costume-wind.md",
+    "cap.hayama-character-design.dynamic-silhouette-readability": "cards/dynamic-silhouette-readability.md",
+    "cap.hayama-character-design.keyframe-layout-supervision": "cards/keyframe-layout-supervision.md"
+  },
+  "book_files": {
+    "overview": "book/overview.md",
+    "glossary": "book/glossary.md"
+  }
+}

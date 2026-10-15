@@ -1,0 +1,393 @@
+{
+  "version": "1.0.0",
+  "suite_id": "storyboard-art-eval-suite",
+  "book_id": "the-art-of-the-storyboard",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "eval-action-choreography-breakdown-trigger-1",
+      "description": "Trigger eval for 动作大戏分镜拆解与多面板连续动态编排（蓄力-击打-反应三步曲） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现动作大戏分镜拆解与多面板连续动态编排（蓄力-击打-反应三步曲），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.action-choreography-breakdown"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "action-choreography",
+          "storyboard-breakdown",
+          "anticipation"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-action-choreography-breakdown-trigger-2",
+      "description": "Trigger eval for 动作大戏分镜拆解与多面板连续动态编排（蓄力-击打-反应三步曲） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查动作大戏分镜拆解与多面板连续动态编排（蓄力-击打-反应三步曲）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.action-choreography-breakdown"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "storyboard-breakdown",
+          "anticipation",
+          "impact-frame"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-animatic-timing-previs-trigger-1",
+      "description": "Trigger eval for 动态故事板 Animatic、节拍器与前期预览流水线（时间线节奏排障） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现动态故事板 Animatic、节拍器与前期预览流水线（时间线节奏排障），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.animatic-timing-previs"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "animatic",
+          "previs",
+          "timing-pipeline"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-animatic-timing-previs-trigger-2",
+      "description": "Trigger eval for 动态故事板 Animatic、节拍器与前期预览流水线（时间线节奏排障） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查动态故事板 Animatic、节拍器与前期预览流水线（时间线节奏排障）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.animatic-timing-previs"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "previs",
+          "timing-pipeline",
+          "scratch-audio"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-aspect-ratio-framing-geometry-trigger-1",
+      "description": "Trigger eval for 标准画框宽高比与构图画幅几何学（1.33:1, 1.85:1, 2.39:1 与安全框） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现标准画框宽高比与构图画幅几何学（1.33:1, 1.85:1, 2.39:1 与安全框），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.aspect-ratio-framing-geometry"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "aspect-ratio",
+          "framing-geometry",
+          "academy-ratio"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-aspect-ratio-framing-geometry-trigger-2",
+      "description": "Trigger eval for 标准画框宽高比与构图画幅几何学（1.33:1, 1.85:1, 2.39:1 与安全框） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查标准画框宽高比与构图画幅几何学（1.33:1, 1.85:1, 2.39:1 与安全框）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.aspect-ratio-framing-geometry"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "framing-geometry",
+          "academy-ratio",
+          "widescreen"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-camera-movement-vector-arrows-trigger-1",
+      "description": "Trigger eval for 摄影机运动符号学与三维箭头标注规范（Pan, Tilt, Dolly, Zoom, Crane, Track） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现摄影机运动符号学与三维箭头标注规范（Pan, Tilt, Dolly, Zoom, Crane, Track），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.camera-movement-vector-arrows"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "camera-movements",
+          "vector-arrows",
+          "pan"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-camera-movement-vector-arrows-trigger-2",
+      "description": "Trigger eval for 摄影机运动符号学与三维箭头标注规范（Pan, Tilt, Dolly, Zoom, Crane, Track） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查摄影机运动符号学与三维箭头标注规范（Pan, Tilt, Dolly, Zoom, Crane, Track）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.camera-movement-vector-arrows"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "vector-arrows",
+          "pan",
+          "tilt"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-commercial-15-30s-storyboard-trigger-1",
+      "description": "Trigger eval for 15秒/30秒商业广告故事板极限压缩叙事（黄金钩子与心智植入） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现15秒/30秒商业广告故事板极限压缩叙事（黄金钩子与心智植入），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.commercial-15-30s-storyboard"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "commercial-storyboard",
+          "narrative-compression",
+          "30-second-spot"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-commercial-15-30s-storyboard-trigger-2",
+      "description": "Trigger eval for 15秒/30秒商业广告故事板极限压缩叙事（黄金钩子与心智植入） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查15秒/30秒商业广告故事板极限压缩叙事（黄金钩子与心智植入）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.commercial-15-30s-storyboard"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "narrative-compression",
+          "30-second-spot",
+          "15-second-spot"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-compositional-focal-flow-trigger-1",
+      "description": "Trigger eval for 三分法则、黄金螺旋与视觉流线视线引导（构图焦点与负空间） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现三分法则、黄金螺旋与视觉流线视线引导（构图焦点与负空间），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.compositional-focal-flow"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "compositional-flow",
+          "rule-of-thirds",
+          "golden-spiral"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-compositional-focal-flow-trigger-2",
+      "description": "Trigger eval for 三分法则、黄金螺旋与视觉流线视线引导（构图焦点与负空间） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查三分法则、黄金螺旋与视觉流线视线引导（构图焦点与负空间）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.compositional-focal-flow"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "rule-of-thirds",
+          "golden-spiral",
+          "looking-room"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-continuity-axis-screen-direction-trigger-1",
+      "description": "Trigger eval for 180°动作轴线守恒与屏幕方向连续性（追逐同向、对峙对冲与合法过轴） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现180°动作轴线守恒与屏幕方向连续性（追逐同向、对峙对冲与合法过轴），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.continuity-axis-screen-direction"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "180-degree-rule",
+          "action-axis",
+          "screen-direction"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-continuity-axis-screen-direction-trigger-2",
+      "description": "Trigger eval for 180°动作轴线守恒与屏幕方向连续性（追逐同向、对峙对冲与合法过轴） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查180°动作轴线守恒与屏幕方向连续性（追逐同向、对峙对冲与合法过轴）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.continuity-axis-screen-direction"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "action-axis",
+          "screen-direction",
+          "eyeline-match"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-dramatic-lighting-silhouette-trigger-1",
+      "description": "Trigger eval for 戏剧性明暗调、黑白灰阶与剪影可读性（三阶明暗极速传达） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现戏剧性明暗调、黑白灰阶与剪影可读性（三阶明暗极速传达），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.dramatic-lighting-silhouette"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "dramatic-lighting",
+          "three-tone-system",
+          "silhouette-readability"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-dramatic-lighting-silhouette-trigger-2",
+      "description": "Trigger eval for 戏剧性明暗调、黑白灰阶与剪影可读性（三阶明暗极速传达） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查戏剧性明暗调、黑白灰阶与剪影可读性（三阶明暗极速传达）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.dramatic-lighting-silhouette"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "three-tone-system",
+          "silhouette-readability",
+          "rembrandt-lighting"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-perspective-grid-lens-distortion-trigger-1",
+      "description": "Trigger eval for 一/二/三点透视网格与广角长焦光学空间压缩（视平线与焦距情绪） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现一/二/三点透视网格与广角长焦光学空间压缩（视平线与焦距情绪），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.perspective-grid-lens-distortion"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "perspective-grid",
+          "horizon-line",
+          "vanishing-point"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-perspective-grid-lens-distortion-trigger-2",
+      "description": "Trigger eval for 一/二/三点透视网格与广角长焦光学空间压缩（视平线与焦距情绪） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查一/二/三点透视网格与广角长焦光学空间压缩（视平线与焦距情绪）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.perspective-grid-lens-distortion"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "horizon-line",
+          "vanishing-point",
+          "wide-angle"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-shot-scale-visual-hierarchy-trigger-1",
+      "description": "Trigger eval for 七级景别标尺与镜头心理学（ELS 至 ECU 人体黄金裁切） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现七级景别标尺与镜头心理学（ELS 至 ECU 人体黄金裁切），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.shot-scale-visual-hierarchy"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "shot-scale",
+          "visual-hierarchy",
+          "extreme-long-shot"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-shot-scale-visual-hierarchy-trigger-2",
+      "description": "Trigger eval for 七级景别标尺与镜头心理学（ELS 至 ECU 人体黄金裁切） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查七级景别标尺与镜头心理学（ELS 至 ECU 人体黄金裁切）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.shot-scale-visual-hierarchy"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "visual-hierarchy",
+          "extreme-long-shot",
+          "long-shot"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-shot-transitions-optical-grammar-trigger-1",
+      "description": "Trigger eval for 镜头转场与光学剪辑语法（硬切、叠化、淡入淡出、匹配剪辑） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现镜头转场与光学剪辑语法（硬切、叠化、淡入淡出、匹配剪辑），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.shot-transitions-optical-grammar"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "shot-transitions",
+          "optical-grammar",
+          "cut"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-shot-transitions-optical-grammar-trigger-2",
+      "description": "Trigger eval for 镜头转场与光学剪辑语法（硬切、叠化、淡入淡出、匹配剪辑） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查镜头转场与光学剪辑语法（硬切、叠化、淡入淡出、匹配剪辑）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.shot-transitions-optical-grammar"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "optical-grammar",
+          "cut",
+          "dissolve"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-subject-action-directional-arrows-trigger-1",
+      "description": "Trigger eval for 主体位移、出入画与屏幕矢量指示规范（E.F., X.F. 与多面板轨迹） via primary intent",
+      "prompt": "在影视或动画分镜设计中，如何实现主体位移、出入画与屏幕矢量指示规范（E.F., X.F. 与多面板轨迹），有哪些关键工业标准与技术规范？",
+      "expected_triggers": [
+        "cap.storyboard-art.subject-action-directional-arrows"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "subject-action",
+          "directional-arrows",
+          "enter-frame"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-subject-action-directional-arrows-trigger-2",
+      "description": "Trigger eval for 主体位移、出入画与屏幕矢量指示规范（E.F., X.F. 与多面板轨迹） via diagnostic query",
+      "prompt": "故事板绘制与镜头衔接时遇到了相关问题：排查主体位移、出入画与屏幕矢量指示规范（E.F., X.F. 与多面板轨迹）相关的常见分镜反模式与错误，如何根据好莱坞标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.storyboard-art.subject-action-directional-arrows"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "directional-arrows",
+          "enter-frame",
+          "exit-frame"
+        ]
+      }
+    }
+  ]
+}

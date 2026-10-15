@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\block-hair-airflow-dynamics.md": "39580c41e5e0c6f38472634014d030da457b1f9ee2408357d0db65b7a254c768",
+    "references\\capabilities\\cranial-crosshair-3d-rotation.md": "197eb687e8a39327cedce1b10abfe1bebc4cef2c888c30682492958790730d6e",
+    "references\\capabilities\\drapery-folds-costume-wind.md": "0117fd1df50f1cf1d57a5bc25a6f31f6974e65475c74098bd1e331e510a30de1",
+    "references\\capabilities\\dynamic-silhouette-readability.md": "2fb8697b24361eed7f8029e25870c3cdce27e3bf0272c5cfbc1094df1803cb7c",
+    "references\\capabilities\\extreme-foreshortening-combat.md": "0ae75f545353401f8fc04135f80f401a51b530efedf97565df8ae3f48c03ced2",
+    "references\\capabilities\\gestural-skeleton-line-of-action.md": "81b2580cb6db7a4dd8587fae9eb4ec09c6cbb4c1dbd9e7da05dc94e852b0a050",
+    "references\\capabilities\\hand-construction-power-grip.md": "3ce32aebe7d1fcd1b6212a3541993fe5b701919d7e9ce521c18f0e4b027ea546",
+    "references\\capabilities\\heroic-facial-expressions-shadow.md": "4a79218b6f839ec9b6bdd47f3dd83e7cd0c546fc671867ac2d285d07e56cde18",
+    "references\\capabilities\\keyframe-layout-supervision.md": "4686d1e1dafef5c2be4186081294f94af45bcd20f4e2afb65a5ad24b62763aec",
+    "references\\capabilities\\leg-foreshortening-ground-contact.md": "3c53f534bdb5a55ebc5d8154c3ad36872a671300f83b9f268bbfd3ddc3d26bbe",
+    "references\\capabilities\\shoulder-arm-muscular-linkage.md": "266f424b06c47fb055fe48c90149a76c8a2021ff46e4f5e23604dc064860ecb5",
+    "references\\capabilities\\torso-box-contrapposto.md": "7c2401788aacd7aa4f3c89576e63734b02502cb151bcaece4453e055f58fafc1",
+    "references\\capability-index.md": "93a57e62627a65b0586ba8752a9d8a377af2550eac9c4aca523c2e6c7f4772ea",
+    "references\\cheatsheet.md": "2c071bb32b6c371e6274cc25bbeaa732b51aadeb6ef6b05fa60b6bc7852be0d5",
+    "references\\glossary.md": "54aef5a778385edb0ada95480367d206fc6dd80fa2c32f69aab551b539154e77",
+    "references\\overview.md": "6ab4c58fc26dd013ce316727e4c09f2ead253946a0ad6094c2405f77177918ca",
+    "SKILL.md": "ad94cdca0bc4706fb12ab5ba95462e37dd6d55fb4c002869164076ee27f9a074"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.hayama-character-design",
+  "bundle_sha256": "fea04d17db25c94aa2385286b5028a1455e4abf173e67f59d0dfc1457a663f58",
+  "variant": "single",
+  "run_id": "run-20261006-215312-1e965c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

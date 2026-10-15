@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\aquatic-fish-and-reptile-undulation.md": "a7606e249a8bcb6d8fa2883ca8de977be178da07a52e63cc3ccff13d475a82fd",
+    "references\\capabilities\\avian-aerodynamics-flight-and-glide.md": "b03dcd11686324eca059b684435dff61a71e32335091bd46dc1596f773984d51",
+    "references\\capabilities\\explosion-shockwave-and-debris-field.md": "66c23b39ee4043bcc28f6c2785105bd0a40cca17e377c1c70bb29b411974bc94",
+    "references\\capabilities\\fire-combustion-tongues-and-eddies.md": "af2e7e4e30f4d6415497822b3d7848c62ee19e9f51ad354c15c9f427611d96d9",
+    "references\\capabilities\\human-run-and-sprint-mechanics.md": "589a20235e75c37cff72756b85c21b2faaed23cf05205d477b46e82900970901",
+    "references\\capabilities\\jump-leap-and-land-impact.md": "811d6dd4c9e998ca08ad6c268adb7e7a7bce8cd4d1f9c950e98dd344647a23aa",
+    "references\\capabilities\\lightning-arc-and-flash-burst.md": "918e1b3b0bd2b3be481742d610d2c0f16ce91e3cb4b529f76f62f9afe3aeb80a",
+    "references\\capabilities\\quadruped-locomotion-walk-trot-gallop.md": "65d1f0ef52ac5e2047f39f9c3c1f2f9a0117022f4480efbdae92959faf11ea0c",
+    "references\\capabilities\\smoke-exhaust-and-thermal-plumes.md": "162902fbc59f5cc04c12b39ab845557a34dc8c9b0cdc35ba04074ae686cdb5ee",
+    "references\\capabilities\\water-splash-droplet-and-ripples.md": "39e2e169e746dff0fede7b57c9c723c57c4febb0b0e58a668eebd08547f299cd",
+    "references\\capabilities\\water-waves-surge-and-turbulent-foam.md": "063616eb0e7b3d9d9cc001f918b1be7b38021acfd4e35437b765294568c85975",
+    "references\\capabilities\\wave-and-whip-secondary-curves.md": "4f36d89a48652c90561b28f64f03aacbb59c52f3759a083f651708faf8ee5cec",
+    "references\\capability-index.md": "c35c6b23c88258c4186f06acd7053fb3f7e487b452e44fd72621bce97b63da0c",
+    "references\\cheatsheet.md": "30eeb454bda738410a5c04020d5e0d2d8ad56c38bf93cdb8abe51046007a6201",
+    "references\\glossary.md": "1717fd59aa5193355c99ae28c57064d6d42c61ebc0d335ddf8bc6279f62e82e2",
+    "references\\overview.md": "d621661d827ca3d1a82e743e05eeec84311cf58a974447ce8e966f61c8eead70",
+    "SKILL.md": "5b0e51c3f8129819342658be48d62fc30fcf91491d47c46ad8c19f3eb723a8ee"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.locomotion-and-fx-dynamics",
+  "bundle_sha256": "8f43cf71ea3a3b83169bd148da16bab3f11818f060085c09bfbce2cc84155f99",
+  "variant": "single",
+  "run_id": "run-20261006-221223-a573cc",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

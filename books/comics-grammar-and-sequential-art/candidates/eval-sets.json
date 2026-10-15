@@ -1,0 +1,186 @@
+{
+  "suite_id": "suite.comics-grammar-and-sequential-art",
+  "book_id": "comics-grammar-and-sequential-art",
+  "trigger_cases": [
+    {
+      "case_id": "eval-01",
+      "query": "麦克劳德的图像符号大三角金字塔（The Big Triangle）如何界定写实现实、纯粹语言与卡通偶像？面具效应（Masking Effect）是如何诱发读者自我投射的？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.visual-iconography-and-abstraction-pyramid",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-02",
+      "query": "为什么成熟商业漫画常常采用写实精细的环境背景与高度简化的卡通主角形象的黄金复合范式？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.visual-iconography-and-abstraction-pyramid",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-03",
+      "query": "漫画格隙（The Gutter）与闭合（Closure）心理学如何运作？六大分格跃迁（时刻/动作/主体/场景/角度/非推论）各自适用的叙事功能是什么？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.gutter-closure-and-six-panel-transitions",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-04",
+      "query": "日漫中常见的“角度到角度”（Aspect-to-Aspect）意境分格与美漫主流的“动作到动作”（Action-to-Action）在读者心理体验上有何本质差异？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.gutter-closure-and-six-panel-transitions",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-05",
+      "query": "漫画空间物理尺寸如何映射为读者的心理感知时长？超宽全景分格与无边框分格（Borderless Panel）分别传达怎样的时间流逝？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.time-space-mapping-and-panel-duration",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-06",
+      "query": "同一个分格内若包含多组对白气泡，读者的阅读耗时与画面动作爆发力之间存在怎样的时差制约关系？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.time-space-mapping-and-panel-duration",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-07",
+      "query": "日本漫画自右向左的反Z型（Reverse-Z）分格（コマ割り）流势如何规划？为什么水平横向格隙必须明显宽于垂直纵向格隙？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.manga-visual-grammar-and-koma-flow",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-08",
+      "query": "手冢治虫与鸟山明的视线抛射技法是如何让上一格的动作终点成为指向下一格起点的跳板的？倾斜分格线有何作用？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.manga-visual-grammar-and-koma-flow",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-09",
+      "query": "夏目房之介论述的线条“身体性”与视听通感如何通过笔压变化体现？日本漫画独创的漫符体系（青筋、冷汗、眩晕眼）如何规范运用？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.line-dynamics-synaesthesia-and-emotive-marks",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-10",
+      "query": "严肃青年悬疑题材漫画中为什么必须严格限制Q版漫符的使用？背景速度线的灭点如何与透视物理相匹配？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.line-dynamics-synaesthesia-and-emotive-marks",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-11",
+      "query": "美漫拟音词（SFX）如何赋予契合声源的物理材质与三维空间遮挡？日漫拟声/拟态/拟情词（オノマトペ）如何实现字景合一？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.sound-effects-and-lettering-typography",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-12",
+      "query": "常规气泡、呐喊气泡、耳语低语与冰冷机械气泡在排印字型与几何形态上有何工业规范？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.sound-effects-and-lettering-typography",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-13",
+      "query": "麦克劳德文图关系的七大组合矩阵中，为什么说“相互依赖（Interdependent）”组合是漫画艺术的最高峰？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.word-and-picture-seven-combinations",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-14",
+      "query": "如何避免画面画哭泣、旁白写悲伤的低级无增量同义反复（Redundant Captioning）？如何实现文本与画面的讽刺张力？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.word-and-picture-seven-combinations",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-15",
+      "query": "印刷漫画的翻页绝壁悬念（Page-Turn Reveal）力学法则是什么？为什么重大反转绝对不能画在奇数页的右下侧？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.page-layout-and-dramatic-page-turn",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-16",
+      "query": "整页网格构架中严谨九宫格（The 9-Panel Grid）与动态非对称网格分别传达怎样的叙事律动？如何确立绝对主视觉格（Hero Panel）？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.page-layout-and-dramatic-page-turn",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-17",
+      "query": "麦克劳德六大原发基本表情（喜/悲/怒/厌/惧/惊）如何通过复合混合算法演化出残忍狂喜或强颜欢笑？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.character-design-expressiveness-and-facial-acting",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-18",
+      "query": "如何通过纯黑剪影测试（Silhouette Test）验证漫画角色肢体微动态与情绪的可读性？如何杜绝手部僵死贴裤缝？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.character-design-expressiveness-and-facial-acting",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-19",
+      "query": "美漫全脚本（Full Script）标准工业格式中PAGE与PANEL如何规范排版？为什么必须坚守单格单动作（One Action Per Panel）铁律？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.american-comic-scriptwriting-format",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-20",
+      "query": "斯坦·李开创的漫威法（Marvel Style）协作流程与全脚本法在编剧与画师的分工权责上有何异同？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.american-comic-scriptwriting-format",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-21",
+      "query": "智能手机竖屏条漫（Webtoon）中手指下滚速度与垂直空白留白距离（Whitespace Latency）如何转化为读者的心理时差？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.webtoon-vertical-scroll-grammar",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-22",
+      "query": "条漫单屏画框窗口法则与全屏暴击格（Full-Screen Impact Panel）如何布局？如何实现连续下滚的纵向视差长镜头？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.webtoon-vertical-scroll-grammar",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-23",
+      "query": "眼球轨迹流势审计三步法（模糊盲测/气泡碰撞检测/格隙阶梯审计）的具体实施流水线是什么？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.comics-troubleshooting-and-flow-auditing",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-24",
+      "query": "如何排查与修复视觉死胡同、气泡引线倒流交叉与等宽迷宫网格等四大致命漫画分格病灶？",
+      "expected_capability": "cap.comics-grammar-and-sequential-art.comics-troubleshooting-and-flow-auditing",
+      "type": "positive"
+    },
+    {
+      "case_id": "eval-25",
+      "query": "好莱坞电影剧本中悉德·菲尔德三幕八序列架构的中点危机攻守反转如何规划？",
+      "expected_capability": "out_of_scope",
+      "type": "negative"
+    },
+    {
+      "case_id": "eval-26",
+      "query": "在电影分镜头脚本中如何划定180度假想动作轴线并设计五大过轴走廊？",
+      "expected_capability": "out_of_scope",
+      "type": "negative"
+    },
+    {
+      "case_id": "eval-27",
+      "query": "三维角色面部表情绑定中口轮匝肌同心环循环布线与五星极点隔离如何建模？",
+      "expected_capability": "out_of_scope",
+      "type": "negative"
+    },
+    {
+      "case_id": "eval-28",
+      "query": "逐帧动画时间掌握中奇数定律加速度与小球弹跳接触挤压拉伸帧数计算如何进行？",
+      "expected_capability": "out_of_scope",
+      "type": "negative"
+    },
+    {
+      "case_id": "eval-29",
+      "query": "在Maya中如何编写MEL脚本批量导出骨骼动画的烘焙权重？",
+      "expected_capability": "out_of_scope",
+      "type": "negative"
+    },
+    {
+      "case_id": "eval-30",
+      "query": "牛顿物理学中四足动物奔跑的动量冲量守恒与重力终端速度如何仿真？",
+      "expected_capability": "out_of_scope",
+      "type": "negative"
+    }
+  ]
+}

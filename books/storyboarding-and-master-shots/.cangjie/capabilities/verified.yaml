@@ -1,0 +1,491 @@
+schema_version: 1
+bundle_id: bundle.storyboarding-and-master-shots
+book:
+  title: 影视分镜头脚本设计与大师镜头语法工程手册
+  source_pack: books/storyboarding-and-master-shots
+  edition: Masterclass Director Edition
+  authors:
+  - Jeremy Vineyard (杰里米·温尼尔德)
+  - Roy Thompson (罗伊·汤普森)
+  - Christopher Kenworthy (克里斯托弗·肯沃西)
+  - Wendy Tumminello (温迪·特姆布莱罗)
+  year: 2026
+entry:
+  name: storyboarding-and-master-shots
+  description: 导演视听语言与影视/动画分镜头脚本设计工业级工程手册。涵盖极远景至大特写六级景别心理距离标尺与广角长焦光学透视选择、180度假想动作轴线半球机位守恒与五大合法过轴转场走廊、推拉摇移升降跟物理动机与三维多轴视差运动分层、好莱坞经典主镜头（Master
+    Shot）场面覆盖三角剖分与角色走位阻塞三维几何、外侧过肩OTS与内侧单人Clean Single正反打视线高度权力俯仰倾角、动作追逐戏运动矢量一致性与格斗出拳碰撞冲击单帧卡点、连贯性剪辑动作中段切镜（Cut
+    on Action）与30度角法则及J/L-Cut声画桥梁、Z轴深度走位与多重画框前景明暗分层、平行/交叉蒙太奇与匹配剪辑（Match Cut）时间折叠、希区柯克炸弹悬念认知不对称与转角隐匿揭示、故事板动态预演（Animatic）时间轴编排与对白提前量Pre-lap波形卡点、单一机位复合走位长镜头覆盖与镜面反射虚实空间折叠全流程工业级实战规范。
+  core_principles:
+  - 景别心理距离梯次推进律：景别由远及近强制观众建立心理共情，特写与大特写用于戏剧高潮与致命线索揭示，严禁全篇单一中景堆叠。
+  - 180度假想动作轴线半球守恒律：机位必须严格保持在动作轴线同一侧半球，确保对角两极视线互补交叉，过轴必须通过五大合法安全走廊之一平滑完成。
+  - 摄影机运动有动机律：所有推拉摇移必须严格源于角色物理位移、视线转移或心理聚焦动机，且必须遵循慢入慢出平滑加减速。
+  - 好莱坞场面覆盖三角剖分法则：每场戏必须建立从头到尾的Master全景底牌，配合双人中景、过肩对与单人特写构建万无一失的剪辑安全网。
+  - 正反打视线高度与朝向留白守恒：正反打机位保持焦距与物理景深对称，视线高度严格互补，面部前方留出2/3的Looking Room呼吸感。
+  - 动作动势方向守恒与冲击卡点律：追逐戏保持屏幕运动矢量同向，格斗出拳命中瞬间插入1帧极端特写反向冲击，随后切更宽景别展现击飞受力。
+  - 动势剪接掩盖切点律（Cut on Action）：在角色动作进行30%-50%中段切入新景别，利用人眼对运动主体的追踪隐形剪辑痕迹。
+  - Z轴深焦调度与三维明暗分层：角色沿Z轴对角线走向镜头制造强烈透视膨胀，利用暗前景→亮中景→暗背景的三明治构图打破扁平舞台感。
+  - 交叉剪辑时间轴倒计时锚定律：交叉剪辑必须建立统一的时空倒计时基准，剪辑节奏随时间推进不断缩短制造极限悬念。
+  - 希区柯克炸弹悬念信息不对称律：通过让观众比角色知晓更多危机信息制造持续心理煎熬，主观POV镜头必须构建关注者→视点→反应三步闭环。
+  - 动态预演对白提前量声画解耦律：对白声音设置8-16帧提前量（Pre-lap / L-Cut），画稿停留时间依据景别与信息复杂度精确测算，杜绝静态PPT幻灯片感。
+  - 单一机位复合长镜头走位覆盖律：通过精妙的演员三维走位阻塞，在一条不间断的单一机位长镜头中无缝包容全景、双人过肩与单人特写全部覆盖。
+  out_of_scope:
+  - 剧本写作与文字台词文学润色（请参阅故事与编剧类相关手册）
+  - 角色骨骼动力学肌肉形变与流体物理仿真解算（请参阅运动规律与特效动力学手册）
+  - 摄影机硬件电路传感器感光元件制造与光学镀膜化学配比
+  stop_conditions:
+  - 已为分镜故事板或镜头序列建立清晰的景别焦距、180度轴线平面图、走位阻塞与视线接戏方案
+  - 已提供各镜头运镜符号、动作中段切点、动势矢量与动态预演时间轴卡点规范
+router_entry:
+  name: storyboarding-and-master-shots
+  description: 影视分镜头脚本设计与大师镜头语法工程手册。提供景别光学焦距、180度轴线视线守恒、推拉摇移运镜、主镜头场面覆盖、对话正反打、动作格斗追逐分镜、动作相接Cut
+    on Action、Z轴深焦调度、蒙太奇匹配剪辑、希区柯克悬念语法、动态故事板预演Animatic、低成本大师长镜头调度全流程工业指导。
+promotion_budget: 8
+capabilities:
+- capability_id: cap.storyboarding-and-master-shots.shot-sizes-and-camera-optics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: shot-sizes-and-camera-optics
+  title: 景别体系与光学焦距（极远景至大特写心理距离标尺与广角长焦选择）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 六级景别叙事心理学标尺、广角透视夸张与长焦空间压缩光学选择、画幅构图。
+  intents:
+  - 如何实现景别体系与光学焦距（极远景至大特写心理距离标尺与广角长焦选择）
+  - 应用景别体系与光学焦距（极远景至大特写心理距离标尺与广角长焦选择）的分镜绘制与机位语法设计规范
+  - 排查景别体系与光学焦距（极远景至大特写心理距离标尺与广角长焦选择）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - shot-sizes
+  - camera-optics
+  - focal-length
+  - wide-angle
+  - telephoto
+  - aspect-ratio
+  also_read:
+  - master-shot-staging-and-coverage
+  - visual-depth-and-blocking-composition
+  card: cards/shot-sizes-and-camera-optics.md
+  frontmatter:
+    title: 景别体系与光学焦距（极远景至大特写心理距离标尺与广角长焦选择）
+    importance: high
+    one_liner: 六级景别叙事心理学标尺、广角透视夸张与长焦空间压缩光学选择、画幅构图。
+    requirements:
+    - 景别设计必须根据戏剧高潮层级递进（建立环境ELS/FS→讨论MS→情绪爆发CU）
+    - 肖像与情感特写严格选用85mm-105mm中长焦，避免广角贴面脸部畸变
+    - 根据画幅宽高比（16:9 / 2.39:1）合理安排人物留白与构图重心
+    antirequirements:
+    - 严禁整场戏全篇使用单一千篇一律的50mm中景缺乏景别呼吸感
+    - 严禁严肃情感特写使用超广角近距离贴面拍摄引发滑稽畸变
+- capability_id: cap.storyboarding-and-master-shots.axis-of-action-and-180-rule
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: axis-of-action-and-180-rule
+  title: 180度轴线铁律与视线空间匹配（假想动作轴线与五大合法过轴技术）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 假想动作轴线确立、半球机位守恒、双人目光对称交叉与五大合法过轴走廊。
+  intents:
+  - 如何实现180度轴线铁律与视线空间匹配（假想动作轴线与五大合法过轴技术）
+  - 应用180度轴线铁律与视线空间匹配（假想动作轴线与五大合法过轴技术）的分镜绘制与机位语法设计规范
+  - 排查180度轴线铁律与视线空间匹配（假想动作轴线与五大合法过轴技术）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - 180-degree-rule
+  - axis-of-action
+  - eyeline-match
+  - crossing-the-line
+  - spatial-continuity
+  also_read:
+  - dialogue-shot-reverse-shot-mechanics
+  - dynamic-action-and-fight-choreography
+  card: cards/axis-of-action-and-180-rule.md
+  frontmatter:
+    title: 180度轴线铁律与视线空间匹配（假想动作轴线与五大合法过轴技术）
+    importance: high
+    one_liner: 假想动作轴线确立、半球机位守恒、双人目光对称交叉与五大合法过轴走廊。
+    requirements:
+    - 所有机位必须严格保持在假想动作轴线同一侧180度半球之内
+    - 双人对话特写中两人视线必须呈现互补对撞交叉（左看右 vs 右看左）
+    - 过轴必须通过摄影机移动、角色走位、中性视线或空镜插入五大合法走廊之一完成
+    antirequirements:
+    - 严禁未经转场硬切到轴线对侧引发恶性跳轴与视线撞车
+    - 严禁追逐戏中逃逸者与追击者屏幕行进方向相反造成迎面相撞假象
+- capability_id: cap.storyboarding-and-master-shots.camera-movement-and-dynamic-tracking
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: camera-movement-and-dynamic-tracking
+  title: 摄影机运动动力学（推拉摇移升降跟、手持呼吸感与视差运动分层）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 推拉摇移升降跟物理动机、手持摄影呼吸感、三维多轴视差运动分层。
+  intents:
+  - 如何实现摄影机运动动力学（推拉摇移升降跟、手持呼吸感与视差运动分层）
+  - 应用摄影机运动动力学（推拉摇移升降跟、手持呼吸感与视差运动分层）的分镜绘制与机位语法设计规范
+  - 排查摄影机运动动力学（推拉摇移升降跟、手持呼吸感与视差运动分层）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - camera-movement
+  - dolly-in
+  - tracking-shot
+  - pan-tilt
+  - handheld-dynamics
+  - parallax
+  also_read:
+  - low-budget-master-shots-cinematic-tricks
+  - visual-depth-and-blocking-composition
+  card: cards/camera-movement-and-dynamic-tracking.md
+  frontmatter:
+    title: 摄影机运动动力学（推拉摇移升降跟、手持呼吸感与视差运动分层）
+    importance: high
+    one_liner: 推拉摇移升降跟物理动机、手持摄影呼吸感、三维多轴视差运动分层。
+    requirements:
+    - 摄影机推拉摇移必须具备明确叙事动机（跟随动作、注意力转移或情绪聚焦）
+    - 运镜启动与制动必须严格遵循慢入慢出（Ease In/Out），避免机械匀速冲击
+    - 横移跟踪镜头必须构建前景、中景、背景三层速度差别的多轴视差运动
+    antirequirements:
+    - 严禁在严肃对白文戏中无动机疯狂抽搐变焦与无端晃动
+    - 严禁运镜关键帧使用纯线性切线造成起步与刹车生硬顿挫
+- capability_id: cap.storyboarding-and-master-shots.master-shot-staging-and-coverage
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: master-shot-staging-and-coverage
+  title: 主镜头舞台调度与分镜场面覆盖（Master建立全景与场面覆盖三角剖分）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 主场景时空基准建立、好莱坞场面覆盖三角剖分、角色走位阻塞三维几何。
+  intents:
+  - 如何实现主镜头舞台调度与分镜场面覆盖（Master建立全景与场面覆盖三角剖分）
+  - 应用主镜头舞台调度与分镜场面覆盖（Master建立全景与场面覆盖三角剖分）的分镜绘制与机位语法设计规范
+  - 排查主镜头舞台调度与分镜场面覆盖（Master建立全景与场面覆盖三角剖分）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - master-shot
+  - scene-coverage
+  - blocking-staging
+  - two-shot
+  - triangulation
+  also_read:
+  - dialogue-shot-reverse-shot-mechanics
+  - low-budget-master-shots-cinematic-tricks
+  card: cards/master-shot-staging-and-coverage.md
+  frontmatter:
+    title: 主镜头舞台调度与分镜场面覆盖（Master建立全景与场面覆盖三角剖分）
+    importance: high
+    one_liner: 主场景时空基准建立、好莱坞场面覆盖三角剖分、角色走位阻塞三维几何。
+    requirements:
+    - 分镜设计必须建立完整覆盖全场戏表演与走位的主全景镜头（Master Shot）
+    - 场面覆盖必须配齐全景、双人中景、过肩对与单人特写构成安全剪辑网
+    - 角色走位必须打破直线并排坐，建立三角形空间站位与三维心理距离演进
+    antirequirements:
+    - 严禁缺乏主镜头直接切入碎片化特写导致剪辑台无法重构空间
+    - 严禁过肩镜头中前景演员后背占据画面40%以上大面积喧宾夺主
+- capability_id: cap.storyboarding-and-master-shots.dialogue-shot-reverse-shot-mechanics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: dialogue-shot-reverse-shot-mechanics
+  title: 对话场面正反打与视线接戏（外侧OTS与内侧单人反打及权力俯仰角）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 外侧过肩与内侧纯净特写正反打、摄影机高度与权力俯仰倾角、朝向留白匹配。
+  intents:
+  - 如何实现对话场面正反打与视线接戏（外侧OTS与内侧单人反打及权力俯仰角）
+  - 应用对话场面正反打与视线接戏（外侧OTS与内侧单人反打及权力俯仰角）的分镜绘制与机位语法设计规范
+  - 排查对话场面正反打与视线接戏（外侧OTS与内侧单人反打及权力俯仰角）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - shot-reverse-shot
+  - ots-framing
+  - clean-single
+  - eyeline-match
+  - looking-room
+  also_read:
+  - axis-of-action-and-180-rule
+  - continuity-editing-and-cutting-on-action
+  card: cards/dialogue-shot-reverse-shot-mechanics.md
+  frontmatter:
+    title: 对话场面正反打与视线接戏（外侧OTS与内侧单人反打及权力俯仰角）
+    importance: high
+    one_liner: 外侧过肩与内侧纯净特写正反打、摄影机高度与权力俯仰倾角、朝向留白匹配。
+    requirements:
+    - 正反打机位对必须保持焦距与物理景深完全对称，视线高度严格互补
+    - 角色面部前方必须留出2/3的朝向留白（Looking Room），严禁面部撞墙
+    - 依据角色心理权力关系精确设定微俯拍（弱小）或微仰拍（掌控）倾角
+    antirequirements:
+    - 严禁大人小孩对话时双方特写均向下看造成视线高低差反转
+    - 严禁对话镜头机械按照台词轮流硬切说话者无视倾听者反应镜头
+- capability_id: cap.storyboarding-and-master-shots.dynamic-action-and-fight-choreography
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: dynamic-action-and-fight-choreography
+  title: 动作打斗与追逐戏分镜设计（追逐矢量一致性、碰撞冲击卡点与速度线）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 追逐动势矢量守恒、格斗蓄力-高速-命中三拍分镜、单帧冲击撞击卡点。
+  intents:
+  - 如何实现动作打斗与追逐戏分镜设计（追逐矢量一致性、碰撞冲击卡点与速度线）
+  - 应用动作打斗与追逐戏分镜设计（追逐矢量一致性、碰撞冲击卡点与速度线）的分镜绘制与机位语法设计规范
+  - 排查动作打斗与追逐戏分镜设计（追逐矢量一致性、碰撞冲击卡点与速度线）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - action-choreography
+  - fight-scenes
+  - chase-sequences
+  - impact-framing
+  - speed-lines
+  also_read:
+  - continuity-editing-and-cutting-on-action
+  - axis-of-action-and-180-rule
+  card: cards/dynamic-action-and-fight-choreography.md
+  frontmatter:
+    title: 动作打斗与追逐戏分镜设计（追逐矢量一致性、碰撞冲击卡点与速度线）
+    importance: high
+    one_liner: 追逐动势矢量守恒、格斗蓄力-高速-命中三拍分镜、单帧冲击撞击卡点。
+    requirements:
+    - 追逐戏中逃逸者与追击者必须保持完全一致的屏幕行进矢量
+    - 格斗出拳击中瞬间插入1帧极端特写反向构图冲击，随后切更宽景别展现击飞受力
+    - 保持窄特写打击与宽全景重定位交替的呼吸节律，杜绝全篇碎切失明
+    antirequirements:
+    - 严禁出拳命中时匀速接触无瞬间停死与受力后仰反应（棉花拳反模式）
+    - 严禁动作镜头过度碎切导致观众完全丧失空间方位感
+- capability_id: cap.storyboarding-and-master-shots.continuity-editing-and-cutting-on-action
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: continuity-editing-and-cutting-on-action
+  title: 连贯性剪辑与动作相接匹配（动势匹配Cut on Action与30度角法则）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 动作中段切镜隐藏剪辑痕迹、30度机位角安全阈值、J/L-Cut声画桥梁。
+  intents:
+  - 如何实现连贯性剪辑与动作相接匹配（动势匹配Cut on Action与30度角法则）
+  - 应用连贯性剪辑与动作相接匹配（动势匹配Cut on Action与30度角法则）的分镜绘制与机位语法设计规范
+  - 排查连贯性剪辑与动作相接匹配（动势匹配Cut on Action与30度角法则）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - cut-on-action
+  - continuity-editing
+  - 30-degree-rule
+  - j-cut
+  - l-cut
+  - invisible-editing
+  also_read:
+  - dynamic-action-and-fight-choreography
+  - dialogue-shot-reverse-shot-mechanics
+  card: cards/continuity-editing-and-cutting-on-action.md
+  frontmatter:
+    title: 连贯性剪辑与动作相接匹配（动势匹配Cut on Action与30度角法则）
+    importance: high
+    one_liner: 动作中段切镜隐藏剪辑痕迹、30度机位角安全阈值、J/L-Cut声画桥梁。
+    requirements:
+    - 动作相接必须在动作完成30%-50%中段切入下一景别，严禁在静止点切镜
+    - 连续组接同一主体机位夹角必须大于30度且改变景别，杜绝跳剪抽搐
+    - 运用J-Cut音先入与L-Cut画先走平滑声画过渡，消除机械声画同止
+    antirequirements:
+    - 严禁角色动作完全静止后停留1秒再切入下一镜头（刚性静止切点）
+    - 严禁相邻镜头兴趣中心点在屏幕极左与极右之间剧烈跳跃造成视觉盲区
+- capability_id: cap.storyboarding-and-master-shots.visual-depth-and-blocking-composition
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: visual-depth-and-blocking-composition
+  title: 三维纵深舞台调度与前景框景（Z轴深度走位、多重画框与三层明暗分层）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: Z轴纵深走位透视放大、多重画框框景、前中后景三层深度与光影对比分层。
+  intents:
+  - 如何实现三维纵深舞台调度与前景框景（Z轴深度走位、多重画框与三层明暗分层）
+  - 应用三维纵深舞台调度与前景框景（Z轴深度走位、多重画框与三层明暗分层）的分镜绘制与机位语法设计规范
+  - 排查三维纵深舞台调度与前景框景（Z轴深度走位、多重画框与三层明暗分层）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - deep-focus
+  - z-axis-blocking
+  - frame-within-a-frame
+  - foreground-layering
+  - visual-depth
+  also_read:
+  - shot-sizes-and-camera-optics
+  - master-shot-staging-and-coverage
+  card: cards/visual-depth-and-blocking-composition.md
+  frontmatter:
+    title: 三维纵深舞台调度与前景框景（Z轴深度走位、多重画框与三层明暗分层）
+    importance: high
+    one_liner: Z轴纵深走位透视放大、多重画框框景、前中后景三层深度与光影对比分层。
+    requirements:
+    - 引导角色沿Z轴对角线走向镜头制造强烈透视体块膨胀，避免平移走位
+    - 善用门框、窗户、立柱构建多重画框与前景暗部剪影增加空间层次
+    - 遵循暗前景→亮中景→暗背景的三明治明暗构图建立视觉呼吸感
+    antirequirements:
+    - 严禁角色背靠白墙站立拍摄形成扁平毫无纵深的相框照
+    - 严禁前景遮挡物使用无轮廓特征的大面积死黑破坏构图平衡
+- capability_id: cap.storyboarding-and-master-shots.montage-and-temporal-spatial-transitions
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: montage-and-temporal-spatial-transitions
+  title: 蒙太奇组接与时空转场文法（平行交叉蒙太奇、匹配剪辑与时间折叠）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 平行与交叉蒙太奇时空交织、图形/动作/音频匹配剪辑、训练蒙太奇时间折叠。
+  intents:
+  - 如何实现蒙太奇组接与时空转场文法（平行交叉蒙太奇、匹配剪辑与时间折叠）
+  - 应用蒙太奇组接与时空转场文法（平行交叉蒙太奇、匹配剪辑与时间折叠）的分镜绘制与机位语法设计规范
+  - 排查蒙太奇组接与时空转场文法（平行交叉蒙太奇、匹配剪辑与时间折叠）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - montage
+  - parallel-editing
+  - cross-cutting
+  - match-cut
+  - temporal-compression
+  also_read:
+  - continuity-editing-and-cutting-on-action
+  - suspense-and-reveal-camera-grammar
+  card: cards/montage-and-temporal-spatial-transitions.md
+  frontmatter:
+    title: 蒙太奇组接与时空转场文法（平行交叉蒙太奇、匹配剪辑与时间折叠）
+    importance: high
+    one_liner: 平行与交叉蒙太奇时空交织、图形/动作/音频匹配剪辑、训练蒙太奇时间折叠。
+    requirements:
+    - 交叉剪辑必须建立统一的时空倒计时锚点，剪辑节奏随时间临近不断缩短
+    - 图形与动作匹配剪辑前后镜头核心视觉要素必须在屏幕上严格重合
+    - 场景转换优先依靠纯硬切、叠化或匹配剪辑，杜绝廉价划像与翻页
+    antirequirements:
+    - 严禁交叉剪辑两条叙事线的时间流速发生严重撕裂与逻辑矛盾
+    - 严禁滥用无意义的花哨星形扩散或几何翻页转场破坏专业质感
+- capability_id: cap.storyboarding-and-master-shots.suspense-and-reveal-camera-grammar
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: suspense-and-reveal-camera-grammar
+  title: 悬念营造与视点揭示语法（主观POV视点、希区柯克炸弹与转角隐匿揭示）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 认知不对称希区柯克炸弹理论、主客观POV视点转换、转角慢速推进隐匿揭示。
+  intents:
+  - 如何实现悬念营造与视点揭示语法（主观POV视点、希区柯克炸弹与转角隐匿揭示）
+  - 应用悬念营造与视点揭示语法（主观POV视点、希区柯克炸弹与转角隐匿揭示）的分镜绘制与机位语法设计规范
+  - 排查悬念营造与视点揭示语法（主观POV视点、希区柯克炸弹与转角隐匿揭示）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - suspense-grammar
+  - hitchcock-bomb
+  - pov-shot
+  - corner-reveal
+  - information-asymmetry
+  also_read:
+  - camera-movement-and-dynamic-tracking
+  - montage-and-temporal-spatial-transitions
+  card: cards/suspense-and-reveal-camera-grammar.md
+  frontmatter:
+    title: 悬念营造与视点揭示语法（主观POV视点、希区柯克炸弹与转角隐匿揭示）
+    importance: high
+    one_liner: 认知不对称希区柯克炸弹理论、主客观POV视点转换、转角慢速推进隐匿揭示。
+    requirements:
+    - 悬念营造必须建立观众与角色的认知信息不对称（让观众知晓危机）
+    - 主观POV镜头必须完整构建关注者→POV视点→反应镜头三步法闭环
+    - 利用走廊转角与前景掩体慢速推进，以剥皮式逐步揭示未知恐怖真相
+    antirequirements:
+    - 严禁无前期光影与视线铺垫滥用廉价音效跳杀（Jump Scare Spam）
+    - 严禁主观POV镜头冰冷平稳毫无主体的生理呼吸与视线特征
+- capability_id: cap.storyboarding-and-master-shots.animatic-timing-and-audio-sync
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: animatic-timing-and-audio-sync
+  title: 故事板动态预演与声画卡点（Animatic时间轴预演与对白提前量Pre-lap）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 分镜画稿时间轴编排、对白波形卡点、对白提前量Pre-lap与画幅停留心理测算。
+  intents:
+  - 如何实现故事板动态预演与声画卡点（Animatic时间轴预演与对白提前量Pre-lap）
+  - 应用故事板动态预演与声画卡点（Animatic时间轴预演与对白提前量Pre-lap）的分镜绘制与机位语法设计规范
+  - 排查故事板动态预演与声画卡点（Animatic时间轴预演与对白提前量Pre-lap）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - animatic
+  - story-reel
+  - dialogue-pre-lap
+  - timing-sync
+  - temp-track
+  - screen-duration
+  also_read:
+  - continuity-editing-and-cutting-on-action
+  - master-shot-staging-and-coverage
+  card: cards/animatic-timing-and-audio-sync.md
+  frontmatter:
+    title: 故事板动态预演与声画卡点（Animatic时间轴预演与对白提前量Pre-lap）
+    importance: high
+    one_liner: 分镜画稿时间轴编排、对白波形卡点、对白提前量Pre-lap与画幅停留心理测算。
+    requirements:
+    - 分镜画稿停留时间必须根据景别与信息复杂度精确测算（特写0.5-1秒，全景2-3秒）
+    - 对白波形必须设置8-16帧提前量（Pre-lap / L-Cut），引导观众目光自然转移
+    - 动态预演画稿必须分层加入微弱2D运镜与视差移动，杜绝PPT幻灯片感
+    antirequirements:
+    - 严禁画稿在时间轴上做纯静态无运镜硬切PPT式展示
+    - 严禁分镜画面切换点与对白音频剪辑点100%同步切块造成打嗝顿挫
+- capability_id: cap.storyboarding-and-master-shots.low-budget-master-shots-cinematic-tricks
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: low-budget-master-shots-cinematic-tricks
+  title: 大师镜头低成本拍大片实战秘籍（单一机位长镜头复合走位与镜面反射折叠）
+  importance: high
+  importance_rationale: 该能力是《影视分镜头脚本设计与大师镜头语法工程手册》中核心的 high 级别导演视听与分镜设计规范。
+  one_liner: 单一机位复合长镜头覆盖全部景别、镜面反射虚实空间折叠、经典百变机位。
+  intents:
+  - 如何实现大师镜头低成本拍大片实战秘籍（单一机位长镜头复合走位与镜面反射折叠）
+  - 应用大师镜头低成本拍大片实战秘籍（单一机位长镜头复合走位与镜面反射折叠）的分镜绘制与机位语法设计规范
+  - 排查大师镜头低成本拍大片实战秘籍（单一机位长镜头复合走位与镜面反射折叠）相关的常见视听语言与镜头设计反模式
+  keywords:
+  - master-shots
+  - hybrid-long-take
+  - blocking-tricks
+  - mirror-reveal
+  - cinematic-staging
+  also_read:
+  - master-shot-staging-and-coverage
+  - camera-movement-and-dynamic-tracking
+  card: cards/low-budget-master-shots-cinematic-tricks.md
+  frontmatter:
+    title: 大师镜头低成本拍大片实战秘籍（单一机位长镜头复合走位与镜面反射折叠）
+    importance: high
+    one_liner: 单一机位复合长镜头覆盖全部景别、镜面反射虚实空间折叠、经典百变机位。
+    requirements:
+    - 利用演员走位让单一机位长镜头自然包容全景、双人过肩与单人特写
+    - 演员走位必须具备坚实的剧本内在动作动机，杜绝为运镜而走位的做作
+    - 善用镜面反射、前景掩体遮挡擦除制造行云流水的假一镜到底
+    antirequirements:
+    - 严禁为了凑长镜头调度让演员在房间内毫无逻辑地乱转圈成为木偶
+    - 严禁复合长镜头忽视演员高速冲刺导致大光圈下严重脱焦成废片

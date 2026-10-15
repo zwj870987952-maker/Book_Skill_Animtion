@@ -1,0 +1,23 @@
+{
+  "suite_id": "eval.grammar-of-film-language.v1",
+  "seed": 42,
+  "train": [
+    "case-pov-three-step-architecture-01",
+    "case-distractor-offset-printing-01",
+    "case-cutting-on-action-momentum-01",
+    "case-screen-direction-continuity-01",
+    "case-distractor-gastroscopy-biopsy-01",
+    "case-distractor-cnc-threading-01",
+    "case-eyeline-match-convergence-01",
+    "case-ots-vs-clean-single-01",
+    "case-master-shot-coverage-system-01"
+  ],
+  "validation": [
+    "case-parallel-screen-dialogue-01",
+    "case-three-character-triangles-01",
+    "case-sequence-shot-choreography-01",
+    "case-axis-of-action-180-rule-01",
+    "case-triangle-principle-setups-01",
+    "case-actor-blocking-reposition-01"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "suite_id": "eval.timing-for-animation",
+  "seed": 42,
+  "train": [
+    "trig-04-weight-drop",
+    "trig-07-bait-daily-schedule",
+    "trig-08-edge-camera-pan",
+    "trig-05-bait-scriptwriting",
+    "trig-09-edge-concept-art"
+  ],
+  "validation": [
+    "trig-03-fast-smear",
+    "trig-06-bait-3d-shader",
+    "trig-01-walk-cycle",
+    "trig-02-lip-sync"
+  ]
+}

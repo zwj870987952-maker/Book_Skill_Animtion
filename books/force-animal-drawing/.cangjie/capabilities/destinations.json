@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.force-animal-drawing",
+  "destinations": {
+    "cap.force-animal-drawing.three-locomotion-classes": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.homologous-limb-mechanics": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.plantigrade-bear-mass-power": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.digitigrade-feline-canine-spine": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.unguligrade-equine-bridge-leverage": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.force-shape-asymmetry-animals": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.animal-rhythm-ski-slope": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.predator-vs-prey-dynamics": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.quadruped-walk-trot-gallop-timing": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.scapula-suspension-shock": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.animal-caricature-shape-language": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    },
+    "cap.force-animal-drawing.creature-anatomy-synthesis": {
+      "target_pack_slug": "force-animal-drawing",
+      "target_skill_slug": "force-animal-drawing",
+      "action": "create"
+    }
+  }
+}

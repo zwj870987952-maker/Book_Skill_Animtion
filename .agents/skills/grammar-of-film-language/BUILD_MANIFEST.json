@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\actor-blocking-camera-reposition.md": "da2dc2dcda59c24d31721ad1cfbba672e51be26c025f4f0f6e33ecae73e247bc",
+    "references\\capabilities\\axis-of-action-180-rule.md": "18cd039edc46205e3549991072ff651cc2c3b528a130bd9cb4bc5b072694a33a",
+    "references\\capabilities\\cutting-on-action-momentum.md": "d20ea3834934783ebc3223b83e44c682477921a0f7dc0122d63d1f473e16c3f1",
+    "references\\capabilities\\eyeline-match-convergence.md": "1e218cc44b616b8dc83fd77870874f7e9e77e82e5f67eb13eda237194b4faf5d",
+    "references\\capabilities\\master-shot-coverage-system.md": "4078153d775dfdecc3f4f6b9927b0bbf101f7eb123864ec02a17bfcd93c1981f",
+    "references\\capabilities\\ots-vs-clean-single.md": "cedaf5195048af6bad151a319a3798d26313ca2c5c8feb2462da45b2a65ff45f",
+    "references\\capabilities\\parallel-screen-dialogue.md": "81d68173e5a59c4882d17e80508f89976a94c7d4c5781c9182c68f34fa915403",
+    "references\\capabilities\\pov-three-step-architecture.md": "217a9e52ca9dc0f078cb19c7f1c0eb3e9769b82a86d88ee7983b02b7a682f782",
+    "references\\capabilities\\screen-direction-continuity.md": "5c14c816b6fd49227b4031c6a9f25b06f6348533042909360ee165c8b4861a58",
+    "references\\capabilities\\sequence-shot-choreography.md": "a9800be2006893f1d27778cbf696fd233bdfc2191063bcfb29a388caffe67a3f",
+    "references\\capabilities\\three-character-triangles.md": "f33728c4eee7cce3d9b32c1b05c0f004ad9ea47df9b991af07298e86c3ba338a",
+    "references\\capabilities\\triangle-principle-setups.md": "7f53094e9444b0cd703eebba1430d0730212f0fb8ff0b8615dd71048282efcb8",
+    "references\\capability-index.md": "39d4f179c71c9572d21efdcc25f151c709b48e86f48692c43ead4c66c104ed4a",
+    "references\\cheatsheet.md": "4be7352956533e3c23d4ad0275af1cbccb6f2add6b01174d1387f798199d4b06",
+    "references\\glossary.md": "412c1620399c4c2c944fb6d379cabb3b8653a9ca79669978684b63c778a9f388",
+    "references\\overview.md": "7c5db6c11d15c134362675252b5179a97d7c259b90120af0110fcd2c1494e3ef",
+    "SKILL.md": "b042528aa519143530e539030c5938d2ee3f359d1cc80edd015ef4a9f1b4b3d1"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.grammar-of-film-language",
+  "bundle_sha256": "212aeb86f14ffb3831a8c9152b8ab1284dd7bb47ad13790f5d963899aea2ed7f",
+  "variant": "single",
+  "run_id": "run-20261006-211005-5530ae",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

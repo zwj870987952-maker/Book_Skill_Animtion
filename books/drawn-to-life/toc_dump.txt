@@ -1,0 +1,338 @@
+=== VOLUME 1 CONTENTS CANDIDATES ===
+--- VOL 1 PAGE 5 ---
+5 ---
+THE WALT STANCHFIELD LECTURES: VOLUME ONE
+DRAWN 
+TO
+ LIFE
+20 GOLDEN YEARS OF DISNEY MASTER CLASSES
+Walt Stanchfield
+Edited by Don Hahn
+
+
+
+--- VOL 1 PAGE 10 ---
+10 ---
+Contents
+Foreword
+Acknowledgements
+Basics
+1. Enthusiasm
+2. 2 Principles of Animation
+3. Consider Anatomy Alone
+4. Anatomy Continued
+5. Consider Weight
+6. Squash and Stretch — I
+7. Squash and Stretch — II
+8. Stretch and Squash — III
+9. Line and Silhouette
+10. Basic Shapes versus Details
+11. Using Basic Shapes as Aid in Difficult Drawings
+12. Simplify Where Possible
+13. Straights and Curves
+14. Overlap, Follow-through, and Drag
+15. Eyes
+16. Avoiding Tangent Lines
+17. Some Simple Rules of Perspective
+18. Some Ways to Create Space and Depth
+19. Some Principles of Drawing
+20. Great Performance or Just a Drawing?
+21. Drawing Calories
+22. Sketching
+23. Animation and Sketching
+24. Simplicity for the Sake of Clarity
+25. Construction Observations Useful in Animation
+26. The Opposing Force
+Gesture
+27. Anatomy vs. Gesture
+
+
+--- VOL 1 PAGE 15 ---
+15 ---
+Foreword
+Once in a lifetime, a truly exceptional teacher crosses your path and changes your life
+forever. To me and to many, many of my colleagues in the arts, Walt Stanchfield was
+that teacher.
+Part painter, part poet, part musician, part tennis bum, part eccentric savant, part
+wise professor, Walt inspired a generation of young artists not only with his vast
+understanding of the animator’s craft, but also his ability to teach that craft and share
+his enthusiasm for a life in the arts.
+Born in 1919 in Los Angeles, Walt began his career in animation in 1937, right out
+of high school, at the Charles Mintz Studio. He served in the U.S. Navy, then joined
+the Walter Lantz Studio prior to his lengthy tenure at The Walt Disney Studios. There
+he worked on every full-length animated feature between 
+The Adventures of Ichabod
+and Mr. Toad
+ (1949) and 
+The Great Mouse Detective
+ (1986).
+Walt’s writing started in the 1970s, when veteran animators at the Disney Studio
+were at the end of their illustrious careers and new talent was pouring into the studio.
+Frank Thomas and Ollie Johnston turned to writing their iconic book 
+The Illusion of
+Life
+ and Stanchfield focused on establishing a training program for new animators
+with veteran animator and director Eric Larson. Walt held regular weekly drawing
+classes and lectures for the crew. Among the young talent: Brad Bird, John Lasseter,
+Don Bluth, Joe Ranft, John Musker, Ron Clements, Glen Keane, Andreas Deja, Mark
+Henn, and so many others.
+By the mid 1980s Walt started weekly gesture drawing classes for the entire studio.
+At the end of each class, he grabbed a few drawings that inspired or challenged him,
+then pasted them up with his typewritten commentary as a handout for everyone in the
+class. These weekly lecture notes along with his early writing for the animation
+training program are the basis for this first-time publication of his complete and
+prolific work.
+In late 1987, I asked Walt to come to London to train the crew on 
+Who Framed
+Roger Rabbit.
+ The artists led by legendary director Richard Williams would crowd
+around him on the vacant third floor of the Edwardian factory building that was our
+studio. They would hang on his every word and absorb every line of his drawings.
+When it came time to pose, we had a leggy supermodel dressed up like Jessica, but
+Walt was the one who moved like her and helped us see what made her beautiful and
+sexy.
+Walt’s writing became the bible of animation for a very young enthusiastic crew of
+
+
+--- VOL 1 PAGE 16 ---
+16 ---
+artists that would eventually create films like 
+The Little Mermaid, The Lion King,
+Aladdin,
+ and 
+Beauty and the Beast.
+ Because of Walt’s informal approach to these
+notes, many of the drawings included here are a generation or two away from the
+artist’s original. This photocopied style is very much in keeping with Walt’s casual,
+conversational style of teaching.
+The text herein has largely been left alone, as written by Walt. His conversational
+style is so completely accessible to the artist, it seemed wrong to formalize or edit his
+voice out of the material in any way. Parts of the text are very heavy with animation
+terms and technique, but remain as written because they apply to the art of drawing in
+any medium. Topics appear in no particular order and the sections are meant to be
+browsed as either instant inspiration, or week-long immersion into any array of
+subjects. The random nature of topics is also a signature of Walt’s personality and
+approach. He saw life as a unified experience. Drawings inspired paintings, which
+inspired poetry, which inspired architecture, which inspired travel, which inspired
+tennis — all connected parts of an artist’s life experience.
+Drawn to Life
+ is one of the strongest primers on animation ever written. The
+material spares no detail on the craft of animation, but also digs deep into the artistic
+roots of the medium. We get a chance to see Walt grow personally as an artist over the
+span of 20 years represented in these two books. It’s a journey that takes him from
+admired production artist, to technical teacher, to beloved philosopher.
+Walt’s affect on his students extended way beyond the drawing board. It’s not just
+that he drew better than everyone else, or taught better than everyone else — I
+admired Walt so much because he seemed to live better than everyone else. When he
+was not drawing, he was playing guitar, writing poetry, tending his vegetable garden,
+or making baskets in the style of the Chumash Indians. He was never without a pen
+and would often color his drawings by dipping a brush into his cup of coffee at
+breakfast. The drawings were always loose, improvisational, impressionistic and alive,
+just like their creator.
+He passed away in the year 2000 leaving behind a thousand pages of lecture notes
+and a generation of magnificent animators. With thanks to Dee Stanchfield, Focal
+Press and The Walt Disney Studios, and special thanks to my co-editors, Connie
+Thompson and Maggie Gisel, it is with great pleasure that the genius of Walt
+Stanchfield is now available to you in the pages of 
+Drawn to Life.
+
+
+
+--- VOL 1 PAGE 21 ---
+21 ---
+1
+Enthusiasm
+Having been brought out of retirement for the fourth time, I have been trying to
+impart some of the drawing know how I have gathered in these past years. (I started at
+Mintz’s Cartoon studio on September 13, 1937). I have incorporated the weekly
+“handout” which I think works better than lectures. They allow me to more
+thoroughly express the salient points that come to mind. Also they do not interfere
+with the already too brief time we have to draw from the model. What’s more, they
+are “collectables” that, in the future, may be reviewed when the need arises.
+These handouts allow me to delve deep into my experiences and observations and
+come up with something that may be of help to you. I have concentrated on gesture
+drawing because that is one of the foundations of good animation. Necessary to good
+gesture drawing are acting, caricature, anatomy, body language, perspective, etc., so
+from time to time these topics are isolated and discussed.
+At times I even play the “guru” and deliver a sermon of a positive thinking nature.
+I approach the subject cautiously for I realize each person’s background is different
+and sometimes deeply meaningful in terms of lifestyle and psychological
+undergirding. But psychology there is, and it cannot and should not be ignored. 
+Your
+mental and emotional processes are you.
+Your mental and emotional processes are what motivates you and without
+motivation you would accomplish nothing. And without enthusiasm, motivation
+would atrophy before you could make a quick sketch. Your mind is like a projector
+— whatever you choose to put into it is what will be seen on the screen (the choice is
+yours and yours alone). The switch is motivation and the electricity (power) that keeps
+the whole show moving along is enthusiasm.
+Wally “Famous” Amos; the chocolate chip cookie man, in his inspiring book, 
+The
+Power in You
+ said, “Enthusiasm is the mainspring of the mind which urges one to put
+knowledge into action.” In his book he put key thoughts into boxes (which reminds
+me of a jewel in a setting) like these on the next pages
+
+
+
+=== VOLUME 2 CONTENTS CANDIDATES ===
+--- VOL 2 PAGE 5 ---
+5 ---
+    DRAWNTO LIFE
+   20 GOLDEN YEARS OF DISNEY MASTER CLASSES     
+Walt Stanchﬁ eld
+Edited by Don Hahn 
+AMSTERDAM • BOSTON • HEIDELBERG • LONDON
+NEW YORK • OXFORD • PARIS • SAN DIEGO
+SAN FRANCISCO • SINGAPORE • SYDNEY • TOKYO
+Focal Press is an imprint of Elsevier
+THE WALT STANCHFIELD LECTURES: VOLUME TWO
+
+
+--- VOL 2 PAGE 10 ---
+10 ---
+   Foreword xiii
+   Acknowledgements xv
+    Innovation   1
+    1. Review and New Approach  3
+    2. Artist/Actor 6
+    3. Don’t Be Ordinary 9
+    4. Sketcher 12
+    5. Plus or Minus 18
+    6. Mood Symbols 21
+  7. Breaking the Constraint Barrier  26
+    8. The Agony and the Ecstasy  30
+    9. Making All Parts Work Together to Shape a Gesture  34
+   10. Forces (Energy, Animation, Power, Vim, Vigor, and Vitality)  37
+   11. Pure Performance 42
+   12. Different Concepts 45
+   13. A Time for This and a Time for That  48
+   14. Look to This Day 53
+   15. Entertainment 57
+   16. Follow-Up Department 61
+   17. Entertainment II 62
+   18. Playing to the Balcony 66
+    Drawing   71
+   19. A Sack of Flour 73
+   20. Pantomime (Drawing) Preparation  76
+   21. That Darned Neck 80
+   22. Crayolas? 85
+   23. Hands (Those Darned?)  89
+   24. Plight of a Gesture 94
+   25. Concepts for Drawing 97
+   26. Drawing Appropriate Gestures for Your Characters  100
+   27. Drawings Ain’t Just Drawing  104
+   28. The Importance of Sketching  109
+   29. Getting Emotionally Involved  111
+   30. Gesture Further Pursued  113
+   31. Caricature 119
+   32. Perspective 124
+   33. Have Something to Say and Keep It Simple  129
+   34. Keeping Flexibility in Your Drawing  132
+   35. Seeing and Drawing the Figure in Space  137
+   36. Don’t Let the Facts Get in the Way of a Good Drawing  142
+        Contents   
+
+
+--- VOL 2 PAGE 11 ---
+11 ---
+xii Contents
+   37. Hey, Look at Me  … Look at Me!  145
+   38. Learn From the Mistakes of Others  148
+   39. Quest and Fulﬁ llment 153
+   40. Getting Adjusted to New Production  156
+   41. More Animal Talk 166
+   42. In Further Praise of Quick Sketching  173
+   43. Impression – Expression = Depression  177
+    Expression   181
+   44. Drawing a Clear Portrayal of Your Idea  183
+   45. Think Caricature 190
+   46. Going Into That World!  195
+47. Understanding What You See 199
+   48. An Inspirational Journey  205
+   49. Comic Relief 209
+   50. If It Needs to Lean, Then Lean It  215
+   51. Don’t Tell, But Show! 224
+   52. Mainly Mental 231
+   53. The Shape of a Gesture 236 
+   54. Dreams Impossible to Resist  244
+   55. Short Book on Drawing  251
+   56. Encompassing Reality with All Your Senses  254
+   57. Gestures, Moons, and Tangents  261
+   58. Include Your Audience  268
+   59. The Wonders of the Right  and Left Hemispheres   274
+   60. Making the Rules of Perspective Come to Life  281
+   61. In Further Praise of the Rules of Perspective  288
+   62. There Is No End to Thinking Overlap  294
+   63. Space is Created 303
+   64. Words and Experience  314
+   65. Look, This Is What I Saw  321
+   66. Breaking Away 326
+   67. The Shape of the Gesture II  335
+   68. A Tribute 345
+   Credits  350    
+
+
+--- VOL 2 PAGE 12 ---
+12 ---
+   Once in a lifetime, a truly exceptional teacher crosses your path and changes your life forever. To me 
+and to many, many of my colleagues in the arts, Walt Stanchﬁ  eld was that teacher. 
+   Part painter, part poet, part musician, part tennis bum, part eccentric savant, part wise professor, 
+Walt inspired a generation of young artists not only with his vast understanding of the animator’s craft, 
+but also his ability to teach that craft and share his enthusiasm for a life in the arts. 
+   Born in 1919 in Los Angeles, Walt began his career in animation in 1937, right out of high school, 
+at the Charles Mintz Studio. He served in the U.S. Navy, then joined the Walter Lantz Studio prior to 
+his lengthy tenure at The Walt Disney Studios. There he worked on every full-length animated feature 
+between The Adventures of Ichabod and Mr. Toad  (1949) and  The Great Mouse Detective  (1986). 
+   Walt’s writing started in the 1970s, when veteran animators at the Disney Studio were at the end 
+of their illustrious careers and new talent was pouring into the studio. Frank Thomas and Ollie Johnston 
+turned to writing their iconic book  The Illusion of Life and Stanchﬁ  eld focused on establishing a training 
+program for new animators with veteran animator and director Eric Larson. Walt held regular weekly 
+drawing classes and lectures for the crew. Among the young talent: Brad Bird, John Lasseter, Don Bluth, 
+Joe Ranft, John Musker, Ron Clements, Glen Keane, Andreas Deja, Mark Henn, and so many others. 
+   By the mid 1980s Walt started weekly gesture drawing classes for the entire studio. At the end of 
+each class, he grabbed a few drawings that inspired or challenged him, then pasted them up with his 
+typewritten commentary as a handout for everyone in the class. These weekly lecture notes along with 
+his early writing for the animation training program are the basis for this ﬁ rst-time publication of his com-
+plete and proliﬁ c work. 
+   In late 1987, I asked Walt to come to London to train the crew on  Who Framed Roger Rabbit. The 
+artists led by legendary director Richard Williams would crowd around him on the vacant third ﬂ  oor of 
+the Edwardian factory building that was our studio. They would hang on his every word and absorb 
+every line of his drawings. When it came time to pose, we had a leggy supermodel dressed up like 
+Jessica, but Walt was the one who moved like her and helped us see what made her beautiful and sexy. 
+   Walt’s writing became the bible of animation for a very young enthusiastic crew of artists that 
+would eventually create ﬁ  lms like  The Little Mermaid, The Lion King, Aladdin, and Beauty and the Beast . 
+Because of Walt’s informal approach to these notes, many of the drawings included here are a genera-
+tion or two away from the artist’s original. This photocopied style is very much in keeping with Walt’s 
+casual, conversational style of teaching. 
+   The text herein has largely been left alone, as written by Walt. His conversational style is so com-
+pletely accessible to the artist, it seemed wrong to formalize or edit his voice out of the material in any 
+way. Parts of the text are very heavy with animation terms and technique, but remain as written because 
+they apply to the art of drawing in any medium. Topics appear in no particular order and the sections 
+are meant to be browsed as either instant inspiration, or week-long immersion into any array of subjects. 
+The random nature of topics is also a signature of Walt’s personality and approach. He saw life as a 
+uniﬁ ed experience. Drawings inspired paintings, which inspired poetry, which inspired architecture, 
+which inspired travel, which inspired tennis — all connected parts of an artist’s life experience. 
+    Drawn to Life is one of the strongest primers on animation ever written. The material spares no detail 
+on the craft of animation, but also digs deep into the artistic roots of the medium. We get a chance to 
+see Walt grow personally as an artist over the span of 20 years represented in these two books. It’s a 
+journey that takes him from admired production artist, to technical teacher, to beloved philosopher. 
+   Foreword  
+
+
+--- VOL 2 PAGE 13 ---
+13 ---
+   Walt’s affect on his students extended way beyond the drawing board. It’s not just that he drew 
+better than everyone else, or taught better than everyone else  — I admired Walt so much because he 
+seemed to live better than everyone else. When he was not drawing, he was playing guitar, writing 
+poetry, tending his vegetable garden, or making baskets in the style of the Chumash Indians. He was 
+never without a pen and would often color his drawings by dipping a brush into his cup of coffee at 
+breakfast. The drawings were always loose, improvisational, impressionistic and alive, just like their 
+creator. 
+   He passed away in the year 2000 leaving behind a thousand pages of lecture notes and a genera-
+tion of magniﬁ  cent animators. With thanks to Dee Stanchﬁ  eld, Focal Press and The Walt Disney Studios, 
+and special thanks to my co-editors, Connie Thompson and Maggie Gisel, it is with great pleasure that 
+the genius of Walt Stanchﬁ  eld is now available to you in the pages of  Drawn to Life . 
+xiv Foreword
+
+

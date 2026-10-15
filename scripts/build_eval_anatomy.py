@@ -1,0 +1,123 @@
+import json
+from pathlib import Path
+
+eval_suite = {
+    "suite_id": "eval.anatomy-for-sculptors.v1",
+    "pack_slug": "anatomy-for-sculptors",
+    "split_seed": 42,
+    "train_ratio": 0.6,
+    "trigger_cases": [
+        {
+            "case_id": "case-bony-landmarks-blockout-01",
+            "prompt": "在 ZBrush 雕刻写实男性躯干时，如何定位关键皮下骨性标志点（ASIS、锁骨、肩胛冈、大转子）并建立多边形平截面（Block-out）？如何避免软泥肥皂病？",
+            "should_trigger": True,
+            "expected_capability": "bony-landmarks-blockout"
+        },
+        {
+            "case_id": "case-torso-contrapposto-01",
+            "prompt": "单脚承重站姿（Contrapposto）下，头颅、胸廓与骨盆三大刚性体块的反向倾斜（Counter-Tilt）和懒 S 脊椎动力学是如何运作的？挤压侧与拉伸侧怎么雕？",
+            "should_trigger": True,
+            "expected_capability": "torso-movable-masses-contrapposto"
+        },
+        {
+            "case_id": "case-gender-fat-pads-01",
+            "prompt": "女性骨架的沙漏型比例、宽骨盆大 Q 角与大转子脂肪垫（Saddlebags）、臀下皱襞是如何分布的？与男性倒梯形骨架和腹部脂肪有何解剖差异？",
+            "should_trigger": True,
+            "expected_capability": "male-vs-female-proportions-fat"
+        },
+        {
+            "case_id": "case-shoulder-deltoid-interlock-01",
+            "prompt": "手臂抬起时肩膀为什么容易塌陷？锁骨与肩胛冈在肩峰汇合的 C 形骨夹钳基座是如何与三角肌前中后束在肱骨三角肌粗隆上形成机械插扣的？",
+            "should_trigger": True,
+            "expected_capability": "shoulder-girdle-deltoid-interlock"
+        },
+        {
+            "case_id": "case-chest-back-volume-01",
+            "prompt": "胸大肌下腹束在止于肱骨时是如何发生 180° 翻转折叠的？第七颈椎（C7）周边的斜方肌腱膜平坦菱形中心与前锯肌齿状嵌合该如何解构？",
+            "should_trigger": True,
+            "expected_capability": "chest-back-torso-muscle-volume"
+        },
+        {
+            "case_id": "case-planar-head-skull-01",
+            "prompt": "如何用 Planar Head 块面化解构头部？额头五大面、颞线、颧骨弓水平梁与下颌底面切角是怎样的？双眼瞳孔中分全高的测量标尺如何应用？",
+            "should_trigger": True,
+            "expected_capability": "planar-head-skull-architecture"
+        },
+        {
+            "case_id": "case-facial-features-volume-01",
+            "prompt": "眼睑作为 2mm 厚度的立体带状如何包裹 24mm 眼球球体？鼻软骨七大块面与马蹄形抛物线牙弓上的口轮匝肌半圆柱拱桶体块该怎么雕刻？",
+            "should_trigger": True,
+            "expected_capability": "facial-features-planes-volume"
+        },
+        {
+            "case_id": "case-neck-scm-dynamics-01",
+            "prompt": "头部向右旋转 45° 时，对侧胸锁乳突肌（SCM）的胸骨头与锁骨头对角拉索是如何紧绷隆起的？倾斜 75° 的圆柱颈部与胸骨上窝该如何处理？",
+            "should_trigger": True,
+            "expected_capability": "neck-muscles-sternocleidomastoid"
+        },
+        {
+            "case_id": "case-forearm-supination-pronation-01",
+            "prompt": "前臂手腕旋前（Pronation）与旋后（Supination）时，尺骨作为不动轴心、桡骨跨过尺骨形成 X 交叉的力学过程是怎样的？如何彻底杜绝糖纸扭曲畸变？",
+            "should_trigger": True,
+            "expected_capability": "arm-rotation-supination-pronation"
+        },
+        {
+            "case_id": "case-hand-carpal-arch-01",
+            "prompt": "手腕横向凹弓（Carpal Arch）与以第三掌骨为最高脊背的掌骨扇形拱桥是如何构造的？握拳时各手指关节是如何向中指与舟骨中心汇聚的？",
+            "should_trigger": True,
+            "expected_capability": "hand-anatomy-carpal-arch"
+        },
+        {
+            "case_id": "case-quads-asymmetry-01",
+            "prompt": "大腿股四头肌为什么不能画成对称柱子？股内侧肌低位肥厚泪滴包膝 vs 股外侧肌高位长护甲板的内低外高落差是如何体现的？缝匠肌螺旋绑带怎么走？",
+            "should_trigger": True,
+            "expected_capability": "leg-muscles-quads-asymmetry"
+        },
+        {
+            "case_id": "case-knee-ankle-foot-arches-01",
+            "prompt": "双踝内高外低（向外下倾斜 15°-20°）的不对称倾斜角与足底三点拱桥（内侧纵弓高耸悬空 vs 外侧纵弓压实地面）的解剖力学规范是什么？",
+            "should_trigger": True,
+            "expected_capability": "knee-foot-arch-ankle-mechanics"
+        },
+        {
+            "case_id": "case-negative-golang-goroutines-01",
+            "prompt": "在 Golang 中利用 sync.WaitGroup 和 channel 实现并发工作池与任务上下文超时控制",
+            "should_trigger": False,
+            "negative_reason": "超出 3D 角色建模与人体解剖学范畴，属于后端并发编程"
+        },
+        {
+            "case_id": "case-negative-mysql-innodb-01",
+            "prompt": "分析 MySQL InnoDB 引擎中聚簇索引 B+ 树分裂导致页碎片增加的底层机制与 OPTIMIZE TABLE 原理",
+            "should_trigger": False,
+            "negative_reason": "超出人体骨骼肌肉与雕刻块面化范畴，属于关系型数据库存储引擎"
+        }
+    ],
+    "output_cases": [
+        {
+            "case_id": "out-fullbody-sculpt-landmarks-01",
+            "prompt": "为一尊写实男性战士全身体态雕刻规划解剖架构，详细说明骨盆、肩带、大腿与双踝的关键皮下骨点与非对称落差法则",
+            "assertions": [
+                "明确列举锁骨、髂前上棘（ASIS）、大转子、尺骨鹰嘴、髌骨与内/外踝等核心骨性标志点（Bony Landmarks）",
+                "强调大腿股四头肌严格遵循股内侧肌低（泪滴包膝）vs 股外侧肌高的内低外高落差",
+                "指出踝关节内踝高靠前、外踝低靠后构成的 15°-20° 向外下方倾斜对角线",
+                "指出单脚承重（Contrapposto）下骨盆上提与胸廓反向倾斜的挤压与拉伸对抗"
+            ]
+        },
+        {
+            "case_id": "out-arm-rotation-mechanics-01",
+            "prompt": "详细拆解前臂旋前（Pronation）动作中的骨骼运动学、肌肉体量位移以及绑定防糖纸塌陷规范",
+            "assertions": [
+                "明确指出尺骨在肘关节处保持静止作为旋转轴心，不发生自转",
+                "指出桡骨远端跨过尺骨前表面形成空间 X 形交叉（Radius Crosses Ulna）",
+                "指出肱桡肌与伸肌群随桡骨牵拉翻转至前臂背侧中轴，维持肌肉体积守恒",
+                "指出手腕截面在旋前位下长轴发生 90° 旋转，尺骨头在小指侧后方高高隆起"
+            ]
+        }
+    ]
+}
+
+eval_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\anatomy-for-sculptors\evals")
+eval_dir.mkdir(parents=True, exist_ok=True)
+out_file = eval_dir / "eval-suite.json"
+out_file.write_text(json.dumps(eval_suite, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Written eval-suite.json successfully: {out_file}")

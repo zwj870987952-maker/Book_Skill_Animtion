@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.force-character-design",
+  "destinations": {
+    "cap.force-character-design.opinion-hierarchy-concept": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.pushing-poses-amazing-angles": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.spatial-bounding-box-depth": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.forceful-shape-triangle": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.shape-bounding-box-asymmetry": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.facial-ratios-caricature": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.tone-value-visual-staging": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.color-theory-character-costume": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.life-reportage-to-character": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.character-layout-staging": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.architecture-with-character": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    },
+    "cap.force-character-design.anthropomorphic-animal-design": {
+      "target_pack_slug": "force-character-design",
+      "target_skill_slug": "force-character-design",
+      "action": "create"
+    }
+  }
+}

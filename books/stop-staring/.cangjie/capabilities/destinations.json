@@ -1,0 +1,41 @@
+{
+  "bundle_id": "bundle.stop-staring",
+  "destinations": {
+    "cap.stop-staring.viseme-ortho-matrix": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.lip-sync-pipeline": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.facial-edge-flow-topology": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.additive-blendshape-math": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.mouth-cavity-teeth-tongue": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.brow-emotion-mechanics": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.eyelid-expression-tension": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.eye-rig-lid-follow-saccades": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.blink-dynamics-thought-break": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.zipper-lips-sticky-rig": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.slider-interface-driver-rig": {
+      "served_by": "stop-staring"
+    },
+    "cap.stop-staring.squoosh-head-squash-stretch": {
+      "served_by": "stop-staring"
+    }
+  }
+}

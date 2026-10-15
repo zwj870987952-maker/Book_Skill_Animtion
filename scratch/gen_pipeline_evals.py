@@ -1,0 +1,197 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+
+eval_set = {
+    "suite_id": "suite.digital-animation-pipeline-and-perspective",
+    "book_id": "digital-animation-pipeline-and-perspective",
+    "trigger_cases": [
+        {
+            "case_id": "eval-01",
+            "query": "托尼·怀特《从铅笔到像素》中传统手绘向无纸数字动画演进的全生命周期包含哪些核心阶段？为什么动态故事板（Animatic）必须在原画前签字锁定？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.pencil-to-pixel-digital-pipeline",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-02",
+            "query": "无纸数字动画制作管线中，原画组、修型清线组与数字上色组之间的规范交接契约与版本控制如何制定？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.pencil-to-pixel-digital-pipeline",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-03",
+            "query": "在Maya中开发动画师批处理工具时，如何通过MEL或Python实现命名空间安全隔离（Namespace Safety）？如何用Undo Chunk保证原子回滚？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.maya-mel-and-python-scripting",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-04",
+            "query": "Maya脚本如何批量遍历并清理动画曲线（Euler Filter与切线类型批量修改）？如何避免视口刷新阻塞主线程？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.maya-mel-and-python-scripting",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-05",
+            "query": "透视学几何中视平线（Horizon Line）与心点（Center of Vision）的绝对物理高度如何界定？两点透视中左右灭点的90度正交直角律是什么？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.perspective-geometry-and-focal-grids",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-06",
+            "query": "仰视虫视与俯视鸟瞰的三点透视中第三垂直灭点如何定位？超过120度视场角时极坐标鱼眼曲面透视网格如何绘制？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.perspective-geometry-and-focal-grids",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-07",
+            "query": "艺用人体运动学中胸腔与骨盆在自然行走中的反向扭转倾斜（Contrapposto）力学机制是什么？人体重心与支撑面平衡如何维持？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.human-locomotion-kinesiology",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-08",
+            "query": "人体球窝关节与单向铰链关节在运动学中的生理旋转极限是什么？如何避免动画制作中出现反关节骨折与机器人僵死躯干？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.human-locomotion-kinesiology",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-09",
+            "query": "关键姿态设计中贯穿全身的单一连贯动势线（Line of Action）有何作用？纯黑剪影测试（The Silhouette Test）如何验证负空间通透度？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.dynamic-posing-and-pose-to-pose-staging",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-10",
+            "query": "Pose-to-Pose工作流中Keys（极致关键帧）、Breakdowns（分解中继帧）与Inbetweens（加中间画）的分层设计原则是什么？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.dynamic-posing-and-pose-to-pose-staging",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-11",
+            "query": "《1584个姿势》与《人体动态6000例》中强动力冲刺起步的前倾45度力学与空中腾跃速度归零的滞空姿态如何把握？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.pose-library-and-gesture-atlas",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-12",
+            "query": "人体极限受击打击姿态中凹陷受力点与头部肢体滞后反弹力矩如何契合动量守恒？落地接触帧的挤压缓冲（Squash）如何表现？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.pose-library-and-gesture-atlas",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-13",
+            "query": "数字动画修型清稿（Cleanup）中如何将毛草草图提炼为单一绝对闭合的矢量轮廓线？如何进行闭合断线检测与末端收尖？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.digital-cleanup-inking-and-color-styling",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-14",
+            "query": "数字上色工艺中全局只读色盘矩阵与独立环境色相阴影分层（Shadow Pass）如何避免画面发脏与漏色溢出？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.digital-cleanup-inking-and-color-styling",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-15",
+            "query": "三维镜头搭建工程（Pro Shot Builder）中为什么所有资产必须以只读引用（Reference）模式载入？Layout摄影机参数加锁规范是什么？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.shot-builder-and-scene-layout-assembly",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-16",
+            "query": "场景空间布局集成中前景、中景行动区与远景背景的三维速度差视差（Parallax）与角色脚步地表碰撞如何校准？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.shot-builder-and-scene-layout-assembly",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-17",
+            "query": "世界动画史中好莱坞古典全动画一拍一/二与日本战后虫制作公司一拍三有限动画革命在美学范式与技术特征上有何本质差异？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.world-animation-history-and-stylistic-paradigms",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-18",
+            "query": "现代三维CG革命中皮克斯的物理拟真与索尼《蜘蛛侠：平行宇宙》的2D/3D跨媒介混血风格化范式演化脉络是什么？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.world-animation-history-and-stylistic-paradigms",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-19",
+            "query": "莫提默·艾德勒《如何阅读一本书》中四层次阅读法（基础/检视/分析/主题阅读）如何升华映射为视觉工业知识工程与Agent建模？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.syntopic-reading-and-knowledge-engineering",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-20",
+            "query": "在面对跨门类不同学派的动画教材时，如何运用主题阅读（Syntopic Reading）构建统一的概念术语字典与可执行工业规程？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.syntopic-reading-and-knowledge-engineering",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-21",
+            "query": "三维角色绑定接口标准中控制器选集组（Master Selection Sets）与默认零姿态归零法则（0.0, 1.0）规范是什么？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.rigging-interfacing-and-animation-caching",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-22",
+            "query": "为什么动画表演签字后必须将绑定网格解耦烘焙为纯Alembic (.abc)或USD点缓存交付渲染农场？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.rigging-interfacing-and-animation-caching",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-23",
+            "query": "数字动画管线排障中，如何自动化检测并修复关键帧浮点亚帧漂移（Snap Keys）与欧拉角暴跳死锁（Euler Filter）？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.pipeline-troubleshooting-and-asset-audit",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-24",
+            "query": "三维场景中未知插件残留节点（Unknown Nodes）与轴心点严重偏离（Center Pivot）如何通过自动化脚本完成健康度自愈？",
+            "expected_capability": "cap.digital-animation-pipeline-and-perspective.pipeline-troubleshooting-and-asset-audit",
+            "type": "positive"
+        },
+        {
+            "case_id": "eval-25",
+            "query": "好莱坞长篇电影剧本中第二幕中点危机（Midpoint Crisis）如何攻守反转并启动倒计时时钟？",
+            "expected_capability": "out_of_scope",
+            "type": "negative"
+        },
+        {
+            "case_id": "eval-26",
+            "query": "漫画分格中自右向左的反Z型（Reverse-Z）阅读流势与水平大段落格隙阶梯阻隔如何规划？",
+            "expected_capability": "out_of_scope",
+            "type": "negative"
+        },
+        {
+            "case_id": "eval-27",
+            "query": "实拍电影镜头语法中双人对话正反打外侧过肩镜头与180度假想动作轴线如何维持？",
+            "expected_capability": "out_of_scope",
+            "type": "negative"
+        },
+        {
+            "case_id": "eval-28",
+            "query": "麦克劳德图像符号大三角金字塔中面具效应（Masking Effect）的心理学投射算法是什么？",
+            "expected_capability": "out_of_scope",
+            "type": "negative"
+        },
+        {
+            "case_id": "eval-29",
+            "query": "戏剧场景设计中微观动作现实残酷反弹产生的断层（Gap in Reality）如何运作？",
+            "expected_capability": "out_of_scope",
+            "type": "negative"
+        },
+        {
+            "case_id": "eval-30",
+            "query": "日漫独创的漫符（Manpu）记号体系中愤怒青筋与侧面冷汗滴的视觉语法是什么？",
+            "expected_capability": "out_of_scope",
+            "type": "negative"
+        }
+    ]
+}
+
+os.makedirs("books/digital-animation-pipeline-and-perspective/candidates", exist_ok=True)
+out_path = "books/digital-animation-pipeline-and-perspective/candidates/eval-sets.json"
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(eval_set, f, ensure_ascii=False, indent=2)
+
+print(f"Generated {out_path} with {len(eval_set['trigger_cases'])} cases.")

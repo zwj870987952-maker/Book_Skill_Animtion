@@ -1,0 +1,19 @@
+{
+  "suite_id": "eval.stop-staring.v1",
+  "seed": 42,
+  "train": [
+    "case-eye-saccades-01",
+    "case-additive-blendshape-01",
+    "case-facial-edge-flow-01",
+    "case-zipper-lips-01",
+    "case-brow-emotion-01",
+    "case-eyelid-tension-01",
+    "case-negative-rigging-car-01"
+  ],
+  "validation": [
+    "case-mouth-teeth-tongue-01",
+    "case-viseme-ortho-01",
+    "case-lip-sync-pipeline-01",
+    "case-negative-database-sql-01"
+  ]
+}

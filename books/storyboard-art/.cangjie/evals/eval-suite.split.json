@@ -1,0 +1,32 @@
+{
+  "suite_id": "storyboard-art-eval-suite",
+  "seed": 42,
+  "train": [
+    "eval-dramatic-lighting-silhouette-trigger-2",
+    "eval-aspect-ratio-framing-geometry-trigger-2",
+    "eval-shot-scale-visual-hierarchy-trigger-1",
+    "eval-subject-action-directional-arrows-trigger-2",
+    "eval-continuity-axis-screen-direction-trigger-2",
+    "eval-compositional-focal-flow-trigger-1",
+    "eval-perspective-grid-lens-distortion-trigger-2",
+    "eval-compositional-focal-flow-trigger-2",
+    "eval-dramatic-lighting-silhouette-trigger-1",
+    "eval-perspective-grid-lens-distortion-trigger-1",
+    "eval-action-choreography-breakdown-trigger-2",
+    "eval-continuity-axis-screen-direction-trigger-1",
+    "eval-shot-transitions-optical-grammar-trigger-2",
+    "eval-camera-movement-vector-arrows-trigger-1"
+  ],
+  "validation": [
+    "eval-commercial-15-30s-storyboard-trigger-2",
+    "eval-animatic-timing-previs-trigger-1",
+    "eval-subject-action-directional-arrows-trigger-1",
+    "eval-aspect-ratio-framing-geometry-trigger-1",
+    "eval-shot-scale-visual-hierarchy-trigger-2",
+    "eval-camera-movement-vector-arrows-trigger-2",
+    "eval-commercial-15-30s-storyboard-trigger-1",
+    "eval-action-choreography-breakdown-trigger-1",
+    "eval-animatic-timing-previs-trigger-2",
+    "eval-shot-transitions-optical-grammar-trigger-1"
+  ]
+}

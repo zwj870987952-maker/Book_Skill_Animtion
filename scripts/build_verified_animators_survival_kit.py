@@ -1,0 +1,275 @@
+import yaml
+import json
+from pathlib import Path
+import jsonschema
+from referencing import Registry, Resource
+
+caps_data = [
+    {
+        "slug": "timing-spacing-charts",
+        "title": "时空双轴标尺与原画轨目表设计",
+        "importance": "critical",
+        "importance_rationale": "动画工程第一公理，时间（帧数）与空间幅度（位移分布）绝对分离，慢入慢出与偏心轨目图谱",
+        "one_liner": "严格区分耗费物理帧数（时间）与帧间位移距离分布（空间），以轨目表掌控慢入慢出与偏心动力学",
+        "intents": ["在原画设计中绘制精准的轨目表 (Spacing Chart) 指导中割补间", "区分调整总帧数 (Timing) 与调整帧间距离分布 (Spacing) 解决动作速度与质感缺陷", "决策动作段落的一拍一 (On Ones) 与一拍二 (On Twos) 制作规格"],
+        "keywords": ["时间掌握", "Timing", "空间幅度", "Spacing", "轨目表", "Spacing Chart", "慢入慢出", "Slow-In", "Slow-Out", "偏心倾向"],
+        "also_read": ["keys-extremes-breakdowns", "standard-walk-locomotion"],
+        "desc": "以时间（总帧数）与空间幅度（距离分布）绝对解耦为核心的轨目表设计与动画速度调校规程。不适用于静态平面海报构图。",
+        "tags": ["animation", "timing", "spacing", "charts", "inbetweening"],
+        "loc": "Chapter 'Timing and Spacing', pp. 35–45"
+    },
+    {
+        "slug": "keys-extremes-breakdowns",
+        "title": "关键帧、极值帧与过渡原画层级工程",
+        "importance": "critical",
+        "importance_rationale": "动画工业级结构化装配核心，过渡原画 (Breakdown) 决定动作弧线走向与身体优先滞后倾向",
+        "one_liner": "以关键帧立意、极值帧定空间边界、过渡原画 (Breakdown) 决定运动弧线与优先倾向的四级分级工程",
+        "intents": ["构建动画动作的 Keys -> Extremes -> Breakdowns -> Inbetweens 四级制作流水线", "通过设计关键过渡原画 (Breakdown) 决定动作走上弧还是走下弧以及身体优先倾向", "排查跳过 Breakdown 导致中间画机械僵直、体积缩水与弧线断裂缺陷"],
+        "keywords": ["关键帧", "Keys", "极值帧", "Extremes", "过渡原画", "Breakdowns", "中间画", "Inbetweens", "分级工程"],
+        "also_read": ["timing-spacing-charts", "arcs-waves-whips"],
+        "desc": "关键帧、空间极值帧与核心过渡原画的分级设计与时空装配体系。不适用于纯连续Straight Ahead无计划涂抹。",
+        "tags": ["animation", "keys", "extremes", "breakdowns", "pipeline"],
+        "loc": "Chapter 'Keys, Extremes, Breakdowns', pp. 47–69"
+    },
+    {
+        "slug": "standard-walk-locomotion",
+        "title": "人类标准行走四大黄金关键帧与步频标尺",
+        "importance": "critical",
+        "importance_rationale": "动画运动规律基石，倒单摆重力引擎，接触位、下沉位、越过位、抬起最高位四大黄金帧与骨盆代偿",
+        "one_liner": "以接触、下沉、越过、最高四大黄金姿态构建行走循环，重心中轴正弦波起伏与骨盆胸廓反向倾斜代偿",
+        "intents": ["编排人类标准行走步态循环 (Contact, Down, Passing, High)", "应用 24 帧标准步、16 帧轻快步与 32 帧沉重步等黄金步频标尺", "调校承重腿接触地面时的膝关节屈伸缓冲与骨盆胸廓对立平衡代偿"],
+        "keywords": ["标准行走", "Walk Cycle", "接触位", "Contact", "下沉位", "Down", "越过位", "Passing", "最高位", "High", "步频"],
+        "also_read": ["runs-jumps-airborne", "character-walks-personality"],
+        "desc": "接触、下沉、越过与抬起四大核心姿态构成的人类标准行走力学与骨盆代偿工程。不适用于轮式载具平移。",
+        "tags": ["animation", "walk-cycle", "locomotion", "biomechanics"],
+        "loc": "Chapter 'Walks', pp. 102–155"
+    },
+    {
+        "slug": "runs-jumps-airborne",
+        "title": "奔跑、腾空滞空与跳跃受力全周期",
+        "importance": "critical",
+        "importance_rationale": "奔跑与行走的本质分水岭，双脚完全离地腾空悬浮期，跳跃蓄力、推离、滞空、挤压与沉降全周期",
+        "one_liner": "以双脚完全离地腾空期为分水岭编排奔跑循环，下蹲蓄力、蹬地推离、滞空悬停与撞击受压跳跃全周期",
+        "intents": ["编排具有真实双脚完全离地腾空悬浮期 (Airborne) 的奔跑循环动画", "应用 4 帧极速跑、6 帧标准跑等速度标尺与身体前倾力学", "构建跳跃五部曲：深蹲蓄力 -> 蹬地推离 -> 滞空悬停 -> 撞击挤压 -> 缓冲沉降"],
+        "keywords": ["奔跑动力学", "Runs", "腾空悬浮", "Airborne", "跳跃全周期", "Jumps", "滞空时间", "Hang Time", "受压挤压"],
+        "also_read": ["standard-walk-locomotion", "weight-gravity-settle"],
+        "desc": "包含完全离地腾空悬浮期的奔跑动力学与跳跃全周期受力形变规程。不适用于无重力虚空漂浮滑行。",
+        "tags": ["animation", "runs", "jumps", "airborne", "dynamics"],
+        "loc": "Chapter 'Runs, Jumps and Skips', pp. 176–210"
+    },
+    {
+        "slug": "weight-gravity-settle",
+        "title": "重量感传递、重力沉降与多级阻尼缓冲",
+        "importance": "critical",
+        "importance_rationale": "消除太空漂浮与塑料玩具感，遵循自由落体加速度定律，展现刚体极小形变与弹性体恒定容积挤压沉降",
+        "one_liner": "依据质量与刚性分配自由落体加速度与触地挤压幅度，重心中轴超量下沉与多级肉体组织阻尼振荡",
+        "intents": ["在动画中赋予角色和道具真实的重量感 (Weight) 与重力沉降 (Settle)", "依据材质质量调整自由落体奇数定律加速度与撞击挤压拉伸幅度", "刻画重型角色落地时骨盆深沉缓冲与肚腩赘肉次级余震延迟"],
+        "keywords": ["重量感", "Weight", "重力加速度", "Gravity", "阻尼缓冲", "Settle", "自由落体", "容积守恒", "余震延迟"],
+        "also_read": ["runs-jumps-airborne", "anticipation-overshoot-recoil"],
+        "desc": "遵循牛顿重力加速度定律与质量惯性守恒的重量感塑造与阻尼沉降工程。不适用于零质量光子运动。",
+        "tags": ["animation", "weight", "gravity", "settle", "physics"],
+        "loc": "Chapter 'Weight', pp. 256–284"
+    },
+    {
+        "slug": "anticipation-overshoot-recoil",
+        "title": "动作预感反冲与超量阻尼振荡",
+        "importance": "critical",
+        "importance_rationale": "发力前拉长拮抗肌反向蓄力预感，刹车急停时惯性超量过冲 110%-120% 与弹簧衰减稳定",
+        "one_liner": "在剧烈动作前施加反向预备蓄力 (Anticipation)，急停时让肢体冲过目标 10%-20% 并阻尼回弹稳定",
+        "intents": ["设计动作爆发前的反方向预备动作 (Anticipation) 引导观众视觉注意", "在肢体制动时插入超量过冲帧 (Overshoot) 与多级弹簧阻尼回弹 (Recoil)", "排查无预备突兀发力导致的角色僵直与制动生硬急刹缺陷"],
+        "keywords": ["动作预感", "Anticipation", "超量过冲", "Overshoot", "反冲", "Recoil", "蓄力", "阻尼回弹"],
+        "also_read": ["weight-gravity-settle", "arcs-waves-whips"],
+        "desc": "动作发起前的反向蓄力预感与制动刹车时的超量过冲阻尼回弹工程。不适用于被动受弹击中无意识倒地。",
+        "tags": ["animation", "anticipation", "overshoot", "recoil", "mechanics"],
+        "loc": "Chapter 'Anticipation', pp. 256–284"
+    },
+    {
+        "slug": "arcs-waves-whips",
+        "title": "弧线运动轨迹与多级柔性鞭打动力学",
+        "importance": "critical",
+        "importance_rationale": "生物关节绕轴旋转必然形成圆滑弧线，正弦波反向折叠与多级关节鞭打末端超音速释能",
+        "one_liner": "消除生硬折线中割，沿圆滑弧线轨迹滑行，多级串联关节正弦波反转实现末端加速鞭打释能",
+        "intents": ["追踪角色五官与肢体关节点运动轨迹，确保处于圆滑三次贝塞尔弧线 (Arcs) 上", "构建多级串联骨骼链（脊椎、长鞭、尾巴）的正弦波浪运动与相位滞后", "实现手柄急停制动、能量沿链条向前翻滚并在末梢爆裂甩出的鞭打效应 (The Whip)"],
+        "keywords": ["弧线运动", "Arcs of Action", "波浪运动", "Waves", "鞭打效应", "The Whip", "正弦波", "角加速度"],
+        "also_read": ["keys-extremes-breakdowns", "overlapping-action-drag"],
+        "desc": "关节点圆滑弧线轨迹校验与多级串联骨骼链正弦波鞭打释放工程。不适用于机械刚体活塞直线冲压。",
+        "tags": ["animation", "arcs", "waves", "whip", "motion-paths"],
+        "loc": "Chapter 'Arcs, Waves and Whips', pp. 228–255"
+    },
+    {
+        "slug": "overlapping-action-drag",
+        "title": "动作重叠、多级滞后拖尾与松弛组织运动",
+        "importance": "critical",
+        "importance_rationale": "杜绝全身体块同帧起止机械缺陷，主动力源先行，柔性附属物沿运动矢量反向滞后拖尾与跟随",
+        "one_liner": "骨盆重心主动力源先行，头发、服饰、松弛皮肤与尾巴反向滞后拖尾并在急停时超量跟随摆动",
+        "intents": ["编排角色头发、披风、松弛下巴与动物尾巴的滞后拖尾 (Drag) 与跟随 (Follow-Through)", "交错打破动作段落界限，在前一个动作尚未结束时提前启动下一个动作 (Overlapping Action)", "排查全身体块同帧启动、同帧制动导致的机械僵直机器人缺陷"],
+        "keywords": ["动作重叠", "Overlapping Action", "跟随惯性", "Follow-Through", "滞后拖尾", "Drag", "松弛组织", "次级运动"],
+        "also_read": ["arcs-waves-whips", "weight-gravity-settle"],
+        "desc": "主动力源与被动柔性附属物多级参差延迟滞后与正弦衰减摆动工程。不适用于绝对无形变单一刚体砖块。",
+        "tags": ["animation", "overlapping", "drag", "follow-through", "secondary-action"],
+        "loc": "Chapter 'Overlapping Action', pp. 228–255"
+    },
+    {
+        "slug": "dialogue-phonemes-accents",
+        "title": "对白口型视素同步、2-4帧超前量与身体重音",
+        "importance": "critical",
+        "importance_rationale": "消除口型迟钝滞后与缝纫机抽搐，8 大核心视素嘴型比音频提前 2-4 帧开启，身体重音与台词共振",
+        "one_liner": "关键视素嘴型比声学音频波形提前 2-4 帧开启就位，精简弱读音节，身体动作重音与台词爆破点同频共振",
+        "intents": ["应用 8 大核心视素嘴型（开合、宽窄、齿唇、圆唇）编排角色对白口型动画", "执行口型超前 2-4 帧黄金法则 (Dialogue Advance Rule) 杜绝视听感知迟钝滞后", "将台词核心主重音与角色头部下砸、眉毛挑起或手势重击等身体重音 (Bodily Accents) 严格对齐"],
+        "keywords": ["对白口型", "Dialogue", "视素", "Phonemes", "2-4帧超前量", "Advance Rule", "身体重音", "Accents", "口型同步"],
+        "also_read": ["timing-spacing-charts", "anticipation-overshoot-recoil"],
+        "desc": "口型视素 2-4 帧超前量、8 大核心发音嘴型与身体动作重音视听共振工程。不适用于无口部发音旁白配音。",
+        "tags": ["animation", "dialogue", "lip-sync", "phonemes", "acting"],
+        "loc": "Chapter 'Dialogue', pp. 304–326"
+    },
+    {
+        "slug": "character-walks-personality",
+        "title": "潜行、跛足与个性化行走步态演化",
+        "importance": "high",
+        "importance_rationale": "从机械行走跃升为灵魂表演，通过变异四大黄金姿态的高低落差、触地方式与时间分配外化性格",
+        "one_liner": "变异接触位脚尖触地、调整下沉最高位落差并施加非对称时间分配，演化潜行、阔步与跛行个性步态",
+        "intents": ["基于四大黄金姿态演化小偷潜行 (The Sneak)、傲慢阔步 (The Strut) 与跛行 (The Limp) 等个性步态", "调整脚尖先触地或脚跟先触地的受力顺序与重心中轴高低落差表达不同情绪", "在行走循环中加入左右非对称晃动、耸肩与视线扫视赋予角色鲜明性格"],
+        "keywords": ["个性步态", "Character Walks", "潜行", "The Sneak", "傲慢阔步", "The Strut", "跛行", "The Limp", "性格外化"],
+        "also_read": ["standard-walk-locomotion", "timing-spacing-charts"],
+        "desc": "通过改变标准行走时空参数与触地受力机制演化角色独特性格与情绪的步态工程。不适用于纯机械阅兵踢正步。",
+        "tags": ["animation", "character-walks", "personality", "acting", "locomotion"],
+        "loc": "Chapter 'Character Walks', pp. 156–175"
+    },
+    {
+        "slug": "fast-runs-smears-multiples",
+        "title": "高速奔跑残影、多重肢体与飞轮腿涂抹",
+        "importance": "high",
+        "importance_rationale": "化解极端超高速运动引发的视网膜频闪跳帧，单帧干刷涂抹、多重肢体长曝光与圆环飞轮腿特效",
+        "one_liner": "以单帧存活干刷涂抹 (Smear)、多重肢体 (Multiples) 与同心圆飞轮腿化解超高速位移视觉频闪跳帧",
+        "intents": ["在角色 1-2 帧内跨越大半个屏幕的极端高速动作中设计单帧残影涂抹画 (Smears)", "在高速击拳或舞动极值帧中绘制多重重叠肢体 (Multiples) 模拟相机长曝光", "为卡通极速狂奔设计风火轮飞轮腿 (Whirlwind Legs) 与环状烟雾残影消除跳帧"],
+        "keywords": ["残影涂抹", "Smears", "多重肢体", "Multiples", "飞轮腿", "Whirlwind Legs", "高速狂奔", "频闪排障"],
+        "also_read": ["runs-jumps-airborne", "timing-spacing-charts"],
+        "desc": "单帧残影涂抹、多重肢体与旋转飞轮腿消除极端高速运动视觉频闪的视觉工程。不适用于写实慢速踱步。",
+        "tags": ["animation", "smears", "multiples", "fast-runs", "vfx"],
+        "loc": "Chapter 'Runs, Jumps and Skips', pp. 211–227"
+    },
+    {
+        "slug": "flipping-inbetween-diagnostics",
+        "title": "五指翻页法、中间画排障与动画工程自检",
+        "importance": "high",
+        "importance_rationale": "动画大师黄金物理自检神技，连续高速翻页直击空间抖动、体积呼吸缩放、弧线折断与中割生硬",
+        "one_liner": "运用五指翻页法高速搓动对比极值与过渡帧，排查穿模抖动、容积漂移、关节糖纸扭曲与弧线断裂",
+        "intents": ["掌握五指翻页手势 (The Five-Finger Flip) 连续高速对比相邻原画运动流动性", "排查动画制作中的四大致命病灶：空间抖动、体积呼吸缩放、弧线折断与中割生硬", "修正中割中间画中的切线相碰与旋转时肢体向内凹陷的“糖纸扭曲”缺陷"],
+        "keywords": ["五指翻页法", "Flipping", "中间画排障", "Inbetweening", "容积守恒", "弧线追踪", "工程自检", "抗抖动"],
+        "also_read": ["keys-extremes-breakdowns", "arcs-waves-whips"],
+        "desc": "五指高速翻页对比、空间轨迹弧线追踪与中间画解剖体积守恒工程排障自检规程。不适用于静态单帧修图。",
+        "tags": ["animation", "flipping", "diagnostics", "inbetweening", "quality-control"],
+        "loc": "Chapter 'Animation Basics', pp. 20–34"
+    }
+]
+
+destinations_map = {}
+capabilities = []
+
+for c in caps_data:
+    cid = f"cap.animators-survival-kit.{c['slug']}"
+    destinations_map[cid] = {
+        "target_pack_slug": "animators-survival-kit",
+        "target_skill_slug": "animators-survival-kit",
+        "action": "create"
+    }
+    
+    capabilities.append({
+        "capability_id": cid,
+        "revision": 1,
+        "status": "active",
+        "aliases": [],
+        "supersedes": [],
+        "merged_into": None,
+        "split_into": [],
+        "slug": c["slug"],
+        "title": c["title"],
+        "importance": c["importance"],
+        "importance_rationale": c["importance_rationale"],
+        "one_liner": c["one_liner"],
+        "intents": c["intents"],
+        "keywords": c["keywords"],
+        "also_read": c["also_read"],
+        "card": f"cards/{c['slug']}.md",
+        "frontmatter": {
+            "description": c["desc"],
+            "tags": c["tags"]
+        },
+        "source_evidence": [{"source_id": "src-main-book", "location": c["loc"]}],
+        "promotion": {
+            "destination": "router",
+            "gate": {
+                "independent_intent": False,
+                "independent_contract": True,
+                "independent_run": True,
+                "independent_reuse": False,
+                "independent_eval": True
+            },
+            "notes": "Single 模式下归入主入口统一路由"
+        }
+    })
+
+bundle = {
+    "schema_version": 1,
+    "bundle_id": "bundle.animators-survival-kit",
+    "book": {
+        "title": "动画师生存手册 (The Animator's Survival Kit)",
+        "source_pack": "books/animators-survival-kit",
+        "edition": "Expanded Edition",
+        "authors": ["Richard Williams"],
+        "year": 2009,
+    },
+    "entry": {
+        "name": "animators-survival-kit",
+        "description": "经典手绘与三维/游戏动画运动规律、时间掌握、步态力学与表演艺术第一工程手册。涵盖耗时帧数与位移距离绝对分离的时空双轴标尺与原画轨目表设计 (Timing, Spacing & Inbetweening Charts)、关键帧立意/极值帧定界/过渡原画决定弧线与倾向的四级分级工程 (Keys, Extremes & Breakdowns)、接触/下沉/越过/最高四大黄金姿态与 24/16/12/8 帧步频标尺人类标准行走步态 (Standard Human Walk Locomotion)、完全离地腾空悬浮期与跳跃蓄力滞空受压全周期 (Runs, Jumps & Airborne Dynamics)、自由落体加速度与恒定容积挤压重力沉降 (Weight & Settle)、发力前反向蓄力预感与制动超量 10%-20% 阻尼振荡 (Anticipation & Overshoot)、圆滑弧线轨迹与正弦波反转多级鞭打效应 (Arcs of Action, Waves & The Whip)、主动力源先行与次级附属物参差滞后拖尾跟随 (Overlapping Action & Drag)、8 大核心视素嘴型比音频提前 2-4 帧开启与身体重音同步 (Dialogue, Phonemes & Bodily Accents)、脚尖触地与重心落差变异演化潜行/阔步/跛行个性步态 (Character Walks & Personality)、单帧存活干刷涂抹/多重肢体与飞轮腿抗频闪排障 (Smears, Multiples & Whirlwind Runs)、五指翻页法与容积漂移/弧线折断/糖纸扭曲中间画工程排障自检 (Flipping & Inbetween Diagnostics) 黄金法则规范。",
+        "core_principles": [
+            "时间（Timing，耗费多少帧）是动作的速度，空间（Spacing，两帧间位移距离分布）是速度的分布与力感。增加帧数改变时间，调整距离分布改变重量感，二者严禁混淆。",
+            "过渡原画决定动作的一切（The Breakdown dictates the action）：关键帧表达剧情意图，极值帧界定空间边界，而过渡原画决定动作走哪条弧线以及身体部位的优先与滞后倾向。",
+            "人类标准行走是一台倒单摆重力引擎，严格由四大黄金姿态循环驱动：双脚触地接触位（Contact）、前膝弯曲下沉位（Down，全周期最低点）、单腿越过位（Passing）与脚跟离地抬起最高位（High，全周期最高点），伴随骨盆胸廓反向倾斜代偿。",
+            "奔跑与行走的根本分水岭是完全离地腾空悬浮期（Airborne Phase）：真正的奔跑必须有 1-3 帧双脚完全脱离地面，前倾角与速度成正比；跳跃运动顶点必须赋予滞空悬停（Hang Time）。",
+            "关节点轨迹绝对遵循圆滑弧线（The Law of Arcs）：生命肢体绕轴旋转严禁走直线折角中割；多级串联关节遵循正弦波反向折叠与手柄急停鞭打效应（The Whip）。",
+            "任何剧烈自主动作必须具备反向蓄力预感（Anticipation），制动刹车时必须冲过目标位 10%-20% 进行超量过冲（Overshoot）与多级弹簧阻尼沉降（Settle）。",
+            "口型视素必须比声学发音提前 2-4 帧开启（Dialogue 2-4 Frames Advance），精简非重音音节，台词主重音与角色头部/手势身体重音严格同频共振。"
+        ],
+        "out_of_scope": [
+            "静态二维海报排版与印刷拼版工程",
+            "机械刚体工业齿轮啮合与液压阀门工程制图",
+            "纯音频声学滤波与降噪算法混音工程"
+        ],
+        "stop_conditions": [
+            "用户仅咨询静态平面印刷排版或工业齿轮机械制图，不涉及动画运动规律、时间掌握、步态力学与表演时判停",
+            "已输出明确的轨目表设计、四大行走黄金姿态参数、奔跑腾空时序、弧线修正方案、口型2-4帧超前量规范或个性步态参数时判停"
+        ]
+    },
+    "router_entry": {
+        "name": "animators-survival-kit",
+        "description": "理查德·威廉姆斯动画师生存手册运动规律工程手册。提供时空双轴标尺与原画轨目表、关键帧与过渡原画分级、标准行走四大黄金帧与步频标尺、奔跑腾空与跳跃全周期、重力沉降与多级阻尼、动作预感与超量反冲、弧线轨迹与多级鞭打、多级滞后重叠拖尾、对白口型 2-4 帧超前量与身体重音、潜行跛行个性步态演化、高速奔跑残影多重肢体与五指翻页排障工程支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+schemas_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\schemas")
+registry = Registry()
+for s in schemas_dir.glob("*.schema.json"):
+    data = json.loads(s.read_text(encoding="utf-8"))
+    res = Resource.from_contents(data)
+    schema_id = data.get("$id", f"https://cangjie-skill.org/schemas/{s.name}")
+    registry = registry.with_resource(schema_id, res)
+    registry = registry.with_resource(f"https://cangjie-skill.org/schemas/{s.name}", res)
+
+bundle_schema = json.loads((schemas_dir / "capability-bundle.schema.json").read_text(encoding="utf-8"))
+validator = jsonschema.Draft202012Validator(bundle_schema, registry=registry)
+validator.validate(instance=bundle)
+print("Schema validation with offline registry: PASS 100%!")
+
+out_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\animators-survival-kit\.cangjie\capabilities\verified.yaml")
+out_path.write_text(yaml.safe_dump(bundle, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+print(f"Written verified.yaml successfully: {out_path}")
+
+dest_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\animators-survival-kit\.cangjie\capabilities\destinations.json")
+dest_path.write_text(json.dumps({
+    "bundle_id": bundle["bundle_id"],
+    "destinations": destinations_map
+}, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Updated destinations.json successfully: {dest_path}")

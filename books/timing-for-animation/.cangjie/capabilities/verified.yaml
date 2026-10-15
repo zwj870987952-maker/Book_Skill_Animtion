@@ -1,0 +1,501 @@
+schema_version: 1
+bundle_id: "bundle.timing-for-animation"
+book:
+  title: "动画的时间掌握"
+  author: "哈罗德·威特克 & 约翰·哈拉斯"
+  source_pack: "timing-for-animation"
+  baseline_tag: "v2.5.0"
+
+entry:
+  name: "timing-for-animation"
+  description: "动画时间掌握、帧数计算、节奏调校与运动规律工程手册。涵盖时空双轴标尺、慢入慢出缓动、动作预感、多级关节延迟、重量感自由落体、人类双足行走奔跑、四足动物步态、对白口型提前量、摄影机平移防频闪与高速动作跳帧排障。"
+  core_principles:
+    - "动画的重力与力量不是画出来的，而是由帧数（Timing）与空间位移间距（Spacing）共同决定的。"
+    - "任何动作必须满足视知觉闭环：反向预备蓄力（Anticipation）➔ 极速爆发 ➔ 惯性过冲 ➔ 充分停顿（Hold 8-16帧）。"
+    - "多级关节必须呈鞭梢状错落延迟到达，严禁所有肢体在同一帧同步停滞。"
+    - "人类视觉感知慢于听觉约40毫秒，对白口型与动作重音必须比音频发声点提前1-2帧对齐。"
+    - "极速位移严禁画平庸中间画，必须使用 Smear 变形张或速度线桥接以消除视网膜频闪跳帧。"
+  out_of_scope:
+    - "剧本文学剧作构思与台词写作"
+    - "角色概念设定与二维上色美术绘制细节"
+    - "3D 角色材质贴图渲染器 Shader 编写"
+  stop_conditions:
+    - "用户仅需纯文本剧本创作，不涉及动画逐格动作设计时判停"
+    - "已完成帧数计算、间距标尺与关键姿态律表输出时判停"
+
+router_entry:
+  name: "timing-for-animation"
+  description: "《动画的时间掌握》单路由总入口，按用户具体动作任务分发至时空双轴、加减速、预备、关节延迟、重力、步态、口型、摄影机平移等 12 项专业能力卡。"
+
+promotion_budget: 8
+
+capabilities:
+  - capability_id: "cap.timing.timing-spacing-core"
+    revision: 1
+    status: active
+    slug: "timing-spacing-core"
+    title: "动画时空双轴与单双格决策法则"
+    importance: critical
+    importance_rationale: "全书基石底座，解决动画总帧数换算、曝光张数与单格双格拍摄的工业级决策"
+    one_liner: "按 24fps 换算总帧数，中慢速优先双格防抖，高速与运镜强制单格"
+    intents:
+      - "计算动作总帧数与画稿张数"
+      - "决定采用单格还是双格拍摄"
+      - "消除动作机械匀速感"
+    keywords:
+      - "timing"
+      - "spacing"
+      - "单格"
+      - "双格"
+      - "on 1s"
+      - "on 2s"
+      - "dope sheet"
+    also_read:
+      - "slow-in-slow-out"
+      - "weight-force-calculator"
+      - "camera-motion-timing"
+    card: "cards/timing-spacing-core.md"
+    frontmatter:
+      description: "用于规划动作总帧数、画稿张数与单格双格拍摄决策。不适用于纯剧本创作。"
+      tags: [timing, spacing, dope-sheet, framerate]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 4–5 页、第 10–15 页、第 46–47 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+      notes: "用户指定 single 交付模式，作为核心能力归入主路由"
+
+  - capability_id: "cap.timing.slow-in-slow-out"
+    revision: 1
+    status: active
+    slug: "slow-in-slow-out"
+    title: "慢进慢出与非线性空间切分法则"
+    importance: critical
+    importance_rationale: "动画弹性与真实加速度的核心算法，对应数字软件贝塞尔曲线切线斜率"
+    one_liner: "利用对半切分法则在两端极值密排中间画，构建平滑 S 曲线"
+    intents:
+      - "调节动作的起动加速与刹车减速"
+      - "排布中间画的间距标尺"
+      - "调节曲线编辑器贝塞尔切线权重"
+    keywords:
+      - "slow-in"
+      - "slow-out"
+      - "ease-in"
+      - "ease-out"
+      - "halving"
+      - "对半切分"
+      - "间距标尺"
+    also_read:
+      - "timing-spacing-core"
+      - "anticipation-execution"
+      - "weight-force-calculator"
+    card: "cards/slow-in-slow-out.md"
+    frontmatter:
+      description: "用于设计物体起步与停顿的加减速间距切分，调节曲线平滑度。不适用于垂直砸地瞬间。"
+      tags: [ease-in-out, slow-in, slow-out, spacing-chart]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 36–41 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.anticipation-execution"
+    revision: 1
+    status: active
+    slug: "anticipation-execution"
+    title: "动作预感时空配比与蓄力机制"
+    importance: high
+    importance_rationale: "解决高速动作看不清、打击感软弱的问题，赋予角色势能积累"
+    one_liner: "反向蓄力时间为主动作的 2.0-3.0 倍，反向位移占比 15%-30%"
+    intents:
+      - "设计挥拳、跳跃、冲刺前的蓄力动作"
+      - "解决动作太快观众视网膜漏看的问题"
+      - "建立打击感与动作力量"
+    keywords:
+      - "anticipation"
+      - "动作预感"
+      - "蓄力"
+      - "反向预备"
+      - "staging"
+    also_read:
+      - "slow-in-slow-out"
+      - "hold-and-reaction"
+      - "fast-action-troubleshooting"
+    card: "cards/anticipation-execution.md"
+    frontmatter:
+      description: "用于设计高爆发力动作前的反向蓄力与视网膜聚焦时间。不适用于无预知的突发意外受击。"
+      tags: [anticipation, staging, punch, jump]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 6 页、第 50–51 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.follow-through-overlapping"
+    revision: 1
+    status: active
+    slug: "follow-through-overlapping"
+    title: "多级关节鞭梢时序与交搭延迟"
+    importance: critical
+    importance_rationale: "消除角色木偶僵硬感、构建有机柔软生命体动作的核心"
+    one_liner: "自主动力源向末梢逐级向后推移 1-2 帧延迟，形成 S 型拖拽弧线"
+    intents:
+      - "制作头发、披风、尾巴等柔性次级运动"
+      - "打破全身关节在同一帧同步停滞的僵硬感"
+      - "调节手臂挥舞与鞭梢运动"
+    keywords:
+      - "follow-through"
+      - "overlapping"
+      - "追随动作"
+      - "交搭动作"
+      - "frame-offset"
+      - "drag"
+    also_read:
+      - "timing-spacing-core"
+      - "inanimate-physics"
+      - "walk-run-cycles"
+    card: "cards/follow-through-overlapping.md"
+    frontmatter:
+      description: "用于多级关节链条与次级柔性物体运动的时差错位调节。不适用于刚体机械碰撞。"
+      tags: [overlapping, follow-through, joint-delay, secondary-animation]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 32–35 页、第 52–55 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.weight-force-calculator"
+    revision: 1
+    status: active
+    slug: "weight-force-calculator"
+    title: "质量、重力与落体碰撞计算表"
+    importance: high
+    importance_rationale: "提供下落二次方间距表与重量感触地挤压停顿决策，消除飘浮感"
+    one_liner: "下落遵循二次方间距（1:3:5:7:9），重物落地 0 反弹并强制 Hold 12-20 帧"
+    intents:
+      - "计算不同重量物体的自由下落与弹跳帧数"
+      - "制作跳跃落地与重物砸地碰撞"
+      - "消除物体落地像气球的漂浮失重感"
+    keywords:
+      - "weight"
+      - "gravity"
+      - "二次方间距"
+      - "squash"
+      - "heavy-hold"
+      - "落地缓冲"
+    also_read:
+      - "timing-spacing-core"
+      - "slow-in-slow-out"
+      - "inanimate-physics"
+    card: "cards/weight-force-calculator.md"
+    frontmatter:
+      description: "用于根据质量与材质计算自由下落间距、触地挤压形变与接地停顿。不适用于零重力环境。"
+      tags: [weight, gravity, impact, squash-stretch, physics]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 18–19 页、第 24–27 页、第 58–65 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.walk-run-cycles"
+    revision: 1
+    status: active
+    slug: "walk-run-cycles"
+    title: "人类步态时序与情绪步频律表"
+    importance: critical
+    importance_rationale: "动画工业最高频日常需求，提供无滑步、四核心姿态的确定性步频标准"
+    one_liner: "标准走步单步 12 帧，奔跑单步 6 帧带全腾空相，严密对齐 Contact/Down/Passing/Up"
+    intents:
+      - "制作人类无缝行走与跑步循环动画"
+      - "消除脚底打滑（Foot sliding）"
+      - "根据角色情绪定制不同步频"
+    keywords:
+      - "walk-cycle"
+      - "run-cycle"
+      - "行走循环"
+      - "跑步循环"
+      - "contact"
+      - "down"
+      - "passing"
+      - "up"
+    also_read:
+      - "follow-through-overlapping"
+      - "quadruped-locomotion"
+      - "camera-motion-timing"
+    card: "cards/walk-run-cycles.md"
+    frontmatter:
+      description: "用于制作人类双足行走、奔跑、潜行与跳跃循环律表。不适用于轮式载具或多足动物。"
+      tags: [walk-cycle, run-cycle, locomotion, foot-sliding]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 88–91 页、第 108–109 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.quadruped-locomotion"
+    revision: 1
+    status: active
+    slug: "quadruped-locomotion"
+    title: "四足动物步态时序与脊椎律表"
+    importance: high
+    importance_rationale: "解决四足动物走步顺拐、飞奔机械对称等最高难度生物力学问题"
+    one_liner: "走步按左后-左前-右后-右前三角轮转，飞奔由脊椎伸缩弹簧驱动带腾空相"
+    intents:
+      - "制作狗、猫、马等四足动物行走与奔跑"
+      - "纠正四足动物顺拐与左右对称开合错误"
+      - "设计四足生物飞奔（Gallop）的脊椎波动"
+    keywords:
+      - "quadruped"
+      - "四足动物"
+      - "trot"
+      - "gallop"
+      - "马"
+      - "狗"
+      - "步序"
+    also_read:
+      - "walk-run-cycles"
+      - "follow-through-overlapping"
+    card: "cards/quadruped-locomotion.md"
+    frontmatter:
+      description: "用于四足哺乳动物慢走、小跑与极速飞奔的步序与脊椎时序设计。不适用于昆虫或两足人类。"
+      tags: [quadruped, animal-walk, horse-gallop, trot]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 94–99 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.hold-and-reaction"
+    revision: 1
+    status: active
+    slug: "hold-and-reaction"
+    title: "戏剧停顿与受惊受击反应时钟"
+    importance: high
+    importance_rationale: "动画角色表演与喜剧节奏放大器，规范戏剧停顿（Hold）的生理下限"
+    one_liner: "受击变形 1-2 帧内极速爆发，微震 3 帧后必须绝对静止定格 8-16 帧供观众消化"
+    intents:
+      - "制作受惊、挨打、滑稽 Double-take 反应"
+      - "解决动画节奏匆忙慌乱、包袱抖不响的问题"
+      - "设定表情定格与停顿时间"
+    keywords:
+      - "take"
+      - "double-take"
+      - "hold"
+      - "反应动作"
+      - "定格"
+      - "喜剧节奏"
+    also_read:
+      - "anticipation-execution"
+      - "fast-action-troubleshooting"
+    card: "cards/hold-and-reaction.md"
+    frontmatter:
+      description: "用于角色受惊、挨打及喜剧反差表演中的瞬间变形与停顿定格排期。不适用于严肃纪录片动作捕捉。"
+      tags: [take, hold, comedy-timing, acting, reaction]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 48–49 页、第 68–69 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.dialogue-lip-sync"
+    revision: 1
+    status: active
+    slug: "dialogue-lip-sync"
+    title: "视听对齐提前量与对白口型同步"
+    importance: high
+    importance_rationale: "解决声画不同步、口型滞后假唱的核心神经生理学补偿工程法则"
+    one_liner: "闭唇音提前 2 帧闭合，元音峰值提前 1 帧到达，身体重音动作提前 2-3 帧触底"
+    intents:
+      - "根据对白录音波形制作口型动画"
+      - "解决口型总是慢半拍对不上声音的问题"
+      - "排布角色讲话时的头部与手势重音动作"
+    keywords:
+      - "lip-sync"
+      - "口型同步"
+      - "对白"
+      - "visual-lead"
+      - "提前量"
+      - "phonetic"
+    also_read:
+      - "timing-spacing-core"
+      - "hold-and-reaction"
+    card: "cards/dialogue-lip-sync.md"
+    frontmatter:
+      description: "用于面部表情口型与对白音频波形的毫秒级对齐及重音动作同步。不适用于远景无口型镜头。"
+      tags: [lip-sync, dialogue, audio-alignment, phonetics]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 114–121 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.camera-motion-timing"
+    revision: 1
+    status: active
+    slug: "camera-motion-timing"
+    title: "摄影机平移摇移与防频闪控制"
+    importance: high
+    importance_rationale: "视听摄制工程红线，防止背景大面积横移引发视网膜频闪眩晕与倒流错觉"
+    one_liner: "摄影机移动强制全层级单格拍摄，避开竖向线条共振速度带，脚步与背景位移绝对锁定"
+    intents:
+      - "计算摄影机平移摇镜头（Pan）安全速度"
+      - "消除背景横移时的剧烈频闪（Strobing）与眩晕"
+      - "锁定角色在平移背景上的奔跑相对位移"
+    keywords:
+      - "camera-pan"
+      - "摄影机平移"
+      - "频闪"
+      - "strobing"
+      - "parallax"
+      - "视差"
+    also_read:
+      - "timing-spacing-core"
+      - "walk-run-cycles"
+      - "fast-action-troubleshooting"
+    card: "cards/camera-motion-timing.md"
+    frontmatter:
+      description: "用于摄影机摇移速度计算、防频闪工程排障与背景平移对齐。不适用于固定机位镜头。"
+      tags: [camera-pan, strobing, cinematography, panning-speed]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 124–127 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.fast-action-troubleshooting"
+    revision: 1
+    status: active
+    slug: "fast-action-troubleshooting"
+    title: "极速运动跳帧排障与残影补偿"
+    importance: high
+    importance_rationale: "解决极速爆发动作中视网膜无法融合画面导致的鬼影闪烁与跳帧断裂"
+    one_liner: "少于 4 帧大位移严禁画写实中间画，采用 Smear 扇形变形张或速度线桥接起止点"
+    intents:
+      - "制作极速挥刀、出拳、瞬移闪避动作"
+      - "消除动作太快产生的脱节跳帧与鬼影闪烁"
+      - "绘制风格化残影变形张（Smear frame）"
+    keywords:
+      - "smear"
+      - "speed-lines"
+      - "速度线"
+      - "残影"
+      - "fast-action"
+      - "跳帧排障"
+    also_read:
+      - "anticipation-execution"
+      - "camera-motion-timing"
+      - "hold-and-reaction"
+    card: "cards/fast-action-troubleshooting.md"
+    frontmatter:
+      description: "用于极速击打与超大跨度位移中的 Smear 变形张、速度线绘制与跳帧排障。不适用于慢速平稳动作。"
+      tags: [smear-frame, speed-lines, fast-action, strobing-fix]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 42–43 页、第 102–107 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true
+
+  - capability_id: "cap.timing.inanimate-physics"
+    revision: 1
+    status: active
+    slug: "inanimate-physics"
+    title: "简谐阻尼振荡等时性与摆动物体法则"
+    importance: medium
+    importance_rationale: "提供无生命单摆、弹簧与刚体弹性衰减的经典物理等时性计算模型"
+    one_liner: "振幅指数衰减但往复周期帧数严格恒定，两端正弦极度慢进慢出"
+    intents:
+      - "制作钟摆、吊灯、树枝弹回、天线晃动动画"
+      - "解决物体振动在快停下时越摆越快的物理故障"
+      - "计算阻尼衰减各轮极值振幅"
+    keywords:
+      - "pendulum"
+      - "单摆"
+      - "等时性"
+      - "isochronism"
+      - "阻尼振荡"
+      - "harmonic"
+    also_read:
+      - "follow-through-overlapping"
+      - "weight-force-calculator"
+      - "slow-in-slow-out"
+    card: "cards/inanimate-physics.md"
+    frontmatter:
+      description: "用于单摆、吊绳与弹性体简谐阻尼振动的等时性与衰减律表设计。不适用于生物自主驱动肢体。"
+      tags: [pendulum, oscillation, damping, harmonic-physics]
+    source_evidence:
+      - source_id: "timing-for-animation"
+        location: "第 24–31 页、第 56–57 页"
+    promotion:
+      destination: router
+      gate:
+        independent_intent: true
+        independent_contract: true
+        independent_run: true
+        independent_reuse: true
+        independent_eval: true

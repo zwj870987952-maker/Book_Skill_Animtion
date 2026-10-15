@@ -1,0 +1,16 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.force-character-design.opinion-hierarchy-concept | 主观观点与金字塔层级核心设计哲学 | critical | 建立角色设计的核心主观观点与生物隐喻；遵循金字塔层级自顶向下决策防止过早陷入细节；排查照相机式客观抄袭模特导致的千人一面缺陷 | 主观观点、Opinion、金字塔层级、Hierarchy、冒险精神、Risk、角色隐喻、核心故事 | capabilities/opinion-hierarchy-concept.md |
+| cap.force-character-design.pushing-poses-amazing-angles | 极限推挤姿态与 45° 强角施加力 | critical | 将写实人体的平淡姿态推向戏剧性运动极值；应用 45° 神奇角度施加力激发强张力反弹曲线；在极限推挤中保持身体各体块的反向倾斜受力平衡 | 推挤姿态、Pushing Poses、神奇角度、Amazing Angles、45度角、施加力、极值夸张 | capabilities/pushing-poses-amazing-angles.md |
+| cap.force-character-design.spatial-bounding-box-depth | 空间包围盒系统：尺寸与位置决定深度 | critical | 在二维纸面构建角色体块的三维空间进深与体积；应用尺寸即深度定律处理剧烈透视缩短 (Foreshortening)；运用位置即深度定律与重叠遮挡界定空间绝对坐标 | 空间包围盒、Spatial Bounding Box、尺寸即深度、Size Equals Depth、位置即深度、透视缩短、空间进深 | capabilities/spatial-bounding-box-depth.md |
+| cap.force-character-design.forceful-shape-triangle | 力量形状抽象与动能引导三角形 | critical | 将人体复杂解剖提炼为纯粹的非对称力量形状；应用动能三角形锐角箭头引导观众视线流动；避免等腰三角形几何静态锁死并建立明确运动矢量 | 力量形状、Forceful Shape、动能三角形、Forceful Triangle、直曲对抗、视线引导、锐角箭头 | capabilities/forceful-shape-triangle.md |
+| cap.force-character-design.shape-bounding-box-asymmetry | 形状包围盒与三分法则不对称黄金分割 | critical | 运用大几何形状包围盒统摄复杂人体轮廓与碎衣褶；应用三分法则定位力量曲线最高凸起顶点 (Apex)；排查 50% 居中对称圆弧导致的软弱无方向线条缺陷 | 形状包围盒、Shape Bounding Box、三分法则、Law of Thirds、不对称性、Apex、加速度 | capabilities/shape-bounding-box-asymmetry.md |
+| cap.force-character-design.facial-ratios-caricature | 面部戏剧化比例重构与五官特征夸张 | high | 重构面部三庭比例以匹配角色的戏剧性格原型；设计具有极端性格辨识度的五官间距与几何外框；排查套用古典写实均分比例导致的平庸千人一面病 | 面部比例、Facial Ratios、夸张、Caricature、三庭五眼、性格解构、五官力学 | capabilities/facial-ratios-caricature.md |
+| cap.force-character-design.tone-value-visual-staging | 明度层次与视觉重心舞台化调度 | high | 运用 3-4 阶明度系统规划角色的舞台化明暗层次；将最强明度反差 (白 vs 黑) 精准投放在故事核心焦点；排查明度碎花布杂乱与全画糊成中性灰的构图缺陷 | 明度系统、Tone、Value、舞台调度、Staging、最高反差、视觉焦点、黑白灰 | capabilities/tone-value-visual-staging.md |
+| cap.force-character-design.color-theory-character-costume | 色彩心理学与服装道具叙事动力学 | high | 基于冷暖色温与色彩心理学为角色构建专属色板；利用色彩重音 (Color Accent) 瞬间锚定第一视觉焦点；在服装与道具设计中融入重力悬挂、磨损与身体代偿力矩 | 色彩理论、Color Theory、冷暖对比、色彩心理学、服装设计、Costume、生活磨损、道具重力 | capabilities/color-theory-character-costume.md |
+| cap.force-character-design.life-reportage-to-character | 现场生活纪实速写向风格化角色演化 | critical | 在 5-30 秒内抓捕非受控路人的真实生理重心与微动作；将生活观察提炼为主观观点并施加 150% 风格化夸张；避免学院派死板摆拍感，赋予角色浓厚的人情味与烟火气 | 现场纪实、Reportage、生活观察、自然重心、微动作、Mannerisms、角色蜕变 | capabilities/life-reportage-to-character.md |
+| cap.force-character-design.character-layout-staging | 角色群戏排版布局与镜头视线引导 | high | 排布多角色同框时的舞台主从层级与视觉第一焦点；运用高低错落 (Staggering) 与肢体遮挡 (Overlap) 构建纵深；设计角色间的动作与视线闭环，防止视觉能量射出画框 | 角色排版、Character Layout、群戏舞台调度、Staging、空间重叠、视线闭环、构图母题 | capabilities/character-layout-staging.md |
+| cap.force-character-design.architecture-with-character | 场景环境与建筑体量拟人化生命律动 | high | 赋予场景建筑与无机道具以生动的角色性格与情绪隐喻；运用受压外凸与微倾斜表现建筑承托数吨重力的物理张力；协调环境透视与角色地平线，消除角色与背景互不兼容感 | 角色化建筑、Architecture with Character、建筑拟人化、重力下沉、结构张力、场景呼吸感 | capabilities/architecture-with-character.md |
+| cap.force-character-design.anthropomorphic-animal-design | 动物拟人化与兽性向人性性格重构 | high | 设计解剖可信且性格鲜明的拟人化动物角色 (Furry/Creature)；保留物种专属的下肢运动力学特征 (如猫犬趾行悬空飞节)；赋予动物面部以清晰的人类眼白与眉毛微表情以传递复杂内心戏 | 动物拟人化、Anthropomorphic Animals、兽性格重构、飞节保留、生物力学嫁接、社会原型 | capabilities/anthropomorphic-animal-design.md |

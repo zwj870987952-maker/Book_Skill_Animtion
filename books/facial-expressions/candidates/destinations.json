@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "capabilities": {
+    "cap.facial-expressions.cranial-landmarks-geometry": "cards/cranial-landmarks-geometry.md",
+    "cap.facial-expressions.frontalis-corrugator-eyebrow-dynamics": "cards/frontalis-corrugator-eyebrow-dynamics.md",
+    "cap.facial-expressions.orbicularis-oculi-eyelid-mechanics": "cards/orbicularis-oculi-eyelid-mechanics.md",
+    "cap.facial-expressions.extraocular-gaze-saccade": "cards/extraocular-gaze-saccade.md",
+    "cap.facial-expressions.nasalis-levator-midface": "cards/nasalis-levator-midface.md",
+    "cap.facial-expressions.orbicularis-oris-lip-mechanics": "cards/orbicularis-oris-lip-mechanics.md",
+    "cap.facial-expressions.zygomaticus-risorius-smile-vector": "cards/zygomaticus-risorius-smile-vector.md",
+    "cap.facial-expressions.depressors-mentalis-mouth-corners": "cards/depressors-mentalis-mouth-corners.md",
+    "cap.facial-expressions.masseter-temporalis-tmj-mechanics": "cards/masseter-temporalis-tmj-mechanics.md",
+    "cap.facial-expressions.fat-pads-soft-tissue-wrinkles": "cards/fat-pads-soft-tissue-wrinkles.md",
+    "cap.facial-expressions.duchenne-smile-vs-social-mask": "cards/duchenne-smile-vs-social-mask.md",
+    "cap.facial-expressions.seven-universal-emotions-facs": "cards/seven-universal-emotions-facs.md"
+  },
+  "book_files": {
+    "overview": "book/overview.md",
+    "glossary": "book/glossary.md"
+  }
+}

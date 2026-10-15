@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.animators-survival-kit",
+  "destinations": {
+    "cap.animators-survival-kit.timing-spacing-charts": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.keys-extremes-breakdowns": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.standard-walk-locomotion": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.runs-jumps-airborne": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.weight-gravity-settle": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.anticipation-overshoot-recoil": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.arcs-waves-whips": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.overlapping-action-drag": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.dialogue-phonemes-accents": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.character-walks-personality": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.fast-runs-smears-multiples": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    },
+    "cap.animators-survival-kit.flipping-inbetween-diagnostics": {
+      "target_pack_slug": "animators-survival-kit",
+      "target_skill_slug": "animators-survival-kit",
+      "action": "create"
+    }
+  }
+}

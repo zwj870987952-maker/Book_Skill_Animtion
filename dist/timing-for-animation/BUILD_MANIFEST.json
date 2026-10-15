@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\anticipation-execution.md": "7d0d951063ed004b1e2ec9a7939378cf9e05999f1995acbfd12300ce18af2771",
+    "references\\capabilities\\camera-motion-timing.md": "f0b67f1bc3aafada7d0032438fd59e05ebeb85270a6f024f1d1b32b0d786ed3a",
+    "references\\capabilities\\dialogue-lip-sync.md": "0847f486eaa5893d6652ab9125b0a5e6cc104f44573b1b64eb6a0cbf2497bb59",
+    "references\\capabilities\\fast-action-troubleshooting.md": "e95bc9da10ef9d8eababbbd5f372b935c977a49d3f991c9652dbbd943ffb72cf",
+    "references\\capabilities\\follow-through-overlapping.md": "0299008a802b83e19d189b1af0fd097689ad528d18dc90330bcdff89565ead44",
+    "references\\capabilities\\hold-and-reaction.md": "7b16b28671fecdfc7e9731baaeadb148831c6751f9f351ab14342ccd57676ec3",
+    "references\\capabilities\\inanimate-physics.md": "02ce63c768761a0b5441ead3856fbf59502544b39b8f7351aff04cc1eacd6b3d",
+    "references\\capabilities\\quadruped-locomotion.md": "2c459f94358b8adef2f7bf518b5e1984dd2bae2743b932cb280bd46633ed10d8",
+    "references\\capabilities\\slow-in-slow-out.md": "79c39b953265e93cbb9095d9a90039a912c94278a4754411213043a71081f962",
+    "references\\capabilities\\timing-spacing-core.md": "ccac79527a51011a74cdb14be5e64b07ce86cb467ddedab90220f7d63d889974",
+    "references\\capabilities\\walk-run-cycles.md": "c5db4a2e529293bcd92a858793df60f657f1b21be51e6e23760d020d0e2b4f58",
+    "references\\capabilities\\weight-force-calculator.md": "4ec8af2563fd168c264c0f47d31a62dd2aad918451222ec7113ffcf8d3465f80",
+    "references\\capability-index.md": "6c7e081b54d25eb1c85b2344472bdd4b8b08e2411f994f044f3745bfc5bdd415",
+    "references\\cheatsheet.md": "066b8ecd9eab20e5572d5be84b5043957491d5ce18804784e4e5581ec0472f0d",
+    "references\\glossary.md": "508f58575879e1c062c84ffe8d6ff0089e4b86a3a41ffba20a248d529bb8f9ef",
+    "references\\overview.md": "86d86a347836383a4387cf39331d79cc19cf2260a740cb0b6c4ff1d8c017fbfe",
+    "SKILL.md": "615381bd525b5c102bbf8e1f2da4db5200e8d67a80a9b7513e7528cebd6f112c"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.timing-for-animation",
+  "bundle_sha256": "9db64531ab289a072a9cd295c0b57e8d80e815448962058c44687c7048e71f72",
+  "variant": "single",
+  "run_id": "run-20261006-162627-d3eb95",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

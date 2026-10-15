@@ -1,0 +1,32 @@
+{
+  "suite_id": "hayama-character-design-eval-suite",
+  "seed": 42,
+  "train": [
+    "eval-heroic-facial-expressions-shadow-trigger-2",
+    "eval-drapery-folds-costume-wind-trigger-2",
+    "eval-leg-foreshortening-ground-contact-trigger-1",
+    "eval-torso-box-contrapposto-trigger-2",
+    "eval-hand-construction-power-grip-trigger-2",
+    "eval-gestural-skeleton-line-of-action-trigger-1",
+    "eval-keyframe-layout-supervision-trigger-2",
+    "eval-gestural-skeleton-line-of-action-trigger-2",
+    "eval-heroic-facial-expressions-shadow-trigger-1",
+    "eval-keyframe-layout-supervision-trigger-1",
+    "eval-block-hair-airflow-dynamics-trigger-2",
+    "eval-hand-construction-power-grip-trigger-1",
+    "eval-shoulder-arm-muscular-linkage-trigger-2",
+    "eval-dynamic-silhouette-readability-trigger-1"
+  ],
+  "validation": [
+    "eval-extreme-foreshortening-combat-trigger-2",
+    "eval-cranial-crosshair-3d-rotation-trigger-1",
+    "eval-torso-box-contrapposto-trigger-1",
+    "eval-drapery-folds-costume-wind-trigger-1",
+    "eval-leg-foreshortening-ground-contact-trigger-2",
+    "eval-dynamic-silhouette-readability-trigger-2",
+    "eval-extreme-foreshortening-combat-trigger-1",
+    "eval-block-hair-airflow-dynamics-trigger-1",
+    "eval-cranial-crosshair-3d-rotation-trigger-2",
+    "eval-shoulder-arm-muscular-linkage-trigger-1"
+  ]
+}

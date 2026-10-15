@@ -1,0 +1,171 @@
+=== PAGE 5 ===
+
+=== PAGE 6 ===
+This book is dedicated to my parents and my parents-in-law,
+for their support, kindness, and love…and to Zoe,
+the family hamster; she was a great pet.
+
+=== PAGE 7 ===
+
+=== PAGE 8 ===
+Special Thanks
+In any endeavor, there are many great people behind the scenes that share in a vision
+and allow it to become reality. First and foremost there is my family. My ever-supportive
+wife Ellen and inspiring kids, Marin and Makenna. They consistently encourage me to
+follow my dreams and aspirations.
+To Katy Spencer, my editor at Focal Press, who believed in the value of this book and
+who always responded exquisitely to my demanding emails and phone calls. Lauren
+Mattos, at Focal, thanks for supporting the cause. Melinda Rankin, the Senior Project
+manager on this book, thank you for your clarity and diligence. You helped me perfect
+the book in its final weeks prior to press!
+Sherrie Sinclair, thank you for entrusting me with the students at The Academy of Art
+University in SF and for introducing me to Terryl. Thank you Terryl Whitlatch, you are
+invaluable as a friend and resource, keeping me on track with my anatomy and ideas.
+To you, the reader of my books, whose growth and curiosity I love to feed with my epiph-
+anies of our world, thank you!
+Mike Mattesi
+
+=== PAGE 9 ===
+
+=== PAGE 10 ===
+Many students of animation are understandably challenged by the convincing portrayal
+of animals in motion. The sheer number of different species alone can make this task
+seem overwhelming. Yet, there are basic principles that, when followed, create a useful
+roadmap in negotiating this territory.
+This marriage of biophysics, gravity, time, and motion can be learned and expressed in
+different ways. For some, like myself, it is an intuitive process, from a lifetime, beginning
+in earliest childhood, of unconscious yet focused and intense observation on what makes
+each animal and animal group special unto itself—the beauty first of all of the anatomy
+and then the beauty of that anatomy in action. All animals, from the tortoise to the tiger,
+have their own variation of dance. I was fortunate, through my parents and grandpar -
+ents, to have been constantly exposed to animals of all kinds, from tadpoles to horses,
+nearly all of my life.
+Not everyone, however, has that opportunity, especially in today’s lifestyles where more
+people spend increasingly vast amounts of time indoors staring into digital screens rather
+than outside viewing reality, where animals live and have their being. Thus, there is a
+mental disconnect. What makes the cave paintings at Lascaux and Altamira so living
+and vibrant to this very moment is that those ancient artists abided in the animals’ world
+and observed them every day.
+It is absolutely essential to understand animal anatomy, and indeed, it is a lifelong
+vocation, if one is to become a successful wildlife artist and animator. But to take that
+anatomy and animate it, one must go that extra step. This book is a useful tool and guide
+in doing just that, breaking down motion and form into a formula that is easily grasped
+by both students and professionals alike. Rather than concentrating on anatomical
+subtleties, Michael distills the essence of motion and form, and how they work together,
+looking at the big picture of gesture and action, rather than the morphological details,
+which can be added later depending on the nature of the intended audience, project,
+or artistic vision.
+Thus, this book bridges the gap, and the fact that Michael observed these principles in
+nature, whether in zoos, the countryside, or his own backyard, should likewise  encourage
+all aspiring students of animal art, animation, and creature design to get outside and,
+
+=== PAGE 11 ===
+x Foreword
+Design by Terryl Whitlatch
+This is one of a number of concept sketches for a giant elephant creature, based on
+prehistoric proboscideans, and combined with a bit of sauropod and dimetrodon.
+She's alarmed by something, and has arrested her walk to swivel toward it. It must
+be something significant or unusual, because she has no natural enemies….
+
+=== PAGE 12 ===
+The photo above was taken at The Starlight Cafe in Greenville, North Carolina, in
+December of 2009. I described to my wife, Ellen, the secret sauce for this forCE
+animal drawing book I committed to write. This was the first time I had put my ideas on
+paper. The sketches revealed to me that I had something new to share with the art
+community, and I was very excited to get started.
+Here I am now ten months later, in my basement office—or what Ellen likes to refer to as
+my man cave—a little wiser to and more appreciative of the complexities of drawing
+animals. I have spent a great deal of time at the oakland and San francisco Zoos,
+visited Safari West three times, and spent numerous hours watching videos frame by
+frame from any channel that would telecast animal life. Let me humbly say, my first two
+books were MUCH easier to write and illustrate than this one.
+Preface
+
+=== PAGE 13 ===
+xii Preface
+Force: Animal Drawing and Design describes how the abstract theory of forCE
+relates to the animal kingdom! This book marks the third in the forCE series and rounds
+out the library for drawing live subjects. The ability to draw humans and animals is a
+requirement for a portfolio to secure a job in the world of animation at the top studios.
+These present requirements are the same as sixteen years ago when I was accepted to
+Walt Disney feature Animation. The question to ask here is “Why do Disney and other
+animation studios want you to be capable of drawing people and animals?” To help
+answer this question, let me begin with another question: “Why do we bother drawing
+a live human being in the first place?”
+The answer to this question is … (drum roll) because you and I are human beings and,
+due to this fact, we can rELATE to the human model. We can understand physically
+what the model is experiencing because we are extremely similar to him or her. We
+understand how the model's body works, pulls, stretches, and bends. We understand
+that certain poses tell certain stories and represent emotions. A slumped-over pose
+with a person's hands covering their eyes usually depicts sadness. A pose with arms
+stretched straight above the head, fists clenched, and chest pushed out means tri -
+umph. Imagine rocky Balboa reaching the top of the stairs at the end of his physical
+and emotional journey and then slumping his shoulders forward, bending his head
+down into his hands, and rejoicing in his accomplishments. We are so accustomed
+to what postures signify that we take for granted their universality.
+The above photo of Ollie Johnson, Walt Disney Feature Animator, presents the
+studio’s dedication to studying from life. © Disney.
+
+=== PAGE 14 ===
+Preface xiii
+How does this relate to the entertainment industry or, even better, to this book?
+Everyone else who spends money on the entertainment industry is a human being!
+So what? Well, other human beings are what you can most relate to, right? A film
+about motionless, expressionless rocks will not move you in a heartfelt, entertaining
+manner.
+So why are there so many films with animals representing people? first off, many animal
+emotions are expressed using the same mannerisms and poses in which we humans
+express ours. My theory is that an animal is not a specific human, so more people can
+relate to the specific HUMAN emotions of the character without the need to see past the
+specifics of the character's facade. Sometimes tough subjects can be approached since
+it involves a character one step removed. We have in many ways humanized animals.
+These are some of the reasons why animation studios want to know whether you can
+draw humans and animals. obviously, I did not know any of this when I was attempting
+to obtain a job by learning how to be the best draftsman I could be.
+I am here to tell you I have come full circle in answering why I do it. I draw animals and
+people because I want to CoNNECT to my subjects. I want to empathize with them in
+some deeper manner than just copying what I see. An amazing method of deeper
+expression is Force. Through this method, you learn to understand the abstract ideas of
+forCE and how gravity, anatomy, environment, and many other factors affect the sub-
+jects you are experiencing. The method of drawing with forCE will allow you to better
+experience the physical and emotional expression of your subjects, bringing you closer
+to their experience.
+“our task must be to free ourselves…by widening our
+circle of compassion to embrace all living creatures
+and the whole of nature and its beauty.”
+Albert Einstein
+Here are a few reasons why this forCE animal drawing book is unique:
+1. You will learn how to draw animals through the theory of force.
+2. This book is organized by the different types of animal locomotive anatomy. That
+
+=== PAGE 15 ===
+xiv Preface
+Let's get started with some of my top-level, key concepts learned from the act of drawing.
+Key COnCepTs
+Fear
+Since writing my second book, I have taught at Pixar and DreamWorks, and I am here
+to say that whether or not you are a professional, there is still fear to conquer! fear is
+the most detrimental blockade to the forward pursuit of education. fear comes in all
+forms, some more obvious than others. The top reasons for fear I have witnessed from
+myself and my students are:
+1. fear based on perfection. “My drawing has to be perfect. If it is not, then I have
+failed and thus I am a failure.”
+2. fear of the teacher. “I hope I am doing the right thing.”
+3. fear of judgment. “I don't want others thinking I am stupid.”
+The fastest vehicle out of fear is listening to your internal dialogue. Notice when and why
+you are indecisive or concerned. Allow drawing to be about your experience and curi-
+osity, not the final product. YoU create the fear, so rid yourself of it! It will only slow you
+down. remember, you are drawing, not jumping out of airplanes, hunting sharks, or liv-
+ing in the Depression, so fear nothing!
+“The greatest barrier to success is the fear of failure.”
+Sven Goran Erikkson
+Risk
+To be able to grow, you must take risk, or what you perceive as risk. risk to one indi -
+vidual is the norm to another. Be aware of that. Use your curiosity and passion for
+learning to push through your risks. This is where your courage and pride will come
+from. To have opinion, you MUST be able to take risk! You MUST move beyond your
+fears. You MUST be willing to fall on your face to pursue your creativity and become
+more than who you are today! once you break the bonds of fear, and love feeling risk
+while you work, you will never turn back.
+Opinion
+Strengthening your ability to take greater and greater risks allows you to get out of the

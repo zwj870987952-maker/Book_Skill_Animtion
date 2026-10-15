@@ -1,0 +1,393 @@
+{
+  "version": "1.0.0",
+  "suite_id": "facial-expressions-eval-suite",
+  "book_id": "anatomy-of-facial-expression",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "eval-cranial-landmarks-geometry-trigger-1",
+      "description": "Trigger eval for 头骨解剖标志点与面部几何体块锚定系统 via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现头骨解剖标志点与面部几何体块锚定系统，有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.cranial-landmarks-geometry"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "cranial-landmarks",
+          "skull-anatomy",
+          "bony-landmarks"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-cranial-landmarks-geometry-trigger-2",
+      "description": "Trigger eval for 头骨解剖标志点与面部几何体块锚定系统 via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查头骨解剖标志点与面部几何体块锚定系统相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.cranial-landmarks-geometry"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "skull-anatomy",
+          "bony-landmarks",
+          "glabella"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-depressors-mentalis-mouth-corners-trigger-1",
+      "description": "Trigger eval for 降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.depressors-mentalis-mouth-corners"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "depressor-anguli-oris",
+          "depressor-labii-inferioris",
+          "mentalis"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-depressors-mentalis-mouth-corners-trigger-2",
+      "description": "Trigger eval for 降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.depressors-mentalis-mouth-corners"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "depressor-labii-inferioris",
+          "mentalis",
+          "au15"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-duchenne-smile-vs-social-mask-trigger-1",
+      "description": "Trigger eval for 杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.duchenne-smile-vs-social-mask"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "duchenne-smile",
+          "pan-am-smile",
+          "social-mask"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-duchenne-smile-vs-social-mask-trigger-2",
+      "description": "Trigger eval for 杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.duchenne-smile-vs-social-mask"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "pan-am-smile",
+          "social-mask",
+          "au6"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-extraocular-gaze-saccade-trigger-1",
+      "description": "Trigger eval for 眼外肌与视线扫视协同注视机制（AU 61-64） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现眼外肌与视线扫视协同注视机制（AU 61-64），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.extraocular-gaze-saccade"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "extraocular-muscles",
+          "gaze-direction",
+          "saccade"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-extraocular-gaze-saccade-trigger-2",
+      "description": "Trigger eval for 眼外肌与视线扫视协同注视机制（AU 61-64） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查眼外肌与视线扫视协同注视机制（AU 61-64）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.extraocular-gaze-saccade"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "gaze-direction",
+          "saccade",
+          "au61"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-fat-pads-soft-tissue-wrinkles-trigger-1",
+      "description": "Trigger eval for 面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则 via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则，有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.fat-pads-soft-tissue-wrinkles"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "fat-pads",
+          "malar-pad",
+          "soof"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-fat-pads-soft-tissue-wrinkles-trigger-2",
+      "description": "Trigger eval for 面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则 via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.fat-pads-soft-tissue-wrinkles"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "malar-pad",
+          "soof",
+          "roof"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-frontalis-corrugator-eyebrow-dynamics-trigger-1",
+      "description": "Trigger eval for 枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.frontalis-corrugator-eyebrow-dynamics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "frontalis",
+          "corrugator-supercilii",
+          "procerus"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-frontalis-corrugator-eyebrow-dynamics-trigger-2",
+      "description": "Trigger eval for 枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.frontalis-corrugator-eyebrow-dynamics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "corrugator-supercilii",
+          "procerus",
+          "au1"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-masseter-temporalis-tmj-mechanics-trigger-1",
+      "description": "Trigger eval for 咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.masseter-temporalis-tmj-mechanics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "masseter",
+          "temporalis",
+          "tmj"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-masseter-temporalis-tmj-mechanics-trigger-2",
+      "description": "Trigger eval for 咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.masseter-temporalis-tmj-mechanics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "temporalis",
+          "tmj",
+          "temporomandibular-joint"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-nasalis-levator-midface-trigger-1",
+      "description": "Trigger eval for 鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.nasalis-levator-midface"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "nasalis",
+          "levator-labii-superioris-alaeque-nasi",
+          "au9"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-nasalis-levator-midface-trigger-2",
+      "description": "Trigger eval for 鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.nasalis-levator-midface"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "levator-labii-superioris-alaeque-nasi",
+          "au9",
+          "au38"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-orbicularis-oculi-eyelid-mechanics-trigger-1",
+      "description": "Trigger eval for 眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.orbicularis-oculi-eyelid-mechanics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "orbicularis-oculi",
+          "levator-palpebrae-superioris",
+          "au5"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-orbicularis-oculi-eyelid-mechanics-trigger-2",
+      "description": "Trigger eval for 眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.orbicularis-oculi-eyelid-mechanics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "levator-palpebrae-superioris",
+          "au5",
+          "au6"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-orbicularis-oris-lip-mechanics-trigger-1",
+      "description": "Trigger eval for 口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.orbicularis-oris-lip-mechanics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "orbicularis-oris",
+          "vermilion-border",
+          "au18"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-orbicularis-oris-lip-mechanics-trigger-2",
+      "description": "Trigger eval for 口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.orbicularis-oris-lip-mechanics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "vermilion-border",
+          "au18",
+          "au22"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-seven-universal-emotions-facs-trigger-1",
+      "description": "Trigger eval for 人类七大普适核心情绪与复合微表情 FACS 拓扑合成 via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现人类七大普适核心情绪与复合微表情 FACS 拓扑合成，有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.seven-universal-emotions-facs"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "universal-emotions",
+          "facs-synthesizer",
+          "anger"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-seven-universal-emotions-facs-trigger-2",
+      "description": "Trigger eval for 人类七大普适核心情绪与复合微表情 FACS 拓扑合成 via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查人类七大普适核心情绪与复合微表情 FACS 拓扑合成相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.seven-universal-emotions-facs"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "facs-synthesizer",
+          "anger",
+          "sadness"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-zygomaticus-risorius-smile-vector-trigger-1",
+      "description": "Trigger eval for 颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20） via primary intent",
+      "prompt": "在三维角色表情制作中，如何实现颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20），有哪些关键解剖与动力学规范？",
+      "expected_triggers": [
+        "cap.facial-expressions.zygomaticus-risorius-smile-vector"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "zygomaticus-major",
+          "zygomaticus-minor",
+          "risorius"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-zygomaticus-risorius-smile-vector-trigger-2",
+      "description": "Trigger eval for 颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20） via diagnostic query",
+      "prompt": "角色在表情形变时遇到了相关问题：排查颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20）相关的常见形变反模式与错误，如何根据解剖学进行纠偏？",
+      "expected_triggers": [
+        "cap.facial-expressions.zygomaticus-risorius-smile-vector"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "zygomaticus-minor",
+          "risorius",
+          "levator-anguli-oris"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "suite_id": "eval.illusion-of-life.v1",
+  "seed": 42,
+  "train": [
+    "case-timing-weight-acting-01",
+    "case-distractor-barcode-ean13-01",
+    "case-secondary-action-01",
+    "case-arcs-of-motion-01",
+    "case-distractor-forensic-toxicology-01",
+    "case-distractor-hydraulic-press-01",
+    "case-slow-in-slow-out-01",
+    "case-staging-clarity-01",
+    "case-exaggeration-essence-01"
+  ],
+  "validation": [
+    "case-straight-ahead-pose-to-pose-01",
+    "case-follow-through-overlapping-01",
+    "case-appeal-character-soul-01",
+    "case-squash-and-stretch-01",
+    "case-anticipation-physics-01",
+    "case-solid-drawing-volume-01"
+  ]
+}

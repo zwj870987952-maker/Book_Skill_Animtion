@@ -1,0 +1,101 @@
+{
+  "$schema": "https://cangjie-skill.org/schemas/eval-suite.schema.json",
+  "schema_version": 1,
+  "suite_id": "eval.timing-for-animation",
+  "target": "timing-for-animation",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "trig-01-walk-cycle",
+      "prompt": "我正在做一个角色的双足行走循环动画，总觉得脚底打滑、重心不稳，帮我排一下接触位和起伏帧数。",
+      "expected": "should_trigger"
+    },
+    {
+      "case_id": "trig-02-lip-sync",
+      "prompt": "角色说台词时口型总是感觉慢半拍对不上音轨，怎么在律表上排布口型提前量？",
+      "expected": "should_trigger"
+    },
+    {
+      "case_id": "trig-03-fast-smear",
+      "prompt": "高速挥剑动作只有 2 帧，银幕上出现两个脱节的鬼影闪烁，怎么用残影变形张排障？",
+      "expected": "should_trigger"
+    },
+    {
+      "case_id": "trig-04-weight-drop",
+      "prompt": "模拟铁球从空中垂直掉落地面，帮我计算自由落体的二次方间距和触地停顿帧数。",
+      "expected": "should_trigger"
+    },
+    {
+      "case_id": "trig-05-bait-scriptwriting",
+      "prompt": "帮我写一段两个侦探在雨夜咖啡馆对话的悬疑剧本文本，包含人物台词和心理描写。",
+      "expected": "should_not_trigger"
+    },
+    {
+      "case_id": "trig-06-bait-3d-shader",
+      "prompt": "在 Maya 中编写一个 Arnold 渲染器的次表面散射（SSS）皮肤材质节点网络。",
+      "expected": "should_not_trigger"
+    },
+    {
+      "case_id": "trig-07-bait-daily-schedule",
+      "prompt": "我明天要出差，帮我制定一个早上 8 点到晚上 10 点的行程时间表。",
+      "expected": "should_not_trigger"
+    },
+    {
+      "case_id": "trig-08-edge-camera-pan",
+      "prompt": "镜头横移背景时画面剧烈频闪头晕，这是由于什么引起的？如何调整速度阈值？",
+      "expected": "should_trigger"
+    },
+    {
+      "case_id": "trig-09-edge-concept-art",
+      "prompt": "为一位古代将军设计一身威严厚重的铠甲草图轮廓。",
+      "expected": "should_not_trigger"
+    }
+  ],
+  "output_cases": [
+    {
+      "case_id": "out-01-walk-modulo",
+      "prompt": "计算 24fps 下标准正常人类行走循环中 Contact、Down、Passing、Up 的对应帧号分配与特征。",
+      "assertions": [
+        {
+          "kind": "contains",
+          "value": "Contact"
+        },
+        {
+          "kind": "contains",
+          "value": "Down"
+        },
+        {
+          "kind": "contains",
+          "value": "Passing"
+        },
+        {
+          "kind": "contains",
+          "value": "Up"
+        },
+        {
+          "kind": "contains",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "case_id": "out-02-lip-lead",
+      "prompt": "角色发爆破辅音 P 和元音 OH 时，在摄制表上相对于音频发声点应该提前几格绘制？",
+      "assertions": [
+        {
+          "kind": "contains",
+          "value": "提前"
+        },
+        {
+          "kind": "contains",
+          "value": "2"
+        },
+        {
+          "kind": "contains",
+          "value": "视觉"
+        }
+      ]
+    }
+  ]
+}

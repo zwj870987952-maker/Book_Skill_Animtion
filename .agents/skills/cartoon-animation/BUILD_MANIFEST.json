@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\acting-poses-staging.md": "088eb71430d72886d508dd6a903c028223728e604216958f149d7414dc9684b8",
+    "references\\capabilities\\animal-quadruped-cycles.md": "1d3380694efaef16a3842c8b2608b529b7038e4b5313f9d1234227e29fe2d528",
+    "references\\capabilities\\cartoon-run-locomotion.md": "05a3a9d1171e3903079812ee9896f7e445a1896f3c8c2592f9f10856c091e85a",
+    "references\\capabilities\\cartoon-walk-types.md": "7f28897b3755b66b473754b3eb6e26346a7036894da0e07191c59695be9204ba",
+    "references\\capabilities\\character-construction-proportions.md": "f4aaa63f197494139aeeb40d05a9ba952006bd6cdfaa2518b05d9e8f421cfc88",
+    "references\\capabilities\\dialogue-viseme-mouth-shapes.md": "8730f10797248ca9a2925fc140ade05e793cf386c2e24c8e5f21c4021c9648da",
+    "references\\capabilities\\exaggerated-takes-reactions.md": "7bc8e1d03544f04fc6f18fb74be486265ae4f80c489147fe5246e22eb01fbd52",
+    "references\\capabilities\\exposure-sheet-field-charts.md": "567f8b34300c12369b544bf9279ca464f4258cef4a791781ec37c1fd11f52d40",
+    "references\\capabilities\\facial-expressions-squash-stretch.md": "6c2c812cf3d3f7a5a7bce57b1bb09776c795d588c5a6ccc157693fc4862beaeb",
+    "references\\capabilities\\line-of-action-rhythm.md": "c84a8cea11fad04756bb0ef7d5b96227e2f85b3d6e531dd1605a9dfd66216d2e",
+    "references\\capabilities\\model-sheet-uniformity.md": "f8800996f62633f125b5225fb04dc8afe365e9b659ced162c9538078a89a7989",
+    "references\\capabilities\\wave-action-flexibility.md": "af3492aa6283368f72f48b8e4dd2f49acfa4e52bcd9412079d0ba33b7bee0f04",
+    "references\\capability-index.md": "63ef9071b9dba616d1b62a54e54900d0f640f4cb3371d581d4bc76d90800ba20",
+    "references\\cheatsheet.md": "774e0266c9691ca2571ab1cbe31651858e6cb937491ec9a335a5005bdc7c01fa",
+    "references\\glossary.md": "6c919cc17e8c0d58dabedca97999466f01f02c4e4132b075ac84ce38702d41d4",
+    "references\\overview.md": "6121b35428d02a6a70e101ededee0d0073f364795d2338a6b87e675fc8cc87e0",
+    "SKILL.md": "b939cdc20c39bb1aee873a3a0fb19fe46504eb2bd7d85857f5234df12a227abe"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.cartoon-animation",
+  "bundle_sha256": "7babae7d0633500791fed5e546c03eeef23554b5621d2d6f3d9eb656ac11ca04",
+  "variant": "single",
+  "run_id": "run-20261006-182122-4e743b",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

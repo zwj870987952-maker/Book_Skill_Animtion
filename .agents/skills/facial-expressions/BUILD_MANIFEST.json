@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\cranial-landmarks-geometry.md": "59dc9551cbd5df129bec2b919a24d6f31afe47563bf2cfeca3a759a2e840e9ec",
+    "references\\capabilities\\depressors-mentalis-mouth-corners.md": "d8bd0805de07dc9a552c923113cd53cc4f94fc1f9cbafd6317c0834375184da0",
+    "references\\capabilities\\duchenne-smile-vs-social-mask.md": "dd1c5d20d259e1e0d2a06fc0d099348112a7f76d9740aed63b283a32bc4ac7da",
+    "references\\capabilities\\extraocular-gaze-saccade.md": "ee8e185e180fbaf6e68857923420dde40ed6818f4d7a147f16e05f009d969880",
+    "references\\capabilities\\fat-pads-soft-tissue-wrinkles.md": "57b1432c79bee258fec3dae0c38cc0c1fec0efde4ec0705f81caee201349bc31",
+    "references\\capabilities\\frontalis-corrugator-eyebrow-dynamics.md": "7188a1cf789b6778a374fb29f617ccfbaf066d9fe9332470d68f52bee8b047b7",
+    "references\\capabilities\\masseter-temporalis-tmj-mechanics.md": "4f9dd732f86211ca239d9494ac490569936bdc46255d27dcef09a18badfea620",
+    "references\\capabilities\\nasalis-levator-midface.md": "daaa4a88539d738660cefa8dde8d38413e1cde2d88e40ee28f8417eda11be637",
+    "references\\capabilities\\orbicularis-oculi-eyelid-mechanics.md": "edd7caae55bcc01c1aff382769793a19b72f5fddfc22ae57464582a2b142ff07",
+    "references\\capabilities\\orbicularis-oris-lip-mechanics.md": "a53d8277b5e9b019f8466cfa91a30efeef240e2b6f0b50e48905348a154e34fa",
+    "references\\capabilities\\seven-universal-emotions-facs.md": "49e3954bd91d379f008140f2b1556d067e8fb4f76caa81c8b38403b751074617",
+    "references\\capabilities\\zygomaticus-risorius-smile-vector.md": "9027efbd2033600d83e07174654d8f6e13e737fd6fc1aa019515f41058523159",
+    "references\\capability-index.md": "a474d126e53b7ee01504b3bb351669039f3570f587aed6f6b3cf6441c9a7441f",
+    "references\\cheatsheet.md": "1dcdbe33c186067cf09b7bef600a6027d956b4648815936c09849e0699e34b3e",
+    "references\\glossary.md": "3023caa527ad07999b614729029da9caeab4da87e8c08fce4d420aa264b54c34",
+    "references\\overview.md": "f1531da62c6306ce1c25d4239814afb6fe438621d5fc56dae8950a9a2b9b8cea",
+    "SKILL.md": "62ad9c5df651d8fa308fe5337436aa02d52767f5f6eea56fb02d158e7dcdd9e1"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.facial-expressions",
+  "bundle_sha256": "f77df2424297fd905800ab56411e1f6e6b1847db40c1d0bbd59aaa74ba24b8b8",
+  "variant": "single",
+  "run_id": "run-20261006-212718-75901c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

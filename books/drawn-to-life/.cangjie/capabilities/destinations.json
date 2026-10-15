@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.drawn-to-life",
+  "destinations": {
+    "cap.drawn-to-life.gesture-drawing-vital-force": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.squash-stretch-volume-weight": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.straights-against-curves-design": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.silhouette-clarity-staging": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.opposing-forces-contrapposto-twist": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.line-economy-drawing-calories": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.overlap-follow-through-drag": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.acting-performance-story-pose": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.facial-acting-eye-expression": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.perspective-spatial-depth-environment": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.rhythm-accents-animation-timing": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    },
+    "cap.drawn-to-life.simplicity-caricature-appeal": {
+      "target_pack_slug": "drawn-to-life",
+      "target_skill_slug": "drawn-to-life",
+      "action": "create"
+    }
+  }
+}

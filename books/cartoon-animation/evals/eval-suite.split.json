@@ -1,0 +1,18 @@
+{
+  "suite_id": "eval.cartoon-animation.v1",
+  "seed": 42,
+  "train": [
+    "case-hands-gesture-01",
+    "case-rhythm-curves-01",
+    "case-line-of-action-01",
+    "case-negative-shader-01",
+    "case-take-anticipation-01",
+    "case-dialogue-mouth-01"
+  ],
+  "validation": [
+    "case-negative-web-frontend-01",
+    "case-four-legged-walk-01",
+    "case-construction-head-01",
+    "case-body-mass-01"
+  ]
+}

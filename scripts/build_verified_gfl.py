@@ -1,0 +1,275 @@
+import yaml
+import json
+from pathlib import Path
+import jsonschema
+from referencing import Registry, Resource
+
+caps_data = [
+    {
+        "slug": "axis-of-action-180-rule",
+        "title": "180° 动作轴线守恒与合法越轴规程",
+        "importance": "critical",
+        "importance_rationale": "电影几何学第一公理与受众空间坐标基准，同侧180°半圆机位锁定与移动镜头/走位四种合法越轴规程",
+        "one_liner": "将机位锁定在视线连线同侧 180° 半圆内，熟练掌握移动镜头滑过、角色走位与主观视点四种合法越轴手法",
+        "intents": ["在场景调度中确立绝对动作轴线 (Line of Action) 锁定机位法定半圆工作区", "排查无准备直接越轴导致的角色朝向错乱与受众三维地理认知崩溃缺陷", "应用移动镜头滑过轴线、演员自主走位与中性正视镜头实现合法平稳越轴 (Crossing the Line)"],
+        "keywords": ["180度法则", "180-Degree Rule", "动作轴线", "Line of Action", "越轴", "Crossing the Line", "空间守恒", "机位半圆"],
+        "also_read": ["triangle-principle-setups", "eyeline-match-convergence"],
+        "desc": "将摄影机机位锁定在动作轴线同一侧半圆并执行规范化合法越轴的电影几何学规程。不适用于多机位无空间逻辑杂耍。",
+        "tags": ["cinematography", "film-grammar", "180-rule", "axis-of-action", "camera-placement"],
+        "loc": "Chapter 2 'The Triangle Principle', pp. 18–35"
+    },
+    {
+        "slug": "triangle-principle-setups",
+        "title": "三角形机位系统与双人对话布局",
+        "importance": "critical",
+        "importance_rationale": "影视视听语法最高母体，以全景主镜头为顶点、两个单人反打为底角构建稳固三角形机位网络",
+        "one_liner": "以全景主镜头为顶点、两个单人反打为底角构建稳固三角形机位网络，统领双人对话场景",
+        "intents": ["运用三角形机位系统 (The Triangle Principle) 规划双人对话与对抗场景机位", "确保两个反打机位在轴线夹角、拍摄距离与头部景别比例上保持严格对称", "装配由全景建立镜头到近景反打、再到特写情感高潮的经典影视剪辑序列"],
+        "keywords": ["三角形机位", "Triangle Principle", "双人对话", "Dialogue Setups", "主镜头", "Master Shot", "反打镜头", "Reverse Shots"],
+        "also_read": ["axis-of-action-180-rule", "ots-vs-clean-single"],
+        "desc": "由建立全景与双向对称反打构成的三角形机位经典布局与剪辑装配工程。不适用于单人独白无对象场景。",
+        "tags": ["cinematography", "triangle-principle", "dialogue", "camera-setups", "film-grammar"],
+        "loc": "Chapter 3 'Dialogue Between Two Players', pp. 36–78"
+    },
+    {
+        "slug": "ots-vs-clean-single",
+        "title": "过肩外反打 vs 纯净内反打景别心理学",
+        "importance": "critical",
+        "importance_rationale": "反打画框边缘肩膀取舍心理学，OTS 建立空间连结与心理博弈，Clean Single 剔除干扰强化孤立与情感爆破",
+        "one_liner": "过肩外反打借由前景肩膀建立空间连结与心理博弈，纯净内反打剔除干扰强化极度孤独与情感爆破",
+        "intents": ["在戏剧博弈与信息交涉阶段选用过肩外反打 (OTS) 确立无可动摇的空间真实感", "控制前景虚焦肩膀面积占画幅 10%-15%，杜绝前景遮挡被摄主体的眼神通道", "在戏剧高潮、痛下决心或秘密揭晓瞬间果断切入纯净内反打 (Clean Single) 直击灵魂"],
+        "keywords": ["过肩镜头", "OTS", "外反打", "纯净单人", "Clean Single", "内反打", "空间连结", "心理孤立"],
+        "also_read": ["triangle-principle-setups", "eyeline-match-convergence"],
+        "desc": "依据角色亲密度、空间博弈与情感爆发强度在过肩外反打与纯净内反打之间切换的镜头心理学规程。不适用于纯环境风光摄影。",
+        "tags": ["cinematography", "reverse-shots", "ots", "clean-single", "shot-psychology"],
+        "loc": "Chapter 3 'Dialogue Between Two Players', pp. 36–78"
+    },
+    {
+        "slug": "parallel-screen-dialogue",
+        "title": "并排平行站位与车内吧台镜头调度",
+        "importance": "high",
+        "importance_rationale": "两人肩并肩同行、车内前排与酒吧吧台等并排平行站位下的侧向反打、内侧交叉与潜望视线系统",
+        "one_liner": "调校两人肩并肩同行、车内驾驶座或吧台等并排平行站位下的侧向反打、内侧反打与潜望视线系统",
+        "intents": ["编排汽车前排驾驶座与副驾并排对话的后座 Master 与左右外侧交叉反打机位", "处理角色在长椅或吧台并排坐时转头注视同伴瞬间的视线对撞与空间重叠", "架设正前方挡风玻璃机位与利用车内后视镜反射构建层次丰富的纵深镜头"],
+        "keywords": ["并排站位", "Parallel Dialogue", "车内调度", "Car Setups", "吧台机位", "交叉反打", "后视镜反射"],
+        "also_read": ["triangle-principle-setups", "eyeline-match-convergence"],
+        "desc": "角色视线平行朝向前方的并排空间情境下的反打、交叉与反光镜头调度工程。不适用于面对面直接对峙。",
+        "tags": ["cinematography", "parallel-dialogue", "car-interior", "lateral-setups", "film-grammar"],
+        "loc": "Chapter 3 'Dialogue Between Two Players', pp. 79–105"
+    },
+    {
+        "slug": "three-character-triangles",
+        "title": "三人及多角色对话多边形机位重组",
+        "importance": "critical",
+        "importance_rationale": "复杂群戏几何拆解，在任意瞬间将三人戏分解为带外部观察者的双人对话，动态旋转重置动作轴线",
+        "one_liner": "在三人复杂群戏中解构主导双人轴线、次级对话轴线与外围观察者，动态切换三角形机位分组",
+        "intents": ["在 A-B、B-C、A-C 三组轴线中依据主导发言者平滑转移当前活跃动作轴线", "运用角色转头目光转向的单人镜头作为枢纽镜头 (Pivot Shot) 消除跳轴眩晕", "合理穿插沉默第三方外围观察者 (The Observer) 的反应镜头维持多角色共在感"],
+        "keywords": ["三人对话", "Three Players", "多角色群戏", "轴线转移", "Axis Reorientation", "枢纽镜头", "观察者镜头"],
+        "also_read": ["axis-of-action-180-rule", "actor-blocking-camera-reposition"],
+        "desc": "通过主导轴线动态转移与观察者反应镜头掌控三人及多角色复杂对话的几何重组工程。不适用于纯双人直线对话。",
+        "tags": ["cinematography", "three-players", "blocking", "axis-shift", "film-grammar"],
+        "loc": "Chapter 4 'Three-Player Dialogue', pp. 106–141"
+    },
+    {
+        "slug": "eyeline-match-convergence",
+        "title": "视线角度对撞匹配与空间汇聚几何学",
+        "importance": "critical",
+        "importance_rationale": "人类对目光方向的惊人神经敏感度，水平偏角对称、垂直仰俯角度互补与视线留白严格匹配",
+        "one_liner": "严格匹配反打镜头中的视线水平朝向与仰俯互补夹角，留出对称视线留白，确立目光空间交汇",
+        "intents": ["确保反打镜头中两名角色的水平视线偏角保持严格对称，形成空间向心汇聚", "依据两名角色实际物理身高差计算仰视角度与俯视角度的精准互补 ($+\theta$ 与 $-\theta$)", "在画框面朝方向保留对称充足的视线留白 (Looking Room)，杜绝视线贴画框边缘窒息"],
+        "keywords": ["视线匹配", "Eyeline Match", "空间汇聚", "Convergence", "仰俯互补", "视线留白", "Looking Room"],
+        "also_read": ["triangle-principle-setups", "axis-of-action-180-rule"],
+        "desc": "通过水平对称偏角与垂直俯仰互补角实现反打镜头中受众坚信目光精准交汇的几何工程。不适用于盲人摸索或无焦点空洞凝视。",
+        "tags": ["cinematography", "eyeline-match", "geometry", "visual-continuity", "film-grammar"],
+        "loc": "Chapter 2 'The Triangle Principle', pp. 18–35"
+    },
+    {
+        "slug": "screen-direction-continuity",
+        "title": "屏幕运动方向守恒与出入画对齐",
+        "importance": "critical",
+        "importance_rationale": "受众大脑空间认知地图基石，移动矢量绝对守恒，右出画必左入画，防止角色掉头撞击自身",
+        "one_liner": "保证移动主体在连续镜头间的屏幕矢量一致，右出画必左入画，防止角色掉头撞击自身的方位混乱",
+        "intents": ["在跨越多个不同场景的追逐与行军中锁定唯一的全局屏幕地理运动方向 (从左至右)", "严格执行干净出画 (Clean Exit) 与干净入画 (Clean Entrance) 的剪辑规范与留白帧", "通过镜头内角色当面转弯、中性正视镜头或大角度摇移实现屏幕运动方向的合法转换"],
+        "keywords": ["屏幕方向", "Screen Direction", "出入画对齐", "Clean Exit", "Clean Entrance", "运动矢量", "追逐调度"],
+        "also_read": ["axis-of-action-180-rule", "cutting-on-action-momentum"],
+        "desc": "在多镜头连续剪辑中维持主体屏幕运动矢量与进出画框绝对连贯的空间工程。不适用于静止单帧室内谈话。",
+        "tags": ["cinematography", "screen-direction", "continuity", "pursuit", "editing"],
+        "loc": "Chapter 6 'The Actor Moves', pp. 166–198"
+    },
+    {
+        "slug": "cutting-on-action-momentum",
+        "title": "动作剪辑点与动量惯性掩盖法则",
+        "importance": "critical",
+        "importance_rationale": "利用受众大脑对高速动能的神经专注盲区，在动作做功最高潮中间帧执行切分，使物理切口隐形",
+        "one_liner": "在起立、坐下、开门等动作做功最高潮中间帧执行镜头切分，利用人脑动量追踪惯性掩盖剪辑硬切",
+        "intents": ["在角色发力动作速度最大、位移最剧烈的中间帧 (The Motion Apex) 确定黄金剪辑点", "在实拍与动画中预留 1 秒以上的动作重叠区 (Overlap)，执行帧级精准的位置动能对齐", "配合机位旋转 45° 以上与景别跳跃，彻底消除剪切痕迹实现丝滑如水的动作连贯感"],
+        "keywords": ["动量剪辑", "Cutting on Action", "动作切分", "动量掩盖", "Momentum Match", "帧级对齐", "隐形剪辑"],
+        "also_read": ["screen-direction-continuity", "master-shot-coverage-system"],
+        "desc": "在剧烈动作运动过程中执行镜头切换以消除物理跳跃感的动作剪辑工程。不适用于静止无位移说话头景别。",
+        "tags": ["editing", "cutting-on-action", "momentum", "film-grammar", "continuity"],
+        "loc": "Chapter 10 'Cutting on Action', pp. 248–275"
+    },
+    {
+        "slug": "pov-three-step-architecture",
+        "title": "主观视点镜头三步法与视听投射",
+        "importance": "high",
+        "importance_rationale": "受众深度心理代入机器，注视镜头锁定目标、主观视点提供所见事实、反应特写完成情感闭环",
+        "one_liner": "以看(Looking Shot) -> 视点目标(POV Shot) -> 反应特写(Reaction Shot) 三步法实现受众深度代入",
+        "intents": ["编排经典三步 POV 闭环：角色目光锁定 -> 主观视角呈现 -> 面部大特写反应", "确保主观镜头 (POV Shot) 的物理高度与生理状态（眩晕、透过门缝）严格符合被摄角色", "杜绝斩断第三步反应镜头的断头 POV 缺陷，确保戏剧悬念与情感冲击得到充分升华"],
+        "keywords": ["主观视点", "POV", "三步法", "Looking Shot", "Reaction Shot", "心理代入", "视听闭环"],
+        "also_read": ["eyeline-match-convergence", "master-shot-coverage-system"],
+        "desc": "由注视、主观所见与面部心理反应构成的三镜头主观视点心理闭环工程。不适用于纯客观纪录片记录。",
+        "tags": ["cinematography", "pov", "point-of-view", "subjective-camera", "film-grammar"],
+        "loc": "Chapter 8 'Point of View', pp. 142–165"
+    },
+    {
+        "slug": "master-shot-coverage-system",
+        "title": "主镜头空间建立与分切覆盖装配工程",
+        "importance": "critical",
+        "importance_rationale": "好莱坞工业化制作基石，不间断主镜头建立空间地理与充当安全网，按戏剧节拍切入特写覆盖",
+        "one_liner": "从 Master 全景确立空间地理，按戏剧节拍切入中近景反打，在剧情转折点切回主镜头重置空间",
+        "intents": ["完整记录从头至尾不间断的主镜头 (Master Shot) 作为场景空间地理基准与后期安全网", "在戏剧博弈点提取过肩中景与纯净特写覆盖 (Coverage)，丰富镜头视听语言层级", "在情绪平复或新角色进入时果断切回主镜头重置地理空间，利用插入镜头 (Inserts) 消除时间断裂"],
+        "keywords": ["主镜头", "Master Shot", "机位覆盖", "Coverage", "空间建立", "安全网", "戏剧装配"],
+        "also_read": ["triangle-principle-setups", "cutting-on-action-momentum"],
+        "desc": "由全景主镜头与分切特写覆盖构成的影视工业级场景记录与后期装配工程。不适用于单一视角长镜到底。",
+        "tags": ["cinematography", "master-shot", "coverage", "production-pipeline", "film-grammar"],
+        "loc": "Chapter 11 'Master Shots & Sequence Shots', pp. 276–310"
+    },
+    {
+        "slug": "actor-blocking-camera-reposition",
+        "title": "角色走位引导轴线转移与机位重置",
+        "importance": "high",
+        "importance_rationale": "以演员动态走位驱动空间重组，角色起立踱步引导摄影机跟摇，自然重置动作轴线进入全新半圆",
+        "one_liner": "通过演员在场景中的起立、踱步与换位自然重构动作轴线，引导摄影机机位合法平稳重置",
+        "intents": ["赋予角色符合深层心理欲望的走位动机（愤怒踱步、心虚避开、走向吧台倒酒）", "在角色位移瞬间绑定摄影机摇移或推轨跟拍，让受众大脑自然接受场景几何重构", "在角色新落点确立全新动作轴线并重新布设三角形机位系统，开拓全新空间角度"],
+        "keywords": ["角色走位", "Actor Blocking", "场面调度", "轴线转移", "机位重置", "自然越轴", "跟摇"],
+        "also_read": ["axis-of-action-180-rule", "sequence-shot-choreography"],
+        "desc": "以演员有动机的物理位移自然旋转动作轴线并开拓全新机位半圆的高级场面调度工程。不适用于木桩式静止对话。",
+        "tags": ["directing", "blocking", "camera-reposition", "mise-en-scene", "film-grammar"],
+        "loc": "Chapter 6 'The Actor Moves', pp. 166–198"
+    },
+    {
+        "slug": "sequence-shot-choreography",
+        "title": "一镜到底场面调度与无剪辑景别转换",
+        "importance": "critical",
+        "importance_rationale": "影视艺术皇冠之巅，单镜头内通过角色走位与机位三轴推拉摇移，实现全景到特写之镜头内蒙太奇",
+        "one_liner": "在不间断长镜头中通过角色走位与机位推拉摇移，无缝实现全景、双人中景与单人特写的流态切换",
+        "intents": ["编排覆盖多重戏剧节拍的一镜到底长镜头路径 (Sequence Shot / Plan-Séquence)", "利用角色走向或背离摄影机的物理距离自然转换大远景、中景与大特写景别", "结合推轨、升降与横摇穿梭于场景门框障碍物之间，设计遮挡擦镜 (Body Wipe) 等隐藏切口"],
+        "keywords": ["长镜头", "Sequence Shot", "一镜到底", "场面调度", "镜头内蒙太奇", "Mise-en-Scène", "流态转换"],
+        "also_read": ["actor-blocking-camera-reposition", "master-shot-coverage-system"],
+        "desc": "在单一不间断连续移动镜头中融合多景别转换与复杂戏剧演进的高级视听调度工程。不适用于静止无调度监控视角。",
+        "tags": ["directing", "sequence-shot", "long-take", "choreography", "cinematography"],
+        "loc": "Chapter 11 'Master Shots & Sequence Shots', pp. 311–365"
+    }
+]
+
+destinations_map = {}
+capabilities = []
+
+for c in caps_data:
+    cid = f"cap.grammar-of-film-language.{c['slug']}"
+    destinations_map[cid] = {
+        "target_pack_slug": "grammar-of-film-language",
+        "target_skill_slug": "grammar-of-film-language",
+        "action": "create"
+    }
+    
+    capabilities.append({
+        "capability_id": cid,
+        "revision": 1,
+        "status": "active",
+        "aliases": [],
+        "supersedes": [],
+        "merged_into": None,
+        "split_into": [],
+        "slug": c["slug"],
+        "title": c["title"],
+        "importance": c["importance"],
+        "importance_rationale": c["importance_rationale"],
+        "one_liner": c["one_liner"],
+        "intents": c["intents"],
+        "keywords": c["keywords"],
+        "also_read": c["also_read"],
+        "card": f"cards/{c['slug']}.md",
+        "frontmatter": {
+            "description": c["desc"],
+            "tags": c["tags"]
+        },
+        "source_evidence": [{"source_id": "src-main-book", "location": c["loc"]}],
+        "promotion": {
+            "destination": "router",
+            "gate": {
+                "independent_intent": False,
+                "independent_contract": True,
+                "independent_run": True,
+                "independent_reuse": False,
+                "independent_eval": True
+            },
+            "notes": "Single 模式下归入主入口统一路由"
+        }
+    })
+
+bundle = {
+    "schema_version": 1,
+    "bundle_id": "bundle.grammar-of-film-language",
+    "book": {
+        "title": "电影语言的语法 (Grammar of the Film Language)",
+        "source_pack": "books/grammar-of-film-language",
+        "edition": "Illustrated Revised Edition",
+        "authors": ["Daniel Arijon"],
+        "year": 1976,
+    },
+    "entry": {
+        "name": "grammar-of-film-language",
+        "description": "全球影视学院与好莱坞导演工会视听语言与分镜头机位几何学第一红宝书。涵盖 180° 动作轴线守恒与移动镜头/走位四种合法越轴规程 (The 180° Action Axis & Crossing the Line)、全景建立与对称反打之三角形机位系统 (The Triangle Principle for Two Actors)、关系博弈过肩外反打 vs 极致孤立纯净内反打景别心理学 (External OTS vs. Internal Clean Singles)、车内与吧台并排平行站位与交叉反打调度 (Parallel Dialogue & Lateral Setups)、三人及多角色对话多边形机位重构与观察者反应 (Three-Character Setups & Axis Reorientation)、水平偏角对称与仰俯互补夹角视线对撞匹配 (Eyeline Matching & Convergence Geometry)、屏幕运动矢量守恒与右出左入出入画对齐 (Screen Direction Continuity)、动作做功最高潮中间帧切分动量掩盖法则 (Cutting on Action & Momentum Match)、注视目标反应三步法主观视点系统 (The 3-Step POV System)、全景主镜头空间建立与分切覆盖装配体系 (Master Shot Technique & Coverage)、演员有动机位移引导轴线旋转与机位重置 (Actor Blocking & Natural Axis Shift)、全景到特写镜头内蒙太奇一镜到底长镜头场面调度 (Sequence Shot & Mise-en-Scène Choreography) 经典电影语法规范。",
+        "core_principles": [
+            "180° 动作轴线是受众空间感知的绝对宪法：机位必须永久锁定在互动主体连线同侧半圆内，严禁无准备跳轴；跨越轴线必须通过镜头连续移动、角色走位换轴或中性正视镜头合法完成。",
+            "三角形机位系统是影视视听语言的几何母体：以全景主镜头（Master Shot）确立地理与底边，以对称夹角与等大头部比例的两个单人反打镜头展开对峙，统领绝大多数双人场景。",
+            "反打景别蕴含深层心理学：保留对方肩膀的过肩外反打（OTS）强调空间连结与心理博弈；剔除一切干扰的纯净内反打（Clean Single）强调极端内省、孤独与情感总爆发。",
+            "视线匹配（Eyeline Match）决定目光相撞真实度：反打镜头中水平偏角必须对称，垂直仰俯角度必须严格互补（$+\theta$ 与 $-\theta$），并留出对称的视线前方呼吸留白（Looking Room）。",
+            "屏幕运动方向代表地理逻辑：从左向右的运动必须跨越切点保持一致，从画右出画必须从画左入画；追逐双方必须同向推进，对决双方必须迎面相撞。",
+            "动量是最好的剪辑隐形衣：在角色做功位移速度最大、动量最充沛的中间帧执行动作剪辑（Cutting on Action），利用人脑对动能的专注追踪使物理硬切完全隐形。",
+            "长镜头是一台画框内的移动交响乐（The Sequence Shot）：通过演员走位与机位三维推拉摇移，在同一不间断镜头内实现从宏观全景到微观特写的无缝景别转换与情绪推进。"
+        ],
+        "out_of_scope": [
+            "纯工业机械数控车床切削刀具路径代码",
+            "静态纸质图书排版装帧与印刷拼版工艺",
+            "医学胃镜肠镜组织活检切片化验病理学"
+        ],
+        "stop_conditions": [
+            "用户仅咨询机械数控编程或印刷排版，不涉及影视导演、分镜头脚本、机位调度与视听语言时判停",
+            "已输出明确的 180° 轴线布局图、三角形机位参数、合法越轴方案、动量剪辑点帧数或长镜头走位路线时判停"
+        ]
+    },
+    "router_entry": {
+        "name": "grammar-of-film-language",
+        "description": "丹尼尔·阿里洪电影语言的语法视听语言与分镜工程手册。提供 180° 动作轴线与合法越轴、三角形机位系统、过肩外反打与纯净内反打、并排平行车内调度、三人多角色多边形重组、视线对撞匹配、屏幕运动方向守恒、动量动作剪辑、经典三步 POV 系统、主镜头覆盖体系、演员走位引导轴线转移与一镜到底场面调度工程支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+schemas_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\schemas")
+registry = Registry()
+for s in schemas_dir.glob("*.schema.json"):
+    data = json.loads(s.read_text(encoding="utf-8"))
+    res = Resource.from_contents(data)
+    schema_id = data.get("$id", f"https://cangjie-skill.org/schemas/{s.name}")
+    registry = registry.with_resource(schema_id, res)
+    registry = registry.with_resource(f"https://cangjie-skill.org/schemas/{s.name}", res)
+
+bundle_schema = json.loads((schemas_dir / "capability-bundle.schema.json").read_text(encoding="utf-8"))
+validator = jsonschema.Draft202012Validator(bundle_schema, registry=registry)
+validator.validate(instance=bundle)
+print("Schema validation with offline registry: PASS 100%!")
+
+out_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\grammar-of-film-language\.cangjie\capabilities\verified.yaml")
+out_path.write_text(yaml.safe_dump(bundle, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+print(f"Written verified.yaml successfully: {out_path}")
+
+dest_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\grammar-of-film-language\.cangjie\capabilities\destinations.json")
+dest_path.write_text(json.dumps({
+    "bundle_id": bundle["bundle_id"],
+    "destinations": destinations_map
+}, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Updated destinations.json successfully: {dest_path}")

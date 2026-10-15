@@ -1,0 +1,269 @@
+import yaml
+import json
+from pathlib import Path
+import jsonschema
+from referencing import Registry, Resource
+
+caps_data = [
+    {
+        "slug": "odd-rule-acceleration",
+        "title": "奇数定律加速标尺",
+        "importance": "critical",
+        "importance_rationale": "恒力加速运动在离散时间轴上的基础间距计算基石，消除动画机械匀速滑冰感的决定性法则",
+        "one_liner": "恒定加速度下逐帧位移增量比为 1:3:5:7:9，累计位移与时间平方成正比",
+        "intents": ["计算物体恒力起步加速的逐帧位置", "排布起跑加速关键帧间距", "消除加速运动机械匀速滑冰感"],
+        "keywords": ["奇数定律", "The Odd Rule", "恒力加速", "Uniform Acceleration", "二次抛物线", "间距标尺"],
+        "also_read": ["gravity-projectile-timing", "friction-drag-resistance"],
+        "desc": "基于奇数定律计算恒定外力作用下物体从静止开始加速的逐帧位移增量与累计坐标。不适用于非恒力或水下高阻环境。",
+        "tags": ["physics", "acceleration", "spacing", "timing"],
+        "loc": "第 2 章，第 50–54 页"
+    },
+    {
+        "slug": "gravity-projectile-timing",
+        "title": "自由落体与抛体运动解耦",
+        "importance": "critical",
+        "importance_rationale": "重力加速度与抛物线轨迹的基准物理换算，决定高空坠落与投掷飞行的可信度",
+        "one_liner": "自由落体时间与高度平方根成正比；时间过半仅下落 25% 距离；抛体水平匀速与垂直重力严格正交解耦",
+        "intents": ["计算自由下落时间与总帧数", "排布投掷物体的抛物线轨迹", "排查下落像带降落伞漂浮失重的物理错误"],
+        "keywords": ["自由落体", "Fourth Down at Half Time", "四分之一半时定理", "抛体运动", "重力加速度", "正交解耦"],
+        "also_read": ["odd-rule-acceleration", "character-jump-mechanics", "friction-drag-resistance"],
+        "desc": "计算地球重力场下自由落体时间帧数、四分之一半时定理检验与抛体运动水平垂直正交分解。不适用于轻羽微质量物体。",
+        "tags": ["physics", "gravity", "free-fall", "projectile"],
+        "loc": "第 3 章，第 64–70 页"
+    },
+    {
+        "slug": "center-of-gravity-balance",
+        "title": "重心稳定与支撑面倾覆判定",
+        "importance": "high",
+        "importance_rationale": "角色静态与准静态姿态平衡的物理根基，解决单脚站立反重力悬浮与推物失衡判定",
+        "one_liner": "重力垂线必须穿过触地支撑多边形底面内部；一旦超出边界立即产生重力倾覆力矩倒地或触发迈步代偿",
+        "intents": ["设计角色单脚站立或极限平衡姿态", "判定推搡或失衡跌倒的倾覆临界点", "调校弯腰举重物时的身体重心代偿"],
+        "keywords": ["质心", "Center of Gravity", "重力垂线", "Line of Gravity", "支撑底面", "Base of Support", "倾覆力矩"],
+        "also_read": ["character-walk-energy", "torque-lever-joints"],
+        "desc": "基于重力垂线与触地多边形支撑面几何关系判定角色姿态静力学平衡与倾覆失衡响应。不适用于高速压弯动态飞行。",
+        "tags": ["physics", "balance", "center-of-gravity", "posture"],
+        "loc": "第 3 章，第 70–74 页；第 5 章，第 181–186 页"
+    },
+    {
+        "slug": "friction-drag-resistance",
+        "title": "摩擦阻尼与风阻终端速度",
+        "importance": "medium",
+        "importance_rationale": "物体地面滑行制动与高空坠落真实阻力的物理约束，防止永动机滑冰与超光速坠落",
+        "one_liner": "动摩擦力产生恒定反向减速度使物体平稳刹停；高空下落受空气阻力限制在终端速度（人类约54m/s）不再加速",
+        "intents": ["计算物体在不同材质地面的滑行刹车帧数与距离", "设定长距离高空跳伞的最高终端速度上限", "制作冰面与粗糙地面滑行动画差异"],
+        "keywords": ["动摩擦", "静摩擦", "Friction", "刹车减速", "空气阻力", "终端速度", "Terminal Velocity"],
+        "also_read": ["odd-rule-acceleration", "gravity-projectile-timing"],
+        "desc": "根据地面动摩擦系数计算滑行减速时长与位移，并设置大气环境下坠落的终端速度物理封顶。不适用于水漂或纯滚动轴承。",
+        "tags": ["physics", "friction", "drag", "terminal-velocity"],
+        "loc": "第 3 章，第 74–77、85–86 页"
+    },
+    {
+        "slug": "torque-lever-joints",
+        "title": "关节生物杠杆与转动惯量调速",
+        "importance": "high",
+        "importance_rationale": "肢体挥击爆发力机制与空中自由旋转角速度调控的物理原理，赋予动作力量与技巧",
+        "one_liner": "肢体主要关节为第三类速度杠杆以小位移换高末端速度；空中角动量守恒下抱膝团身使转动惯量暴跌、旋转角速度飙升",
+        "intents": ["调校空中后空翻或自转的团身加速与展开减速", "分析四肢关节挥舞发力的速度杠杆机械效益", "消除空中翻滚匀速烤肉串失真"],
+        "keywords": ["转矩", "Torque", "生物杠杆", "Levers", "转动惯量", "Rotational Inertia", "角动量守恒"],
+        "also_read": ["center-of-gravity-balance", "character-jump-mechanics"],
+        "desc": "利用解剖三类杠杆计算肢体末端速度放大，并根据角动量守恒调控空中姿态对旋转角速度的剧烈影响。不适用于受外力矩持续驱动。",
+        "tags": ["physics", "torque", "levers", "rotation", "angular-momentum"],
+        "loc": "第 3 章，第 88–98 页；第 5 章，第 179–181 页"
+    },
+    {
+        "slug": "action-reaction-impact",
+        "title": "打击冲量与后坐受力时序",
+        "importance": "critical",
+        "importance_rationale": "格斗打斗打击感与枪械/撞击后坐力链条的动力学核心，解决棉花拳与受击无重量感",
+        "one_liner": "打击破坏力由接触压缩时间 delta t 决定（硬撞1帧爆发巨力，软撞6帧平滑缓冲）；出拳端必须承受等大反向后坐力矩",
+        "intents": ["制作格斗击中下巴的受击后仰与打击定格时序", "调校枪械射击与重拳挥出时的身体后坐力传导", "消除打斗中像打在棉花上的软弱无力感"],
+        "keywords": ["牛顿第三定律", "作用力反作用力", "冲量动量定理", "Impulse", "打击感", "后坐力", "Recoil", "Hit-stop"],
+        "also_read": ["character-jump-mechanics", "torque-lever-joints"],
+        "desc": "基于冲量动量定理按碰撞材质刚度分配接触压缩帧数，并排布施力端后坐力与受击端次级骨骼滞后传递。不适用于魔法能量光束。",
+        "tags": ["physics", "impact", "momentum", "fight-animation", "recoil"],
+        "loc": "第 3 章，第 98–100 页；第 6 章，第 210–214 页"
+    },
+    {
+        "slug": "character-jump-mechanics",
+        "title": "角色跳跃全周期动力学",
+        "importance": "critical",
+        "importance_rationale": "角色跳跃动作推地、腾空与落地缓冲三阶段的标准工程换算，消除零推地起跳与零缓冲着地失真",
+        "one_liner": "跳跃由推地蓄力（4-6帧）、空中重力抛体与深蹲着地缓冲（3-8帧）三段闭环组成",
+        "intents": ["计算角色跳跃起跳推地、滞空与落地深蹲的精确帧数", "制作平台跳跃游戏角色的跳跃力学前摇与后摇", "消除起跳像被钢丝吊起、落地像木桩插地的虚假感"],
+        "keywords": ["跳跃动力学", "Push Time", "推地时间", "Hang Time", "滞空时间", "Stop Time", "缓冲时间", "深蹲缓冲"],
+        "also_read": ["gravity-projectile-timing", "odd-rule-acceleration"],
+        "desc": "根据起跳高度与下蹲深度计算推地爆发时间、空中重力滞空帧数与落地屈膝制动缓冲时间的闭环工程预算。不适用于飞行背包喷气推进。",
+        "tags": ["physics", "jumping", "push-time", "stop-time", "character-animation"],
+        "loc": "第 6 章，第 189–200 页"
+    },
+    {
+        "slug": "character-walk-energy",
+        "title": "行走倒单摆能量转换与肩髋扭转",
+        "importance": "high",
+        "importance_rationale": "人类双足行走重力势能与动能转换的物理本质，消除走路上半身僵死与下半身平移滑步",
+        "one_liner": "行走如同倒单摆，过路点势能最高速度最慢，触地点动能最高速度最快；骨盆与肩甲骨反向旋转抵消角动量",
+        "intents": ["调校写实行走重心垂直起伏与前进速度曲线", "设置行进中肩部与骨盆的反向三轴旋转互锁", "消除角色行走像圆规机械平移木偶的缺陷"],
+        "keywords": ["倒单摆模型", "Inverted Pendulum", "行走动力学", "肩髋扭转", "Counter-rotation", "动能势能转换"],
+        "also_read": ["center-of-gravity-balance", "torque-lever-joints"],
+        "desc": "基于倒单摆动能势能守恒模型调校角色行走重心 Y 轴高度波形与肩髋反向角动量互锁曲线。不适用于履带或机甲平移底盘。",
+        "tags": ["physics", "walking", "inverted-pendulum", "counter-rotation"],
+        "loc": "第 6 章，第 201–205 页"
+    },
+    {
+        "slug": "drag-follow-through-physics",
+        "title": "次级运动长度单摆与表面积风阻",
+        "importance": "high",
+        "importance_rationale": "头发、尾巴与斗篷次级运动的物理固有频率定律，打破所有次级层级一刀切延迟的塑料感",
+        "one_liner": "悬垂物自振周期与长度平方根成正比（短发延迟1-2帧，长发长披风延迟5-8帧）；迎风表面积决定阻力凹陷曲率",
+        "intents": ["根据物理长度计算长发与短发马尾辫的摆动周期与延迟帧数", "制作披风、旗帜在不同风速与面积下的次级波动", "排查次级动画千篇一律统一偏移导致的机械失真"],
+        "keywords": ["次级运动", "Drag", "Follow-through", "单摆周期公式", "表面积风阻", "发丝摆动", "布料波动"],
+        "also_read": ["torque-lever-joints", "character-walk-energy"],
+        "desc": "利用单摆长度固有频率方程与表面积风阻平方律计算角色头发、尾巴与衣物的分层延迟帧数与弯曲曲率。不适用于高刚度金属武器。",
+        "tags": ["physics", "secondary-motion", "drag", "pendulum", "hair-cloth"],
+        "loc": "第 6 章，第 217–221 页"
+    },
+    {
+        "slug": "liquid-fluid-dynamics",
+        "title": "液体黏度倾倒与浅水碎浪动力学",
+        "importance": "medium",
+        "importance_rationale": "流体特效内部摩擦（黏度）形态分类与海洋海滩碎浪动力学法则，指导液体与波浪动画",
+        "one_liner": "低黏度液体倾倒飞溅成薄膜雨滴，高黏度流体呈光滑连续圆柱堆叠成线圈；水深小于半波长时底部摩擦促使波峰向前卷倒成管浪",
+        "intents": ["制作倒水、倒牛奶与倒蜂蜜的不同流态与线圈堆叠", "设计海滩冲浪大浪在近岸变陡并卷管翻倒碎裂的动态", "排查液体倒出像果冻胶水或海浪碎浪形态失真"],
+        "keywords": ["流体动力学", "黏度", "Viscosity", "表面张力", "线圈堆叠", "Coiling", "浅水碎浪", "Plunging breaker"],
+        "also_read": ["fire-explosion-fracture"],
+        "desc": "依据内摩擦黏度等级匹配流体倾倒飞溅或线圈堆叠形态，并根据水深波长比计算浅水碎浪卷翻时序。不适用于失重球形水滴环境。",
+        "tags": ["physics", "fluid-dynamics", "viscosity", "waves", "vfx"],
+        "loc": "第 9 章，第 268–285 页"
+    },
+    {
+        "slug": "fire-explosion-fracture",
+        "title": "爆炸热浮力涡流与脆性碎裂扩散",
+        "importance": "medium",
+        "importance_rationale": "大爆炸蘑菇云热浮力对流涡旋机制与刚体破碎裂纹几何拓扑，提升影视级破坏特效可信度",
+        "one_liner": "大爆炸由闪爆、热浮力上升外翻形成甜甜圈状环形涡流蘑菇头与地面吸附烟柱组成；脆性碎裂先由中心辐射直线裂纹，再由同心环裂纹贯通",
+        "intents": ["制作大爆炸火球上升与外翻闭合环形涡流蘑菇云", "设计玻璃受冲击破碎或地面受重锤砸裂的裂纹拓扑走向", "消除爆炸沦为简单贴图缩放与碎裂杂乱无章的缺陷"],
+        "keywords": ["大爆炸", "热浮力", "蘑菇云", "Vortex Torus", "冲击波", "脆性碎裂", "辐射裂纹", "同心环裂纹"],
+        "also_read": ["liquid-fluid-dynamics", "action-reaction-impact"],
+        "desc": "分解大爆炸三阶段热对流环形涡流蘑菇头演变时序，并绘制受撞击脆性刚体辐射状与同心圆裂纹几何拓扑。不适用于真空无重力太空爆炸。",
+        "tags": ["physics", "explosion", "vortex-torus", "fracture", "vfx"],
+        "loc": "第 8 章，第 253–265 页"
+    },
+    {
+        "slug": "light-shadow-optics",
+        "title": "光线平方反比衰减与几何半影光学",
+        "importance": "medium",
+        "importance_rationale": "物理灯光辐射衰减与阴影边缘柔和度几何原理，消除场景近景过暗远景过亮与死黑硬影",
+        "one_liner": "光照强度按距离平方反比二次方衰减；点光源产生全本影硬边，面光源根据遮挡物到受影面距离成正比扩展柔和半影",
+        "intents": ["设置 3D 场景灯光物理 Quadratic 平方反比衰减参数", "调校人物投影脚底硬接触阴影向头部虚影的渐变过渡", "排查室内打光缺乏空间深度或阴影边缘失真的光学缺陷"],
+        "keywords": ["平方反比定律", "Inverse Square Law", "本影", "Umbra", "半影", "Penumbra", "接触阴影", "软阴影"],
+        "also_read": ["odd-rule-acceleration"],
+        "desc": "基于平方反比定律计算光强空间衰减，并根据光源物理尺寸与受影距离几何计算阴影半影羽化宽度。不适用于晴天大太阳平行光。",
+        "tags": ["physics", "optics", "lighting", "shadows", "penumbra"],
+        "loc": "第 4 章，第 121–134 页"
+    }
+]
+
+capabilities = []
+destinations_map = {}
+
+for c in caps_data:
+    cap_id = f"cap.physics.{c['slug']}"
+    destinations_map[cap_id] = {"served_by": "physics-for-animators"}
+    capabilities.append({
+        "capability_id": cap_id,
+        "revision": 1,
+        "status": "active",
+        "aliases": [],
+        "supersedes": [],
+        "merged_into": None,
+        "split_into": [],
+        "slug": c["slug"],
+        "title": c["title"],
+        "importance": c["importance"],
+        "importance_rationale": c["importance_rationale"],
+        "one_liner": c["one_liner"],
+        "intents": c["intents"],
+        "keywords": c["keywords"],
+        "also_read": c["also_read"],
+        "card": f"cards/{c['slug']}.md",
+        "frontmatter": {
+            "description": c["desc"],
+            "tags": c["tags"]
+        },
+        "source_evidence": [{"source_id": "src-main-book", "location": c["loc"]}],
+        "promotion": {
+            "destination": "router",
+            "gate": {
+                "independent_intent": False,
+                "independent_contract": True,
+                "independent_run": True,
+                "independent_reuse": False,
+                "independent_eval": True
+            },
+            "notes": "Single 模式下归入主入口统一路由"
+        }
+    })
+
+bundle = {
+    "schema_version": 1,
+    "bundle_id": "bundle.physics-for-animators",
+    "book": {
+        "title": "动画师物理学",
+        "source_pack": "books/physics-for-animators",
+        "edition": "1st Edition",
+        "authors": ["Michele Bousquet", "Alejandro Garcia"],
+        "year": 2016,
+    },
+    "entry": {
+        "name": "physics-for-animators",
+        "description": "动画与数字资产物理动力学、牛顿力学计算、经典物理仿真与运动规律工程手册。涵盖奇数定律加速度标尺、重力自由落体与抛体运动、重心支撑面稳定平衡、摩擦风阻终端速度、关节生物杠杆与转动惯量、打击冲量动量碰撞、角色跳跃蹬地滞空缓冲全周期、倒单摆行走能量转换、柔性次级运动表面积阻力、液体黏度与浅水碎浪、爆炸火球热涡流与刚体脆性碎裂、物理光照平方反比与阴影半影光学。",
+        "core_principles": [
+            "动画中物体的加速度与间距严格遵循经典力学；恒力加速位移遵循奇数定律 1:3:5:7:9 增量比。",
+            "自由下落遵循四分之一半时定理：总时间过半时垂直位移仅完成总高度的 25%，严禁时间过半高度过半的漂浮失真。",
+            "角色静力学平衡由重力垂线是否落入触地支撑底面多边形决定；迈步是主动制造失衡再重建平衡的闭环。",
+            "打击的破坏力与击退质感不仅取决于碰撞动量，更取决于接触挤压受力时间 delta t（硬撞1帧，软撞6帧）。",
+            "跳跃必须由推地蓄力（Push）、空中抛物线滞空（Air）与着地深屈缓冲（Stop）三段动力学闭环组成。",
+            "次级悬挂物摆动固有频率由长度平方根主导，严禁不同长度的头发、尾巴和披风在时间轴上一刀切设置相同延迟。"
+        ],
+        "out_of_scope": [
+            "纯手绘二维美术角色原画人体线条上色风格设定",
+            "非物理超现实抽象概念实验动画无重力意识流剪辑",
+            "动画电影长篇编剧故事大纲与文学剧作台词撰写"
+        ],
+        "stop_conditions": [
+            "用户仅咨询纯文本剧本创作或美术设定线稿，不涉及物理动力学与动画关键帧时判停",
+            "已输出明确的物理参数计算、逐帧时间-间距律表与关键姿态力学分析时判停"
+        ]
+    },
+    "router_entry": {
+        "name": "physics-for-animators",
+        "description": "动画物理动力学、牛顿运动定律换算与角色及环境物理规律工程手册。提供奇数定律加速度计算、自由落体与抛体解耦、重心支撑面失衡判定、打击受力冲量、跳跃推地缓冲时序、行走倒单摆能量转换、流体黏度破浪与爆炸断裂力学支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+schemas_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\schemas")
+registry = Registry()
+for s in schemas_dir.glob("*.schema.json"):
+    data = json.loads(s.read_text(encoding="utf-8"))
+    res = Resource.from_contents(data)
+    schema_id = data.get("$id", f"https://cangjie-skill.org/schemas/{s.name}")
+    registry = registry.with_resource(schema_id, res)
+    registry = registry.with_resource(f"https://cangjie-skill.org/schemas/{s.name}", res)
+
+bundle_schema = json.loads((schemas_dir / "capability-bundle.schema.json").read_text(encoding="utf-8"))
+validator = jsonschema.Draft202012Validator(bundle_schema, registry=registry)
+validator.validate(instance=bundle)
+print("Schema validation with offline registry: PASS 100%!")
+
+out_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\physics-for-animators\.cangjie\capabilities\verified.yaml")
+out_path.write_text(yaml.safe_dump(bundle, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+print(f"Written verified.yaml successfully: {out_path}")
+
+dest_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\physics-for-animators\.cangjie\capabilities\destinations.json")
+dest_path.write_text(json.dumps({
+    "bundle_id": bundle["bundle_id"],
+    "destinations": destinations_map
+}, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Updated destinations.json successfully: {dest_path}")

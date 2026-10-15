@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\additive-blendshape-math.md": "f11497f64f773989f632d54060ca5dd62d191c3d08daaabc92ed2a0cbe735183",
+    "references\\capabilities\\blink-dynamics-thought-break.md": "ba672c5b4013692fc6a6227f14de0e05be451d8903628d11b0923abd06724534",
+    "references\\capabilities\\brow-emotion-mechanics.md": "78a276264bed9b5e466290c30f8d457c972dd13c3b3b4da2c17efe368f5138d4",
+    "references\\capabilities\\eye-rig-lid-follow-saccades.md": "87edc90101fa762cf28bfc288c15744544177d9af5e72431a2f0b1c0a798f4e4",
+    "references\\capabilities\\eyelid-expression-tension.md": "00745e9769d9e6e4437f8ad35bd05c8a34c9df5420673e3da96c375a6fdaafd4",
+    "references\\capabilities\\facial-edge-flow-topology.md": "cdc53e504f6bf1aa5113c508034bec2b9a45f0ac7a23b9ed5375a1ee67068009",
+    "references\\capabilities\\lip-sync-pipeline.md": "a559ffa7b15f019d09e2aed1c9508fb32514a433db2af1f0b02b3edc316e669d",
+    "references\\capabilities\\mouth-cavity-teeth-tongue.md": "93926a515e80798795bc3b662bf9bb21ed5d10996ee45b7526466d4ceb408fb9",
+    "references\\capabilities\\slider-interface-driver-rig.md": "93fa4532615adec8f73fd44228bd030a50ae9a8ad0698b067f5191a46c77ce5c",
+    "references\\capabilities\\squoosh-head-squash-stretch.md": "883f16110b99a3f26b0a05ed9ebf01df75817630cd5a0d8a6dc95568e5061fce",
+    "references\\capabilities\\viseme-ortho-matrix.md": "86f44b1bdfc5392f0709f100c04fa8654e2c7bab589ab0365871dabcd73aa042",
+    "references\\capabilities\\zipper-lips-sticky-rig.md": "ea2ad2220f0f7d7f611752fd8d1c910f50812d5f7fe0bc11afe2d17957feec88",
+    "references\\capability-index.md": "fa0e858d5a45ac16bf50cc4ed8ad48c0e43ed77df39a639e888bcedb770df62d",
+    "references\\cheatsheet.md": "c3bf424572cbd5913d3dc2a8fd2684614a4c4055d213a1a993d181b122185624",
+    "references\\glossary.md": "dc6989d613527f42c654a4c097afd74ede08469530c22bfa5aeae0821b0aae0c",
+    "references\\overview.md": "0a7cfc6dc79b7f331331bc1e74c7fc56783fc5857245511f99c7b2af58255d3c",
+    "SKILL.md": "aafa5f641efbb6f9ad7e64e79520d6aeed343bb9f3bb7ebb766f80086a371acf"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.stop-staring",
+  "bundle_sha256": "8a87c4f3b5db2d0d8fbd304e641eb5e3680778d9486f07a49d424c71270fd647",
+  "variant": "single",
+  "run_id": "run-20261006-183546-285fa4",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

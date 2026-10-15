@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\action-reaction-impact.md": "bbae9e083a445a986f436116e655ec6843715b289781619e31211e8516c54666",
+    "references\\capabilities\\center-of-gravity-balance.md": "d7c3094a6bf5d0e1960bc18a88d5cb081250e4d03442a97ae18b7d5d4ebba7d7",
+    "references\\capabilities\\character-jump-mechanics.md": "30914a9cd42c9c2467e2babe16fdbd6b696ef4c46aed82882db6f1e5a884b6e9",
+    "references\\capabilities\\character-walk-energy.md": "b885495dc2e23e50851e6bfccd4f3092526d868d2a01522166778d92d2f0dcf3",
+    "references\\capabilities\\drag-follow-through-physics.md": "d4186347d31168971654eb9132b22d5e17e121592f05f9809ae40338a3ebfb1c",
+    "references\\capabilities\\fire-explosion-fracture.md": "816f80a85c1c87d79dcfa5eece0005183f55404abbed27ba69b2685c5b7680fe",
+    "references\\capabilities\\friction-drag-resistance.md": "0420fbc6300cb06073f445c003287c6bfed7d984fc70197c4a2c35a03bdb0926",
+    "references\\capabilities\\gravity-projectile-timing.md": "0450e4b0d1401fdd0214c54e9fc9e65ce8c7ef5a735bf69c60079a5ab9baca9e",
+    "references\\capabilities\\light-shadow-optics.md": "c56db70abdd81a8c362ce838e6ad0b16b4e4fe08efada2a6a464e1837096c9a6",
+    "references\\capabilities\\liquid-fluid-dynamics.md": "b0ee94c3ac36b336ce36ad60904ae082f60b5e9b9517783588673eb622603b03",
+    "references\\capabilities\\odd-rule-acceleration.md": "84de07f4538d7b885b50115291c1ff116552257ef9d03e87ae5e98d055b61686",
+    "references\\capabilities\\torque-lever-joints.md": "31b94d9b038e8fa541b8dd953d0a3f02625be3288ca871e3d6f15e2d02dcdc8d",
+    "references\\capability-index.md": "40d130f878fa5635b89f43c9b2e9096fd4f802704859d7bcad7572dcbf0b4615",
+    "references\\cheatsheet.md": "7055efef449504444832c3ad020a737d33e3e732e2779c3732c79ce4d16b39bb",
+    "references\\glossary.md": "54bd31c7b1b057c38e89d735e1df11fdee7b24c3167baf27112c284eecbf62df",
+    "references\\overview.md": "1561dcc839911a85db15e6f5f9836edad60ee6efa6cf04fda8a361728157dcea",
+    "SKILL.md": "ea6ed2fbda0ac4c1868bee1bb86f5cf7c9a5336902b11f14876b5f041481a06d"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.physics-for-animators",
+  "bundle_sha256": "e8d157bc4fccda2dbd97f73c7551da084a17cd9f4745a0377c57c0cdd02486f4",
+  "variant": "single",
+  "run_id": "run-20261006-165326-7bb99b",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

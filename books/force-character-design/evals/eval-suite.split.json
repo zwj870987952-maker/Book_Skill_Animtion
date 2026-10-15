@@ -1,0 +1,22 @@
+{
+  "suite_id": "eval.force-character-design.v1",
+  "seed": 42,
+  "train": [
+    "case-life-reportage-character-01",
+    "case-negative-spring-boot-java-01",
+    "case-color-costume-narrative-01",
+    "case-tone-value-staging-01",
+    "case-negative-machine-learning-loss-01",
+    "case-anthropomorphic-animal-01",
+    "case-facial-ratios-caricature-01",
+    "case-spatial-bounding-box-01"
+  ],
+  "validation": [
+    "case-character-layout-staging-01",
+    "case-forceful-triangle-01",
+    "case-law-of-thirds-asymmetry-01",
+    "case-opinion-hierarchy-01",
+    "case-pushing-poses-angles-01",
+    "case-architecture-character-01"
+  ]
+}

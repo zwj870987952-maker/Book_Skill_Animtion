@@ -1,0 +1,275 @@
+import yaml
+import json
+from pathlib import Path
+import jsonschema
+from referencing import Registry, Resource
+
+caps_data = [
+    {
+        "slug": "squash-and-stretch",
+        "title": "挤压与拉伸：生物组织弹性与常数体积守恒",
+        "importance": "critical",
+        "importance_rationale": "迪士尼十二黄金法则第一法则，生命肌肉组织的弹性形变与绝对几何体积常数守恒公理",
+        "one_liner": "在重力冲撞与运动做功中展现生物弹性形变，纵向拉长径向收缩严格保持绝对体积守恒",
+        "intents": ["在角色落地冲撞与发力起跳中展现富有弹性的挤压与拉伸 (Squash and Stretch)", "严格遵循几何常数体积守恒定律，杜绝拉伸变粗的充气泡泡与挤压缩水缺陷", "解耦刚性骨骼结构与半流体软组织，仅在面颊、腹腔腰窝与脊柱关节施加形变"],
+        "keywords": ["挤压与拉伸", "Squash and Stretch", "体积守恒", "Constant Volume", "弹性形变", "生物做功", "面团袋测试"],
+        "also_read": ["anticipation-physics", "timing-weight-acting"],
+        "desc": "以常数体积守恒为物理底线的生物组织弹性挤压拉伸工程规程。不适用于绝对刚性金属冲压零件。",
+        "tags": ["animation", "squash-and-stretch", "volume-conservation", "disney-principles"],
+        "loc": "Chapter 3, pp. 47–51"
+    },
+    {
+        "slug": "anticipation-physics",
+        "title": "动作预备与心理蓄势：反向做功与视觉引导",
+        "importance": "critical",
+        "importance_rationale": "生物肌肉做功前反向拉伸拮抗肌蓄力，向受众视网膜发出警报引导注意力的视觉心理学",
+        "one_liner": "强力动作爆发前向相反方向拉伸拮抗肌与调整重心蓄势，引导受众视网膜注意力聚焦靶点",
+        "intents": ["在剧烈动作爆发前设计反向预备动作 (Anticipation) 蓄满弹性势能", "通过慢速深沉预备与极速爆发构建 3:1 以上的戏剧速度反差", "将角色的视线与微小停顿锚定在即将攻击的目标点上引导受众视觉注意"],
+        "keywords": ["动作预备", "Anticipation", "反向做功", "蓄力", "视觉引导", "拮抗肌", "速度反差"],
+        "also_read": ["squash-and-stretch", "timing-weight-acting"],
+        "desc": "动作爆发前的反向蓄力与受众视网膜注意力引导工程。不适用于被动受外力撞击无意识后仰。",
+        "tags": ["animation", "anticipation", "biomechanics", "visual-cues", "disney-principles"],
+        "loc": "Chapter 3, pp. 51–53"
+    },
+    {
+        "slug": "staging-clarity",
+        "title": "舞台调度与剪影清晰度：绝对瞬间可读性",
+        "importance": "critical",
+        "importance_rationale": "迪士尼大银幕清晰叙事灵魂，同一瞬间唯一意图、纯黑剪影测试与释放几何负空间窗口",
+        "one_liner": "以纯黑剪影测试检验动作瞬间可读性，确立单一主视觉焦点，消除空间泥泞并拢与共线切线",
+        "intents": ["确立同一瞬间单一主意图原则，杜绝背景角色抢戏导致观众视线分裂", "将角色旋转至 3/4 最优戏剧视角，拉开展开手势与道具的纯黑剪影 (Silhouette Test)", "在肢体与躯干之间强制切削清晰的几何负空间透气窗口，消灭共线切线 (Tangents)"],
+        "keywords": ["舞台调度", "Staging", "剪影清晰度", "Silhouette", "单一焦点", "负空间窗口", "瞬间可读性"],
+        "also_read": ["solid-drawing-volume", "appeal-character-soul"],
+        "desc": "通过视角旋转、负空间切削与单一焦点控制实现 0.1 秒绝对瞬间叙事可读性的舞台工程。不适用于纯环境宏观漫游。",
+        "tags": ["animation", "staging", "silhouette", "composition", "disney-principles"],
+        "loc": "Chapter 3, pp. 53–56"
+    },
+    {
+        "slug": "straight-ahead-pose-to-pose",
+        "title": "连续画法与姿态对应法：动能灵感与结构控制融合",
+        "importance": "critical",
+        "importance_rationale": "迪士尼工业级双轨制作管线，姿态对应法锁定故事结构体积，连续画法注入狂放生命流动感",
+        "one_liner": "以姿态对应法锁定故事结构体积与时间节拍，在过渡原画中以连续画法注入狂放生命动能",
+        "intents": ["运用姿态对应法 (Pose to Pose) 锚定核心关键帧、空间极值与摄影表时间节拍", "在过渡原画与特效流体段落运用连续画法 (Straight Ahead) 注入不可预测的生机与流动感", "构建兼顾绝对三维体积控制与狂放生命动能的现代工业级双轨混合制作流程"],
+        "keywords": ["连续画法", "Straight Ahead", "姿态对应法", "Pose to Pose", "双轨管线", "结构控制", "自发生机"],
+        "also_read": ["staging-clarity", "timing-weight-acting"],
+        "desc": "结合自发灵感动量与严密时空体积控制的双轨动画制作工程规程。不适用于纯机械补间无意图平移。",
+        "tags": ["animation", "straight-ahead", "pose-to-pose", "pipeline", "disney-principles"],
+        "loc": "Chapter 3, pp. 56–58"
+    },
+    {
+        "slug": "follow-through-overlapping",
+        "title": "跟随动作与动作重叠：多级滞后波浪与动能余震",
+        "importance": "critical",
+        "importance_rationale": "打破机械人偶同步起止，重心主动力源先行，柔性被动组织多级滞后波浪与刹车超量甩动",
+        "one_liner": "主动力源先行，柔性附属物与松弛组织多级滞后拖尾跟随，刹车时产生超量正弦衰减摆动",
+        "intents": ["编排角色头发、长耳、尾巴与衣服下摆的滞后拖尾 (Drag) 与跟随动作 (Follow Through)", "打破全身体块同帧起止的僵直木偶缺陷，使各部位启动与制动关键帧相互错开 2-4 帧", "设计刹车制动时的超量过冲 (Overshoot) 与多级正弦波阻尼余震沉降 (Settle)"],
+        "keywords": ["跟随动作", "Follow Through", "动作重叠", "Overlapping Action", "滞后拖尾", "Drag", "超量过冲", "正弦阻尼"],
+        "also_read": ["squash-and-stretch", "arcs-of-motion"],
+        "desc": "主动力核心与被动柔性部件多级延迟滞后与动能正弦波传导工程。不适用于单块刚性砖块碰撞。",
+        "tags": ["animation", "follow-through", "overlapping-action", "physics", "disney-principles"],
+        "loc": "Chapter 3, pp. 59–62"
+    },
+    {
+        "slug": "slow-in-slow-out",
+        "title": "慢入与慢出：牛顿加减速与阻尼缓冲轨目",
+        "importance": "critical",
+        "importance_rationale": "符合牛顿力学惯性做功，极值姿态附近密集排布缓冲让观众吸收情绪，中间快速撕裂传达动量",
+        "one_liner": "消除机械线性均分中割，在极值点编排密集加减速缓冲轨目，中间跨越大位移高速撕裂",
+        "intents": ["编排符合牛顿力学加速度定律的慢出 (Slow Out 加速) 与慢入 (Slow In 减速) 轨目表", "在关键极值姿态附近密集排布画稿让受众充分吸收角色的心理情绪与表演态度", "在撕裂位移中间帧拉大跨度传达爆发性动量，杜绝均等机械等分中割缺陷"],
+        "keywords": ["慢入慢出", "Slow In", "Slow Out", "牛顿加减速", "轨目表", "阻尼缓冲", "位移撕裂"],
+        "also_read": ["timing-weight-acting", "arcs-of-motion"],
+        "desc": "依据物理质量惯性在极值点编排加减速密集缓冲而在中间跨越位移的轨目工程。不适用于传送带均速运转。",
+        "tags": ["animation", "slow-in-slow-out", "ease-in-ease-out", "spacing", "disney-principles"],
+        "loc": "Chapter 3, pp. 62–63"
+    },
+    {
+        "slug": "arcs-of-motion",
+        "title": "圆滑弧线运动轨迹：关节旋转与自然律动",
+        "importance": "critical",
+        "importance_rationale": "生物骨骼铰链旋转运动学必然结果，消除机械折线中割，保持骨架真实长度与三维体积守恒",
+        "one_liner": "遵循生物骨骼绕铰链旋转运动学，运动轨迹绝对呈圆滑弧线，消除机械折线与穿模萎缩",
+        "intents": ["以关节为旋转圆心绘制指尖、鼻尖与足部运动轨迹的圆滑贝塞尔弧线 (Arcs)", "强制中割帧关节点死死锚定在预设弧线上，杜绝直线切割导致的肢体萎缩与穿模", "编排复合行走与挥舞动作中的优美 8 字形 (Figure-8) 与正弦双重空间弧线"],
+        "keywords": ["弧线运动", "Arcs", "运动轨迹", "Motion Trail", "关节铰链", "长度守恒", "8字形轨迹"],
+        "also_read": ["follow-through-overlapping", "solid-drawing-volume"],
+        "desc": "关节点圆滑弧线轨迹规划与骨骼物理长度严格守恒的运动学工程。不适用于机械活塞正交直线运动。",
+        "tags": ["animation", "arcs", "motion-path", "kinematics", "disney-principles"],
+        "loc": "Chapter 3, pp. 63–64"
+    },
+    {
+        "slug": "secondary-action",
+        "title": "次级动作与情绪放大器：主次动作心理共振",
+        "importance": "high",
+        "importance_rationale": "角色的自主心理微动作，附属于主动作并作为情绪放大器揭示深层潜台词，严格服从主调度",
+        "one_liner": "以附属微小动作丰富并放大主动作的情感动机与戏剧潜台词，严格服从主动作节奏与焦点",
+        "intents": ["设计依附于主动作的次级动作 (Secondary Action) 作为角色深层心理潜台词的情绪放大器", "确保次级动作在时间与空间幅度上严格服从主动作，杜绝抢戏喧宾夺主破坏舞台调度", "在日常走路、说话或搏杀中注入擦眼泪、整理领带、脚趾内扣等具有人性温度的次级微动作"],
+        "keywords": ["次级动作", "Secondary Action", "情绪放大器", "潜台词", "Subtext", "主次层级", "心理真实"],
+        "also_read": ["staging-clarity", "appeal-character-soul"],
+        "desc": "以附属微小动作放大主动作情感表达并揭示深层心理潜台词的表演工程。不适用于纯物理被动跟随拖尾。",
+        "tags": ["animation", "secondary-action", "acting", "emotion", "disney-principles"],
+        "loc": "Chapter 3, pp. 64–65"
+    },
+    {
+        "slug": "timing-weight-acting",
+        "title": "时间掌握与物理重量感：帧数控制与生命节拍",
+        "importance": "critical",
+        "importance_rationale": "赋予无重量线条数吨质量的唯一神力，两姿态间绝对物理帧数决定质量、速度与灵魂情绪状态",
+        "one_liner": "通过绝对帧数控制展现物体的质量、密度、重力加速度与角色的心理情绪生命节拍",
+        "intents": ["依据物体物理质量与材质刚性分配绝对帧数，展现轻如鸿毛或重达数吨的真实重量感", "在角色受到外部刺激到产生物理动作之间编排 3-6 帧心理理解思维停顿 (The Thinking Beat)", "结合动作重要性微调摄影表一拍一 (On Ones) 与一拍二 (On Twos) 的节奏呼吸感"],
+        "keywords": ["时间掌握", "Timing", "重量感", "Weight", "帧数控制", "Dope Sheet", "思维停顿", "生命节拍"],
+        "also_read": ["slow-in-slow-out", "squash-and-stretch"],
+        "desc": "以绝对帧数分配掌控物理质量惯性、重力加速度与角色心理思维节拍的时间工程。不适用于无时序静态设计。",
+        "tags": ["animation", "timing", "weight", "acting", "disney-principles"],
+        "loc": "Chapter 3, pp. 65–67"
+    },
+    {
+        "slug": "exaggeration-essence",
+        "title": "戏剧夸张与本质放大：真实背后的超真实提炼",
+        "importance": "critical",
+        "importance_rationale": "绝非丑陋畸形变形，而是主观提炼角色精神与生理本质真理并放大 150%-200% 的超真实艺术",
+        "one_liner": "绝非丑陋畸形变形，而是主观提炼角色精神与生理本质真理并放大 150%-200% 的艺术精髓",
+        "intents": ["主观提炼角色性格与戏剧冲突核心动机，并将其在解剖几何上推远放大 150%-200%", "保持角色内部骨骼力学与重心平衡自洽，杜绝毫无动机的恶俗怪诞肉体畸变", "在极端夸张的极值帧前后紧密衔接细腻克制的日常动作，制造强烈的戏剧动态反差"],
+        "keywords": ["戏剧夸张", "Exaggeration", "本质放大", "Magnify Truth", "超真实", "戏剧反差", "双重吃惊"],
+        "also_read": ["appeal-character-soul", "staging-clarity"],
+        "desc": "对生活本质真理进行主观提炼与戏剧性美学放大的艺术工程。不适用于纯法医学写实人脸复原。",
+        "tags": ["animation", "exaggeration", "caricature", "hyper-reality", "disney-principles"],
+        "loc": "Chapter 3, pp. 67–68"
+    },
+    {
+        "slug": "solid-drawing-volume",
+        "title": "纯熟绘图与三维立体空间：空间深度与体块转折",
+        "importance": "critical",
+        "importance_rationale": "在虚空中雕刻三维雕塑，环绕包裹截面线、T 形前后空间穿插遮挡与空间三轴反向倾斜",
+        "one_liner": "在二维画纸上赋予形体真实三维体积、重量感、透视厚度与空间旋转，杜绝扁平纸片人",
+        "intents": ["将角色解构为头部球体、胸廓卵形与骨盆碗状三大核心三维刚性体块", "绘制环绕包裹截面线 (Cross-Contour) 与 T 形空间相交线确立无可辩驳的前后遮挡深度", "让双脚坚实踩在三维透视地平面上，保持重心中轴稳定，杜绝扁平纸片人漂浮病"],
+        "keywords": ["纯熟绘图", "Solid Drawing", "三维体积", "Volume", "环绕包裹线", "Cross-Contour", "T形交错", "空间转折"],
+        "also_read": ["staging-clarity", "squash-and-stretch"],
+        "desc": "以基本三维几何体块、环绕包裹线与透视遮挡在二维平面构建坚实体积与深度的绘图工程。不适用于纯平面轴测图。",
+        "tags": ["animation", "solid-drawing", "3d-space", "volume", "disney-principles"],
+        "loc": "Chapter 3, pp. 68–69"
+    },
+    {
+        "slug": "appeal-character-soul",
+        "title": "至高吸引力与角色灵魂：黄金比例、脆弱感与终极魔力",
+        "importance": "critical",
+        "importance_rationale": "迪士尼动画艺术万神殿皇冠之珠，反派宏伟纯度、主角人性脆弱感与大中小黄金节奏级配",
+        "one_liner": "赋予角色迷人的几何比例、温暖人性脆弱感与跨越文化隔阂的迪士尼至高吸引力",
+        "intents": ["在角色设计中贯彻大中小 (Large-Medium-Small) 黄金节奏级配，消灭 1:1 均等对称乏味感", "为可爱角色注入婴儿图式比例与笨拙脆弱感，为邪恶反派注入宏伟优雅的几何纯度与威严气场", "用极简纯净的外轮廓大弧线消除琐碎噪音，赋予角色令人无法移开目光的视觉磁场与灵魂魔力"],
+        "keywords": ["终极吸引力", "Appeal", "角色灵魂", "Character Soul", "大中小比例", "人性脆弱感", "视觉磁场"],
+        "also_read": ["exaggeration-essence", "staging-clarity"],
+        "desc": "赋予角色迷人几何比例、人性共鸣与终极美学磁场的角色灵魂工程。不适用于纯工业枯燥零件图纸。",
+        "tags": ["animation", "appeal", "character-design", "soul", "disney-principles"],
+        "loc": "Chapter 3, pp. 69–71"
+    }
+]
+
+destinations_map = {}
+capabilities = []
+
+for c in caps_data:
+    cid = f"cap.illusion-of-life.{c['slug']}"
+    destinations_map[cid] = {
+        "target_pack_slug": "illusion-of-life",
+        "target_skill_slug": "illusion-of-life",
+        "action": "create"
+    }
+    
+    capabilities.append({
+        "capability_id": cid,
+        "revision": 1,
+        "status": "active",
+        "aliases": [],
+        "supersedes": [],
+        "merged_into": None,
+        "split_into": [],
+        "slug": c["slug"],
+        "title": c["title"],
+        "importance": c["importance"],
+        "importance_rationale": c["importance_rationale"],
+        "one_liner": c["one_liner"],
+        "intents": c["intents"],
+        "keywords": c["keywords"],
+        "also_read": c["also_read"],
+        "card": f"cards/{c['slug']}.md",
+        "frontmatter": {
+            "description": c["desc"],
+            "tags": c["tags"]
+        },
+        "source_evidence": [{"source_id": "src-main-book", "location": c["loc"]}],
+        "promotion": {
+            "destination": "router",
+            "gate": {
+                "independent_intent": False,
+                "independent_contract": True,
+                "independent_run": True,
+                "independent_reuse": False,
+                "independent_eval": True
+            },
+            "notes": "Single 模式下归入主入口统一路由"
+        }
+    })
+
+bundle = {
+    "schema_version": 1,
+    "bundle_id": "bundle.illusion-of-life",
+    "book": {
+        "title": "迪士尼动画：生命之幻 (The Illusion of Life: Disney Animation)",
+        "source_pack": "books/illusion-of-life",
+        "edition": "Official Edition",
+        "authors": ["Frank Thomas", "Ollie Johnston"],
+        "year": 1981,
+    },
+    "entry": {
+        "name": "illusion-of-life",
+        "description": "全球角色动画开山奠基圣典与迪士尼十二黄金法则 (The 12 Basic Principles of Animation) 官方权威工程手册。涵盖常数体积守恒与生物组织弹性挤压拉伸 (Squash & Stretch)、反向做功与受众神经引导动作预备 (Anticipation)、单一主焦点与 0.1 秒纯黑剪影测试舞台调度 (Staging)、结构控制与自发狂放动能之连续画法与姿态对应法融合 (Straight Ahead vs. Pose to Pose)、主动力先行与次级附属物正弦滞后跟随重叠 (Follow Through & Overlapping Action)、牛顿加减速与阻尼缓冲慢入慢出 (Slow In & Slow Out)、关节点圆滑弧线与骨架长度守恒 (Arcs of Motion)、放大主动作情感潜台词之次级动作 (Secondary Action)、绝对物理帧数与重量思维节拍时间掌握 (Timing & Weight)、提炼本质真理并放大 150%-200% 之戏剧夸张 (Exaggeration)、环绕包裹线与 T 形穿插纯熟三维立体绘图 (Solid Drawing)、大中小黄金节奏与人性脆弱魔力之至高吸引力 (Appeal & Character Soul) 经典法则规范。",
+        "core_principles": [
+            "动画的终极使命是创造生命的幻觉（The Illusion of Life）：让观众彻底忘记面对的是画纸或数字模型，坚信眼前是一个有心跳、有欲望与灵魂的活生生生命。",
+            "常数体积守恒是物理不可逾越的红线：形体挤压（Squash）必须伴随侧向展平，拉伸（Stretch）必须伴随径向纤细收拢，严禁拉伸变粗的充气失真。",
+            "任何强力物理做功必须具备反向蓄力预备（Anticipation）：肌肉发力前必先拉伸拮抗肌，向受众视网膜发出警报以引导焦点。",
+            "舞台调度必须实现 0.1 秒纯黑剪影瞬间可读性（Staging & Silhouette）：同一瞬间只讲清楚一个主意图，消灭切线与杂乱并拢，拉开几何负空间透气窗口。",
+            "动能遵循多级重叠波浪传递：主动力源核心先行，被动柔性组织（头发、衣服、赘肉）多级滞后拖尾，刹车时产生超量正弦衰减跟随（Follow Through）。",
+            "关节点轨迹绝对呈现自然圆滑弧线（Arcs）：生物骨骼绕铰链旋转严禁直线中割，慢入慢出（Slow In & Out）集中画稿于极值点以沉淀情绪，中间高速撕裂传达动量。",
+            "至高吸引力（Appeal）是一切设计的皇冠：拒绝 1:1 均等中庸分割，反派需具备冷酷宏伟的几何纯度，主角需具备温暖脆弱的人性共鸣与大中小黄金阶梯比例。"
+        ],
+        "out_of_scope": [
+            "纯工业机械齿轮啮合与液压阀门工程制图",
+            "静态二维商业条形码印刷排版",
+            "法医学冰冻标本解剖防腐测绘"
+        ],
+        "stop_conditions": [
+            "用户仅咨询机械齿轮制图或商业印刷排版，不涉及角色动画、十二法则、物理运动规律与表演时判停",
+            "已输出明确的迪士尼十二法则参数、体积守恒公式、纯黑剪影排查指标、次级动作方案或夸张表演规程时判停"
+        ]
+    },
+    "router_entry": {
+        "name": "illusion-of-life",
+        "description": "迪士尼九老生命之幻动画十二黄金法则工程手册。提供常数体积挤压拉伸、反向蓄势动作预备、纯黑剪影舞台调度、连续画与姿态对应法融合、多级滞后跟随重叠、加减速慢入慢出、关节点圆滑弧线、次级动作情绪放大器、帧数重量时间掌握、本质放大戏剧夸张、三维体块纯熟绘图与至高吸引力工程支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+schemas_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\schemas")
+registry = Registry()
+for s in schemas_dir.glob("*.schema.json"):
+    data = json.loads(s.read_text(encoding="utf-8"))
+    res = Resource.from_contents(data)
+    schema_id = data.get("$id", f"https://cangjie-skill.org/schemas/{s.name}")
+    registry = registry.with_resource(schema_id, res)
+    registry = registry.with_resource(f"https://cangjie-skill.org/schemas/{s.name}", res)
+
+bundle_schema = json.loads((schemas_dir / "capability-bundle.schema.json").read_text(encoding="utf-8"))
+validator = jsonschema.Draft202012Validator(bundle_schema, registry=registry)
+validator.validate(instance=bundle)
+print("Schema validation with offline registry: PASS 100%!")
+
+out_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\illusion-of-life\.cangjie\capabilities\verified.yaml")
+out_path.write_text(yaml.safe_dump(bundle, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+print(f"Written verified.yaml successfully: {out_path}")
+
+dest_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\illusion-of-life\.cangjie\capabilities\destinations.json")
+dest_path.write_text(json.dumps({
+    "bundle_id": bundle["bundle_id"],
+    "destinations": destinations_map
+}, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Updated destinations.json successfully: {dest_path}")

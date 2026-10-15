@@ -1,0 +1,41 @@
+{
+  "bundle_id": "bundle.force-life-drawing",
+  "destinations": {
+    "cap.force-life-drawing.directional-applied-force": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.force-rhythm-rollercoaster": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.opposing-curves-torso": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.wrapping-lines-cross-contour": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.straight-vs-curved-shapes": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.asymmetry-law-of-thirds": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.silhouette-negative-space": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.fabric-drape-folds-mechanics": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.quick-sketch-reportage": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.human-animal-comparative-force": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.line-texture-pencil-pressure": {
+      "served_by": "force-life-drawing"
+    },
+    "cap.force-life-drawing.acting-drama-storytelling-pose": {
+      "served_by": "force-life-drawing"
+    }
+  }
+}

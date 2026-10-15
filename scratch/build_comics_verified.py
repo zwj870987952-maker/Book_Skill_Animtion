@@ -1,0 +1,283 @@
+# -*- coding: utf-8 -*-
+import yaml
+import os
+
+capabilities_raw = [
+    {
+        "slug": "visual-iconography-and-abstraction-pyramid",
+        "title": "图像符号学与具象-抽象大三角金字塔（写实现实至卡通面具效应）",
+        "one_liner": "麦克劳德图像符号大三角、写实环境与卡通角色复合范式、面具效应代入算法。",
+        "keywords": ["iconography", "the-big-triangle", "masking-effect", "cartoon-abstraction", "projection", "visual-symbol"],
+        "also_read": ["character-design-expressiveness-and-facial-acting", "word-and-picture-seven-combinations"],
+        "requirements": [
+            "深刻理解写实现实、纯粹语言与卡通偶像三维大三角认知坐标",
+            "在商业漫画中践行写实背景（世界观信度）与卡通角色（零门槛代入面具）的黄金复合范式",
+            "根据故事题材与受众定位精准锚定全篇角色的抽象化层级守恒"
+        ],
+        "antirequirements": [
+            "严禁青年冒险漫主角面部过于素描写实引发恐怖谷效应阻止读者自我投射",
+            "严禁同一世界观内主要角色抽象程度剧烈割裂如同拼贴画"
+        ]
+    },
+    {
+        "slug": "gutter-closure-and-six-panel-transitions",
+        "title": "格隙闭合心理学与六大分格跃迁力学（时刻到时刻至非推论跃迁）",
+        "one_liner": "格隙时间空间脑补、格式塔闭合心理、美日六大分格跃迁谱系与节奏调控。",
+        "keywords": ["gutter-closure", "six-transitions", "moment-to-moment", "action-to-action", "aspect-to-aspect", "gestalt-psychology"],
+        "also_read": ["time-space-mapping-and-panel-duration", "manga-visual-grammar-and-koma-flow"],
+        "requirements": [
+            "熟练运用六大跃迁模型（时刻/动作/主体/场景/角度/非推论）编排情节时空",
+            "美漫高效动作因果推进与日漫微观切片（时刻到时刻）及意境沉浸（角度到角度）有机融构",
+            "确保格隙之间的因果逻辑具备合理张力，读者能无障碍自发完成闭合脑补"
+        ],
+        "antirequirements": [
+            "严禁通篇单一使用单调的动作到动作跃迁导致叙事缺乏氛围与呼吸感",
+            "严禁无逻辑根据地滥用非推论跃迁造成剧情不知所云"
+        ]
+    },
+    {
+        "slug": "time-space-mapping-and-panel-duration",
+        "title": "空间画框时间映射与感知时长力学（画框几何宽度对时长的拉伸与无框格）",
+        "one_liner": "空间即时间映射铁律、画框几何宽度对感知时长的拉伸、无框格时间永恒感与气泡时差。",
+        "keywords": ["time-space-mapping", "panel-duration", "borderless-panel", "reading-latency", "panel-width", "perceived-time"],
+        "also_read": ["gutter-closure-and-six-panel-transitions", "page-layout-and-dramatic-page-turn"],
+        "requirements": [
+            "利用分格物理宽度严格调控感知时长：狭窄竖格代表刹那瞬间，超宽水平格代表时间凝固延展",
+            "无框格（Borderless Panel）严格用于回忆、梦境或震颤心灵的超验永恒时刻",
+            "动作爆发分格必须严格控制对白字数，避免长阅读时差破坏电光石火的动作爆发力"
+        ],
+        "antirequirements": [
+            "严禁在极速打斗或下落动作瞬间塞入长篇大论对白破坏动作时效性",
+            "严禁全页所有分格均等划分成单调乏味的豆腐块"
+        ]
+    },
+    {
+        "slug": "manga-visual-grammar-and-koma-flow",
+        "title": "日漫视听文法与分格流势工程（コマ割りの力学、反Z型轨迹与出血页）",
+        "one_liner": "コマ割り分格力学、右上至左下反Z型顺滑流势、段落格隙阶梯阻隔与动势抛射。",
+        "keywords": ["manga-grammar", "koma-wari", "reverse-z-flow", "tier-division", "slanted-borders", "bleed-splash"],
+        "also_read": ["comics-troubleshooting-and-flow-auditing", "page-layout-and-dramatic-page-turn"],
+        "requirements": [
+            "分格严格顺应日漫反Z型或反S型阅读滑梯，消灭视线倒流与犹豫停顿",
+            "水平段落格隙宽度（6-8mm）必须显著大于垂直格隙宽度（2-3mm），建立无歧义阅读层级",
+            "运用倾斜分格线赋予动作戏动势速度张力，核心震撼大招匹配跨页出血（Splash/Bleed）"
+        ],
+        "antirequirements": [
+            "严禁横竖格隙等宽导致读者陷入先横读还是先竖读的迷宫困境",
+            "严禁双跨页核心人物面孔或关键对白被中缝装订线吞没裁切"
+        ]
+    },
+    {
+        "slug": "line-dynamics-synaesthesia-and-emotive-marks",
+        "title": "线条动力学通感与情绪记号文法（夏目房之介形与线身体性与漫符体系）",
+        "one_liner": "线条肌肉运笔身体性、笔压弹性与视听通感、日本漫画独创漫符（Manpu）记号操作系统。",
+        "keywords": ["line-dynamics", "corporeality-of-lines", "manpu-system", "emotive-marks", "speed-lines", "synaesthesia"],
+        "also_read": ["sound-effects-and-lettering-typography", "visual-iconography-and-abstraction-pyramid"],
+        "requirements": [
+            "充分发挥线条笔压的轻重缓急，以弹性曲线赋予生命温存，以锐利断线传达破碎痛苦",
+            "规范运用日漫高度抽象的漫符体系（青筋、冷汗、眩晕眼、竖线阴影）精准外化心理",
+            "背景速度线/聚焦线的放射灭点必须严格锚定主要动势的物理消失点"
+        ],
+        "antirequirements": [
+            "严禁在严肃写实青年悬疑题材中滥用Q版搞笑漫符破坏严肃世界观调性",
+            "严禁全篇使用均质无压感电脑铁线导致画面呆板缺乏生命温度"
+        ]
+    },
+    {
+        "slug": "sound-effects-and-lettering-typography",
+        "title": "拟音词拟态词音画字型排印（美漫工业拟音字渲染与日漫オノマトペ融合）",
+        "one_liner": "美漫材质化拟音字SFX、日漫拟声/拟态/拟情词（オノマトペ）背景融合、气泡排印设计。",
+        "keywords": ["sound-effects", "onomatopoeia", "lettering-typography", "word-balloons", "phonomime", "shout-balloon"],
+        "also_read": ["line-dynamics-synaesthesia-and-emotive-marks", "word-and-picture-seven-combinations"],
+        "requirements": [
+            "拟音字（SFX）必须赋予契合声源的物理材质肌理（石裂、金属反光）并参与三维空间遮挡",
+            "日漫拟音拟态词（オノマトペ）必须手绘化融入画面线条，实现字景合一",
+            "对白气泡根据情绪类型（常规/呐喊/低语/机械）进行严格形态区分，外围留出呼吸留白"
+        ],
+        "antirequirements": [
+            "严禁使用冰冷死板的系统默认宋体/黑体生硬贴图破坏手绘画面艺术感",
+            "严禁气泡面积过大遮挡角色面部关键表情或重要道具细节"
+        ]
+    },
+    {
+        "slug": "word-and-picture-seven-combinations",
+        "title": "文图关系七大交锋组合力学（词语优先至相互依赖艺术巅峰）",
+        "one_liner": "麦克劳德文图七大交锋矩阵、词语/图像优先、二重奏与相互依赖（Interdependent）巅峰。",
+        "keywords": ["word-and-picture", "seven-combinations", "interdependent-combination", "parallel-storytelling", "montage-counterpoint", "dialogue-tension"],
+        "also_read": ["visual-iconography-and-abstraction-pyramid", "sound-effects-and-lettering-typography"],
+        "requirements": [
+            "深刻掌握文图七大组合关系（词优先、图优先、二重奏、添加、并行、蒙太奇、相互依赖）",
+            "在高潮戏剧交锋中大力运用相互依赖组合：图文各缺一半，交织瞬间在读者意识中引爆震撼",
+            "图像已传达的内容文字坚决闭嘴，让文字专注于挖掘水下深层冰山潜台词"
+        ],
+        "antirequirements": [
+            "严禁出现画面画哭泣、旁白写悲伤的低级无增量同义反复（Redundant Captioning）",
+            "严禁全页被小说式说明文霸占，使漫画退化为连环画插图"
+        ]
+    },
+    {
+        "slug": "page-layout-and-dramatic-page-turn",
+        "title": "整页网格构架与翻页绝壁悬念力学（九宫格、动态网格与Page-Turn Reveal）",
+        "one_liner": "整页网格几何建筑学、九宫格/动态网格、翻页绝壁悬念（Page-Turn Reveal）物理反转。",
+        "keywords": ["page-layout", "page-turn-reveal", "nine-panel-grid", "cliffhanger-hook", "visual-hierarchy", "spread-composition"],
+        "also_read": ["manga-visual-grammar-and-koma-flow", "time-space-mapping-and-panel-duration"],
+        "requirements": [
+            "翻页悬念铁律：翻页前末尾格设计悬念钩子，绝壁反转大场面必须严格安置在翻页后全新首格",
+            "整页构架必须设立面积占40%以上的绝对视觉焦点主格（Hero Panel），主从分明",
+            "根据作品叙事调性选择严谨九宫格、动态多变网格或带状欧漫网格"
+        ],
+        "antirequirements": [
+            "严禁将重大反转画在翻开对开页的右半部分导致读者余光提前剧透",
+            "严禁整页所有分格灰度与面积完全均等导致视觉重心涣散"
+        ]
+    },
+    {
+        "slug": "character-design-expressiveness-and-facial-acting",
+        "title": "漫画角色可塑性与表情演员力学（麦克劳德六大原发表情与剪影测试）",
+        "one_liner": "漫画家表情终极演员、六大原发表情与复合混合算法、肢体微动态与纯黑剪影测试。",
+        "keywords": ["character-acting", "facial-expressions", "primary-emotions", "silhouette-test", "body-language", "expressiveness"],
+        "also_read": ["visual-iconography-and-abstraction-pyramid", "line-dynamics-synaesthesia-and-emotive-marks"],
+        "requirements": [
+            "熟练调动喜悦、悲伤、愤怒、厌恶、恐惧、惊讶六大原发表情及其复合混合情绪（如残忍狂喜）",
+            "面部五官表情与脊椎弯曲、肩膀张力、手部微动作达成高强度身心同频",
+            "角色动作必须通过纯黑剪影测试（Silhouette Test），轮廓必须具备瞬时可读性"
+        ],
+        "antirequirements": [
+            "严禁角色无论面对何种戏剧境遇五官肌肉角度均毫无形变的面瘫木偶病",
+            "严禁角色在愤怒或悲伤时双手死板下垂贴合裤缝（Dead Hands）"
+        ]
+    },
+    {
+        "slug": "american-comic-scriptwriting-format",
+        "title": "美漫工业脚本格式规范（全脚本Full Script逐页逐格标准与漫威法）",
+        "one_liner": "好莱坞与DC/漫威全脚本标准格式、页格编号标尺、单格单动作守恒与漫威法协作。",
+        "keywords": ["full-script", "comic-scriptwriting", "panel-description", "marvel-style", "one-action-per-panel", "five-panel-rule"],
+        "also_read": ["page-layout-and-dramatic-page-turn", "webtoon-vertical-scroll-grammar"],
+        "requirements": [
+            "严格遵循美漫工业全脚本格式（PAGE/PANEL逐级编号、内外景镜头描述、CAPTION与对白）",
+            "单页分格严格恪守4-6格黄金标尺，坚决单格单动作守恒（One Action Per Panel）",
+            "理解漫威法（编剧梗概→画师线稿→编剧填词）与全脚本法的适用边界与协作管线"
+        ],
+        "antirequirements": [
+            "严禁在单个分格内指示画师画出连续多重不可共存的动作",
+            "严禁一页硬塞超过7-8个分格导致画框被压缩至邮票大小"
+        ]
+    },
+    {
+        "slug": "webtoon-vertical-scroll-grammar",
+        "title": "竖屏条漫无限下滚视听文法（移动端垂直节奏、留白时差与单屏画框法则）",
+        "one_liner": "智能手机无限垂直下滚视听文法、垂直空白距离即心理时差、单屏画框窗口法则。",
+        "keywords": ["webtoon", "vertical-scroll", "mobile-comics", "viewport-rule", "whitespace-latency", "continuous-parallax"],
+        "also_read": ["american-comic-scriptwriting-format", "time-space-mapping-and-panel-duration"],
+        "requirements": [
+            "将垂直滑动距离转化为感知时间：常规间隔200-400px，重大悬念采用800-1500px纯色深渊留白",
+            "严格遵循单屏画框窗口法则，单屏视觉焦点不得超过2个，全屏暴击格占据1.5-2屏高度",
+            "发挥数字特权实现纵向无缝长镜头视差（从万米高空自由落体至地面的连续图画）"
+        ],
+        "antirequirements": [
+            "严禁将纸媒左右横向网格机械照搬至手机竖屏导致字体过小如蚂蚁",
+            "严禁格与格之间紧紧相贴缺乏垂直留白导致滑动节奏如同流水账"
+        ]
+    },
+    {
+        "slug": "comics-troubleshooting-and-flow-auditing",
+        "title": "漫画分格排障与眼球轨迹流势审计（视觉死胡同、气泡交叉与倒流修复）",
+        "one_liner": "眼球轨迹流势审计三步法（模糊盲测/碰撞检测/格隙阶梯）、四大致命分格病灶外科手术。",
+        "keywords": ["flow-auditing", "troubleshooting", "visual-dead-end", "bubble-crossing", "blur-test", "reading-order"],
+        "also_read": ["manga-visual-grammar-and-koma-flow", "page-layout-and-dramatic-page-turn"],
+        "requirements": [
+            "执行眼球轨迹流势三步审计流水线：模糊盲测焦点、气泡矢量碰撞检测、格隙阶梯层级测量",
+            "坚决消灭视觉死胡同、对白气泡倒流交叉、等距迷宫网格与视觉噪点轰炸四大病灶",
+            "确保动量矢量守恒：上一格挥刀受力方向与下一格受击者飞出方向严密相符"
+        ],
+        "antirequirements": [
+            "严禁气泡引线长途跋涉跨越画面中央穿透多个角色躯干",
+            "严禁读者在任何分格处产生超过0.5秒的阅读路径困惑与视线倒流"
+        ]
+    }
+]
+
+capabilities = []
+for cap in capabilities_raw:
+    slug = cap["slug"]
+    intents = [
+        f"如何理解和应用{cap['title']}",
+        f"在漫画创作与分格设计中实施{slug}的最佳实践",
+        f"排查与修复{slug}相关的视听文法错误与视线阻碍"
+    ]
+    capabilities.append({
+        "capability_id": f"cap.comics-grammar-and-sequential-art.{slug}",
+        "slug": slug,
+        "title": cap["title"],
+        "importance": "high",
+        "importance_rationale": f"《理解漫画》《制造漫画》《日本漫画为什么有趣》《美漫脚本写作》核心支柱：{cap['one_liner']}",
+        "one_liner": cap["one_liner"],
+        "intents": intents,
+        "keywords": cap["keywords"],
+        "also_read": cap["also_read"],
+        "card": f"cards/{slug}.md",
+        "frontmatter": {
+            "title": cap["title"],
+            "importance": "high",
+            "one_liner": cap["one_liner"],
+            "requirements": cap["requirements"],
+            "antirequirements": cap["antirequirements"]
+        }
+    })
+
+bundle_data = {
+    "schema_version": 1,
+    "bundle_id": "bundle.comics-grammar-and-sequential-art",
+    "book": {
+        "slug": "comics-grammar-and-sequential-art",
+        "title": "漫画视听文法与图像叙事工程手册",
+        "subtitle": "融合斯科特·麦克劳德《理解漫画》《制造漫画》、夏目房之介《日本漫画为什么有趣》、DC/漫威《1519美漫脚本写作教程》等世界级漫画圣经",
+        "authors": [
+            "Scott McCloud (斯科特·麦克劳德)",
+            "Natsume Fusanosuke (夏目房之介)",
+            "Dennis O'Neil / DC Comics (丹尼斯·奥尼尔)"
+        ],
+        "edition": "Industrial Comics Grammar & Sequential Art Edition",
+        "summary": "涵盖图像符号学大三角、面具效应、格隙闭合心理学、六大分格跃迁、空间时间映射、日漫コマ割り分格流势、反Z型视线诱导、漫符记号体系、拟音词拟态词音画字型排印、文图七大交锋组合、整页网格建筑学、翻页绝壁悬念Page-Turn Reveal、麦克劳德表情演算法、美漫全脚本Full Script格式、竖屏条漫Webtoon无限下滚视听文法与流势排障审计流水线。"
+    },
+    "entry": {
+        "name": "comics-grammar-and-sequential-art",
+        "description": "世界级漫画视听文法、图像叙事学、美漫工业脚本、日漫分格流势与竖屏条漫工程指南。",
+        "core_principles": [
+            "图像符号大三角与面具效应：写实背景构建物理信度，极简卡通角色促成零阻力心理代入",
+            "格隙闭合心理学与六大跃迁：时刻到时刻、动作到动作、主体到主体、场景到场景、角度到角度与非推论跃迁",
+            "空间即时间映射铁律：分格几何宽度拉伸感知时长，无框格溢出时间永恒感，文字阅读时差计算",
+            "日漫コマ割り分格流势：右上至左下反Z型滑梯，横段落格隙显著大于竖格隙，倾斜分格赋予速度动势",
+            "线条身体性与漫符操作系统：笔压弹性与视听通感，青筋、冷汗、眩晕眼等高度抽象情感符号系统",
+            "拟音拟态词（オノマトペ/SFX）：字型材质化与三维遮挡，手绘字景合一，情绪化气泡排印设计",
+            "文图关系七大组合：词语优先、图像优先、二重奏、添加、并行、蒙太奇与终极相互依赖（Interdependent）",
+            "翻页绝壁悬念（Page-Turn Reveal）：翻页前末尾格设计悬念钩子，绝壁反转严格安置在翻页后全新首格",
+            "表情演员力学与剪影测试：六大原发表情混合算法，五官与脊椎手部同频，纯黑剪影瞬间可读性",
+            "美漫工业全脚本规范：PAGE/PANEL逐级编号，4-6格黄金标尺，坚决恪守单格单动作守恒",
+            "竖屏条漫无限下滚文法：手指滑动即帧率，垂直空白距离即心理时差，单屏画框窗口法则",
+            "眼球轨迹流势排障流水线：模糊盲测焦点、气泡矢量碰撞检测、格隙阶梯测量，坚决消灭视觉死胡同与倒流"
+        ],
+        "out_of_scope": [
+            "三维动画骨骼绑定与面部动画（参见 stop-staring / cartoon-animation）",
+            "电影分镜头台本180度轴线与摄影机焦距实拍（参见 storyboarding-and-master-shots）",
+            "长篇电影剧本三幕八序列好莱坞排版（参见 story-and-screenplay-engineering）"
+        ],
+        "stop_conditions": [
+            "分格几何构架与阅读流势顺滑无歧义，完全通过模糊盲测与眼球轨迹流势审计",
+            "图文关系达到相互依赖的高级戏剧张力，面具效应与闭合心理深度运作",
+            "翻页绝壁悬念或垂直下滚节奏严密落地，脚本格式符合全脚本工业标准"
+        ]
+    },
+    "router_entry": {
+        "name": "comics-grammar-and-sequential-art",
+        "description": "提供漫画视听文法、分格布局设计、美漫日漫条漫分镜规划、图像符号学、漫符拟音词排印与分格流势审计排障支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+target_path = "books/comics-grammar-and-sequential-art/.cangjie/capabilities/verified.yaml"
+with open(target_path, "w", encoding="utf-8") as f:
+    yaml.dump(bundle_data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+
+print(f"Successfully generated {target_path} with {len(capabilities)} capabilities!")

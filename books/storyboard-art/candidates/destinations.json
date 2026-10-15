@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "capabilities": {
+    "cap.storyboard-art.aspect-ratio-framing-geometry": "cards/aspect-ratio-framing-geometry.md",
+    "cap.storyboard-art.shot-scale-visual-hierarchy": "cards/shot-scale-visual-hierarchy.md",
+    "cap.storyboard-art.camera-movement-vector-arrows": "cards/camera-movement-vector-arrows.md",
+    "cap.storyboard-art.subject-action-directional-arrows": "cards/subject-action-directional-arrows.md",
+    "cap.storyboard-art.perspective-grid-lens-distortion": "cards/perspective-grid-lens-distortion.md",
+    "cap.storyboard-art.compositional-focal-flow": "cards/compositional-focal-flow.md",
+    "cap.storyboard-art.dramatic-lighting-silhouette": "cards/dramatic-lighting-silhouette.md",
+    "cap.storyboard-art.continuity-axis-screen-direction": "cards/continuity-axis-screen-direction.md",
+    "cap.storyboard-art.shot-transitions-optical-grammar": "cards/shot-transitions-optical-grammar.md",
+    "cap.storyboard-art.animatic-timing-previs": "cards/animatic-timing-previs.md",
+    "cap.storyboard-art.commercial-15-30s-storyboard": "cards/commercial-15-30s-storyboard.md",
+    "cap.storyboard-art.action-choreography-breakdown": "cards/action-choreography-breakdown.md"
+  },
+  "book_files": {
+    "overview": "book/overview.md",
+    "glossary": "book/glossary.md"
+  }
+}

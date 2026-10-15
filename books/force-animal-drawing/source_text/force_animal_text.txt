@@ -1,0 +1,3214 @@
+
+
+--- [PAGE 1/221] ---
+
+
+
+--- [PAGE 2/221] ---
+
+FORCE
+
+--- [PAGE 3/221] ---
+
+FORCE
+Animal Drawing
+Animal Locomotion and 
+Design Concepts for Animators
+Michael D. Mattesi
+Visit me at
+Drawingforce.com
+Forceddesign.blogspot.com
+AMSTERDAM • BOSTON • HEIDELBERG • LONDON
+NEW YORK • OXFORD • PARIS • SAN DIEGO
+SAN FRANCISCO • SINGAPORE • SYDNEY • TOKYO
+Focal press is an imprint of Elsevier
+
+--- [PAGE 4/221] ---
+
+Focal Press is an imprint of Elsevier
+225 Wyman Street, Waltham, MA 02451, USA
+The Boulevard, Langford Lane, Kidlington, Oxford, OX5 1GB, UK
+© 2011 Michael Mattesi. Published by Elsevier Inc. All rights reserved.
+No part of this publication may be reproduced or transmitted in any form or by any means, 
+electronic or mechanical, including photocopying, recording, or any information storage 
+and retrieval system, without permission in writing from the publisher. Details on how to 
+seek permission, further information about the Publisher's permissions policies and our 
+arrangements with organizations such as the Copyright Clearance Center and the Copyright 
+Licensing Agency, can be found at our website: ww.elsevier.com/permissions.
+This book and the individual contributions contained in it are protected under copyright by 
+the Publisher (other than as may be noted herein).
+Notices
+Knowledge and best practice in this field are constantly changing. As new research and 
+experience broaden our understanding, changes in research methods, professional practices, 
+or medical treatment may become necessary.
+Practitioners and researchers must always rely on their own experience and knowledge 
+in evaluating and using any information, methods, compounds, or experiments described 
+herein. In using such information or methods they should be mindful of their own safety and 
+the safety of others, including parties for whom they have a professional responsibility.
+To the fullest extent of the law, neither the Publisher nor the authors, contributors, or editors, 
+assume any liability for any injury and/or damage to persons or property as a matter of 
+products liability, negligence or otherwise, or from any use or operation of any methods, 
+products, instructions, or ideas contained in the material herein.
+Library of Congress Cataloging-in-Publication Data
+Application submitted
+British Library Cataloguing-in-Publication Data
+A catalogue record for this book is available from the British Library.
+ISBN: 978-0-240-81435-3
+For information on all Focal Press publications  
+visit our website at www.elsevierdirect.com
+11 12 13 14 15 5 4 3 2 1
+Printed in the United States of America
+
+
+--- [PAGE 5/221] ---
+
+
+
+--- [PAGE 6/221] ---
+
+This book is dedicated to my parents and my parents-in-law,  
+for their support, kindness, and love…and to Zoe,  
+the family hamster; she was a great pet.
+
+
+--- [PAGE 7/221] ---
+
+
+
+--- [PAGE 8/221] ---
+
+Special Thanks
+In any endeavor, there are many great people behind the scenes that share in a vision 
+and allow it to become reality. First and foremost there is my family. My ever-supportive 
+wife Ellen and inspiring kids, Marin and Makenna. They consistently encourage me to 
+follow my dreams and aspirations.
+To Katy Spencer, my editor at Focal Press, who believed in the value of this book and 
+who always responded exquisitely to my demanding emails and phone calls. Lauren 
+Mattos, at Focal, thanks for supporting the cause. Melinda Rankin, the Senior Project 
+manager on this book, thank you for your clarity and diligence. You helped me perfect 
+the book in its final weeks prior to press!
+Sherrie Sinclair, thank you for entrusting me with the students at The Academy of Art 
+University in SF and for introducing me to Terryl. Thank you Terryl Whitlatch, you are 
+invaluable as a friend and resource, keeping me on track with my anatomy and ideas.
+To you, the reader of my books, whose growth and curiosity I love to feed with my epiph-
+anies of our world, thank you!
+Mike Mattesi
+
+--- [PAGE 9/221] ---
+
+
+
+--- [PAGE 10/221] ---
+
+Many students of animation are understandably challenged by the convincing portrayal 
+of animals in motion. The sheer number of different species alone can make this task 
+seem overwhelming. Yet, there are basic principles that, when followed, create a useful 
+roadmap in negotiating this territory.
+This marriage of biophysics, gravity, time, and motion can be learned and expressed in 
+different ways. For some, like myself, it is an intuitive process, from a lifetime, beginning 
+in earliest childhood, of unconscious yet focused and intense observation on what makes 
+each animal and animal group special unto itself—the beauty first of all of the anatomy 
+and then the beauty of that anatomy in action. All animals, from the tortoise to the tiger, 
+have their own variation of dance. I was fortunate, through my parents and grandpar -
+ents, to have been constantly exposed to animals of all kinds, from tadpoles to horses, 
+nearly all of my life.
+Not everyone, however, has that opportunity, especially in today’s lifestyles where more 
+people spend increasingly vast amounts of time indoors staring into digital screens rather 
+than outside viewing reality, where animals live and have their being. Thus, there is a 
+mental disconnect. What makes the cave paintings at Lascaux and Altamira so living 
+and vibrant to this very moment is that those ancient artists abided in the animals’ world 
+and observed them every day.
+It is absolutely essential to understand animal anatomy, and indeed, it is a lifelong 
+ vocation, if one is to become a successful wildlife artist and animator. But to take that 
+anatomy and animate it, one must go that extra step. This book is a useful tool and guide 
+in doing just that, breaking down motion and form into a formula that is easily grasped 
+by both students and professionals alike. Rather than concentrating on anatomical 
+ subtleties, Michael distills the essence of motion and form, and how they work together, 
+looking at the big picture of gesture and action, rather than the morphological details, 
+which can be added later depending on the nature of the intended audience, project, 
+or artistic vision.
+Thus, this book bridges the gap, and the fact that Michael observed these principles in 
+nature, whether in zoos, the countryside, or his own backyard, should likewise  encourage 
+all aspiring students of animal art, animation, and creature design to get outside and, 
+using this volume as their guide, rediscover these delights, and the animal world, for 
+themselves.
+Terryl Whitlatch
+October 31, 2010
+Foreword
+
+--- [PAGE 11/221] ---
+
+x Foreword
+Design by Terryl Whitlatch
+This is one of a number of concept sketches for a giant elephant creature, based on 
+prehistoric proboscideans, and combined with a bit of sauropod and dimetrodon. 
+She's alarmed by something, and has arrested her walk to swivel toward it. It must 
+be something significant or unusual, because she has no natural enemies….
+
+
+--- [PAGE 12/221] ---
+
+The photo above was taken at The Starlight Cafe in Greenville, North Carolina, in 
+December of 2009. I described to my wife, Ellen, the secret sauce for this forCE  
+animal drawing book I committed to write. This was the first time I had put my ideas on 
+paper. The sketches revealed to me that I had something new to share with the art 
+community, and I was very excited to get started.
+Here I am now ten months later, in my basement office—or what Ellen likes to refer to as 
+my man cave—a little wiser to and more appreciative of the complexities of drawing 
+animals. I have spent a great deal of time at the oakland and San francisco Zoos, 
+ visited Safari West three times, and spent numerous hours watching videos frame by 
+frame from any channel that would telecast animal life. Let me humbly say, my first two 
+books were MUCH easier to write and illustrate than this one.
+Preface
+
+--- [PAGE 13/221] ---
+
+xii Preface
+Force: Animal Drawing and Design describes how the abstract theory of forCE 
+relates to the animal kingdom! This book marks the third in the forCE series and rounds 
+out the library for drawing live subjects. The ability to draw humans and animals is a 
+requirement for a portfolio to secure a job in the world of animation at the top studios. 
+These present requirements are the same as sixteen years ago when I was accepted to  
+Walt Disney feature Animation. The question to ask here is “Why do Disney and other 
+animation studios want you to be capable of drawing people and animals?” To help 
+answer this question, let me begin with another question: “Why do we bother drawing 
+a live human being in the first place?”
+The answer to this question is … (drum roll) because you and I are human beings and, 
+due to this fact, we can rELATE to the human model. We can understand physically 
+what the model is experiencing because we are extremely similar to him or her. We 
+understand how the model's body works, pulls, stretches, and bends. We understand 
+that certain poses tell certain stories and represent emotions. A slumped-over pose 
+with a person's hands covering their eyes usually depicts sadness. A pose with arms 
+stretched straight above the head, fists clenched, and chest pushed out means tri -
+umph. Imagine rocky Balboa reaching the top of the stairs at the end of his physical 
+and emotional journey and then slumping his shoulders forward, bending his head 
+down into his hands, and rejoicing in his accomplishments. We are so accustomed 
+to what postures signify that we take for granted their universality.
+The above photo of Ollie Johnson, Walt Disney Feature Animator, presents the 
+studio’s dedication to studying from life. © Disney.
+
+
+--- [PAGE 14/221] ---
+
+Preface xiii
+How does this relate to the entertainment industry or, even better, to this book? 
+Everyone else who spends money on the entertainment industry is a human being! 
+So what? Well, other human beings are what you can most relate to, right? A film 
+about motionless, expressionless rocks will not move you in a heartfelt, entertaining 
+manner.
+So why are there so many films with animals representing people? first off, many animal 
+emotions are expressed using the same mannerisms and poses in which we humans 
+express ours. My theory is that an animal is not a specific human, so more people can 
+relate to the specific HUMAN emotions of the character without the need to see past the 
+specifics of the character's facade. Sometimes tough subjects can be approached since 
+it involves a character one step removed. We have in many ways humanized animals. 
+These are some of the reasons why animation studios want to know whether you can 
+draw humans and animals. obviously, I did not know any of this when I was attempting 
+to obtain a job by learning how to be the best draftsman I could be.
+I am here to tell you I have come full circle in answering why I do it. I draw animals and 
+people because I want to CoNNECT to my subjects. I want to empathize with them in 
+some deeper manner than just copying what I see. An amazing method of deeper 
+expression is Force. Through this method, you learn to understand the abstract ideas of 
+forCE and how gravity, anatomy, environment, and many other factors affect the sub-
+jects you are experiencing. The method of drawing with forCE will allow you to better 
+ experience the physical and emotional expression of your subjects, bringing you closer 
+to their experience.
+“our task must be to free ourselves…by widening our 
+circle of compassion to embrace all living creatures 
+and the whole of nature and its beauty.”
+Albert Einstein
+Here are a few reasons why this forCE animal drawing book is unique:
+1. You will learn how to draw animals through the theory of force.
+2. This book is organized by the different types of animal locomotive anatomy. That 
+structure makes this the first book of its kind. Within each chapter, we investigate 
+how force, form, and shape affect that specific type of anatomy.
+3. I take one revolutionary, simple animal shape based on force theory and apply 
+it to the different types of animal locomotive classes. This approach will simplify 
+your outlook on drawing animals.
+4. The last chapter of this book discusses a method with which to exaggerate animal 
+designs.
+
+--- [PAGE 15/221] ---
+
+xiv Preface
+Let's get started with some of my top-level, key concepts learned from the act of drawing.
+Key COnCepTs
+Fear
+Since writing my second book, I have taught at Pixar and DreamWorks, and I am here 
+to say that whether or not you are a professional, there is still fear to conquer! fear is 
+the most detrimental blockade to the forward pursuit of education. fear comes in all 
+forms, some more obvious than others. The top reasons for fear I have witnessed from 
+myself and my students are:
+1. fear based on perfection. “My drawing has to be perfect. If it is not, then I have 
+failed and thus I am a failure.”
+2. fear of the teacher. “I hope I am doing the right thing.”
+3. fear of judgment. “I don't want others thinking I am stupid.”
+The fastest vehicle out of fear is listening to your internal dialogue. Notice when and why 
+you are indecisive or concerned. Allow drawing to be about your experience and curi-
+osity, not the final product. YoU create the fear, so rid yourself of it! It will only slow you 
+down. remember, you are drawing, not jumping out of airplanes, hunting sharks, or liv-
+ing in the Depression, so fear nothing!
+“The greatest barrier to success is the fear of failure.”
+Sven Goran Erikkson
+Risk
+To be able to grow, you must take risk, or what you perceive as risk. risk to one indi -
+vidual is the norm to another. Be aware of that. Use your curiosity and passion for 
+learning to push through your risks. This is where your courage and pride will come 
+from. To have opinion, you MUST be able to take risk! You MUST move beyond your 
+fears. You MUST be willing to fall on your face to pursue your creativity and become 
+more than who you are today! once you break the bonds of fear, and love feeling risk 
+while you work, you will never turn back.
+Opinion
+Strengthening your ability to take greater and greater risks allows you to get out of the 
+“kind of” mindset. New students look at life and “kind of” see it. You must see truth to 
+form opinion. opinions come from heightened clarity! Much of this clarity comes from 
+knowledge. Your search for knowledge comes from curiosity. Don't draw with medioc -
+rity. Strive for opinion through clarity. What are you trying to say? How do you feel 
+during your experience of drawing the subject?
+Use creative ideas when drawing animals. You might have a thought that is an analogy. 
+Perhaps the animal's pose reminds you of a natural power, architecture, a culture, a time 
+
+--- [PAGE 16/221] ---
+
+Preface xv
+period, a character, an automobile, or another famous artist's work. Draw upon your 
+intuition to inspire your experience.
+Vision and empowerment
+When I was in school, I would play games with my own mind. I would look at the 
+model and then envision what my drawing would be on the page. My image of my 
+drawing was far beyond my abilities at the time, but I do believe that the repetition of 
+this activity allowed me to believe in myself and attain my goals more quickly. It is 
+empowering to ask yourself if you are doing your best and answering honestly. You are 
+capable of more than you are achieving. Hold yourself to excellence. I promise you 
+that you will be amazed by your abilities.
+Hierarchy
+Thinking hierarchically, or from big to small, is a profound method to assess challenges. 
+Hierarchy creates a clearly defined path and priorities that then assist in the comprehen-
+sion of complex ideas. It seems to be human nature to initially resist this idea. We want 
+to get mired in the details instead of seeing the big picture. Hierarchy is so profound that 
+you can use it on anything, not just your drawing experience. It could be used to orga -
+nize work procedures, your process for food shopping, the flow of automotive traffic, 
+personal relationships, and more.
+When you are drawing an animal, the whole pyramid represents the main idea of the 
+pose or moment. Then within it, the top of the pyramid is the biggest idea, and the ideas 
+get smaller as you travel down the levels of the pyramid. So, a pose is the whole pyra -
+mid: The top is the hip to ribcage to head relationship; the next tier is arms, legs, and 
+tail; and then the last is hands, feet, fingers, and toes. As you get more sophisticated, 
+the top of the pyramid might be the face and right paw because they best represent the 
+main idea or story of a pose.
+
+
+--- [PAGE 17/221] ---
+
+xvi Preface
+Contrast and Affinity
+While I was working at Walt Disney feature Animation, one of the best rules I 
+learned was “CoNTrAST CrEATES INTErEST.” Never forget that. Beware medioc -
+rity through the lack of contrast. Look for idiosyncrasies. Watch out for symmetry, par -
+allel moments, and monotonous line. This rule works for character design, landscape 
+painting, film editing, writing, and all works artistic. Contrast is self-explanatory, but 
+how many ideas can be contrasted? That is where the magic happens. A line on a 
+piece of paper can have much contrast or little contrast. Is the line parallel to the 
+edges of the paper, or is it at a forty-five degree angle? Is there variety in the weight 
+of the line? How long or short is the line? Does it go off the page? All these possibili-
+ties represent different ideas in the world of art. remember that every mark on the 
+page has meaning, a meaning to create the bigger purpose of the artist's statement!
+Affinity, or unity, means the similarity between items in the drawings. Now, with the ani-
+mals, there is the obvious, such as two hands or two feet. In experiencing them, there 
+can be patterns in shape, color, tone, line, and much more.
+Design is an abstract way of looking at our world and using it to communicate our thoughts. 
+Your art is only as powerful as your thoughts and how you communicate them with your skills. 
+I hope to present you with some new tools to assist you in communicating your experiences.
+Now let's get down to brass tacks: how to illustrate and experience forCE.
+FORCe: Line is An iDeA!
+As a refresher to some of you or a new concept to others, the idea behind forCE is to 
+comprehend and experience a live creature's energies created by its anatomy relative 
+to the pull of gravity. In my first two books, Force: Dynamic Life Drawing for Animators 
+and Force: character Design from Life Drawing, I was focused on the functionality of 
+the human form. In this book, we are obviously focused on animals. If this is your first 
+forCE book, this will be an exciting and new method with which to experience the 
+life around you through the process of drawing. If this is not your first forCE book, the 
+new concepts on how to draw animals through similar processes you have been using 
+with the figure will be enlightening and liberating.
+
+--- [PAGE 18/221] ---
+
+Preface xvii
+So, let's start with line. The preceding image shows three examples of line. The two on 
+the left represent common methods of mark making with which an artist executes a line or, 
+in my terms, the artist's idea. The lines you place on a page are a direct reflection of your 
+thoughts and emotions—nothing more, nothing less. That is why the way in which you 
+draw a line is So IMPorTANT! Due to this point, the line on the right presents the forCE 
+line. It is one stroke that represents one idea. Example number one represents small 
+thoughts and two is typically careless thoughts. Power lies in its clarity and meaning.
+
+
+--- [PAGE 19/221] ---
+
+xviii Preface
+Directional FORCe
+Did I say one idea? Actually, the forCE line represents three ideas. That's right, three 
+ideas in one darn line! Line can represent even more than that, but for now let's focus 
+on the forCE line's three main components. They are the beginning, middle, and end.
+When you are thinking about forCE and confronted with your subject, focus on a main 
+event that clearly jumps out at you. That will lead you to feeling that forCE by stroking 
+your way into it, which is how you find the CoMING froM segment of the forceful line. 
+Then you push your way through the event, feeling its power, and as you do, you look 
+to see ahead where this forCE is GoING To!
+I call this forCE the directional forCE because it directs forCE from one location in 
+the subject through an event to another location.
+
+
+--- [PAGE 20/221] ---
+
+Preface xix
+Applied FORCe
+The vertical arrows in the preceding image represent directional forCE. The horizon-
+tal arrows in the image represent applied forCE. Applied forCE directly affects the 
+curvature of a directional forCE. The image on the left shows a weak amount of 
+applied forCE. The small horizontal arrow, pushing upon the vertical directional 
+forCE, presents this. The directional forCE on the left has barely any curvature; this 
+tells you the applied forCE was weak. You can take the same directional forCE and 
+add more applied forCE to it from the side, as shown in the right diagram, and see 
+how much more curved the directional forCE becomes.
+It is crucial to understand applied forCE for a few reasons. When you are in the act of 
+drawing a directional forCE, the strength or weakness of the curvature of that line is 
+dictated by the amount of applied forCE driving into it. Also, the energy that you are 
+about to apply to the next directional forCE is decided while you are drawing the 
+directional forCE you are involved in at the moment. These two thoughts are the 
+CoMING froM and GoING To that we just discussed regarding the prior illustration. 
+Whew, a lot to swallow. This will make more sense with the next illustration.
+
+
+--- [PAGE 21/221] ---
+
+xx Preface
+Rhythm
+rhythm is the act of one directional forCE applying itself to the next. When you have 
+two directional forCES, you have one rhythm. The rhythm on the left side of the page is 
+weaker, simply because the angles of applied forCES represented here by the straight 
+arrows are weaker. on the right, you can see an illustration of a more dramatic rhythm 
+because the angles with which the applied forCES approach the directional forCE 
+are much stronger, forty-five degree angles. forty-five degrees is the strongest angle on 
+the page. It is the medium between perfectly vertical and horizontal. If you want drama 
+in your work, think about the forty-five.
+
+
+--- [PAGE 22/221] ---
+
+Preface xxi
+FORCeFuL sHApe
+The Don'ts
+The vast majority of this book will build on the premise of forceful shape. The forCE 
+lines create the shape. The way I like to discuss the forceful shape is by starting with 
+what NoT to do. The preceding images show three examples of what NoT to do 
+when drawing forCE.
+The image on the left shows two parallel directional forCES that define this grayed-in 
+shape. The issue with this shape is that we have two directional forCES and no rhythm. 
+This has to do with the symmetry created with the two lines. We have created something 
+similar to a pipe. The black arrow here represents the vertical direction of forCE with 
+no chance of creating rhythm.
+The image in the middle shows forCE crashing into itself at the top and bottom of the 
+shape. Again, this is due to symmetry. Two lines that create a shape like this sausage do 
+not allow forCE to bounce from left to right.
+The image to the right shows forCE equally squeezing into itself from both sides on this 
+shape. This causes forCE to get trapped within that shape. This again is due to sym -
+metry. So what does all this information suggest? Do everything in your power to stay 
+away from symmetry if you want to experience forCE! If this is the case, what type of 
+shape exemplifies forCE?
+
+
+--- [PAGE 23/221] ---
+
+xxii Preface
+The shape above does: the straight to curve shape. The shape is asymmetrical. forCE, 
+represented by the curved line, simply moves through this shape and around the straight 
+line to the next shape.
+
+
+--- [PAGE 24/221] ---
+
+Preface xxiii
+When this occurs, we attain interlocking shapes that still create rhythm! forCE seam-
+lessly slides from one shape to the next around the structural, straight ideas.
+
+
+--- [PAGE 25/221] ---
+
+xxiv Preface
+A challenge that transpires in drawing animals that does not in drawing humans is the 
+great potential for parallel shapes. At first glance, this shape seems to occur most obvi -
+ously in the unguligrade class legs (horses, giraffes, etc.). Your job is to look more 
+closely and think about the function of forCE in the shape. Here are some methods 
+with which to do so:
+1. This is an example again of two straight lines parallel to one another. This shape is 
+absent of force.
+2. The way to add some force to the shape is to angle one of the lines and create a 
+more arrow-like shape. Although it is not as aggressive as the curve, you still retain 
+a sense of energy moving down the arrow shape.
+3. This last shape is an iteration on the forceful shape. The curved line here is con -
+cave though instead of convex. This shape occurs in animals due to the stretching 
+of skin from joint to joint. Be careful not to overuse this shape because it can pull 
+force out of the animal design.
+
+
+--- [PAGE 26/221] ---
+
+Preface xxv
+returning to the concept of oNE LINE EQUALS oNE IDEA, stay on top of where one 
+idea ends and another begins when designing shapes. In the above illustration, the line 
+that runs along the left side of the shape is actually composed of three separate lines or 
+ideas. Although it looks as though lines one and Two are one line or idea, they are not. 
+Line one is a concave curve, and line Two is a convex curve. To draw from one directly 
+into the other without recognition of this fact causes a disconnect from forCE. The long 
+line on the right side of the shape is the actual forCE running through the page. This 
+means that the lines on the left are there to support that concept. If the left side becomes 
+too soft, the shape will fall apart.
+So those are the basics of forceful shape. Let's take these principles and bring them to 
+the three different locomotive classes of mammals covered in this book: plantigrade, digi-
+tigrade, and unguligrade.
+
+
+--- [PAGE 27/221] ---
+
+Chapter 1
+There is only one anatomical structure to understand when drawing human beings. In 
+the animal kingdom, there are many. This vast difference lead to numerous architectural 
+iterations for the book. Other animal drawing books present their ideas on a per ani -
+mal basis, but that did not make much sense to me. My focus was NOT to teach you, 
+the reader, how to draw a bear or horse. I want you to leave this book with a broader 
+understanding: fOrce in ALL mammals in a manner that would allow you to draw them 
+with or without reference through the application of some simple rules. Since this book 
+is based on the abstraction of fOrce, it made perfect sense to compose the chapters in 
+the main three mammal locomotive classes. They are plantigrade, digitigrade, and 
+unguligrade.
+This approach was still not a simple enough manner with which to draw all mammals, 
+so I dug deeper. My epiphany was that the main difference in these mammals is the 
+adjustments made in their appendages or front and back legs, not in the trunk of their 
+bodies. These changes determine how fast the animals move. In general, a plantigrade 
+animal is much slower than a unguligrade, for example. These two animal types are 
+designed to function against friction and gravity in two different ways.
+My research led me to another incredible find, one that will change the way we per -
+ceive the animal kingdom and thus how we connect to and draw it. Join me now, 
+through the step-by-step process I experienced to reveal this discovery.
+Since I am not an animal but a human, I started with human anatomy and analyzed how 
+it is different from an animal's. Always start with what you know. Let's go through these 
+steps together to better help you understand my conclusions.
+The FORCE Animal
+
+--- [PAGE 28/221] ---
+
+2 fOrce: Animal Drawing
+Step One
+Let's start with the human body. For the sake of this lesson, I have numbered the 
+FORCeS in the diagram to the left to match those found in the diagram on the right.  
+the main concept to focus on in the upright human is rhythm's functional design 
+defined by a left-to-right motion. this motion is caused by gravity unfailingly pulling 
+down on the human body. Our anatomy has reacted to this pull and therefore is 
+designed to function with this invisible FORCe'S constant pull on us.
+the image on the right presents the human body's FORCeS horizontally. Basically, we 
+have support against gravity in our hips and ribcage/shoulder regions. Our belly 
+and neck/head areas hang from the supportive regions.
+
+--- [PAGE 29/221] ---
+
+The fOrce Animal 3
+Step twO
+FORCe Comparison between Man and Animal
+the human body is designed to stand upright. It has four major FORCeS that balance 
+out the masses of the trunk of the body. when this silhouette of FORCeS is compared 
+to an animal's, an interesting difference becomes apparent. the animal has one less 
+directional FORCe than the human. why does this occur? the rhythm of the animal is 
+as follows:
+1. there is an upward FORCe in the hips, similar to the human.
+2. then there is a downward FORCe in the human lower back. In the animal, 
+downward FORCe occurs much further up the spine where the weight of the 
+ribcage and all the animal's internal organs are pulled down by gravity. this 
+difference will lead us to further investigation.
+3. In the human, the third FORCe pushes up into the upper back, where in the 
+animal we find our last FORCe pushes up the neck and head. So the FORCe that 
+is missing in the animal is the upward FORCe in the shoulders and upper back. 
+Let's take a closer look at this region of anatomy and figure out why this is 
+occurring.
+
+--- [PAGE 30/221] ---
+
+4 fOrce: Animal Drawing
+Step thRee
+Front View Cross-Section: Man-to-Animal Comparison of Scapula 
+(Shoulder Blade) Movement
+this image compares the shoulder blades on a human versus an animal.
+1. the human's ribcage is in a more horizontal alignment. the blades slide left 
+and right along the back of the body. they can also rotate to some degree 
+on the back's surface.
+2. An animal's ribcage is primarily vertical in its alignment. this allows for the 
+blades to slide along the long axis of its ribcage. this also stops animals 
+from stretching their forelimbs away from their ribcage, otherwise known as 
+brachiating.
+
+--- [PAGE 31/221] ---
+
+The fOrce Animal 5
+Step FOuR
+Skeletal Differences in the Shoulder Region
+A few observations are of utmost importance here:
+•	 Primates	 and	humans	have	clavicles,	or	collarbones.	The	close-up	image	on	
+the bottom presents that skeletally the clavicle (attached to the ribcage), 
+scapula, and the humerus, or upper arm bone, all lock into one another. this 
+is VeRY IMpORtAnt! why?
+•	 This	 image	shows	that	if	a	human	were	to	lie	horizontally ,	similar	to	a	push-
+up position, this position would affect him by skeletally supporting his 
+ ribcage and upper body because of the chain of structures we just discussed. 
+this observation is important because if we remove the clavicle/collarbone, 
+the scapula has nothing to attach itself to and neither does the humerus bone 
+in the upper arm! Just to make my point clear, this means that all the weight 
+in the front end of an animal's body is supported by the sliding scapulas and 
+the muscles that surround them. when we, as human beings, do a push-up 
+and position ourselves horizontally, our ribcage and internal organs are sup-
+ported by the skeletal structure of the clavicle, scapula, and humerus! An 
+animal does not possess this skeletal support!
+•	 The	 ribcage	and	all	the	internal	organs	of	the	animal	suspend	from	the	two	
+pillars of the forelimbs. this is crucial to the number of FORCeS in our FORCe 
+animal and where the FORCeS are located.
+
+--- [PAGE 32/221] ---
+
+6 fOrce: Animal Drawing
+the BIg ReVeAL!
+here is the silhouette of our FORCe animal. this animal is what all others will evolve 
+from. Isn’t it beautiful? perfect efficiency. the shape is broken down into three 
+sections. each section comprises a straight to curve shape that links up with the next 
+one in the adjacent section. the orientation of this shape is called out with a separate 
+illustration of a straight to curve shape. Let's discuss:
+1. this area represents the upward FORCe in the hip region. this occurs here 
+because the spine is attached to the hips. the bottom of the shape in this 
+area offers a straight line to support the upward FORCe.
+2. this section presents what we have been discussing for the past few pages. 
+Area two represents the downward FORCe of gravity pulling on the animal's 
+ribcage and organs. here, the major change in FORCe compares to human 
+FORCeS. the straight line along the back shows the support needed to sus -
+pend the animal's weight from area one to area three.
+3. the opposing FORCe found here lifts the animal's head through the structure 
+of the neck. the more horizontal the animal's natural orientation, the lower 
+on the skull the spine is attached.
+
+--- [PAGE 33/221] ---
+
+The fOrce Animal 7
+FORM
+the image to the left integrates 
+FORCe, form, and shape to 
+create the forceful animal. I 
+threw a grid along its surface, 
+clearly accentuating its form. 
+now you can see how it fills 
+space.
+So let's test-drive this design a 
+bit. the poses to the left present 
+the FORCe animal shape filled 
+with form. See the flexibility 
+and form. no limbs yet.
+
+--- [PAGE 34/221] ---
+
+8 fOrce: Animal Drawing
+Just to add the slightest bit of 
+anatomy, the preceding quick 
+sketches of the FORCe animal show 
+tone representing the head, 
+ribcage, and the hip regions. 
+Simple form and overlapping lines 
+present us with perspective. these 
+simple forms remind me of the first 
+animal we will discuss.
+A seal! As I mentioned in my 
+previous book, Force: Dynamic Life 
+Drawing for Animators, “Learn to 
+draw mammals by understanding 
+the simple form of a seal first.” the 
+simple, clean shape of the body 
+rep resents a great specimen for 
+under standing the FORCe mammal. 
+You don’t need to get caught up in 
+all the extra anatomy attached to 
+the fore and rear limbs. Most of that 
+anatomy is buried within the shape 
+of the mammal's body.
+
+--- [PAGE 35/221] ---
+
+The fOrce Animal 9
+here is our first animal-to-human comparison image. the comparison images are 
+designed to clearly present a quick snapshot of many different aspects of the specific 
+animal. this same layout will be applied to multiple animals throughout the chapters 
+in this book. Following are the different areas and the information they present us 
+with:
+1. the silhouette of the seal based on our FORCe animal shape with the skeletal 
+system found within the shape. here, we will also find the three major 
+FORCeS that define the shape.
+2. human anatomy of the rear leg and foot to compare to the animal in 
+question.
+3. A pull-down image of the seal's rear limb compared to a human's leg.
+4. A pull-down image of the seal's forelimb compared to a human's arm.
+5. the human arm, used to compare to the forelimb of the mammal in 
+question.
+
+--- [PAGE 36/221] ---
+
+10 fOrce: Animal Drawing
+when you’re drawing animals, notice the cresting of the animal's scapula/shoulder 
+blade beyond the top edge of the animal's body shape. this visual protrusion signals 
+applied FORCe thrust upward by the vertical directional FORCe fighting gravity. this 
+protrusion causes confusion among many artists between the scapula's upward FORCe 
+and the downward FORCe in the ribcage. Yes, this upward FORCe in the shoulder region 
+due to the lack of the scapula attachment to the collarbone creates a suspension-
+bridge-like schematic, but don’t forget the drop of the ribcage sweeping into the neck 
+occurring behind the scapula!
+
+--- [PAGE 37/221] ---
+
+The fOrce Animal 11
+A clear example of this contrast in silhouette is a giraffe and an anteater. giraffes eat 
+the leaves off acacia trees. Because of this, they have a long neck and legs. their 
+scapulas are enormous, defining the large triangular shape of their bodies and 
+supporting the heavy front end that they carry. the anteater, on the other hand, eats 
+ants. Its short and stubby legs traverse over the landscape while its vacuum-like 
+snout searches and sucks up food. Its snout curves toward the ground, not the sky. 
+Its body silhouette, created by anatomy, derives from the animal's function.
+the silhouette of an animal's trunk can drastically change based on the functional 
+design evolved for today. the animal's environment helped mold the most efficient 
+machines. the design of the animal's anatomy derives from eating habits and its 
+methods of motion, protection, and hunting. this design comes from the environment: 
+temperature, terrain, food source, and so on.
+the animal's lung size legitimizes the animal's need for oxygen, which comes from its 
+physical exertions. this size changes the silhouette.
+
+--- [PAGE 38/221] ---
+
+12 fOrce: Animal Drawing
+Let's discuss the different grades of animals’ locomotion, or walking. As mentioned 
+previously, I will be using comparative anatomy throughout the entire book. So the 
+above illustration shows the different grades based on human anatomy. this is how 
+they function:
+1. plantigrade: these animals plant their entire hand and foot on the ground. 
+Similar to a human being.
+2. Digitigrade: the definition is that these animals walk on their toes, but I see 
+it more as walking on the pad of the hand or ball of the foot.
+3. unguligrade: these animals walk on their fingertip or toe.
+
+--- [PAGE 39/221] ---
+
+The fOrce Animal 13
+the concept above presents the following finding: height increase in the joints among 
+different animals increases the springiness of the animal, the length of its stride, and 
+thus the general speed of that locomotive class. Specific animals break this general 
+rule, such as the world's fastest land animal, the cheetah. this cat lives in the 
+digitigrade locomotive class and yet owns a top speed greater than any unguligrade 
+class animal: A cheetah is a digitigrade and moves faster than a horse, an 
+unguligrade.
+
+--- [PAGE 40/221] ---
+
+14 fOrce: Animal Drawing
+For an animal to obtain forward movement, two directions of FORCe must take place 
+to create a third. One direction is vertical: the legs of the creature in question must 
+lift off the ground to allow forward movement. the second direction is horizontal: the 
+creature must move parallel to the ground. the image above shows how mammals 
+move forward. Forward motion is achieved through the above rhythms in the body 
+and head by allowing for a front limb to reach out into space. the rhythms set up a 
+canter levering between the ribcage and hips. As a corner of the ribcage tips upward 
+(relative to this image), the arm reaches outward.
+Another way to describe this follows:
+1. the ribcage tilts, as presented with the gray line and arrow.
+2. this movement allows the forelimb to stretch forward.
+3. As the ribcage tilts, so do the hips, allowing the back legs to operate.
+
+--- [PAGE 41/221] ---
+
+The fOrce Animal 15
+Let's add to the locomotive discussion with a simple observation. when a mammal 
+walks, one side stretches open, and the other side compresses, or closes up the  
+space between the front and rear limb.
+while I was working at walt Disney Feature Animation on The Lion King, a great 
+concept shared among the animation team was this: when the back leg on a given 
+side steps forward, it appears to kick the front leg on the same side forward. So, as 
+the right rear leg closes the gap with the front right leg, it appears to kick the front 
+leg forward. the rear leg replaces the weight the front leg was bearing by taking its 
+place on the ground surface so the front right leg can now stride forward. this 
+pattern occurs at opposing times on each side of the animal, allowing the animal's 
+four legs to walk.
+
+--- [PAGE 42/221] ---
+
+the above images present more information clearly illustrating a horse's walk 
+sequence. I will use the word far for the appendages on the horse's left side and 
+close for the horse's right side.
+1–10 these images show how the far, rear leg kicks the front leg forward.
+6 this image shows the ribcage and shoulder region at its lowest moment 
+and the hip region at its highest. Also, the close appendages support the 
+horse's weight, allowing them to move into their supportive positions.
+9 this image shows the ribcage and shoulder region at its highest moment 
+and the hip region at its lowest.
+6–10 these images show how both legs on the close side support the weight of 
+that transition. Something has to carry the weight!
+10 there are three legs on the ground at this short moment.
+11–12 Opposite legs bear the weight because the rear right leg now needs to 
+kick forward the close front leg.
+As the legs on one side are performing this act, the other two legs support the weight 
+of the animal. this is the general manner with which all four legged mammals walk.
+
+--- [PAGE 43/221] ---
+
+The fOrce Animal 17
+here is an added interesting fact 
+to keep in mind when observing 
+a running animal. It has a lead 
+foot, the foot that hits the ground 
+first. that lead foot switches 
+relative to the direction of a turn. 
+For instance, if the animal in 
+question is running and turning 
+to the right, the right foot hits the 
+ground first out of the front two 
+feet. the left or outside foot is 
+there for balance. the lead is 
+taking the brunt of the animal's 
+weight. Motorcycles operate in a 
+similar manner. the side you lean 
+on takes the brunt of the weight, 
+and it is the direction the bike 
+will turn in at high speeds. to 
+add to the analogy, the back legs 
+of the animal are its engine; the 
+spring of the rear legs propel the 
+animal forward while the front 
+legs steer.
+
+--- [PAGE 44/221] ---
+
+the animal silhouette displays its spring-like quality. when an animal runs, new 
+locomotive patterns and movements occur throughout the body. the spine not only 
+bends left to right, but on faster land animals also bends toward and away from the 
+ground. the cheetah is an exaggerated example of this, as presented above. the 
+bending of the spine permits the cheetah to stretch its limbs out further in front and 
+behind itself than most animals, giving it tremendous reach and thus allowing for the 
+cheetah to travel at great speeds.
+these three drawings present what could be either the fore or rear limbs of an 
+animal. within each gray box, two white lines show the angle of either the shoulder 
+blade and forearm in the fore limb OR the thigh and foot in the rear limb. the point 
+or trick I am stating here is, generally speaking, the angle of the shoulder blade or 
+thigh is almost parallel to the forearm or foot.
+
+--- [PAGE 45/221] ---
+
+The fOrce Animal 19
+these two examples illustrate this observation in action. the top drawing shows an 
+animal standing and the bottom, reclining. Look at the parallel presented in the 
+relationship between the anatomies described earlier. At Disney, this was described 
+as the folding chair concept, since a folding chair opens and closes with parallel bars 
+with simple hinges connecting them. this is caused by the way the chair or an 
+animal's anatomy is built.
+
+--- [PAGE 46/221] ---
+
+20 fOrce: Animal Drawing
+An important use of FORCe that I have not described in any of my previous books is its 
+use at a higher level than within one drawing. In this image, the concept of FORCe 
+describes the power found within multiple moments or drawings.
+the FORCe paths of the front and rear limbs of a horse track the first joint (similar to 
+the ball of the foot on a human and the wrist joint in the forelimb). the path of the 
+forelimb possesses a strong peak at the top of its movement before the leg snaps 
+down to the ground to support the weight of the animal. this is seen within the path 
+of the right arrow. the elliptical rear leg path describes motion with less shape 
+contrast.
+This chapter, the most important in this book, defines fOrce and its relationship with  
+animals. Please read and reference it numerous times for a full understanding of what lies 
+within its pages. Your level of understanding determines your success with the following 
+chapters.
+
+--- [PAGE 47/221] ---
+
+Chapter 2
+Examples of plantigrade animals are prairie dogs, raccoons, opossums, bears, kanga -
+roo, weasels, mice, pandas, rats, squirrels, skunks, and hedgehogs.
+Plantigrades (Slow Land Animals)
+Bears
+Here is a basic profile view of a plantigrade mammal—in this case, a bear. Keeping in 
+mind all that we discussed in Chapter 1, remember that the shoulder blades are NOT 
+attached to the ribcage in any skeletal manner, but the hips are. That gives us our 
+fOrCe mammal shape. Then I have superimposed on top of that shape the rectangles 
+that align with the extruded fore and rear limbs of the bear, and next to each limb is 
+the human anatomy counterpart. In short, you can see how identical the two are.
+The similarity in proportion and anatomy to humans makes the plantigrades the 
+easiest of mammals to understand and therefore draw. With all animals, pay 
+attention to where the knee, elbow, ankle, and wrist joints land between the bottom 
+of the body and the ground.
+
+--- [PAGE 48/221] ---
+
+22 ForcE: Animal Drawing
+This image shows a side-by-side comparison of the hand of a plantigrade mammal. 
+The similarity here is the closest of all the animal locomotive classes we will cover in 
+this book. The front paws of these mammals basically operate in the same behavior 
+as human hands.
+
+--- [PAGE 49/221] ---
+
+Plantigrades (Slow Land Animals) 23
+fOrCe travels down the shoulder and then applies itself to the rear elbow and down to 
+the wrist. When the plantigrade bends the wrist, fOrCe will apply itself across the 
+forearm to the top side of the wrist, creating another rhythm, as demonstrated above.
+
+--- [PAGE 50/221] ---
+
+24 ForcE: Animal Drawing
+The plantigrade foot is also extremely similar to ours. The knee is typically not in a 
+locked-back position, so fOrCe drives down the front of the entire leg and then applies 
+itself to the back of the ankle. This new directional fOrCe then moves over to the top  
+of the foot, where it then moves to the ball of the foot and out the toes in smaller 
+rhythms.
+
+--- [PAGE 51/221] ---
+
+Plantigrades (Slow Land Animals) 25
+Grizzly Bear
+This grizzly bear is in the 
+middle of a brisk walk cycle. 
+Notice how the fore and rear 
+legs are close together, and on 
+the far side, they are apart. If 
+we return to the thought of the 
+back leg kicking forward the 
+front leg of the same side, the 
+bear’s right front leg just got 
+kicked. That is why it is up in 
+the air and making its way to 
+a location in front of the bear. I 
+have also illustrated the fOrCe 
+shape of the grizzly and 
+presented the three main 
+movements of fOrCe in the 
+body and the small one for the 
+upturned front of the muzzle.
+This bear divulges his struggle 
+with gravity through the 
+amount of fOrCe presented in 
+the shoulder. as you can see, 
+the downward slope where 
+the bear stands causes all the 
+bear’s weight to be thrown to 
+the front end of his body, 
+especially the shoulders. The 
+bear fabricates a brace-like 
+structure with the front limbs, 
+while the rear limbs attempt to 
+resist the slide down the slope.
+Observe the fOrCe shape to 
+assist in understanding its 
+previously described 
+relationship to the front and 
+rear limbs. The elements 
+combined give us an image of 
+effort based on the bear’s 
+surroundings.
+
+--- [PAGE 52/221] ---
+
+26 ForcE: Animal Drawing
+The name grizzly comes from 
+grizzled or gray-haired. This 
+characteristic is one that 
+separates the grizzly from 
+other bears. In the image to 
+the left, I have called out the 
+fOrCes of the front and rear 
+limbs. Notice the length of the 
+fOrCes of the front leg. Their 
+beginning is up in the shoulder 
+blade. fOrCe then travels down 
+into the shoulder, where fOrCe 
+transfers itself over to the back 
+of the forearm, creating a 
+rhythm.
+My favorite moment in this 
+drawing is the weight captured 
+at the bottom of the ribcage 
+and start of the belly. I hope 
+you can see the suspension of 
+that weight supported by the 
+hips and then the shoulders. 
+remember that the stomach 
+fOrCe sweeps up to the top of 
+the neck. I added some 
+character to the grizzly’s face, 
+pushing its long, curved snout.
+
+--- [PAGE 53/221] ---
+
+Plantigrades (Slow Land Animals) 27
+Here, two male grizzlies are playing with each other. The grizzly with the upper hand 
+is hierarchically at the top of the pyramid in their relationship, and this image again 
+proves why. The transition from image to image provides the process with which the 
+king grizzly overpowers the younger one. Notice the change in angle of the arrow 
+furthest at the bottom and how it moves in a clockwise direction, presenting the 
+change in applied fOrCe from the top bear.
+
+--- [PAGE 54/221] ---
+
+28 ForcE: Animal Drawing
+fishing for salmon, that’s what 
+grizzlies do best. This guy is 
+just moments away from 
+enjoying his meal. Look at the 
+compressed fOrCes in the 
+front and rear legs, poising the 
+bear for his catch.
+This image shows the same 
+two bears with the finishing 
+move. The fOrCes of the bears 
+as a relationship to one 
+another bring us up the 
+pyramid of fOrCe. Now you are 
+looking at the relationship of 
+directional and applied fOrCe 
+between two animals instead 
+of fOrCes found within one. 
+The fOrCe of the upper grizzly 
+is pressing itself down against 
+the other. This is a simple 
+example of action and 
+reaction.
+
+--- [PAGE 55/221] ---
+
+Plantigrades (Slow Land Animals) 29
+This grizzly sits at his leisure above small falls, enjoying the cool spring water. I have 
+extracted the bear’s fOrCe shape for your convenience. You can see the three main 
+fOrCes found within that shape. The bear’s face looks similar to an arrow at the 
+peak of the shape.
+The bear’s left front leg supports the weight of the upper body, which is why you see 
+the effect of this in the protruding shoulder blade. Using straight to curve concepts, I 
+have added design to this drawing. see the shape in the close fore leg and the far 
+front paw. simple straight to curve shapes create an elegant rhythm as the bear 
+prepares for its next step.
+
+--- [PAGE 56/221] ---
+
+30 ForcE: Animal Drawing
+The grizzly is one of the larger brown bears. This guy was standing around that 
+eight- to nine-foot benchmark and not looking too happy. The one area that I 
+brought particular attention to was the wrist on the left side of the image. The bear’s 
+body is a large arc sweeping to the left.
+
+--- [PAGE 57/221] ---
+
+Plantigrades (Slow Land Animals) 31
+This illustration shows a design of the grizzly bear’s face. The way I think about this 
+is to take what is core about the grizzly and push it far enough in my mind to react 
+to it and make it core in the design. When I look at this image, I see that the eyes are 
+small, and the muzzle is long with a sweep. The nose itself is quite large. The story 
+represents resting and calmness. I also used a branch-like shape to bring you right to 
+the grizzly’s eyes.
+I like the dense, black claws against the soft, furry face and the size difference I 
+pushed between the ears to give the image depth.
+
+--- [PAGE 58/221] ---
+
+32 ForcE: Animal Drawing
+above, we have a close-up of an alaskan brown bear and another, fishing for 
+salmon along the top of a short waterfall. During the experience of drawing the bear 
+in the top-left corner, I thought about the large dish-like head top, the steep plane of 
+the eyes and cheeks, and the long, boxy snout. The fishing image was a fun moment 
+to capture. I like the manner with which the bear joyously walked toward land to 
+eat his catch. I tried to capture the compression of the back leg as he walked away.
+alaskan Brown Bear
+
+--- [PAGE 59/221] ---
+
+Plantigrades (Slow Land Animals) 33
+The rear legs in this image look more like a human’s than the previous drawing did. 
+This bear has huge arms and shoulders to endure his weight. The long fur near the 
+shoulder blades, neck, and head resembles a lion’s mane.
+These alaskan brown bears are large! They can weigh upwards of 1,500 pounds 
+and stand around nine feet tall. Their large, muscular humps allow for some great 
+digging prowess.
+The browns, grizzlies, and Kodiaks are basically the same except for their locations. 
+Due to their habitats, their size slightly varies. The Kodiak lives on Kodiak Island, 
+where the bears have an abundant food supply and barely any predators.
+Notice the obvious resemblance of the rear leg to one of a human. again, 
+plantigrades are some of the easier animals to draw due to this more direct 
+comparison to human anatomy.
+
+--- [PAGE 60/221] ---
+
+34 ForcE: Animal Drawing
+The longer the fur of the mammal, the more challenging it is to experience that 
+mammal’s locomotive, forceful design. In this drawing of a polar bear, see how we 
+sweep from the top of the rear, down through the abdomen, to the top of the brow 
+that then slopes down its face.
+Polar Bear
+
+--- [PAGE 61/221] ---
+
+Plantigrades (Slow Land Animals) 35
+It was amusing and intriguing to watch this thousand-pound polar bear climb up a 
+rocky slope, moving its weight with a sense of ease. The success of the climb 
+depended on how well he could handle all the weight in his rear. The second 
+drawing shows the bear pulling himself over the rocks for leverage while getting his 
+rear up the slope. The polar bear does this all within the comfort of his fur. The outer 
+fur of the polar bear is called guard hair, and it is hollow, allowing for excellent 
+insulation! Due to the mammal’s insulation, infrared cameras can barely pick up the 
+heat signature from the bear.
+
+--- [PAGE 62/221] ---
+
+36 ForcE: Animal Drawing
+The polar bear walks like all others by kicking the front leg forward with the rear 
+leg to walk and sustain his weight. scientists have discovered that polar bears are 
+descendents of brown bears. Their necks and snouts lengthened over time due to 
+their environment and prey. The change in their anatomy allows them to break 
+through the ice and surprise their favorite meal, the seal. They have large, padded 
+feet that allow them to comfortably walk on the ice and swim well. The paws have 
+short, sharp claws to assist with the terrain also.
+
+--- [PAGE 63/221] ---
+
+Plantigrades (Slow Land Animals) 37
+raCCOONs
+The top raccoon shows us the fOrCe shape in depth with the three main fOrCes defining 
+rhythm and design. In the lower fOrCe schematic, something interesting happens. fOrCe 
+moment two runs into number three because of the angle of the raccoon’s turned head.
+
+--- [PAGE 64/221] ---
+
+38 ForcE: Animal Drawing
+Here is a raccoon bolting from a predator. see how the fOrCe of the back sweeps its 
+way down into the legs. You can see my preliminary sweep of fOrCe. Then from out 
+of this fOrCe, we move into the chest and up to the top of the head rhythmically.
+Here is a more stylized version of the raccoon. I pushed the height of the back and 
+the simplified shapes of the front and rear legs.
+
+--- [PAGE 65/221] ---
+
+Plantigrades (Slow Land Animals) 39
+since the raccoon wears an iconic mask-like shape on its face, I thought I would play 
+with it as a design element. The first few images at the top are frontals investigating 
+the shape of the head relative to the mask. I then decided to see how the mask 
+would fit in a three-quarter view. In the design of the raccoon looking to the bottom 
+right, I clarified the large flat top of the head and the small quality of the snout. The 
+last design in the bottom-right corner displays my thoughts about his head and 
+hands’ shapes. I adjusted their length and width.
+
+
+--- [PAGE 66/221] ---
+
+40 ForcE: Animal Drawing
+The kangaroo body is basically a straight to curve fOrCe shape. That shape is cradled 
+by the hip structure and the large plantigrade feet. When it comes to the forelimbs, 
+this mammal closely resembles humans.
+The reach of the rear legs on the kangaroo is astounding. This impressive reach is 
+what allows it to perform such great leaps and surpass speeds of forty miles an 
+hour. Here again, you can see the clear fOrCe shape of the body.
+KaNGarOOs
+
+--- [PAGE 67/221] ---
+
+Plantigrades (Slow Land Animals) 41
+Yup, rodents belong to the plantigrade class of mammals. They basically run around 
+on their flat hands and feet. similar to a seal, they have simple streamlined bodies 
+and are great animals to draw to further understand simple forceful shape.
+rODeNTs
+rat
+
+--- [PAGE 68/221] ---
+
+42 ForcE: Animal Drawing
+Here is another common plantigrade, the squirrel. The top-left corner shows the 
+forceful shape found within the squirrel’s body. I also added the three main fOrCes 
+that define that shape. The bottom squirrel has much foreshortening, but if you keep 
+in mind the main three fOrCes and the fOrCe shape, overlapping moments will 
+define the forms.
+squirrel
+
+--- [PAGE 69/221] ---
+
+Plantigrades (Slow Land Animals) 43
+The claws of the squirrel allow it to easily scale trees for food and protection from 
+predators. This guy supports practically all his weight with his one front leg while the 
+other is poised for its next step. The tail is used for further balance.
+The bottom-right corner shows his forceful shape. The numbers call out the three 
+main fOrCes. Because we are looking at the squirrel from the top, and he is 
+bending, we can attach the first fOrCe to the second. The second then hooks up with 
+the third, which represents the fOrCe of the neck and head.
+On top of the shapes, I defined the forms with a few curved lines to fill the shapes 
+with structure.
+
+--- [PAGE 70/221] ---
+
+44 ForcE: Animal Drawing
+The squirrel’s main fOrCes are called out here in this profile image. There are more 
+fOrCes that guide their way through the long, rhythmic tail.
+This image follows all the rules of the previous two. I added some tone to further 
+pronounce the architecture of the leg and the roundness of the head.
+
+--- [PAGE 71/221] ---
+
+Plantigrades (Slow Land Animals) 45
+Prairie Dog
+The prairie dog is a fun animal to experience. The simple fOrCe shape and short-
+haired coat make the visuals easy to understand. It is similar to the flour sack on all 
+four legs, running, jumping, squashing, and stretching.
+
+--- [PAGE 72/221] ---
+
+46 ForcE: Animal Drawing
+I threw this guy in here so you know that lizards are also plantigrades. all the other 
+animals in this book are mammals. This one guy is a reptile, but he is also a 
+plantigrade, so when you’re drawing reptiles, keep in mind the fOrCe rules applied to 
+the plantigrade class.
+LIzarDs
+Komodo Dragon
+
+--- [PAGE 73/221] ---
+
+Plantigrades (Slow Land Animals) 47
+PrIMaTes
+Gorilla
+I cannot leave the plantigrade chapter without recognition of primates. The gorilla 
+does NOT work with the fOrCe animal shape due to the fact that primates have a 
+collarbone. at first glance, you might think they look like a human walking on all 
+fours, but they are quite different. They lack the “s” curve found in our spine that 
+allows us to walk upright. also, if we were to walk on all fours, due to the length of 
+our legs, we would point downward, and this angle would cause great strain on our 
+necks. Primates are not born to run on all fours as are the other grades of locomotion 
+found in this book. Primates have numerous classes of motion: arboreal (climb on top 
+of branches), suspensory (hang onto branches), leaping (jump from branch to 
+branch), and terrestrial (walk on land). The size of the primate provides a quick and 
+simple manner with which to determine which class it falls into. smaller primates are 
+arboreal, and the larger ones are terrestrial. Gorillas are terrestrial.
+
+--- [PAGE 74/221] ---
+
+48 ForcE: Animal Drawing
+subtle anatomical changes within primates make it more efficient for the gorilla to 
+walk on its hands and feet than us. Gorillas are known as knuckle-walkers since 
+they walk on the knuckles of their hands. This allows gorillas to possess long fingers 
+for climbing but also a manner with which to walk on their hands. This gorilla is 
+capable of walking on its rear legs awkwardly.
+
+--- [PAGE 75/221] ---
+
+Plantigrades (Slow Land Animals) 49
+Gorillas’ elbows hyperextend, so watch for this incident in the gorilla walk cycle and 
+when they are standing on all fours, as seen above. This is a somewhat abnormal 
+event to humans and other animals. Black arrows in this image represent directional 
+fOrCe, and the gray arrows are applied fOrCe.
+
+--- [PAGE 76/221] ---
+
+50 ForcE: Animal Drawing
+aggressive shapes construct this speedy pose, sweeping us up to the hand–face 
+relationship. a wonderful story lies within the highly charged negative space. What 
+is the gorilla thinking? The arm and leg on the far side act as a brace, allowing the 
+gorilla’s close side to be as open as it is for a longer period of time.
+
+--- [PAGE 77/221] ---
+
+Plantigrades (Slow Land Animals) 51
+Notice the hump at the base of the neck. This is caused by the extended or thoracic 
+vertebrae, not by the functional fOrCes of the anatomy. These thoracic vertebrae 
+exist in all animals. Muscles attach to these bones, allowing for the suspension of 
+heavy necks and heads. a giraffe’s thoracic vertebrae are enormous, allowing 
+functionality to occur with the long neck.
+
+--- [PAGE 78/221] ---
+
+52 ForcE: Animal Drawing
+each of these poses describes a specific type of chimpanzee characteristic. The top 
+image presents a more casual, four-legged standing position, and below is the 
+action-packed stance. Notice the forceful shapes found in the image below to simplify 
+its intentions. I called out the primary fOrCe shape found in the hip and torso region 
+of the chimp in the bottom pose with this shape on the right. The directional fOrCe 
+curve is balanced with the structure of the straight line on the bottom.
+
+--- [PAGE 79/221] ---
+
+Plantigrades (Slow Land Animals) 53
+These fun designs exhibit my intentions while analyzing and reacting to the 
+chimpanzees’ faces. The designs’ ideas range from large brows to droopy lower 
+jaws to overextended lips. You could also think about people that the animals remind 
+you of as a source of inspiration.
+
+--- [PAGE 80/221] ---
+
+54 ForcE: Animal Drawing
+By pushing design or stating our opinions, we can see more clearly the extended 
+arms and the chimp’s prominent feet. The neck and head aggressively jut out of the 
+body. Then lastly, but most importantly, there is the story of the chimp contemplating 
+the leaf, exhibiting cognition.
+
+--- [PAGE 81/221] ---
+
+Plantigrades (Slow Land Animals) 55
+Lemur
+Lemurs are arboreal. They are small and can walk on top of branches, using their 
+long tails for balance. My process for experiencing the lemurs was to define simple, 
+forceful shapes and then fill them with mass by clarifying overlapping moments and 
+the banding on the tail. These lemurs were two-minute studies.
+The lemurs mark the end of our journey with the primate family and plantigrades. Now 
+let’s move to our ForcE animal shape and see how it interacts with the rest of the animal 
+kingdom. on to the most prevalent and accessible class, digitigrade.
+
+--- [PAGE 82/221] ---
+
+
+
+--- [PAGE 83/221] ---
+
+Chapter 3
+A digitigrade animal is one that stands or walks on its digits, or toes, by definition, 
+although I see it more as the ball of the foot or pad of the hand. Digitigrades include 
+walking birds, cats, dogs, and most other mammals. They are generally quicker and 
+move more quietly than other mammals. Let's start with man's best friend.
+DOGS
+Digitigrades (Intermediate-Speed Land 
+Animals)
+The most common of animals is the digitigrade class due to our household pets, cats 
+and dogs. They are great to study since you can touch them and feel their anatomy, 
+you can observe them more often than other classes, and they are one step removed 
+from human anatomy when it comes to their hands and feet.
+
+--- [PAGE 84/221] ---
+
+58 Force: Animal Drawing
+This image shows the FORCES of the rear leg up close. In the third drawing from the 
+left, FORCE travels down the rear, across to the knee, back to the ankle, and shoots 
+straight down the back or bottom of the foot. It then finishes over the pad and toes 
+of the foot. The image to the far right shows a compressed leg. It moves similarly to 
+a folding chair. The angles found in the upper leg and foot sustain a parallel 
+relationship. The pattern of the rhythm does not change since the rear leg in its more 
+straight stance does NOT lock like the front leg.
+As an added point of reference, I extracted from the illustrations the triangular forceful 
+shape of the upper leg and how it looks for the stretched and compressed legs.
+The common mistake artists make 
+when they draw mammals in the 
+digitigrade class is confusing which 
+joint in the rear leg is the ankle. 
+The ankle is the high rear peak in 
+the rear limb of the animal. The 
+digitigrade animal actually walks 
+on the ball of the foot, not unlike a 
+human sprinter. This spring-loaded, 
+bouncy rear-foot architecture 
+allows for a quick burst of speed.
+
+
+--- [PAGE 85/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 59
+This side-by-side comparison of the human hand to the digitigrade forelimb reveals 
+that those in this class walk on what would be the upper pad of the human hand. The 
+small sketch to the far right shows the padding in the area of the skeleton where 
+most of the animal's weight rests.
+These diagrams also represent the path of FORCES that occur when the arm of a 
+digitigrade animal is locked back in full support of its weight relative to the arm 
+lifting off the ground. In the drawing of the forelimb locked back, you can see how 
+FORCE drives down the back of the limb to the pad of the foot and then creates a 
+rhythm over the top of the pad and toes. The key element that allows FORCES to 
+operate in this manner is the dog's locked wrist. A human wrist does not lock, and 
+the palm of our hand would press against the ground. The wrist in digitigrades 
+operates like a human knee. This means that the joint has a limited range of motion. 
+When the wrist breaks upward, FORCE creates rhythm earlier than in the locked 
+position by flowing over the top of the wrist and then over the top of the “hand” to 
+the toes.
+
+--- [PAGE 86/221] ---
+
+60 Force: Animal Drawing
+The close-up of the human hand displays the rhythms found in the front paws of the 
+digitigrade animal.
+The image above brings focus to the comparison in padding found in the human 
+hand to that of a dog. The toned regions clarify how the dog's foot is designed. It 
+walks on the large pad of its foot, which is like the top, large pad of the human 
+hand. Notice how the dewclaw, or thumb, has been pushed up the dog's limb since 
+its function is not as important as a human thumb.
+
+--- [PAGE 87/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 61
+This crude schematic portrays 
+the FORCES found in the dog 
+shape. Each FORCE is numbered. 
+I want to call your attention to 
+the perspective plane on the 
+ground. Mammals most often 
+have four points that touch the 
+ground, whereas humans have 
+two. Since there are four 
+points, they lend themselves 
+nicely to defining a box, and a 
+box is a great way of defining 
+perspective.
+If you do not have access to a 
+zoo, fear not; you don't have 
+to go far to draw animals. 
+Likely, either you or someone 
+you know has a pet. Let's look 
+at our first real dog! Observe 
+the shapes used to create this 
+experience with Belle, the 
+wonderful pet belonging to my 
+friends Sally, Jon, and 
+Madeline. She is a short-haired 
+collie. Notice the FORCE body 
+shape overlapped with the 
+fore and rear limb shapes. A 
+large chest and narrow waist 
+give her an athletic silhouette.
+
+
+--- [PAGE 88/221] ---
+
+62 Force: Animal Drawing
+Belle looks on with curiosity at her owners. The foot takes on a human resemblance, 
+since it is flat on the ground. Now you can more clearly imagine the human 
+anatomical comparison. You can see again how I used the perspective plane to 
+define the space she sits in. Notice the sweep beginning at the back of her neck that 
+then led me down into her shoulder and her arm.
+
+--- [PAGE 89/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 63
+In this drawing of Belle, she is reclined yet looking on at the events around her. She 
+props herself on her elbows and then rotates her hips on their side. You can see how 
+I looped around the joints of her wrists and ankles and described the form of her 
+body with surface lines at the bottom of her abdomen.
+
+--- [PAGE 90/221] ---
+
+64 Force: Animal Drawing
+During the final proofing stage of this book, my family acquired a long awaited dog 
+that we named Monty, a four month old Black Labrador Retriever mixed with Corgi! 
+Above are a couple of thirty second sketches of his first day at his new home.  When 
+addressing these quick ideas I start with the thought, “Monty is ______!” This sentence 
+focuses my thoughts more quickly on the idea of the pose.
+
+--- [PAGE 91/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 65
+Each of these quick sketches was drawn in under a minute. The two on the left were 
+more for the story of the pose and gesture, while the drawing on the right was 
+building the dog in perspective. You can see the difference in thought and 
+appearance of the drawing. The perspective drawing presents more straights than 
+curves to block out the structure.
+
+--- [PAGE 92/221] ---
+
+66 Force: Animal Drawing
+These images show three different dog breeds in three distinct types of poses.  
+The FORCE shape holds up to the different activities. All you need is the shape and an 
+understanding of a locomotive class's limb anatomy, and you are off to the races. 
+Each of these drawings was executed in under three minutes.
+
+--- [PAGE 93/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 67
+This designed dog was looking up at a squirrel in a tree with great curiosity. The 
+ideas I went after to design this image were long, thick neck; muscular shoulders; 
+big, floppy ears; and a thin, raised chin.
+
+--- [PAGE 94/221] ---
+
+68 Force: Animal Drawing
+In this image of a fox, I have called out the underlying skeletal anatomy of the front 
+and rear limbs. See the angles that occur through the functions of the legs and how 
+muscular anatomy reacts to these functions.
+Fox
+
+--- [PAGE 95/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 69
+This playful pose of the fox exhibits the FORCE shape with its three main directional 
+FORCES.
+
+--- [PAGE 96/221] ---
+
+70 Force: Animal Drawing
+Wolf
+This wolf stands solidly on the 
+grass-covered ground. The 
+difference in length of the back 
+foot and the forelimbs allows it 
+to cover great distance with 
+each stride. The long foot 
+springs its way forward while 
+the arms reach out for distance. 
+Its thick coat protects it from 
+cold winters. See the parallel 
+lines created in the shoulder 
+blade to the forearm and the 
+thigh to the foot. This parallel 
+rule will get you out of tight 
+spots when posing animals 
+from your imagination.
+The prairie dog from the plantigrade 
+chapter returns. This time he entertains 
+the wolf. The wolf's three-leg stance 
+allows the wolf to raise its front, right 
+paw, used to investigate its newfound 
+toy.
+
+--- [PAGE 97/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 71
+Hyena
+This drawing of a hyena presents a more thick and robust FORCE animal shape. The 
+large chest area and narrow lower body create a body design similar to that of a 
+bodybuilder with a thick neck. You can see how most of the animal's power resides 
+in the top half of its body.
+
+--- [PAGE 98/221] ---
+
+72 Force: Animal Drawing
+This image shows the common domestic cat. Notice that its rhythms are similar to the 
+dog. Three major FORCES create the design of the animal shape. Long back feet 
+allow for its springiness. The cat is agile and light. Quick bursts of speed allow for it 
+to catch prey…or chase a ball of yarn.
+CATS
+
+--- [PAGE 99/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 73
+Once you get a sense of the comparative anatomy and the FORCE animal shape, it is 
+easier to draw the most energetic of poses, as you can see on this page.
+
+--- [PAGE 100/221] ---
+
+74 Force: Animal Drawing
+Look at the resemblance between the human forearm and the animal's forearm in 
+this image. Notice the rhythm similarity based on FORCE in the forelimb. It strikes me 
+as peculiar just how similar the anatomy of all animals is.
+
+--- [PAGE 101/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 75
+Lion
+The two limbs on opposite sides of the lion's body carry its weight in the midst of this 
+stride. Look at the drag on the raised back leg caused by the curve of the foot 
+created by its forward momentum.
+In the below image, I have pulled forth the FORCE shape and that of the fore and rear 
+leg of the close side of the lion. These shapes reveal the function behind the top 
+drawing. My main thought during the experience of this drawing was the 
+momentum of the lion's rear pushing forward into the front leg's shoulder. FORCE then 
+drove up into the neck and the face.
+
+--- [PAGE 102/221] ---
+
+76 Force: Animal Drawing
+Studies of the lion's skull reveal its carnivore diet. The large curve at the top surface 
+of the head against the straight of the bottom represents the amount of FORCE exerted 
+downward to chew through tough flesh instead of soft, leafy vegetables.
+These drawings show the majesty of the male lion's face. The strong brow, thick 
+nose, and protruding chin all add prestige to the lion.
+
+--- [PAGE 103/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 77
+These awesome reference images came from a documentary I caught on television. 
+This male lion chased down an antelope in a swampy, muddy terrain. This allowed 
+me to more clearly observe the architecture of anatomy due to his high levels of 
+exertion as he ran down his prey. The lion's body squashes and stretches to allow for 
+the reach it needs to move at high speeds.
+You can appreciate the drag of the front left leg in the second image as it then 
+stretches out in preparation for the next stride.
+Throughout these moments of functional contrast, the FORCE shape still sustains itself.
+
+--- [PAGE 104/221] ---
+
+78 Force: Animal Drawing
+The female lion takes down a water buffalo. The convex arc of its body along with 
+the strong jaw and sharp claws retain its attachment to the buffalo. An interesting 
+fact to observe is the lion's level of rotation in the wrist, allowing it to grab the prey. 
+Only the plantigrade and digitigrade classes are capable of this rotation. The 
+unguligrade wrist is locked and has barely any rotation due to the fact it is not 
+carnivorous.
+
+--- [PAGE 105/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 79
+The first two FORCES that I addressed in this lion's pose were the two directional 
+FORCES presented up above. I started with the FORCE in the hip area and that led me 
+across the body, down to the chest, and then around into the neck and head. You can 
+also see the clear FORCE body shape that drives energy from the hips up to the head. 
+I added the perspective plane to ground the feet and accompanied that with FORCE 
+surface lines to assist with the structure.
+
+--- [PAGE 106/221] ---
+
+80 Force: Animal Drawing
+These three drawings depict a reclining lion at the San Francisco Zoo. In the top 
+image, observe the three surface lines on the back, left leg that give us form and 
+FORCE. In the second image, I brought with me what I learned about the lion's 
+FORCES from the first experience and added thoughts about the mane design. The 
+last image, and my third experience, was a culmination of the first two. More 
+anatomy is present, all with FORCE and design. There is a more efficient process here 
+due to my history with this lion in this pose.
+
+--- [PAGE 107/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 81
+The FORCE pushing down in the lion's front left paw, coupled with the curling inward 
+gesture of the right, accentuates the forward propulsion of the lion. This moment in 
+time occurs just before the transfer of balance from the back of the lion to the front 
+and to its left side. This pattern is slightly different from the walk, since both back 
+legs will leave the ground and replace both of the front legs’ positions.
+
+--- [PAGE 108/221] ---
+
+82 Force: Animal Drawing
+This lioness makes her way across the savannah after losing her lunch. I focused on 
+the weighted feel of her walk. This can be seen in the amount of pressure placed on 
+the line that describes the shoulder of the supporting leg. Again, you can see the 
+shoulder blade protrude past the forceful shape silhouette of the lioness—another 
+clue to how her body operates.
+
+--- [PAGE 109/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 83
+Studies similar to the drawing on the right allow for creating designs as shown in the 
+example on the left. The lion's face is thinned out here and stretched vertically to 
+more clearly express its specific nuances. Observe the plane changes on the face and 
+their ability to define structures.
+
+--- [PAGE 110/221] ---
+
+84 Force: Animal Drawing
+Cheetah
+Let's move through the process of drawing this cheetah by visualizing its forceful 
+shapes.
+This image presents the FORCE shape divided into its three directional FORCES. 
+Observe how FORCES flip from the hip and back, down to the chest, and then up to 
+the neck and head. These moments combined are the FORCE shape.
+
+--- [PAGE 111/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 85
+After designing the body of the cheetah, I overlaid the legs. The shapes of the legs 
+are also created from forceful shape rules. See how FORCE runs from either the 
+shoulder or hips and rhythmically flows down the limbs to the paws.
+
+--- [PAGE 112/221] ---
+
+86 Force: Animal Drawing
+Now that you have seen how the cheetah breaks down into its basic elements while 
+sprinting, let's look at a more peaceful story moment between a mother and one of 
+her cubs. FORCE, form, and shape come together to define this image. Some other 
+minor points to draw attention to are the strong bent angle found at the top of the 
+hip region, the clarity of the shoulders, and the lean, long feet that allow for the 
+spring in her step.
+Cheetahs are the earth's fastest land animal, capable of speeds over seventy miles 
+an hour! Think about driving on the freeway at that speed with your windows open 
+to get a sense of what this type of speed means.
+At these high speeds, the cheetahs’ momentum helps keep their body upright, so 
+more energy can be used in the forward movement. The long tail of the cheetah is 
+there to counterbalance the steering of the cheetah's front legs, allowing it to steer 
+through aggressive turns.
+
+--- [PAGE 113/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 87
+The main directional FORCE in this image drives its way up to the top of the shoulders 
+as the cheetah leans against its right arm, hand hanging over the rock. Follow the 
+rhythm of FORCE as it sweeps its way rhythmically from the shoulder down to the 
+paw. I truly enjoyed the experience of drawing the round head and wide, flat nose.
+
+--- [PAGE 114/221] ---
+
+88 Force: Animal Drawing
+These quick studies of an ocelot investigating a snake's home present interesting 
+poses. Look at the use of the tail for balance. Simple shapes have been designed to 
+quickly create the poses. Look for the FORCE body shape and then the overlapping 
+appendage shapes.
+Ocelot
+
+--- [PAGE 115/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 89
+Leopard
+The ever graceful and powerful leopard carries a dead baboon away to the trees. 
+The great amount of FORCE in the leopard's upper neck is due to the weight it carries 
+in the dead baboon. The prior rhythms allow for this balance in power. The front legs 
+drive up and forward over the ribcage, propelling the leopard forward, up into the 
+trees where it will eat its prey.
+
+--- [PAGE 116/221] ---
+
+90 Force: Animal Drawing
+This leopard makes its way down the V-shaped tree. The rear of the leopard is 
+propelled from the left side to the right, over the center of balance found lower in the 
+ribcage. The back legs compress and stretch to execute this maneuver. The leopard's 
+strong upper body allows for the cat's acrobatic maneuver.
+
+--- [PAGE 117/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 91
+These quick studies show a leopard during a stalking stride. The weight of the upper 
+body shifts from left to right as it stays crouched through its paces. The front paws 
+barely leave the ground as they move forward in space, bent at the wrist, ready to 
+snap down to support the body once more. The body's FORCE shape stays the same as 
+the limbs go though their motions to support the main body and move it forward 
+toward its prey.
+
+--- [PAGE 118/221] ---
+
+92 Force: Animal Drawing
+Tiger
+The tiger has the body of a prized fighter, muscular, barrel-chested, and lean. Here, it 
+sits on a rock poised for its next move. It possesses wide thighs and thick forearms. 
+The tiger's shoulders are heavily muscled, and the tail balances the large cat. 
+Observe the parallel limb rule in action here in the front and rear limbs.
+
+--- [PAGE 119/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 93
+Drawing an animal walking—in this case, a tiger—is a great way to study its 
+anatomy. You will quickly see the sliding shoulder blades, the raise in the hips, and 
+the body shape connecting all of it. These images are not evenly distributed through 
+time and are to be used more as a guide to the transformation of anatomical shapes 
+relative to their function in each moment in time.
+
+--- [PAGE 120/221] ---
+
+94 Force: Animal Drawing
+This tiger design presents a thick face created with a wide nose, tall chin, and heavy 
+brow. It is so easy to think “tiger” or “zebra” or “lion,” but to see variety and 
+human characteristics in the face of an animal is another task in itself. This tiger 
+looks athletic to me due to the overall shortness and thickness of the features.
+
+--- [PAGE 121/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 95
+ELEpHANTS
+Surprise, surprise . . . elephants are digitigrade animals—well, almost. They are 
+considered semi-digitigrade. Why are they classified as such? The secret lies in their 
+feet.
+
+--- [PAGE 122/221] ---
+
+96 Force: Animal Drawing
+Notice how elephants possess a large, gelatinous pad under their bones, hidden 
+away within the shell of their round feet. They don't rest their weight on the pad of 
+the hand. The first knuckle within the finger is what rests on the pad! This makes 
+them semi-digitigrade. They do not walk flat-footed, or plantigrade, and they are not 
+all the way up on the ball of their hand or foot.
+There are basically two types of elephants: African and Asian. The quickest 
+distinguishing factor between the two is the size of their ears. African elephants have 
+enormous ears that are used as a cooling system for the body. The flapping of the 
+ears cools down the blood that flows within them, and then that cooled blood 
+circulates through the rest of the body. The Asian elephants’ ears are a quarter the 
+size of the African elephants’.
+When it comes to their feet, there also are some subtle differences found in their toe 
+count. African elephants have three toes on the rear feet and four toes on the front 
+feet. Asian elephants have four toes on their rear feet and five on the front.
+The elephants’ legs are like pillars supporting their massive weight. The joints can 
+lock into a straight position, allowing the elephants to basically rest while they are 
+standing.
+
+--- [PAGE 123/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 97
+This image of an African elephant (check out the ears) clearly presents similarity to 
+human anatomy in the fore and rear limbs. The rear leg is about to fill the space that 
+the foreleg just resided in.
+Due to the elephant's weight, the foot appears to swell when it hits the ground and 
+get smaller when it lifts from the ground. Because there is such an obvious change in 
+the size of the elephant's foot, the elephant is capable of pulling its feet out of deep 
+mud. The weight of the elephant widens the foot when it presses down in the mud, 
+making the hole that was created by the foot larger than the foot as it rises out of 
+the hole, since the foot does not have such a tremendous amount of weight on it 
+anymore.
+
+--- [PAGE 124/221] ---
+
+98 Force: Animal Drawing
+I spent much of my attention during this experience working on form. All the form 
+fills the clear, profile silhouette. profiles are the most difficult to fill with form because 
+you are describing the animal in its most narrow state. A three-quarter view would 
+be the simplest. The slightest curvature of line insinuates form, and being aware of 
+those subtleties is key.
+With this elephant leaning into its rear, I focused on the back and upward motion of 
+this pose. The close back leg is a great indicator for how far back the leg is moving, 
+presented by the leg's strong, stretched angle. In the bottom right is a diagram of the 
+FORCE shape with accentuated moments to clearly define the directional FORCES 
+provided on the larger drawing.
+
+--- [PAGE 125/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 99
+While walking, the elephants’ legs act like pendulums. Their hips and shoulders rise 
+and fall with each step. The far legs are in the process of the rear foot kicking 
+forward the front foot. Elephants swim well but cannot trot, jump, or gallop. They do 
+have two gaits: a walk and a faster gait that is similar to running. An obvious 
+challenge to this drawing was the vantage point. The perspective had to sustain itself 
+throughout the image. The surface lines along the bottom of the belly, head, and ears 
+helped me keep this vantage point in mind as I moved through the pose.
+
+--- [PAGE 126/221] ---
+
+100 Force: Animal Drawing
+This design, on the other hand, is more flat in its style choice. I made the decision to 
+connect the ear to the head in one line or idea. I thinned out the rear legs and 
+thickened the front. I played with the wrinkling of the trunk and the design of the 
+wrinkles throughout the body.
+Both of the back feet have specific, different ideas. The far foot has a sense of stretch 
+on the backside and appears to be suctioned to the floor. The close leg plays with the 
+idea of heavy skin draping itself on top of the foot. The front foot's concept is like a 
+pillar of strength.
+
+--- [PAGE 127/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 101
+The drifting movement of the elephant toward the right and how it affects its feet 
+was the title or focus in this experience. I love the stretched quality found in the 
+supporting front leg. The skin pulled from the wrist joint up to the elbow and across 
+the chest assists in the sensation or the drift to the right.
+
+--- [PAGE 128/221] ---
+
+102 Force: Animal Drawing
+Many different ideas are present in the illustration of this African elephant. One 
+contrast I wanted to define was the stiffness of the one forelimb relative to the taut 
+bend in the wrist of the other. I also wanted to define the box-like structure of the 
+trunk. This was achieved with two different techniques. First, at a line level, the angle 
+change found in the lines that present the trunk wrinkles suggest the box planes of 
+the trunk. Then I added slight tone to emulate shadow, which also defines a change 
+in the planes.
+
+--- [PAGE 129/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 103
+Look at the wide upper arm and pointed, bent elbow in the close arm in this image. 
+The other front foot is wide to present the weight it supports. I thinned down the two 
+back legs and added surface lines for the belly, legs, and trunk to further define 
+structures.
+
+--- [PAGE 130/221] ---
+
+104 Force: Animal Drawing
+I was inspired by many attributes found in this African elephant. I went after the 
+large ears, which silhouette the thick tusks. Then I made the head a long, vertical 
+rectangle. Lastly, I went after the fluid wrinkles found in the front legs, following 
+their graceful and purposeful patterns.
+
+--- [PAGE 131/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 105
+In this illustration, I took the long vertical rectangle concept further and then 
+designed the ears into more triangular shapes.
+
+--- [PAGE 132/221] ---
+
+106 Force: Animal Drawing
+BIRDS
+I am ending the digitigrade chapter with a slight departure from all the mammals covered in this 
+book. Let's talk about birds. I felt as though the book would not be complete without the addition of 
+our feathered friends. I specifically have chosen an ostrich as our first candidate. As you probably 
+know, ostriches cannot fly. They can run really fast, though—over forty miles per hour! They are 
+bipedal, which means with two legs. What makes this possible? Their digitigrade anatomy! They do 
+not run on the same padded area as cats or dogs, but they do not run on the tips of their toes either 
+as unguligrades do, as we will examine in the next chapter. Look at how distorted and stretched the 
+FORCE shape can be manipulated and still function.
+
+--- [PAGE 133/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 107
+The ostrich illustration gives you a sample of the foot, but I purposely left out the arm 
+or wing. The wing deserves its own illustration, as you witness above. The arm or 
+wing anatomy of a bird is similar to that of a human.
+
+--- [PAGE 134/221] ---
+
+108 Force: Animal Drawing
+Here is a full figure human-to-bird comparison. The reason that most artists confuse 
+the anatomy of a bird's leg is that the knee is hidden under the feathers and right 
+near the body. The length of a bird's thigh is generally much shorter than that of a 
+human. What you see protruding from the bird body is the lower leg to the ankle 
+joint. 
+When it comes to the wing, it follows all the same rhythms as a human arm. The 
+power for the bird's wings comes from the massive chest or pectoral muscles.
+
+--- [PAGE 135/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 109
+In taking a closer look at the foot of a human alongside a bird—an eagle in this 
+case—you can see the ball of the foot is the base of the bird foot, where the toes 
+emanate from. The eagle possesses much longer toes with long toenails or talons for 
+grabbing its prey. When a bird walks, you can see how it walks on the ball of the 
+foot.
+
+--- [PAGE 136/221] ---
+
+110 Force: Animal Drawing
+These quick ostrich illustrations were performed with a purple prismacolor pencil. The 
+drawings are loose interpretations that investigate form and shape within the reality 
+of the ostrich's anatomy. Give yourself room to think and find forms and shapes.
+
+--- [PAGE 137/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 111
+This eagle soars through the air effortlessly, legs relaxed in a rear position. The 
+eagle's strong chest helps pump its wings up and down. The bald eagle can glide to 
+speeds over forty miles per hour! It can dive at speeds near one hundred miles an 
+hour. That is fast!
+Here is another eagle diving in on its prey. The talons are set forth, prepared to grab 
+the prey.
+
+--- [PAGE 138/221] ---
+
+112 Force: Animal Drawing
+This ring-billed gull's wings, beautifully designed, cut through the air effortlessly. 
+Forceful shapes design the wings.
+
+--- [PAGE 139/221] ---
+
+Digitigrades (Intermediate-Speed Land Animals) 113
+The King crane clearly presents the concept of the hidden knee and the prominence of 
+the ankle. If you can be aware of the bend as the ankle, you will understand the 
+anatomy of the bird's foot. Bird legs are one of the furthest departures from human 
+anatomy. If you can make this jump, then creating all of the mammals in this book 
+should be a walk in the park.
+
+--- [PAGE 140/221] ---
+
+114 Force: Animal Drawing
+This Great Blue Heron sits waterside 
+on a protruding wooden stump. I 
+extracted the three main FORCES of 
+the FORCE animal shape and called 
+out the location of the ankle. Don't 
+be fooled by the lack of the knee, 
+which is hidden up against the 
+body.
+With this great bird, I conclude the digitigrade locomotive class, the most accessible and 
+prominent in the world of animals. on to the last class, the unguligrade.
+
+--- [PAGE 141/221] ---
+
+Chapter 4
+Odd-TOed UngUlaTes
+Examples of odd-toed ungulates are horses, tapirs, and rhinoceroses. They are  browsing and 
+grazing mammals. The middle toe on each hoof is also usually larger than its neighbors.
+Larger ungulates typically have tendon-lock systems that allow them to lock their legs to 
+be able to save energy. This locking mechanism affects how we think about the  functional 
+FORCES of the front legs, as I will cover in more depth in the following pages.
+Unguligrades (Fast Land Animals)
+By far, ungulates are the most challenging locomotive class of the three to draw due 
+to the fact that they are the most different from human beings. There is much to 
+cover, so let's get started.
+HORses
+
+--- [PAGE 142/221] ---
+
+116 FORCE: Animal Drawing
+looking at the anatomy of the shoulder and arm region of the horse, you can see 
+just how similar they are to us. The bicep is the most drastic anatomical change, 
+hidden on the far side of the triceps and almost unseen. The size of the deltoid and 
+triceps informs us of how much work these muscles perform.
+
+--- [PAGE 143/221] ---
+
+Unguligrades (Fast Land Animals) 117
+Rear Leg
+I know this illustration looks bizarre, but this is how human anatomy needs to be 
+manipulated to truly compare to the anatomy of a horse. let's start with the rear leg 
+on the far left of the illustration. The horse's “foot” and “toe” are much longer than 
+that of a human. The length of the horse's lower leg or foot region allows for a much 
+longer stride than a human. Running or walking on the toe of the foot adds shock 
+absorption and springiness to the run. The horse possesses a wide thigh, or 
+quadriceps, from the side view. This powerful engine helps compress and extend the 
+legs for running and jumping.
+The two images on the right provide a comparison of the front view of the back leg. 
+The thigh and calf regions resemble each other closely. It is when we get down to the 
+“foot” the discrepancy is much greater. Keep in mind these comparisons to help you 
+understand how the horse rear leg works.
+
+--- [PAGE 144/221] ---
+
+118 FORCE: Animal Drawing
+Foot and Ankle Joints
+In a close-up of the ankle and knuckle joint, you can see how the bottom section of 
+the horse's leg is like the principal part of the human foot. The human toe is 
+elongated to match the horse's proportion. as the horse lifts its rear leg, the ankle 
+joint raises the foot upward and the toe bends downward. The gray circles bring 
+focus to the major joints and are used as guideposts for the proportions.
+
+--- [PAGE 145/221] ---
+
+Unguligrades (Fast Land Animals) 119
+Front Leg
+The image above compares the horse's front limb to a human arm. I manipulated the 
+human anatomy proportions to match that of the horse's once more. These changes 
+led to some interesting images. The two drawings on the left show a profile view, 
+and the two on the right exhibit the front view. notice how similar the forearm 
+region is in the comparison.
+
+--- [PAGE 146/221] ---
+
+120 FORCE: Animal Drawing
+In ungulates, the wrist joint sits in a 
+locked position when it is vertical 
+and CannOT move any further 
+back under the animal. This locked 
+position in ungulates is theorized to 
+transpire to allow the animal rest 
+while standing up due to its size 
+and weight. FORCe rides down the 
+back of the foreleg. When the wrist 
+moves forward and snaps upward, 
+FORCe adjusts and moves from the 
+rear of the foreleg to the wrist, 
+creating a rhythm.
+
+--- [PAGE 147/221] ---
+
+Unguligrades (Fast Land Animals) 121
+Front Leg Bent
+Knuckle and First Finger Joint
+look at how strange the 
+human palm appears in this 
+profile. You can see how the 
+joints bend in the forelimb. It is 
+the horse's wrist, the joint 
+within the gray circle that 
+presents the dramatic bend. 
+Once the leg bends, FORCe from 
+the elbow, directional FORCe 
+number two, moves across the 
+anatomy to the wrist, creating 
+a rhythm into directional FORCe 
+number three, which did not 
+exist before due to the lack of 
+downward stress.
+This illustration is broken down into three groups of two. each is a comparison of the 
+human hand to that of the horse. The gray circles highlight the knuckle and the first 
+finger joint. The close-up of the two joints also presents how much of the stress created 
+by the weight of the horse comes down onto the knuckle joint. In the first image of the 
+horse's anatomy on the left, look at the steep angle FORCe travels through to move from 
+the knuckle joint to the hoof. These knuckle joints break forward, allowing the horse 
+to sweep the toe joint backward and up, which allows for a graceful stride.
+
+--- [PAGE 148/221] ---
+
+122 FORCE: Animal Drawing
+In these samples, the front and rear legs of the horse were designed relative to their 
+FORCes. The repetitive triangular shape that is formed from straight to curve design 
+moves its way through the anatomy from one FORCe to another, creating rhythm with 
+shape. In the center of the image, the horse's rear leg is contracted. This morphs the 
+shapes. On the far right is an example of the line separated into its two moments: 
+the concave and then convex curve.
+looking at some of the finer details of the anatomy, you can see that the three digits 
+in the human finger correspond to those in the hoof region of the horse. The main 
+knuckles in the human hand represent the obvious angle change in the horse's lower 
+front leg.
+
+--- [PAGE 149/221] ---
+
+Unguligrades (Fast Land Animals) 123
+I am not one to do much measuring, as most of you know, but with horses, it is good 
+to have some general sense of proportions until you learn to know what looks right. 
+every animal drawing book discusses the idea of the square shape presented in this 
+illustration. I think it is a good starting point. The lower joints are called out because 
+the box concept seems to work best from this joint, not the ground level. The next 
+important measurement is the bottom of the horse's ribcage. From the horse's ribcage 
+to lowest joint in the legs, the halfway mark lands the location of the wrist and ankle 
+joints.
+
+--- [PAGE 150/221] ---
+
+124 FORCE: Animal Drawing
+This illustration shows a horse grazing, an everyday task. look at all the physics 
+involved. gravity constantly pulls downward, and due to this inevitable truth, the 
+horse anatomy is adjusted. The light gray shape represents the FORCe animal shape. 
+The more dark gray shapes call forth the front and rear limbs. see how the design of 
+the shape indicates FORCe and also form. For instance, the thigh and hip region wrap 
+around the form of the body. The dark gray shape is truly flat, but our minds make it 
+spatial.
+another note to make regarding this illustration is the different rhythms in the two 
+front legs. The far leg stands straight for support, and therefore FORCe drives down 
+the back of the leg. The close leg is slightly bent at the wrist, and the bend causes a 
+rhythm to occur earlier because of this.
+
+--- [PAGE 151/221] ---
+
+Unguligrades (Fast Land Animals) 125
+I used this horse drawing as a reminder of the animal FORCe shape. The top-left 
+diagram describes the three main FORCes along with two ellipses that allude to the 
+perspective the horse resides in.
+
+--- [PAGE 152/221] ---
+
+126 FORCE: Animal Drawing
+during the experience of drawing this horse, I focused much time on the forms. 
+The three circles highlight areas with line defining form. each area is handled with a 
+different level of granularity. The center section is the least specific; the neck, or left, 
+circle has moderate detail; and the leg, or right, circle is more informative.
+The center circle surface lines are almost scribbled in to describe the form of the belly. 
+The neck is sculpted with line, but the lines do not focus on FORCe, but form alone. 
+The surface lines in the leg circle display form and FORCe! The lines adhere to the 
+forms in the leg in the direction of the FORCe of the muscles found there.
+
+--- [PAGE 153/221] ---
+
+Unguligrades (Fast Land Animals) 127
+The huge nostrils on the horse feed it oxygen, thus allowing it to run the beautiful 
+machine that it is. The enormous chest cavity pushes this oxygen into the 
+bloodstream, allowing for long-term, high-speed running. all the amazing directional 
+and applied FORCes create ever-changing rhythms while the horse runs.
+
+--- [PAGE 154/221] ---
+
+128 FORCE: Animal Drawing
+let's use this drawing as an example of the topics we discussed in the previous two. 
+look at the FORCe animal shape. This is the glue for the design of the horse. You can 
+see a great variety of surface lines to describe the different forms or muscles of the 
+horse. The limbs all function with different rhythms.
+
+--- [PAGE 155/221] ---
+
+Unguligrades (Fast Land Animals) 129
+The book's cover image exudes power and speed. numerous directional FORCes work 
+together creating seamless rhythm. starting at number one, we follow FORCe's path to 
+number two, which is part of the area labeled “directional FORCe.” This FORCe changes 
+direction and flips to number three, where we screech through a hairpin curve at the 
+top of the head and out the horse's face.
+an intimate walk around the drawing presents an immense number of forceful form 
+lines that define the strain and operation of the horse's musculature.
+
+--- [PAGE 156/221] ---
+
+130 FORCE: Animal Drawing
+This Clydesdale stands firm with great presence. The shoulder and thigh regions are 
+heavily muscled to support the animal's weight. Clydesdales can weigh close to two 
+thousand pounds (one ton). due to their docile demeanor and great strength, this 
+breed of horse was most commonly used by farmers to plow and pull heavy loads. 
+Try to see the FORCe animal shape buried within the anatomy as it moves its way over 
+the structure of the legs.
+
+--- [PAGE 157/221] ---
+
+Unguligrades (Fast Land Animals) 131
+This more angular image of the horse highlights the structures of the hips and the 
+shoulder blades. The more soft, rhythmic neck sweeps out from between the blades, 
+suspending the rotated head in a graceful twist. look at the clear straight to curve 
+forceful shape that defines the neck. The last curve of the FORCe animal shape would 
+be found beyond the straight of the top of the neck at the top of the head.
+
+--- [PAGE 158/221] ---
+
+132 FORCE: Animal Drawing
+These drawings show a horse getting up from a reclined position. In image one, the 
+horse pushes its head down to anticipate the quick, large, upward thrust that 
+immediately follows, seen in image two. This moment allows the horse to jut its front 
+legs underneath the weight of its upper body. In drawing three, the horse's weight 
+hangs from the shoulders down through the belly into the hip area, and the far front 
+leg is locked under that weight. since the front is raised, the weight of the rear has 
+somewhere to move, and the horse pulls its rear legs under the body to raise its back 
+end. In image four, the horse is standing.
+
+--- [PAGE 159/221] ---
+
+Unguligrades (Fast Land Animals) 133
+I designed this and the next image from the same reference. This first drawing of a 
+horse represents a more accurate approach to the mammal and its playful pose.
+
+--- [PAGE 160/221] ---
+
+134 FORCE: Animal Drawing
+This second image skews the traditional approach of the horse with more opinion. 
+a thicker neck, more robust shoulder region, and thicker forearms create a more 
+muscular and still graceful animal.
+
+--- [PAGE 161/221] ---
+
+Unguligrades (Fast Land Animals) 135
+ZeBRas
+Our first drawing in the zebra section of the book exhibits the common sight of a 
+fleeing zebra. Fortunately for this one, it escaped. Zebras are a joy to draw due to 
+their stripes, which really help define form and their peculiar proportions.
+
+--- [PAGE 162/221] ---
+
+136 FORCE: Animal Drawing
+I drew these zebras using a 
+brush pen while at the san 
+Francisco Zoo. The boldness of 
+the pen allowed for quick 
+striping to create form. In the 
+bottom drawing, you can see 
+how I utilized the brush to feel 
+out the FORCe in the shoulder 
+sweeping down into the close 
+front leg.
+Compared to horses, zebras 
+are more short and stocky. a 
+thick rear end, coupled with 
+short legs, defines the zebras’ 
+running-back-like physique. 
+These few quick pen designs 
+present this fine animal. I 
+played with the idea of using a 
+straight line across the entire 
+back, but that concept removes 
+the opportunity for the three-
+directional FORCes to work 
+with one another. I do like the 
+V-like pattern on the side of 
+the body within the design on 
+the top right.
+
+--- [PAGE 163/221] ---
+
+Unguligrades (Fast Land Animals) 137
+as you can see, I went for the large rump and a short neck with a well-rounded belly for 
+my main concepts during this experience. The zebra also had a somewhat long, thin 
+snout. I pushed the idea of the close front leg feeling like a planted pole. There's not much 
+rhythm there, but that is what the leg felt like to me. I also exaggerated the angularity of 
+the shoulder protruding from the body to clarify its function within the pose.
+
+--- [PAGE 164/221] ---
+
+138 FORCE: Animal Drawing
+RHInOs
+One of my favorite animals to draw is the rhino and, to be more specific, the black 
+rhino. This black rhino is a tank with legs. I went after all the potential power and 
+weight in the front shoulder. The head looks massive and heavy, so I attempted to 
+feel that weight in the neck and bottom of the head. For me, the thought was 
+cradling that head in my hands . . . . what would that weight feel like? How heavy is it? 
+a full-grown adult can weigh over three thousand pounds! even with all this weight, 
+the rhino can run up to around thirty-five miles per hour. The black rhino is the fourth 
+largest land animal on the planet!.
+The black rhino is known to be an aggressive animal. Further research suggests that 
+it has poor eyesight. due to poor eyesight, the black rhino fears many things and 
+therefore attacks frequently.
+
+--- [PAGE 165/221] ---
+
+Unguligrades (Fast Land Animals) 139
+Personally, I was surprised to discover that rhinos reside in the unguligrade class. I 
+would have guessed digitigrades, especially with elephants falling into that class. 
+Upon further investigation into the foot anatomy, I found that rhinos rest their heels 
+on a spongy tissue similar to the elephant, but the angle of the foot is stronger, which 
+makes the rhino walk more on its toes.
+
+--- [PAGE 166/221] ---
+
+140 FORCE: Animal Drawing
+Here is another black rhino. This rhino's design is so pure and clear with its giant 
+tusk on the top of its face. notice the shape of the prehensile top lip. This triangular 
+form allows the rhino to grab leaves off trees.
+
+--- [PAGE 167/221] ---
+
+Unguligrades (Fast Land Animals) 141
+This image presents a process from reference to design. In the top-right corner 
+resides a photo I took of a seated white rhinoceros at safari West. The top drawing is 
+more of a brief study of the pose. Moving through this process allowed me to further 
+understand the FORCes of the rhino in this pose. I executed the bottom design using 
+the knowledge gained from the prior drawing. Both drawings were performed on a 
+Cintiq.
+
+--- [PAGE 168/221] ---
+
+142 FORCE: Animal Drawing
+I could not resist. Here is one more drawing inspired by the same photo. I further 
+opinionated the height of the shoulders and pushed out the rear while adding weight 
+there to compress the legs.
+
+--- [PAGE 169/221] ---
+
+Unguligrades (Fast Land Animals) 143
+These black rhino heads are two of my 
+attempts at understanding the majesty 
+of the animal. On top is a more shape-
+oriented approach, and below is one 
+more critical of details. In the top image, 
+the shape of the head ignores the 
+peripheral details, like the horns and its 
+lip. To understand design, you need to 
+see past the details to the bigger shapes 
+and then work hierarchically. Both 
+exhibit the rhythm that I assessed with 
+the two arrows.
+
+--- [PAGE 170/221] ---
+
+144 FORCE: Animal Drawing
+The clear silhouette of the rhino presents the FORCe animal shape. at the end of the 
+shape, I added the weight at the bottom of the rhino's jaw.
+
+--- [PAGE 171/221] ---
+
+Unguligrades (Fast Land Animals) 145
+The image above is the white rhino, and the bottom one is black. Both of their 
+muzzles are designed with different shapes to accommodate their diets. The white 
+rhino with a muzzle that looks like a lawn mower eats grass, and the triangular, 
+prehensile lip of the black rhino is used to grab leaves from branches.
+
+--- [PAGE 172/221] ---
+
+146 FORCE: Animal Drawing
+This plated rhino is an Indian rhino. It has only one horn versus the two of the black 
+and white rhinos. The height and weight of the Indian rhino is similar to that of the 
+others.
+
+--- [PAGE 173/221] ---
+
+Unguligrades (Fast Land Animals) 147
+This detail of the Indian rhino 
+head was treated as more of a 
+study. I wanted to better 
+understand how the head was 
+structured with its different 
+folds of skin. The forms are 
+more complex than those on 
+the black or white rhinos.
+In pushing design on this Indian 
+rhino, I started with a simple 
+silhouette, similar to a lying-
+down l shape. I slightly 
+thickened the horn and shrunk 
+down the size of the eye. In 
+doing so, the head feels larger. 
+This rhino has a dome-like head 
+and a wrinkled neck. I added 
+some wrinkles for texture and 
+slightly enlarged the cheek 
+area. 
+The image itself was drawn on 
+paper and then painted in 
+grayscale on a Cintiq.
+
+--- [PAGE 174/221] ---
+
+148 FORCE: Animal Drawing
+Here are two more Indian rhino 
+head designs. I also started these 
+as simple shapes. The top image 
+is a more horizontally compressed 
+expression of the rhino head. 
+Below, the nose feels as if it has 
+been pulled to the left, creating 
+more open angles of rhythm from 
+the top to the bottom of the head.
+
+--- [PAGE 175/221] ---
+
+Unguligrades (Fast Land Animals) 149
+eVen-TOed UngUlaTes
+Some even-toed ungulates are pigs, peccaries, hippopotamuses, camels, deer, 
+giraffes, pronghorn, antelopes, sheep, goats, and cattle.
+deeR
+The anatomy of the deer is similar to that of the horse except it has an even number 
+of toes—two in this case.
+
+--- [PAGE 176/221] ---
+
+150 FORCE: Animal Drawing
+In the top center image, you can 
+see the bone structure of the hoof 
+region. These joints represent the 
+knuckles found in human fingers 
+and toes. see the split in the hoof 
+called a cloven hoof, representing 
+two toes.
+In this image, you can see the joint 
+that represents the pad of the hand 
+presenting its range of motion.
+
+--- [PAGE 177/221] ---
+
+Unguligrades (Fast Land Animals) 151
+The deer's “heel” makes obvious 
+the extension of the bone 
+beyond the top, back of the foot. 
+It is as if the bottom of our foot 
+had a long piece of wood tied to 
+it, and this piece of wood 
+extended past our heel.
+
+--- [PAGE 178/221] ---
+
+152 FORCE: Animal Drawing
+Here is the foreleg of the deer. 
+I designed callouts for the 
+FORCes of the leg and the 
+large muscle groups. The 
+function of the leg is the same 
+as any of the other ungulates. 
+The canter levering between 
+the deltoids and triceps makes 
+possible the lifting of the leg.
+
+--- [PAGE 179/221] ---
+
+Unguligrades (Fast Land Animals) 153
+Here are some quick sketches of two deer. For the bottom deer, I roughed out the 
+long, curved FORCe of the body and filled in the shape for you to see my process. With 
+the deer curled up from this angle, you can simplify the function of the deer's 
+FORCes.
+
+--- [PAGE 180/221] ---
+
+154 FORCE: Animal Drawing
+elk
+Here are two moments found in the running gait of this deer. Figuring out the gait of 
+any animal is made easier through the use of the silhouette. notice the compression 
+in the first image on the left. Then the deer springs out of this pose and in the last 
+prepares again for the landing that will allow it to spring forward again.
+elk are one of the largest species of deer in the world. This powerful elk walks 
+through the high grass, enjoying its lunch. Thick shoulder and neck muscles help 
+support its antlers.
+
+--- [PAGE 181/221] ---
+
+Unguligrades (Fast Land Animals) 155
+above is my opinionated version of the elk, bringing forth features I find to define 
+the character of the elk. I enlarged the shoulder region and its muscularity. I also 
+increased the size of the abdomen. In addition, I stretched and narrowed the muzzle 
+and thinned out the rear legs. The thin legs further exaggerate the massive torso.
+
+--- [PAGE 182/221] ---
+
+156 FORCE: Animal Drawing
+anTelOPes
+Hartebeest
+In this image, you can see the pathways of FORCe through the hartebeest. The larger 
+arrows represent directional FORCe, and the smaller are applied FORCes. The shape 
+in the top right represents the head of the animal.
+
+--- [PAGE 183/221] ---
+
+Unguligrades (Fast Land Animals) 157
+sable antelope
+The top drawing contains a small shape in the bottom-right corner identifying the 
+fluid design of the neck and head found in this sable antelope. Below is a diagram of 
+the FORCes found in the neck, head, and ear of the antelope. notice the design of the 
+ear and how its shape represents its function by pushing itself forward and upward 
+to open itself up to the sounds found in its surrounding environment, similar to a 
+radar dish.
+
+--- [PAGE 184/221] ---
+
+158 FORCE: Animal Drawing
+gemsbok
+The gemsbok is thick and stocky with interesting and well-designed markings. They 
+are from africa, but I had the good fortune of drawing this one in the northern 
+California hills at safari West.
+
+--- [PAGE 185/221] ---
+
+Unguligrades (Fast Land Animals) 159
+goat
+This beer-bellied goat was in the children's area of the san Francisco Zoo. He is far 
+from underfed with all the eager children buying pellets from old gumball machines. 
+His weight is evenly distributed among his four legs. I put one line around the 
+perimeter of his midsection to remind myself of how round he is.
+
+--- [PAGE 186/221] ---
+
+160 FORCE: Animal Drawing
+Bull
+This charging bull leans his mass forward as back legs pump, prepared for the 
+charge. Clear forceful shapes define this powerful animal. notice the parallel lines in 
+the thigh and foot of the back leg and the shoulder and forearm of the front.
+
+--- [PAGE 187/221] ---
+
+Unguligrades (Fast Land Animals) 161
+Cape Buffalo
+These three cape buffalo drawings show how I sometimes progress through designs. The top image 
+is the most realistic, but at this first pass, I have already started to illustrate opinions. You can see 
+the enlarged nose and muzzle, thick body, and small legs. For the middle image, I horizontally 
+stretched the head, the muzzle, nose brow, and horns. The body shape was my focus for the last or 
+bottom design. I played with the vertical height of the body, the thickness of the horns, small eyes, 
+and large nose.
+
+--- [PAGE 188/221] ---
+
+162 FORCE: Animal Drawing
+addax
+The addax antelope comes from the sahara desert as an endangered species. It is 
+known for its corkscrew antlers. This image shows a reclined addax. see how the 
+arms and legs fold up under the body, and yet the FORCe animal shape still flows 
+through the body and into the neck and head.
+
+--- [PAGE 189/221] ---
+
+Unguligrades (Fast Land Animals) 163
+Kudu
+This female kudu has a streamlined body demonstrating the three main FORCes of 
+the FORCe shape. You can see how it is in stride since the far back leg is on its way to 
+kick the front far leg forward. The male kudu also has corkscrew antlers.
+
+--- [PAGE 190/221] ---
+
+164 FORCE: Animal Drawing
+gIRaFFes
+I truly enjoy my drawing experiences of giraffes. Years ago, I ran private, summer drawing classes. 
+One week I met students at the Bronx Zoo. at the time, I had not seen a live giraffe for about fifteen 
+to eighteen years. My class and I were walking through the zoo and rounded a thickly wooded corner 
+when we entered a small viewing area to the giraffe exhibit. My first impression of these amazing 
+animals was that I was watching modern-day dinosaurs walking the earth, right in front of my eyes.
+Before we move on, remember that in Chapter 2 on the plantigrades, I mentioned the large thoracic 
+vertebrae in the giraffe. notice the long bones protruding from the spine, hiding behind the scapula. 
+They cause the large hump that contributes to the peculiar silhouette of the giraffe.
+
+--- [PAGE 191/221] ---
+
+Unguligrades (Fast Land Animals) 165
+This giraffe fought another using his long legs and neck. His lean, triangular body 
+pulled backward as he prepared to swing his neck against his opponent. Male 
+giraffes use the horns on their heads as weapons in combat with great accuracy and 
+devastating power.
+While creating this drawing, I compared the giraffe's anatomy to humans during the 
+exploration of the forearms and the thighs. even now, as I look at this image, I can 
+see that comparison.
+
+--- [PAGE 192/221] ---
+
+due to the height of giraffes, it is difficult to get a true sense of the size of their head. 
+My first trip to safari West took care of this. My wife and I visited on a cool day filled 
+with a soft and constant drizzle falling from the gray sky. The weather did not affect 
+our trip relative to viewing the animals, but I kept thinking how beautiful the 
+landscape would look with a blue sky and some white, puffy clouds overhead. Well, 
+at the end of our tour, our guide led our group into the giraffe Barn, which is where 
+most of the giraffes stay when it is raining. I guess they don't like getting wet. either 
+way, I happened to be at the front of the line walking into this barn. There were 
+long, narrow, and tall hallways to travel, and at the end of one, on the left side,  
+high off the ground was a giraffe's head focused in my direction. I slowly walked 
+down the hall with the rest of the group close behind. The guide finally passed me to 
+gain the front position. suddenly, the giraffe brought its head down to greet him. The 
+giraffe's head lay suspended within inches of my face. I was amazed at just how 
+large this exquisite animal was. It had immense, softball-sized eyes with finger long 
+eyelashes. I made my way under it as it raised its head. My wife, ellen, then stood 
+where I had been, and the giraffe came down to her and licked her ear and neck 
+with its long purple tongue. Priceless footage. We both left that day thankful for the 
+rain and amazed by nature and the raw beauty of the animal kingdom. That was a 
+day I will never forget.
+
+--- [PAGE 193/221] ---
+
+Unguligrades (Fast Land Animals) 167
+This second giraffe head drawing brings attention to the abundance of straight to 
+curve or forceful shape design. at the top of the pyramid of shapes lies the overall 
+head shape in the lightest gray tone. Then you can see the chin, ears, horns, and eye 
+are also born from the same shape. lastly, in the darkest gray tone, I point out a 
+smaller portion of the ear and its shape design. all this thinking occurs as I am 
+drawing. I decide how graphic or organic I want my drawing experience to be.
+
+--- [PAGE 194/221] ---
+
+168 FORCE: Animal Drawing
+another photo from my safari West visits inspires the creation of the designs found 
+here. The large image was driven by the fluidity found within the neck and head. On 
+the right, the two thumbnails transpired from the simple process of stretching the 
+giraffe head vertically or horizontally.
+
+--- [PAGE 195/221] ---
+
+Unguligrades (Fast Land Animals) 169
+Here are some full body illustrations of the giraffe. The top-left image is not too far 
+from reality since it is based off a young giraffe. Its neck is shorter and its legs are 
+proportionately thicker relative to the body than those of an adult.
+
+--- [PAGE 196/221] ---
+
+170 FORCE: Animal Drawing
+For the last chapter, I will focus on design.
+This chapter ends with a design of the giraffe. I focused on some of its distinguishing 
+traits. I pushed out the front of the chest and extenuated the long, thin legs.
+
+--- [PAGE 197/221] ---
+
+Chapter 5
+In this chapter, we will look further into forming opinions on the animals we have 
+ covered from previous chapters. I will describe a useful visual tool to assist with this 
+manner of assessment.
+The Law of Thirds
+Animal Design
+The law of thirds is a crucial design law. The box on the left shows no divisions. The 
+second box shows a halfway division. This immediately causes symmetry. That 
+means the top and bottom of the box or the figure are the same. it is this sameness 
+that we are trying to avoid in our work. our minds want to create symmetry, and 
+the irony is that this symmetry causes disinterest in art. remember, contrast creates 
+interest. so, that leads us to our third box on the right. here, i have divided the 
+image into thirds!
+see Plate 1 in insert for color version.
+
+--- [PAGE 198/221] ---
+
+172 Force: Animal Drawing
+Now i have taken our box that is split into thirds in its vertical height and in the 
+second image split it in half from left to right. This waters down our design again. 
+in the last image, we have the iconic image of design in thirds; our rectangle is 
+divided in thirds, both vertically and horizontally. remember this image!
+see Plate 2 in insert for color version.
+This image shows our iconic box on its side. You can use the rectangle this way also. 
+The horizontal grid is great for the animal kingdom since most animals are more 
+horizontal than vertical.
+see Plate 3 in insert for color version.
+
+--- [PAGE 199/221] ---
+
+Animal Design 173
+here is a grizzly i photographed at the san francisco Zoo. due to its thick fur, it was 
+fairly easy to simplify the shapes of the animal. i made sure to catch the gesture of 
+the bear's front paw in mid-stride. 
+see Plate 4 in insert for color version.
+
+--- [PAGE 200/221] ---
+
+174 Force: Animal Drawing
+an angry grizzly stands at eight feet tall, bellowing out in rage. he leans on a fallen 
+tree. i accentuated the bellow by placing the lightest color near his mouth, forcing 
+your eye to focus there. i also painted the background in loose concentric circles with 
+the head as the center. 
+see Plate 5 in insert for color version.
+
+--- [PAGE 201/221] ---
+
+Animal Design 175
+above is a reference photo of a grizzly taken at the san francisco Zoo. Notice in the 
+photo that the bear's face is naturally split in half, from top to bottom. To the left is a 
+design for which i show the process on my site (www.drawingforce.com). i started 
+this design with a long vertical ellipse. This was obtained by using the abstract 
+system of thirds found at the beginning of the chapter. i then shrunk down the eyes 
+but made the closer eye larger for a sense of depth. Then i clarified the sweep of the 
+nose bridge and the arc of the nose top. all of this then received a quick paint job on 
+the Cintiq. The grass was added to bring further focus to the bear's face. 
+see Plate 6 for color version.
+
+--- [PAGE 202/221] ---
+
+176 Force: Animal Drawing
+This grizzly exaggerates the vertical 
+height of the head and the horizontal 
+length of the snout. Color is used to 
+bring focus to the design. The 
+priorities i defined are the general 
+vertical shape of the design, the nose 
+of the grizzly, and then the eye.
+see Plate 7 in insert for color 
+version.
+
+--- [PAGE 203/221] ---
+
+Animal Design 177
+My approach in the above cheetah designs comes from a place of graphic flatness, 
+more so than the other cheetah drawings. i observed the interesting shape created by 
+the black lines that ran from the eyes, down the sides of the nose, and around the 
+muzzle. The bottom-most drawing has more volume. here i gave the cheetah a strong, 
+squared-off jaw and a large nose. The reference photo was taken at safari west. 
+see Plate 8 in insert for color version.
+
+--- [PAGE 204/221] ---
+
+178 Force: Animal Drawing
+This male lion walks along, alone, looking for prey. i was drawn to the long face and 
+large flat nose, along with the swinging front paw. i was also intrigued with the 
+circular quality of the eyes. i played up the orange color found in the eyes and added 
+a horizontal design element to bring attention to this detail. To balance out the 
+horizontal orange line, i placed a small orange swatch in the grass to the right. The 
+dark hair of the lion's mane helps surround the face. i placed light colors on the front 
+paw to bring it attention and to bring it forward in space.
+see Plate 9 in insert for color version.
+
+--- [PAGE 205/221] ---
+
+Animal Design 179
+above are iterations of the lion head. By stretching proportions, i have developed 
+faces that present different types of characters.
+
+--- [PAGE 206/221] ---
+
+180 Force: Animal Drawing
+This elephant is found earlier in Chapter 3 on digitigrades. i pushed an orange 
+quality into the elephant's skin to contrast it against the greens of the background. 
+again, i used a blue swatch to balance the blues found in the elephant's shadows. 
+You can see from the reference how i pushed the idea of the elephant leaning to the 
+right. The reference photo was taken at the oakland Zoo. 
+see Plate 10 in insert for color version.
+
+--- [PAGE 207/221] ---
+
+Animal Design 181
+By using the colors of the ethiopian flag, i imbue this design with more meaning. 
+Two concepts that could be extracted are:
+1. stop the murder of elephants for their tusks.
+2. This is one angry elephant. stay away.
+what causes these impressions? well, for me, it is the hot red color. red is usually 
+equated with anger or blood. Color, orientation, and design all contribute to your 
+ideas. everything matters in an image. Keep this concept in mind while creating your 
+own.
+see Plate 11 in insert for color version.
+
+--- [PAGE 208/221] ---
+
+182 Force: Animal Drawing
+This african elephant design is illustrated with line, form, and shape. The color 
+shapes are used to insinuate simple forms by using browns with few different tones.
+see Plate 12 in insert for color version.
+
+--- [PAGE 209/221] ---
+
+Animal Design 183
+here is a wolf i painted. The choices of purple and yellow felt right although i was 
+not sure why, but when i look back on this experience, it reminds me of evening 
+hours with moonlight. i paid most attention to the face and therefore placed the 
+highest contrast there. The blurred lines signify speed. i exaggerated the size of the 
+wolf's nose and the length of his muzzle. his paws are long and sinewy.
+see Plate 13 in insert for color version.
+
+--- [PAGE 210/221] ---
+
+184 Force: Animal Drawing
+i took the sable antelope and instilled his design with the character of a bully. The 
+downward-turned nose mimics that of a boxer. The angry brow line and mouth 
+along with the muscular shoulders and chest accentuate the bully concept. The red 
+background is the final touch to further present his rage.
+see Plate 14 in insert for color version.
+
+
+--- [PAGE 211/221] ---
+
+Animal Design 185
+here i focused on just the head of the sable. Proportion drove the different 
+concoctions. in the left-most image, i stretched the top, vertical section of the head 
+and shrunk its scimitar-shaped horns. The top-right drawing has vertically extended 
+horns and somewhat evenly proportioned vertical and horizontal head shapes. in the 
+bottom image, i stretched the muzzle of the sable and shortened the top portion of its 
+head. i made the ears and eyes in all three images very small.
+see Plate 15 in insert for color version.
+
+
+--- [PAGE 212/221] ---
+
+186 Force: Animal Drawing
+here is a more graphic representation of the sable antelope. This image was created 
+in Photoshop using the Pen tool. defining shapes based on points and curves is a 
+tricky process. The process allows for no error, but the finished product is clear and 
+compelling.
+see Plate 16 in insert for color version.
+
+
+--- [PAGE 213/221] ---
+
+Animal Design 187
+i am always amazed at nature and how beautiful it is. Not only are we observing a 
+wonder of chemistry and anatomy, but nature goes a step further with amazing 
+colors and graphics based on the functionality. This roan antelope wears a 
+wonderful black and white mask and a nice creamy coat over its body. here, it was 
+standing in front of the jeep my family and i were riding in at safari west.
+see Plate 17 in insert for color version.
+
+
+--- [PAGE 214/221] ---
+
+188 Force: Animal Drawing
+I hope that with the closing of this book you will develop a deeper understanding of 
+and admiration for the animal kingdom through the act of drawing with the concept of 
+Force. enjoy!
+i close this forCe animal drawing and design book with a photo of my family 
+alongside a safari west jeep.
+i grew up with many pets and my mother's deep admiration for animals. “a life is a 
+life,” she always said. due to this expression, i have developed a fond respect for 
+the animal kingdom.
+
+
+--- [PAGE 215/221] ---
+
+I used numerous types of reference for the creation of this book. Of course, as always, 
+real life is the best reference. I drew the images found in this book from zoos, friends’ 
+pets, documentaries on TV and YouTube, DVDs, books, Internet images, magazines…the 
+list goes on. Anywhere that I could find inspiration, I was happy to use it. My trips to the 
+Oakland Zoo, San Francisco Zoo, and Safari West produced rich family time mixed 
+with work. Go and support your local zoo, get to know the animals there, and take a 
+friend.
+Following are some of my favorite artists who draw animals as part of their subject 
+matter:
+Terryl Whitlatch—Creature Designer and author of Animals Real and Imagined.
+Frank Frazetta—The king of fantasy illustration
+Heinrich Kley—German satirist—great loose ink drawings
+Glen Keane—One of Disney's top animators
+David Coleman—Character designer and story artist for the animation industry
+Joe Weatherly—Fellow animal drawing instructor and author
+Al Severin—Belgian comic book artist—amazing fluidity
+Claire Wendling—French comic book artist—also amazing fluidity
+Ken Hultgren—Author and illustrator of one of the better animal drawing books; 
+former Disney artist from the 1940s
+W. Ellenberger—Author of an excellent reference for animal anatomy
+Charlie Harper—American modernist, graphic style illustrator
+Andrew Shek—great blog—elephantart.blogspot.com—designer for animation 
+industry
+References
+
+--- [PAGE 216/221] ---
+
+
+
+--- [PAGE 217/221] ---
+
+Index
+A
+African elephant
+vs. Asian elephant, 96f
+box-like structure, trunk, 102f
+Ethiopian flag, 181f
+fore and rear limbs, 97f
+line, form, and shape, 182f
+Alaskan brown bear
+body features, 33f
+fishing image, 32f
+Kodiaks, 33f
+large dish-like head top, 32f
+weight, 1500 pounds, 33f
+Animal features
+brachiating, 4f
+digitigrades, 12f (see also Digitigrades 
+animal)
+flexibility and form, 7f
+folding chair concept, 19f
+fore/rear limbs, 18f
+forward movement, 14f
+front and rear limb, 15f
+lead foot, 17f
+lung size, 11f
+multiple moments/drawings, 20f
+plantigrades, 12f (see also Plantigrades)
+scapula/shoulder blade, 10f
+spring-like quality, 18f
+unguligrade, 12f
+Animal FORCE shape
+clydesdales, 130f
+horse drawing, 125f
+rhino, 144f
+Anteater, 11f
+Antelopes
+addax, 162
+bull, 160
+cape buffalo, 161
+gemsbok, 158
+giraffes, 164–170
+design of, 170f
+forceful shape design, 167f
+full body illustrations, 169f
+height of, 166f
+vs. human anatomy, 165f
+large thoracic vertebrae, 164f
+goat, 159
+hartebeest, 156
+kudu, 163
+sable antelope, 157
+Asian elephants, 96f
+B
+Black rhino
+giant tusk, 140f
+muzzles, 145f
+rhythm, 143f
+shape-oriented approach, 143f
+C
+Cheetah, 13f
+earth’s fastest land animal, 86f
+forceful shape visualization, 84f
+leg shape design, 85f
+momentum, body upright, 86f
+peaceful story moment, mother and cub, 
+86f
+rhythm of FORCE, 87f
+strong bent angle, 86f
+three directional FORCES, 84f
+Clavicle, 5f
+Clydesdale, 130f
+Coleman, David, 191
+D
+Deer
+anatomy of, 149f
+canter levering, 152f
+deer’s FORCES, function of, 153f
+foreleg of, 152f
+heel, 151f
+hoof region, bone structure of, 150f
+range of motion, 150f
+running gait, 154f
+Note: Page number followed by f indicate figures.
+
+--- [PAGE 218/221] ---
+
+192 Index
+Digitigrades animal
+cat family, 72–75
+cheetah (see Cheetah)
+domestic cat, 72f
+energetic of poses, 73f
+leopard, 89, 89f, 90f, 91f
+lion (see Lion)
+ocelot, 88, 88f
+rhythm similarity, 74f
+tiger, 92, 92f, 93f, 94f
+definition, 57
+dog family, 57–71
+ankle, 58f
+Belle (see Short-haired collie, Belle)
+the curiosity look, 67f
+dewclaw/thumb vs. human thumb, 60f
+dog’s locked wrist, 59f
+FORCE observation, dog shape, 61f
+fox (see Fox)
+human hand vs. digitigrade forelimb, 
+59f
+hyena, 71, 71f
+perspective drawing, straights, 65f
+rear leg FORCE, 58f
+rhythms, 59f, 60f
+three different dog breeds, 66f
+touch and feel, anatomy, 57f
+wolf, 70, 70f
+eagle, 109f, 111f
+elephants
+African elephant, 96f, 97f, 102f
+Asian elephants, 96f
+drifting movement, 101f
+gelatinous pad, 96f
+graceful and purposeful patterns, 104f
+leaning, rear, 98f
+long vertical rectangle concept, ear 
+design, 105f
+profiles, 98f
+semi-digitigrade, 95f
+structures, 103f
+vantage point, 99f
+wrinkle design, 100f
+Great Blue Heron, 114f
+human vs. bird, 108f
+The King crane, 113f
+ostrich, 106f, 107f, 110f
+ring-billed gull, 112f
+Dog family, 57–71
+ankle, 58f
+Belle, 61f, 62f, 63f, 64f
+the curiosity look, 67f
+dewclaw/thumb vs. human thumb, 60f
+dog’s locked wrist, 59f
+FORCE observation, dog shape, 61f
+fox (seeFox)
+human hand vs. digitigrade  
+forelimb, 59f
+hyena, 71, 71f
+perspective drawing, straights, 65f
+rear leg FORCE, 58f
+rhythms, 59f, 60f
+three different dog breeds, 66f
+touch and feel, anatomy, 57f
+wolf, 70, 70f
+E
+Eagle, 109f, 111f
+Elephants
+African elephant, 96f, 97f, 102f
+Asian elephants, 96f
+drifting movement, 101f
+gelatinous pad, 96f
+graceful and purposeful patterns, 104f
+leaning, rear, 98f
+long vertical rectangle concept, ear 
+design, 105f
+profiles, 98f
+semi-digitigrade, 95f
+skin, 180f
+structures, 103f
+vantage point, 99f
+wrinkle design, 100f
+Elk
+character of, 155f
+thick shoulder and neck muscles, 154f
+Ellenberger, W, 191
+Even-toed ungulates
+antelope family, 156–170
+addax, 162
+bull, 160
+cape buffalo, 161
+gemsbok, 158
+giraffes, 164–170
+goat, 159
+hartebeest, 156
+kudu, 163
+sable antelope, 157
+deer, 138
+elk, 154
+
+--- [PAGE 219/221] ---
+
+Index 193
+F
+Forceful animal shape
+animal’s ribcage and organs, 6f
+form, 7–20
+cheetah, 13f
+flexibility, 7f
+giraffe and anteater, 11f
+horse’s walk sequence, 16f
+scapula/shoulder blade, 10f
+seal, 8f
+visual protrusion, 10f
+human body
+belly and neck/head, 2f
+hips and ribcage/shoulder, 2f
+skeletal differences, shoulder, 5
+human vs. animal, 3
+animal’s ribcage, 4f
+human’s ribcage, 4f
+rhythm of, 3f
+shoulder blades, 4, 4f
+FORCES
+observation, dog shape, 61f
+path of, 59f
+shape, animal (see Animal FORCE  
+shape)
+Fox
+front and rear limbs anatomy, 68f
+three main directional FORCES, 69f
+Frazetta, Frank, 191
+G
+Giraffe, 11f, 164–170
+design of, 170f
+forceful shape design, 167f
+full body illustrations, 169f
+height of, 166f
+vs. human anatomy, 165f
+large thoracic vertebrae, 164f
+Gorilla, 47
+chimpanzee characteristic, 52f
+chimpanzees’ faces, 53f
+cognition, 54f
+directional and applied FORCE, 49f
+elbows hyperextend, 49f
+form creation, 51f
+knuckle-walkers, 48f
+speedy pose, 50f
+terrestrial (class of motion), 47f
+Great Blue Heron, 114f
+Grizzly bear
+directional and applied FORCE, 28f
+divulges, 25f
+enjoyment, cool spring water, 29f
+FORCE shape, 25f
+grizzled/gray-haired, 26f
+large arc sweeping, 30f
+meal, 28f
+playing, 27f
+resting and calmness, 31f
+straight to curve concepts, 29f
+weight, 26f
+H
+Harper, Charlie, 191
+Horse family, 16f
+animal FORCE shape, 125f
+deltoid and triceps, size of, 116f
+directional FORCE, 129f
+foot and ankle joints, 118
+forms, 126f
+front and rear legs, 122f
+front leg, 119
+front leg bent, 121
+grazing, 124f
+hips and shoulder blades, structures of, 131f
+huge nostrils, 127f
+human anatomy vs. horse anatomy, 117f
+human finger, 122f
+knuckle and first finger joint, 121
+lower joints, 123f
+mammal, 133f
+muscles, 128f
+power and speed, 129f
+rear leg, 117
+reclined position, 132f
+ribcage, 123f
+shoulder and arm region, anatomy of,  
+116f
+traditional approach of, 134f
+ungulates, 115f
+Hultgren, Ken, 191
+Human anatomy, 1, 12f
+Humerus, 5f
+I
+Indian rhino, 146f
+head designs, 148f
+pushing design, 147f
+Intermediate-speed land animals 
+(see Digitigrades animal)
+
+--- [PAGE 220/221] ---
+
+194 Index
+K
+Keane, Glen, 191
+Kley, Heinrich, 191
+Komodo dragon (species of lizard),  
+46, 46f
+L
+Law of thirds
+abstract system of, 175f
+bear’s front paw, 173f
+cheetah designs, 177f
+elephant, 180f
+Ethiopian flag, 181f
+grizzly bear, 174f
+male lion, 178f
+studying film, 172f
+symmetry, 171f
+wolf, 183f
+Leopard
+graceful and powerful, 89f
+stalking stride, 91f
+waydown to V-shaped tree, 90f
+Lion
+body operation, 82f
+body squashes and stretches, 77f
+facial expression, 83f
+female lion, water buffalo, 78f
+FORCE coupled with curling, 81f
+majesty, male lion’s face, 76f
+rear, 75f
+reclination, San Francisco zoo, 80f
+skull, carnivore diet, 76f
+two directional FORCES, 79f
+two limbs, 75f
+O
+Ocelot, 88, 88f
+Odd-toed ungulates
+horse family, 115–121
+rhino, 138
+zebra, 135
+Ostrich, 106f, 107f, 110f
+P
+Padding, 59f, 60f
+Plantigrades
+bears, 21–34, 21f
+Alaskan brown bear, 32, 32f, 33f
+directional FORCE, 24f
+FORCE, 23f
+grizzly bear, 25
+Polar bear, 34, 34f, 35f, 36f
+side-by-side comparison, 22f
+kangaroo, 40, 40f
+lizards, 46, 46f
+primates, 47–55
+gorilla (see Gorilla)
+lemurs, 55, 55f
+raccoon, 37
+bolting from predator, 38f
+rhythm and design, 37f
+stylized version, 38f
+wearing, iconic mask-like shape, 39f
+rodents, 41–42
+prairie dog, 45, 45f
+rat, 41, 41f
+squirrel, 42
+Prairie dog, 70f
+R
+Rhino
+foot anatomy, 139f
+FORCES of, 141f
+poor eyesight, 138f
+shoulders, height of, 142f
+skin, folds of, 147f
+Ribcage tilts, 14f
+Ring-billed gull, 112f
+Rodents, 41–42
+prairie dog, 45, 45f
+rat, 41, 41f
+squirrel, 42
+claws, front leg and tail actions, 43f
+forceful shape and forms, 42f, 43f
+FORCES, rhythmic tail, 44f
+leg architecture and roundness of head, 
+44f
+neck and head FORCE, 43f
+S
+Sable antelope
+bully, character of, 184f
+graphic representation, 186f
+roan antelope, 187f
+Scapula, 5f
+Scapula movement, 4
+Seal
+forelimb, 9f
+
+--- [PAGE 221/221] ---
+
+Index 195
+human arm, 9f
+rear limb, 9f
+Severin, Al, 191
+Shek, Andrew, 191
+Short-haired collie, Belle
+athletic silhouette, 61f
+the curiosity look, 62f
+pose gesture, 64f
+reclination, 63f
+sweep, neck, 62f
+Slow land animals (see Plantigrades)
+T
+The King crane, 113f
+Tiger
+anatomical shapes, 93f
+athletic look, 94f
+parallel limb rule, 92f
+U
+Unguligrades animal
+antelope family, 156–170
+clydesdale, 130f
+deer, 149
+elk, 154
+horse family
+animal FORCE shape, 125f
+deltoid and triceps, size of, 116f
+directional FORCE, 129f
+foot and ankle joints, 118
+forms, 126f
+front and rear legs, 122f
+front leg, 119
+front leg bent, 121
+grazing, 124f
+hips and shoulder blades, structures of, 
+131f
+huge nostrils, 127f
+human anatomy vs. horse anatomy,  
+117f
+human finger, 122f
+knuckle and first finger joint, 121
+lower joints, 123f
+mammal, 133f
+muscles, 128f
+power and speed, 129f
+rear leg, 117
+reclined position, 132f
+ribcage, 123f
+shoulder and arm region, anatomy of, 
+116f
+traditional approach of, 134f
+ungulates, 115f
+rhino, 138
+zebra, 135
+W
+Weatherly, Joe, 191
+Wendling, Claire, 191
+White rhinoceros, 141f
+Whitlatch, Terryl, 191
+Wolf, 70, 70f
+Z
+Zebra
+fleeing, 135f
+vs. horse, 136f
+large rump and short neck, 137f
+shoulder, 136f
+V-like pattern, 136f

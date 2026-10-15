@@ -1,0 +1,274 @@
+import yaml
+import json
+from pathlib import Path
+import jsonschema
+from referencing import Registry, Resource
+
+caps_data = [
+    {
+        "slug": "three-locomotion-classes",
+        "title": "哺乳动物三大运动类群力学",
+        "importance": "critical",
+        "importance_rationale": "陆生四足动物下肢动力学核心分类，决定触地几何、踝关节悬空高度与杠杆臂长",
+        "one_liner": "基于足部着地几何区分蹠行 (全脚掌)、趾行 (脚趾肉垫) 与蹄行 (蹄尖单点)，构建受力多边形与重心标尺",
+        "intents": ["确定四足动物的足部触地力学分类", "计算蹠行、趾行与蹄行动物的重心与支撑多边形", "排查脚跟贴地或悬空混淆导致的下肢软弱问题"],
+        "keywords": ["三大运动类群", "蹠行", "Plantigrade", "趾行", "Digitigrade", "蹄行", "Unguligrade", "飞节", "Hock", "生物力学"],
+        "also_read": ["homologous-limb-mechanics", "quadruped-walk-trot-gallop-timing"],
+        "desc": "蹠行、趾行与蹄行三大陆生哺乳动物足部着地与运动力学分类。不适用于水生或纯飞行无足生物。",
+        "tags": ["drawing", "animal", "locomotion", "anatomy"],
+        "loc": "第 1 章，第 12–28 页"
+    },
+    {
+        "slug": "homologous-limb-mechanics",
+        "title": "人兽四肢同源关节力学映射",
+        "importance": "critical",
+        "importance_rationale": "破除反向膝盖误区，确立人兽同源连杆体系，保证关节转动方向与肌肉拉力线符合解剖物理",
+        "one_liner": "以前肢肘后腕前、后肢膝前踝后为同源铁律，将人体四肢连杆映射至任何四足哺乳动物",
+        "intents": ["映射四足动物四肢关节与人类同源解剖关系", "校准前后肢屈伸折向防止反向膝盖或错位手肘", "推导四足动物四肢杠杆传导与支点力矩"],
+        "keywords": ["同源解剖", "Homology", "前膝", "Carpus", "飞节", "Hock", "真膝", "Stifle", "肘关节", "连杆机构"],
+        "also_read": ["three-locomotion-classes", "scapula-suspension-shock"],
+        "desc": "人类与四足动物前肢腕关节与后肢踝关节同源折向与杠杆力学映射。不适用于软体动物或外骨骼昆虫。",
+        "tags": ["drawing", "animal", "homology", "joints"],
+        "loc": "第 1 章，第 28–46 页"
+    },
+    {
+        "slug": "plantigrade-bear-mass-power",
+        "title": "蹠行动物力量速写：熊与灵长类",
+        "importance": "high",
+        "importance_rationale": "厚重体量与绝对力量表达范式，全脚掌受力与肩背肌肉驼峰形成势不可挡的重力下沉压迫感",
+        "one_liner": "以平贴地面宽足、重力下垂桶状胸腔与肩背巨型肌肉驼峰，构筑熊与灵长类的压迫性重物体量感",
+        "intents": ["表现大灰熊、北极熊或大猩猩的厚重体量与下沉重力", "构建肩背肌肉驼峰与低垂头部的力量流线", "刻画全脚掌平贴地面的超强承重与低重心稳定性"],
+        "keywords": ["蹠行动物", "熊科", "灰熊", "肩峰", "Shoulder Hump", "重力下沉", "桶状胸廓", "平贴脚掌"],
+        "also_read": ["three-locomotion-classes", "animal-rhythm-ski-slope"],
+        "desc": "全脚掌着地、巨大胸廓体量、肩峰驼峰与强大抓握重力下沉的蹠行动物力量流线构建。不适用于轻盈飞奔型草食动物。",
+        "tags": ["drawing", "animal", "bear", "mass", "plantigrade"],
+        "loc": "第 2 章，第 48–72 页"
+    },
+    {
+        "slug": "digitigrade-feline-canine-spine",
+        "title": "趾行动物猫科犬科力量引擎",
+        "importance": "critical",
+        "importance_rationale": "陆生顶级捕食者的爆发力源泉，悬空飞节与极度柔韧的波浪腰椎构成压缩与弹射战弓",
+        "one_liner": "以后腿多级折叠蓄力弹簧结合可剧烈屈伸的弓形脊椎波浪，释放猫科犬科冲刺扑杀的瞬时动能",
+        "intents": ["绘制猫科动物柔韧如水流的腰椎波浪拉伸与卷曲", "刻画犬科与猫科动物悬空飞节的弹性避震与起跳储能", "区分猫科伸缩爪抓抱与犬科单一平面长跑耐力的骨骼差异"],
+        "keywords": ["趾行动物", "猫科", "犬科", "脊椎波浪", "Spine Wave", "弹性避震", "悬空飞节", "冲刺动力学"],
+        "also_read": ["predator-vs-prey-dynamics", "quadruped-walk-trot-gallop-timing"],
+        "desc": "悬空飞节弹性避震、后腿推力引擎与腰椎剧烈拉伸卷曲的弓形脊椎波浪动力学。不适用于刚性悬索桥脊椎的蹄类动物。",
+        "tags": ["drawing", "animal", "feline", "canine", "spine"],
+        "loc": "第 3 章，第 74–108 页"
+    },
+    {
+        "slug": "unguligrade-equine-bridge-leverage",
+        "title": "蹄行动物奇蹄偶蹄长杠杆力矩",
+        "importance": "critical",
+        "importance_rationale": "平原高速巡航机械巅峰，刚性桥梁脊椎与超长炮骨杠杆实现轻量化低能耗高频步幅",
+        "one_liner": "以肩臀桥墩间刚性悬索脊椎与飞节下方超长炮骨刚体，构建马、鹿等蹄类动物的高效长杠杆力矩",
+        "intents": ["构建马体悬索桥脊椎与项韧带自动抗重力结构", "表现飞节高悬于半空的长炮骨摆动杠杆与单蹄/双蹄着地点", "区分奇蹄目单指高速刚性巡航与偶蹄目双指山地弹跳力学差异"],
+        "keywords": ["蹄行动物", "奇蹄目", "偶蹄目", "马", "悬索桥脊椎", "炮骨", "Cannon Bone", "项韧带", "杠杆力矩"],
+        "also_read": ["three-locomotion-classes", "quadruped-walk-trot-gallop-timing"],
+        "desc": "马、鹿等蹄类动物的高刚性桥梁式悬索脊椎与炮骨超长骨骼力矩传递力学。不适用于柔软如波浪的猫科脊椎表现。",
+        "tags": ["drawing", "animal", "equine", "unguligrade", "leverage"],
+        "loc": "第 4 章，第 110–136 页"
+    },
+    {
+        "slug": "force-shape-asymmetry-animals",
+        "title": "动物直曲对抗与破除平行",
+        "importance": "critical",
+        "importance_rationale": "造型美学防呆基石，打破平行水管与对称香肠病，使动物肢节具备明确发力凸弧与导向骨线",
+        "one_liner": "一侧肌肉饱满施力外凸弧线，对侧韧带骨骼平直支撑导向，适度内收凹弧唤醒呼吸节奏",
+        "intents": ["消除动物四肢与躯干上的平行水管与对称香肠造型缺陷", "在动物修长肢节上配置主受力外凸弧线与骨性平直线", "运用关节处适度凹弧衬托相邻肌肉群的容积张力"],
+        "keywords": ["直曲对抗", "Straight vs Curved", "破除平行", "对称破除", "适度凹弧", "受力外凸", "造型张力"],
+        "also_read": ["animal-rhythm-ski-slope", "animal-caricature-shape-language"],
+        "desc": "四足动物修长四肢上的直曲对抗法则，消除平行水管病与对称香肠病。不适用于完全对称的无机工业圆柱体。",
+        "tags": ["drawing", "animal", "shape", "asymmetry", "design"],
+        "loc": "第 1 章，第 38–54 页"
+    },
+    {
+        "slug": "animal-rhythm-ski-slope",
+        "title": "动物全身力量过山车流线",
+        "importance": "critical",
+        "importance_rationale": "整体动力学生命感主导线，将后肢蹬地反作用力如滑雪跳台般俯冲穿透胸腔并弹射出头部",
+        "one_liner": "以后肢蹬地为起点、脊椎波峰为坡顶、前胸为滑雪跳台底槽、头颈为前冲弹射箭头，一笔贯通全身能量",
+        "intents": ["在第一笔速写中抓取动物全身贯通的动能主线", "应用滑雪跳台比喻处理力量从后背向前胸底部的俯冲下沉", "解决片段化零件拼装导致的四足动物呆板僵硬问题"],
+        "keywords": ["力量节奏", "滑雪跳台", "Ski Slope", "过山车流线", "贯通能量", "胸腔底槽", "弹射箭头"],
+        "also_read": ["force-shape-asymmetry-animals", "digitigrade-feline-canine-spine"],
+        "desc": "后肢推力经骨盆注入脊椎、穿透胸廓冲向肩胛骨并由前肢缓冲的动物全身贯通力量流。不适用于静止无动态标本测绘。",
+        "tags": ["drawing", "animal", "rhythm", "flow", "ski-slope"],
+        "loc": "第 1 章，第 40–58 页"
+    },
+    {
+        "slug": "predator-vs-prey-dynamics",
+        "title": "掠食者进攻与草食者防御动力学",
+        "importance": "high",
+        "importance_rationale": "生态演化造就的对立姿态力学，进攻向心低重心聚焦压缩 vs 防御发散高重心警戒逃逸",
+        "one_liner": "掠食者双眼正视前探、低重心向心压缩蓄力；草食被捕食者侧眼全景、高重心长颈潜望随时散射逃生",
+        "intents": ["设计凶悍聚焦的掠食者潜伏扑杀体态", "表现警觉紧绷的草食动物高重心防御与瞬间逃逸力矩", "在角色设计中准确匹配捕食者与被捕食者的视线与重心符号"],
+        "keywords": ["掠食者", "Predator", "草食动物", "Prey", "低重心潜伏", "双眼正视", "潜望镜长颈", "攻防动力学"],
+        "also_read": ["digitigrade-feline-canine-spine", "unguligrade-equine-bridge-leverage"],
+        "desc": "掠食动物低重心攻击流线与草食动物高重心防御警戒力矩对比分析。不适用于无捕食关系的微观单细胞生物。",
+        "tags": ["drawing", "animal", "predator", "prey", "dynamics"],
+        "loc": "第 5 章，第 138–162 页"
+    },
+    {
+        "slug": "quadruped-walk-trot-gallop-timing",
+        "title": "四足步态行走、小跑与飞奔时序",
+        "importance": "critical",
+        "importance_rationale": "四足运动动力学时间轴标尺，落足相位、腾空周期与重心转移决定动画真实速度感",
+        "one_liner": "严格遵循四拍走步落足相序、两拍对角快跑支点与极速飞奔腹下聚拢/空中拉伸全离地腾空波形",
+        "intents": ["编排四足动物 Walk、Trot、Gallop 三大基础步态的触地足序与时序", "绘制飞奔姿态中的腹下聚拢极限压缩与空中拉伸极限延展", "排查摇马式劈叉落地与同侧肢体同手同脚等经典步态错误"],
+        "keywords": ["四足步态", "Gait Timing", "行走", "Walk", "小跑", "Trot", "飞奔", "Gallop", "触地足序", "腾空期"],
+        "also_read": ["three-locomotion-classes", "digitigrade-feline-canine-spine"],
+        "desc": "四拍行走对角落足、两拍对角快跑与四足全离地飞跃的步态时序与足序动力学。不适用于双足或多足昆虫步态。",
+        "tags": ["animation", "animal", "locomotion", "timing", "gait"],
+        "loc": "第 6 章，第 164–188 页"
+    },
+    {
+        "slug": "scapula-suspension-shock",
+        "title": "前肢肩胛骨浮动悬挂与着地缓冲",
+        "importance": "high",
+        "importance_rationale": "锁骨退化赋予四足动物自由浮动悬挂，承重侧肩胛骨沿胸壁上滑刺穿背线创造动态破形",
+        "one_liner": "以前锯肌肌腱吊挂胸腔、肩胛骨沿胸壁无骨性滑动吸收数倍冲击，承重侧单肩刺破背线形成动态倾斜角",
+        "intents": ["刻画四足动物承重前肢肩胛骨沿胸壁上滑顶破背线的骨感起伏", "表现无锁骨构造下前肢悬挂胸腔的着地冲击阻尼缓冲", "在不同动作相位中绘制双侧肩胛骨高低错落的倾斜对抗角"],
+        "keywords": ["肩胛骨悬挂", "Floating Scapula", "前锯肌", "着地缓冲", "Shock Absorption", "背线顶起", "锁骨退化"],
+        "also_read": ["homologous-limb-mechanics", "animal-rhythm-ski-slope"],
+        "desc": "锁骨退化后肩胛骨沿胸廓外侧自由上下滑动、吸收着地数倍重力冲击的浮动悬挂系统表现。不适用于锁骨坚固锁定的人类胸腔。",
+        "tags": ["drawing", "animal", "scapula", "suspension", "anatomy"],
+        "loc": "第 1 章，第 32–48 页"
+    },
+    {
+        "slug": "animal-caricature-shape-language",
+        "title": "动物角色设计形状语言与拟人化",
+        "importance": "high",
+        "importance_rationale": "工业级角色辨识度设计基石，圆/方/三角几何符号投射性格，150% 戏剧夸张强化生物本质",
+        "one_liner": "圆示温善软萌、方显厚重刚顽、三角寄寓敏锐杀机，结合 120%-150% 主特征夸张塑造鲜明角色",
+        "intents": ["运用圆、方、三角三大基础几何语言设计个性鲜明的动物角色", "提取动物最具代表性的生物特征实施 120%-150% 戏剧性比例放大", "通过纯黑剪影测试检验动物角色外轮廓瞬间可读性"],
+        "keywords": ["形状语言", "Shape Language", "圆形", "方形", "三角形", "角色夸张", "Caricature", "剪影可读性"],
+        "also_read": ["force-shape-asymmetry-animals", "creature-anatomy-synthesis"],
+        "desc": "圆（友善）、方（稳固）、三角（敏捷危险）三大基础形状语言符号学与 120%-150% 主观特征夸张。不适用于写实解剖标本线描复制。",
+        "tags": ["design", "animal", "caricature", "shape-language"],
+        "loc": "第 7 章，第 190–208 页"
+    },
+    {
+        "slug": "creature-anatomy-synthesis",
+        "title": "幻想生物与怪兽设计同源重组",
+        "importance": "high",
+        "importance_rationale": "奇幻生物物理可信度的底座，基于真实哺乳动物解剖同源性进行多物种肢体与动力学嫁接",
+        "one_liner": "严守重力杠杆守恒、多肢摆动防冲突与同源铰链闭环，将真实四足力学嫁接至幻想巨兽与奇美拉",
+        "intents": ["基于真实动物同源骨骼设计解剖合理的科幻异星生物与奇幻巨兽", "嫁接不同运动类群的动力构件（如熊科前臂+猎豹后肢+悬索马背）", "排查怪兽翅膀无肌肉附着、巨兽下肢承重失真等物理硬伤"],
+        "keywords": ["幻想生物", "Creature Design", "解剖重构", "同源嫁接", "Homology Synthesis", "奇美拉", "重力杠杆"],
+        "also_read": ["three-locomotion-classes", "homologous-limb-mechanics", "animal-caricature-shape-language"],
+        "desc": "基于真实哺乳动物骨骼同源性的异星生物、巨兽与奇美拉怪兽解剖重构与运动物理保真。不适用于无骨肉糜异形或流体怪物。",
+        "tags": ["design", "creature", "fantasy", "synthesis", "anatomy"],
+        "loc": "第 7 章，第 208–221 页"
+    }
+]
+
+capabilities = []
+destinations_map = {}
+
+for c in caps_data:
+    cap_id = f"cap.force-animal-drawing.{c['slug']}"
+    destinations_map[cap_id] = {
+        "target_pack_slug": "force-animal-drawing",
+        "target_skill_slug": "force-animal-drawing",
+        "action": "create"
+    }
+    capabilities.append({
+        "capability_id": cap_id,
+        "revision": 1,
+        "status": "active",
+        "aliases": [],
+        "supersedes": [],
+        "merged_into": None,
+        "split_into": [],
+        "slug": c["slug"],
+        "title": c["title"],
+        "importance": c["importance"],
+        "importance_rationale": c["importance_rationale"],
+        "one_liner": c["one_liner"],
+        "intents": c["intents"],
+        "keywords": c["keywords"],
+        "also_read": c["also_read"],
+        "card": f"cards/{c['slug']}.md",
+        "frontmatter": {
+            "description": c["desc"],
+            "tags": c["tags"]
+        },
+        "source_evidence": [{"source_id": "src-main-book", "location": c["loc"]}],
+        "promotion": {
+            "destination": "router",
+            "gate": {
+                "independent_intent": False,
+                "independent_contract": True,
+                "independent_run": True,
+                "independent_reuse": False,
+                "independent_eval": True
+            },
+            "notes": "Single 模式下归入主入口统一路由"
+        }
+    })
+
+bundle = {
+    "schema_version": 1,
+    "bundle_id": "bundle.force-animal-drawing",
+    "book": {
+        "title": "动画师动物力量动态速写：四足运动学与角色设计工程手册",
+        "source_pack": "books/force-animal-drawing",
+        "edition": "1st Edition",
+        "authors": ["Mike Mattesi"],
+        "year": 2011,
+    },
+    "entry": {
+        "name": "force-animal-drawing",
+        "description": "动物动态速写、四足步态运动学、生物力学同源解剖与动物角色设计工程手册。涵盖哺乳动物三大运动类群力学（蹠行/趾行/蹄行）、人兽四肢同源关节映射（肘后腕前、膝前踝后）、蹠行大灰熊重力下沉与肌肉肩峰、趾行猫科犬科弓形脊椎波浪引擎、蹄行马匹悬索桥脊椎与炮骨长力矩、四足直曲对抗与破除平行、动物全身贯通滑雪跳台过山车力量流线、掠食者进攻向心聚焦 vs 草食者防御发散警戒力学、四足行走小跑与极速飞奔步态时序、前肢肩胛骨浮动悬挂减震系统、圆方三角几何形状语言拟人化与 150% 戏剧夸张、幻想生物与异星怪兽同源解剖重构工程法则。",
+        "core_principles": [
+            "陆生哺乳动物下肢力矩取决于足部着地几何：蹠行全脚掌贴地承重、趾行飞节悬空双重避震蓄能、蹄行角质尖点着地实现极致长力矩高速巡航。",
+            "人兽共享完全一致的同源骨骼拓扑（Homology）：前肢肘后腕前、后肢膝前踝后；严禁将向后突出的飞节脚后跟误认为反向膝盖。",
+            "四足动物修长肢节必须遵循直线对抗曲线（Straight against Curve）：一侧为主受力外凸弧线，对侧为刚性平直骨骼引导线，杜绝平行水管与对称香肠病。",
+            "能量沿脊椎与四肢贯通流动形成过山车流线：顺应滑雪跳台（Ski Slope）惯性，能量从后腿蹬地推入骨盆，穿透脊背俯冲入前胸底槽，并弹射冲出头颅。",
+            "掠食者受控于向心聚焦低重心压缩力场，草食被捕食者受控于发散高重心警戒逃逸力矩。",
+            "四足动物锁骨退化消失，肩胛骨为自由浮动的阻尼悬挂滑块；承重前腿肩胛骨沿胸壁上滑刺破背脊轮廓线，双肩永远具备动态倾斜角。",
+            "四足极速飞奔（Gallop）包含腹下四肢极端聚拢收缩与空中身体极端拉伸延展两大关键姿态；严禁出现摇马式前后双向劈叉悬浮。"
+        ],
+        "out_of_scope": [
+            "纯兽医学显微组织学病理切片与药理学分析",
+            "农业畜牧业牲畜屠宰肉品等级评定与称重标准",
+            "非生物刚体工业机械四足机器人液压管路阀门选型"
+        ],
+        "stop_conditions": [
+            "用户仅咨询纯兽医学显微病理切片或农业肉品分级，不涉及动物速写、运动力学、步态动画与生物设计时判停",
+            "已输出明确的同源关节映射、三类群力学定位、直曲对抗四肢画法、步态时序编排或怪兽同源设计方案时判停"
+        ]
+    },
+    "router_entry": {
+        "name": "force-animal-drawing",
+        "description": "动画师动物力量动态速写与四足运动学工程手册。提供三大运动类群力学、人兽同源关节映射、蹠行熊体量、趾行猫犬波浪脊椎、蹄行马长炮骨力矩、直曲对抗破除平行、滑雪跳台全身过山车力量流、掠食者 vs 草食者攻防动力学、四足步态行走小跑飞奔时序、肩胛骨浮动悬挂缓冲、圆方三角拟人化形状语言与幻想怪兽同源重构工程支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+schemas_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\schemas")
+registry = Registry()
+for s in schemas_dir.glob("*.schema.json"):
+    data = json.loads(s.read_text(encoding="utf-8"))
+    res = Resource.from_contents(data)
+    schema_id = data.get("$id", f"https://cangjie-skill.org/schemas/{s.name}")
+    registry = registry.with_resource(schema_id, res)
+    registry = registry.with_resource(f"https://cangjie-skill.org/schemas/{s.name}", res)
+
+bundle_schema = json.loads((schemas_dir / "capability-bundle.schema.json").read_text(encoding="utf-8"))
+validator = jsonschema.Draft202012Validator(bundle_schema, registry=registry)
+validator.validate(instance=bundle)
+print("Schema validation with offline registry: PASS 100%!")
+
+out_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\force-animal-drawing\.cangjie\capabilities\verified.yaml")
+out_path.write_text(yaml.safe_dump(bundle, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+print(f"Written verified.yaml successfully: {out_path}")
+
+dest_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\force-animal-drawing\.cangjie\capabilities\destinations.json")
+dest_path.write_text(json.dumps({
+    "bundle_id": bundle["bundle_id"],
+    "destinations": destinations_map
+}, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Updated destinations.json successfully: {dest_path}")

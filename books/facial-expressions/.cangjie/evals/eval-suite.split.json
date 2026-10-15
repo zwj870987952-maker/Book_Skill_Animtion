@@ -1,0 +1,32 @@
+{
+  "suite_id": "facial-expressions-eval-suite",
+  "seed": 42,
+  "train": [
+    "eval-nasalis-levator-midface-trigger-2",
+    "eval-duchenne-smile-vs-social-mask-trigger-2",
+    "eval-orbicularis-oris-lip-mechanics-trigger-1",
+    "eval-zygomaticus-risorius-smile-vector-trigger-2",
+    "eval-masseter-temporalis-tmj-mechanics-trigger-2",
+    "eval-frontalis-corrugator-eyebrow-dynamics-trigger-1",
+    "eval-orbicularis-oculi-eyelid-mechanics-trigger-2",
+    "eval-frontalis-corrugator-eyebrow-dynamics-trigger-2",
+    "eval-nasalis-levator-midface-trigger-1",
+    "eval-orbicularis-oculi-eyelid-mechanics-trigger-1",
+    "eval-cranial-landmarks-geometry-trigger-2",
+    "eval-masseter-temporalis-tmj-mechanics-trigger-1",
+    "eval-seven-universal-emotions-facs-trigger-2",
+    "eval-extraocular-gaze-saccade-trigger-1"
+  ],
+  "validation": [
+    "eval-fat-pads-soft-tissue-wrinkles-trigger-2",
+    "eval-depressors-mentalis-mouth-corners-trigger-1",
+    "eval-zygomaticus-risorius-smile-vector-trigger-1",
+    "eval-duchenne-smile-vs-social-mask-trigger-1",
+    "eval-orbicularis-oris-lip-mechanics-trigger-2",
+    "eval-extraocular-gaze-saccade-trigger-2",
+    "eval-fat-pads-soft-tissue-wrinkles-trigger-1",
+    "eval-cranial-landmarks-geometry-trigger-1",
+    "eval-depressors-mentalis-mouth-corners-trigger-2",
+    "eval-seven-universal-emotions-facs-trigger-1"
+  ]
+}

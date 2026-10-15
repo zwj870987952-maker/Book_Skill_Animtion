@@ -1,0 +1,67 @@
+{
+  "pack_name": "storyboarding-and-master-shots",
+  "book_id": "storyboarding-and-master-shots",
+  "mode": "single",
+  "capabilities": [
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.shot-sizes-and-camera-optics",
+      "slug": "shot-sizes-and-camera-optics",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.axis-of-action-and-180-rule",
+      "slug": "axis-of-action-and-180-rule",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.camera-movement-and-dynamic-tracking",
+      "slug": "camera-movement-and-dynamic-tracking",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.master-shot-staging-and-coverage",
+      "slug": "master-shot-staging-and-coverage",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.dialogue-shot-reverse-shot-mechanics",
+      "slug": "dialogue-shot-reverse-shot-mechanics",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.dynamic-action-and-fight-choreography",
+      "slug": "dynamic-action-and-fight-choreography",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.continuity-editing-and-cutting-on-action",
+      "slug": "continuity-editing-and-cutting-on-action",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.visual-depth-and-blocking-composition",
+      "slug": "visual-depth-and-blocking-composition",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.montage-and-temporal-spatial-transitions",
+      "slug": "montage-and-temporal-spatial-transitions",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.suspense-and-reveal-camera-grammar",
+      "slug": "suspense-and-reveal-camera-grammar",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.animatic-timing-and-audio-sync",
+      "slug": "animatic-timing-and-audio-sync",
+      "target_skill": "storyboarding-and-master-shots"
+    },
+    {
+      "capability_id": "cap.storyboarding-and-master-shots.low-budget-master-shots-cinematic-tricks",
+      "slug": "low-budget-master-shots-cinematic-tricks",
+      "target_skill": "storyboarding-and-master-shots"
+    }
+  ]
+}

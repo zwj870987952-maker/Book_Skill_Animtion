@@ -1,0 +1,67 @@
+{
+  "pack_name": "locomotion-and-fx-dynamics",
+  "book_id": "locomotion-and-fx-dynamics",
+  "mode": "single",
+  "capabilities": [
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.human-run-and-sprint-mechanics",
+      "slug": "human-run-and-sprint-mechanics",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.jump-leap-and-land-impact",
+      "slug": "jump-leap-and-land-impact",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.quadruped-locomotion-walk-trot-gallop",
+      "slug": "quadruped-locomotion-walk-trot-gallop",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.avian-aerodynamics-flight-and-glide",
+      "slug": "avian-aerodynamics-flight-and-glide",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.aquatic-fish-and-reptile-undulation",
+      "slug": "aquatic-fish-and-reptile-undulation",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.wave-and-whip-secondary-curves",
+      "slug": "wave-and-whip-secondary-curves",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.water-splash-droplet-and-ripples",
+      "slug": "water-splash-droplet-and-ripples",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.water-waves-surge-and-turbulent-foam",
+      "slug": "water-waves-surge-and-turbulent-foam",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.fire-combustion-tongues-and-eddies",
+      "slug": "fire-combustion-tongues-and-eddies",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.smoke-exhaust-and-thermal-plumes",
+      "slug": "smoke-exhaust-and-thermal-plumes",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.lightning-arc-and-flash-burst",
+      "slug": "lightning-arc-and-flash-burst",
+      "target_skill": "locomotion-and-fx-dynamics"
+    },
+    {
+      "capability_id": "cap.locomotion-and-fx-dynamics.explosion-shockwave-and-debris-field",
+      "slug": "explosion-shockwave-and-debris-field",
+      "target_skill": "locomotion-and-fx-dynamics"
+    }
+  ]
+}

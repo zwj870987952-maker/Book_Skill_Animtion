@@ -1,0 +1,274 @@
+import yaml
+import json
+from pathlib import Path
+import jsonschema
+from referencing import Registry, Resource
+
+caps_data = [
+    {
+        "slug": "bony-landmarks-blockout",
+        "title": "皮下骨性标志与人体三维块面化",
+        "importance": "critical",
+        "importance_rationale": "人体三维空间建模与测量的绝对基准，确立多边形平截面转折硬边，杜绝无骨软泥肥皂病",
+        "one_liner": "以皮下骨性标志点为绝对空间锚点，将复杂人体曲面归纳为清晰多边形平截面与明暗交界硬边",
+        "intents": ["在 3D 雕刻与速写中定位核心皮下骨性标志坐标", "运用块面化 (Block-out) 确立人体各部位的主截面与朝向", "排查未建立骨骼大块面导致模型松软无支撑的解剖缺陷"],
+        "keywords": ["骨性标志", "Bony Landmarks", "块面化", "Block-out", "平截面", "Planes", "皮下骨点", "硬边转折"],
+        "also_read": ["torso-movable-masses-contrapposto", "planar-head-skull-architecture"],
+        "desc": "以皮下骨性标志点为绝对测量基准，将复杂人体曲面归纳为清晰多边形平截面的建模法则。不适用于无骨骼软体生物。",
+        "tags": ["anatomy", "sculpting", "block-out", "landmarks"],
+        "loc": "Figure & Torso，第 8–12、26–27 页"
+    },
+    {
+        "slug": "torso-movable-masses-contrapposto",
+        "title": "躯干可活动体块与单脚承重对立平衡",
+        "importance": "critical",
+        "importance_rationale": "全身动态平衡与重力对抗核心，头胸盆三大刚体反向倾斜与懒 S 脊椎构建松弛生命律动",
+        "one_liner": "以头胸盆三大刚性块面与颈腰弹性铰链为骨架，在单脚承重中构建反向倾斜与挤压拉伸对抗",
+        "intents": ["雕刻古典单脚承重对立平衡姿态 (Contrapposto)", "处理承重侧骨盆上抬与胸廓反向代偿倾斜的对立夹角", "刻画承重侧腹壁挤压肉褶与非承重侧背腹拉伸长线"],
+        "keywords": ["可活动体块", "Movable Masses", "单脚承重", "Contrapposto", "懒S曲线", "Lazy S", "挤压拉伸", "重心中轴"],
+        "also_read": ["bony-landmarks-blockout", "male-vs-female-proportions-fat"],
+        "desc": "头颅、胸廓与骨盆三大刚性体块的倾斜扭转，以及单脚承重姿态下的骨盆上抬与胸廓代偿。不适用于刚体机械直立立正姿势。",
+        "tags": ["anatomy", "sculpting", "contrapposto", "torso", "balance"],
+        "loc": "Figure & Torso，第 16–25 页"
+    },
+    {
+        "slug": "male-vs-female-proportions-fat",
+        "title": "男女骨架比例差异与皮下脂肪分布动力学",
+        "importance": "high",
+        "importance_rationale": "生理性别与体态可信度的底座，倒梯形 vs 沙漏型骨架与特定脂肪囊袋重力下坠变形",
+        "one_liner": "区分倒梯形 (男) 与沙漏型 (女) 骨盆 Q 角差异，按解剖隔膜定位大转子与下腹皮下脂肪垫重力下垂",
+        "intents": ["构建写实男性宽肩窄臀与女性宽骨盆深腰窝的剪影骨架", "准确定位大转子脂肪垫、臀下皱襞与下腹脂肪囊", "表现肥胖体态下脂肪在重力作用下的下坠堆叠与褶皱"],
+        "keywords": ["男女差异", "Gender Differences", "骨架比例", "Q角", "皮下脂肪垫", "Fat Pads", "沙漏型", "重力下坠"],
+        "also_read": ["torso-movable-masses-contrapposto", "leg-muscles-quads-asymmetry"],
+        "desc": "倒梯形 vs 沙漏型男女骨架差异、骨盆角度对比，以及不同部位皮下脂肪垫的分布规律。不适用于纯骨骼化骷髅架建模。",
+        "tags": ["anatomy", "sculpting", "gender", "fat-pads", "proportions"],
+        "loc": "Figure & Torso，第 13–14、56–62 页"
+    },
+    {
+        "slug": "shoulder-girdle-deltoid-interlock",
+        "title": "肩带复合体、锁骨与三角肌机械插扣",
+        "importance": "critical",
+        "importance_rationale": "解决手臂抬起肩膀塌陷与穿模的机械铰链，C 形骨夹钳基座与三角肌前中后束机械插扣",
+        "one_liner": "以锁骨与肩胛冈在肩峰汇合的 C 形骨夹钳为基座，三角肌三束向下收束插扣于肱骨三角肌粗隆",
+        "intents": ["雕刻肩带复合体在手臂自然下垂与抬起时的机械联动", "切分三角肌前中后三束独立肌腹与插扣三维朝向", "保留肩峰最高骨点并刻画胸大肌与三角肌之间的倒三角凹槽"],
+        "keywords": ["肩带复合体", "Shoulder Girdle", "锁骨", "Clavicle", "肩峰", "Acromion", "三角肌", "Deltoid", "机械插扣"],
+        "also_read": ["bony-landmarks-blockout", "chest-back-torso-muscle-volume"],
+        "desc": "锁骨与肩胛冈形成的骨性夹钳基座，以及三角肌前中后束在肱骨三角肌粗隆上的插扣拓扑。不适用于无肩带昆虫肢节。",
+        "tags": ["anatomy", "sculpting", "shoulder", "deltoid", "interlock"],
+        "loc": "Figure & Torso，第 33、41–45、89 页"
+    },
+    {
+        "slug": "chest-back-torso-muscle-volume",
+        "title": "胸大肌、斜方肌与背阔肌三维容积解构",
+        "importance": "critical",
+        "importance_rationale": "赋予躯干肌肉真正的空间立体厚度，胸肌三束 180° 翻转止点与前锯肌齿状嵌合",
+        "one_liner": "以腹部束深层翻折构建胸大肌 180° 扭转厚度，C7 菱形平斑与前锯肌拉链式对插构筑背侧立体容积",
+        "intents": ["雕刻胸大肌下腹束向深层翻折形成的饱满腋前壁厚度", "准确定位第七颈椎周边的斜方肌腱膜平坦菱形中心", "表现前锯肌齿状指与腹外斜肌在侧胸壁的交错嵌合关系"],
+        "keywords": ["胸大肌", "Pectoralis Major", "180度扭转", "斜方肌", "Trapezius", "C7菱形", "背阔肌", "前锯肌", "肌肉容积"],
+        "also_read": ["shoulder-girdle-deltoid-interlock", "torso-movable-masses-contrapposto"],
+        "desc": "胸大肌三束 180° 翻转止点、斜方肌菱形平板与背阔肌向腋窝汇聚的体块层叠穿插。不适用于扁平单层贴纸肌肉绘制。",
+        "tags": ["anatomy", "sculpting", "chest", "back", "torso", "muscles"],
+        "loc": "Figure & Torso，第 28–36、46–55 页"
+    },
+    {
+        "slug": "planar-head-skull-architecture",
+        "title": "头部块面化几何拓扑与颅骨测量标尺",
+        "importance": "critical",
+        "importance_rationale": "头部三维结构防塌陷基石，额面、颞窝、颧弓硬折角与五眼三庭、眼睛中分黄金标尺",
+        "one_liner": "确立额头前平、颞窝侧平、颧骨弓转角梁与下颌底面，以双眼瞳孔中分全高为绝对解剖测量标尺",
+        "intents": ["建立 3D 头部雕刻的标准多边形 Planar Head 块面基底", "定位颞线、颧骨弓与下颌角构成的头部正面转向侧面硬转折", "应用双眼瞳孔位于头高 1/2 的黄金基准排查眼睛位置过高缺陷"],
+        "keywords": ["头部块面化", "Planar Head", "颅骨架构", "颞线", "颧骨弓", "测量标尺", "五眼三庭", "眼睛中分"],
+        "also_read": ["facial-features-planes-volume", "neck-muscles-sternocleidomastoid"],
+        "desc": "额面、颞窝、颧骨弓与下颌底面的多边形体块切角，以及头部各轴向的标准比例标尺。不适用于非脊椎类无颅骨外星异形。",
+        "tags": ["anatomy", "sculpting", "head", "skull", "planar-head"],
+        "loc": "Head & Neck，第 94–102、126–131 页"
+    },
+    {
+        "slug": "facial-features-planes-volume",
+        "title": "五官解剖体块：眼眶球体、鼻软骨、口轮匝肌筒与耳廓",
+        "importance": "high",
+        "importance_rationale": "五官三维容积防剪纸纸片化，眼睑 2mm 厚度、鼻软骨七大块面与牙弓半圆拱桶",
+        "one_liner": "以 24mm 眼球为基底雕刻具厚度眼睑，鼻软骨七面三棱台与牙弓马蹄形拱桶支撑饱满五官容积",
+        "intents": ["雕刻包裹在球体上的带接触厚度的上下眼睑与非对称落差", "构建鼻骨桥、侧壁斜面与大翼软骨双球尖的鼻部七大平截面", "在抛物线牙弓上架设口轮匝肌半圆柱拱形肌肉桶与嘴角内陷"],
+        "keywords": ["五官解剖", "眼睑厚度", "眼眶球体", "鼻软骨", "口轮匝肌桶", "牙弓", "耳廓螺旋", "三维容积"],
+        "also_read": ["planar-head-skull-architecture", "neck-muscles-sternocleidomastoid"],
+        "desc": "眼睑厚度与球体包裹、鼻软骨七大块面、口轮匝肌拱桶与外耳三维螺旋折叠。不适用于平面卡通豆豆眼扁平表情贴图。",
+        "tags": ["anatomy", "sculpting", "facial-features", "eyes", "nose", "mouth"],
+        "loc": "Head & Neck，第 103–116、121–125 页"
+    },
+    {
+        "slug": "neck-muscles-sternocleidomastoid",
+        "title": "颈部圆柱扭转与胸锁乳突肌力矩传递",
+        "importance": "high",
+        "importance_rationale": "头部旋转防麻花塌陷动力学，颈部 75° 前倾与 SCM 胸骨/锁骨双头对角强吊索",
+        "one_liner": "以 75° 前倾圆柱为基底，胸锁乳突肌胸骨头与锁骨头向上对角斜插耳后乳突形成动态对角拉力",
+        "intents": ["雕刻前倾倾斜圆柱颈部并定位深陷的胸骨上窝 (颈静脉切迹)", "表现头部旋转时对侧 SCM 紧绷隆起与同侧 SCM 松弛退让的动态反差", "结合甲状软骨喉结与斜方肌上束构建完整的颈项三维过渡"],
+        "keywords": ["胸锁乳突肌", "SCM", "颈部圆柱", "胸骨上窝", "耳后乳突", "喉结", "对角拉索", "旋转形变"],
+        "also_read": ["planar-head-skull-architecture", "shoulder-girdle-deltoid-interlock"],
+        "desc": "颈部前倾圆柱体块，胸锁乳突肌双头起止点（胸骨头/锁骨头），以及头部旋转时的对角拉伸。不适用于无颈椎爬行类生物。",
+        "tags": ["anatomy", "sculpting", "neck", "scm", "sternocleidomastoid"],
+        "loc": "Head & Neck，第 117–120 页"
+    },
+    {
+        "slug": "arm-rotation-supination-pronation",
+        "title": "前臂旋前旋后力学与桡骨交叉形变",
+        "importance": "critical",
+        "importance_rationale": "彻底消灭糖纸扭曲前臂的解剖圣经，尺骨静止为轴心、桡骨跨过尺骨形成 X 交叉",
+        "one_liner": "锁定尺骨为后侧静止轴心，桡骨带动掌面跨越尺骨形成 X 交叉，伴随肱桡肌整体向背侧翻转",
+        "intents": ["构建前臂旋前 (Pronation) 与旋后 (Supination) 的骨骼正确运动学", "表现旋前位下桡骨斜跨尺骨导致的肱桡肌与伸肌群对角螺旋位移", "排查手腕旋转时模型沿中轴同心圆对称缩瘪的糖纸畸变缺陷"],
+        "keywords": ["旋前", "Pronation", "旋后", "Supination", "桡骨交叉", "尺骨轴心", "肱桡肌", "糖纸畸变", "前臂解剖"],
+        "also_read": ["hand-anatomy-carpal-arch", "shoulder-girdle-deltoid-interlock"],
+        "desc": "尺骨固定为后侧轴心、桡骨跨过尺骨形成 X 形交叉的前臂旋转运动学与肌肉体量翻转。不适用于单根刚性长骨四肢。",
+        "tags": ["anatomy", "sculpting", "forearm", "rotation", "supination", "pronation"],
+        "loc": "Upper Limb，第 147–171 页"
+    },
+    {
+        "slug": "hand-anatomy-carpal-arch",
+        "title": "手部骨骼拱桥、掌骨扇形与指关节楔形",
+        "importance": "high",
+        "importance_rationale": "告别香蕉插木板的立体抓握机械，腕骨横弓、第三掌骨最高脊背与斐波那契指节梯级",
+        "one_liner": "以腕骨横向凹弓为基座、第三掌骨为最高扇形脊背，指节滑车楔形截面向中指中轴自然聚拢",
+        "intents": ["雕刻背隆掌凹的手腕横弓与深陷内凹的掌腱膜掌心", "架设以中指为最高峰、两侧呈阶梯坡度发散的五掌骨扇形拱", "应用指骨长度 1.5 倍递减与握拳时向手腕中心汇聚的运动学轨迹"],
+        "keywords": ["手部解剖", "腕骨横弓", "Carpal Arch", "掌骨扇形", "掌指关节", "Knuckles", "指节滑车", "大鱼际"],
+        "also_read": ["arm-rotation-supination-pronation", "bony-landmarks-blockout"],
+        "desc": "腕骨横向凹弓、五掌骨阶梯扇形分布、指节骨滑车楔形截面与手指微倾斜指向中指中轴。不适用于无指爪手足动物。",
+        "tags": ["anatomy", "sculpting", "hand", "wrist", "fingers"],
+        "loc": "Upper Limb，第 144–146、172–184 页"
+    },
+    {
+        "slug": "leg-muscles-quads-asymmetry",
+        "title": "下肢股四头肌高低落差与缝匠肌螺旋力线",
+        "importance": "critical",
+        "importance_rationale": "粉碎大腿对称充气柱子的黄金法则，股内侧肌低矮水滴紧贴膝盖 vs 股外侧肌高位护甲板",
+        "one_liner": "大腿前群严格遵循内低外高落差：低位肥厚股内侧肌泪滴包膝，高位平整股外侧肌由缝匠肌斜带划界",
+        "intents": ["雕刻股内侧肌低位饱满泪滴紧贴膝盖上缘的标志性体块", "塑造股外侧肌在大腿上段的高位宽轮廓与髂胫束压平过渡", "拉出缝匠肌从 ASIS 斜跨至胫骨粗隆内侧的对角螺旋解剖分界线"],
+        "keywords": ["股四头肌", "Quads", "股内侧肌", "Vastus Medialis", "股外侧肌", "内低外高", "缝匠肌", "Sartorius", "非对称"],
+        "also_read": ["knee-foot-arch-ankle-mechanics", "torso-movable-masses-contrapposto"],
+        "desc": "股内侧肌（低矮泪滴）与股外侧肌（高位平直）的内低外高落差，以及缝匠肌从 ASIS 斜切的绑带力线。不适用于对称圆柱体下肢建模。",
+        "tags": ["anatomy", "sculpting", "quads", "leg", "thigh", "asymmetry"],
+        "loc": "Lower Limb，第 188–205、211–213 页"
+    },
+    {
+        "slug": "knee-foot-arch-ankle-mechanics",
+        "title": "膝关节滑车、高低双踝与足弓三点力学",
+        "importance": "critical",
+        "importance_rationale": "下肢抓地力与受重力稳定底座，内踝高外踝低黄金剪切斜角与内高外平足底三点拱桥",
+        "one_liner": "髌骨随滑车屈曲下移与脂肪垫形变，内踝高外踝低对角斜切，内侧纵弓悬空吸震外侧纵弓踩地承重",
+        "intents": ["雕刻屈膝与直立时髌骨、髌韧带与髌下脂肪垫的挤压滑动形变", "严守踝关节内踝高靠前、外踝低靠后的 15°-20° 黄金倾斜对角线", "构建足底三点力学拱桥，保持内侧纵弓悬空透光与外侧纵弓压实地面"],
+        "keywords": ["膝关节", "髌骨", "Patella", "双踝落差", "Malleolus", "内踝高外踝低", "足弓", "Foot Arches", "三点力学"],
+        "also_read": ["leg-muscles-quads-asymmetry", "bony-landmarks-blockout"],
+        "desc": "髌骨滑轨与脂肪垫形变、内踝高外踝低的倾斜角，以及足底三点拱桥（内高外平）力学。不适用于无足弓平底鸭蹼足脚部雕刻。",
+        "tags": ["anatomy", "sculpting", "knee", "ankle", "foot", "malleolus", "mechanics"],
+        "loc": "Lower Limb，第 206–210、214–222 页"
+    }
+]
+
+capabilities = []
+destinations_map = {}
+
+for c in caps_data:
+    cap_id = f"cap.anatomy-for-sculptors.{c['slug']}"
+    destinations_map[cap_id] = {
+        "target_pack_slug": "anatomy-for-sculptors",
+        "target_skill_slug": "anatomy-for-sculptors",
+        "action": "create"
+    }
+    capabilities.append({
+        "capability_id": cap_id,
+        "revision": 1,
+        "status": "active",
+        "aliases": [],
+        "supersedes": [],
+        "merged_into": None,
+        "split_into": [],
+        "slug": c["slug"],
+        "title": c["title"],
+        "importance": c["importance"],
+        "importance_rationale": c["importance_rationale"],
+        "one_liner": c["one_liner"],
+        "intents": c["intents"],
+        "keywords": c["keywords"],
+        "also_read": c["also_read"],
+        "card": f"cards/{c['slug']}.md",
+        "frontmatter": {
+            "description": c["desc"],
+            "tags": c["tags"]
+        },
+        "source_evidence": [{"source_id": "src-main-book", "location": c["loc"]}],
+        "promotion": {
+            "destination": "router",
+            "gate": {
+                "independent_intent": False,
+                "independent_contract": True,
+                "independent_run": True,
+                "independent_reuse": False,
+                "independent_eval": True
+            },
+            "notes": "Single 模式下归入主入口统一路由"
+        }
+    })
+
+bundle = {
+    "schema_version": 1,
+    "bundle_id": "bundle.anatomy-for-sculptors",
+    "book": {
+        "title": "雕塑家解剖学：理解人体形体 (Anatomy for Sculptors: Understanding the Human Figure)",
+        "source_pack": "books/anatomy-for-sculptors",
+        "edition": "1st Edition",
+        "authors": ["Uldis Zarins", "Sandis Kondrats"],
+        "year": 2014,
+    },
+    "entry": {
+        "name": "anatomy-for-sculptors",
+        "description": "3D 角色建模、数字雕刻、骨骼绑定变形与三维人体解剖学工程手册。涵盖皮下骨性标志坐标网与人体粗模块面化 (Block-out)、躯干三大刚性体块与单脚承重对立平衡 (Contrapposto)、男女骨架比例差异与皮下脂肪垫分布动力学、肩带复合体 C 形骨夹钳与三角肌机械插扣、胸大肌 180° 翻转止点与背部肌肉层叠、头部块面化 (Planar Head) 与颅骨测量标尺、五官三维容积解构（眼眶球体厚度、鼻软骨七截面、牙弓口轮匝肌桶）、前倾颈部圆柱与胸锁乳突肌力矩传递、前臂旋前旋后桡骨 X 形交叉运动学、手部腕骨横弓与掌骨扇形拱桥、下肢股四头肌内低外高落差与缝匠肌螺旋绑带、膝关节滑车机械系统、踝关节内高外低剪切角与足底三点拱桥力学工程规范。",
+        "core_principles": [
+            "皮下骨性标志（锁骨、ASIS、大转子、尺骨鹰嘴、内/外踝）是人体三维测量的绝对坐标锚点，严禁被肌肉软组织抹平成无骨软泥。",
+            "在雕刻细碎肌肉纤维与毛孔之前，必须先将复杂曲面解构为清晰多边形平截面（Block-out & Major Planes），确立稳定的明暗交界转折线。",
+            "单脚承重姿态（Contrapposto）下，承重侧骨盆上抬，胸廓必须向相反方向反向倾斜代偿，脊椎形成连续平衡的“懒 S（Lazy S）”波形。",
+            "前臂旋前（Pronation）与旋后（Supination）的本质是尺骨固定为不动轴心，桡骨跨过尺骨形成空间 X 交叉，伴随肱桡肌整体向背表面翻转，体积绝对守恒。",
+            "下肢严格遵循双重不对称落差法则：股四头肌内低外高（泪滴包膝）、小腿腓肠肌内低外高、双踝内高外低（向外下方斜切 15°-20°）。",
+            "五官是具备空间厚度的三维独立容积：眼睑具 2mm 厚度包裹球体，嘴唇呈拱形跨在抛物线牙弓之上，鼻软骨由 7 大平截面严密咬合。",
+            "足底为三点力学承重拱桥结构：跟骨与一、五跖骨头支撑，内侧纵弓高耸悬空吸震，外侧纵弓平贴地面承重。"
+        ],
+        "out_of_scope": [
+            "纯医学神经内科显微神经纤维走行显微手术",
+            "病理学肌肉萎缩与肿瘤组织学细胞切片病理分析",
+            "非生物刚体汽车底盘冲压模具与钣金件有限元应力分析"
+        ],
+        "stop_conditions": [
+            "用户仅咨询纯神经病理学显微切片或汽车钣金冲压，不涉及 3D 角色建模、解剖学、雕刻与绑定变形时判停",
+            "已输出明确的骨性标志坐标、块面化转折图谱、前臂旋转形变方案、下肢落差参数或足弓三点力学规范时判停"
+        ]
+    },
+    "router_entry": {
+        "name": "anatomy-for-sculptors",
+        "description": "雕塑家解剖学与 3D 人体形体工程手册。提供皮下骨性标志与块面化、单脚承重三大可活动体块、男女骨架与脂肪垫、肩带复合体三角肌插扣、胸背肌群三维容积、头部 Planar Head 块面、五官三维容积、胸锁乳突肌力矩、前臂旋前旋后桡骨交叉、手部腕骨横弓、股四头肌内低外高落差、膝滑车与双踝足弓力学工程支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+schemas_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\schemas")
+registry = Registry()
+for s in schemas_dir.glob("*.schema.json"):
+    data = json.loads(s.read_text(encoding="utf-8"))
+    res = Resource.from_contents(data)
+    schema_id = data.get("$id", f"https://cangjie-skill.org/schemas/{s.name}")
+    registry = registry.with_resource(schema_id, res)
+    registry = registry.with_resource(f"https://cangjie-skill.org/schemas/{s.name}", res)
+
+bundle_schema = json.loads((schemas_dir / "capability-bundle.schema.json").read_text(encoding="utf-8"))
+validator = jsonschema.Draft202012Validator(bundle_schema, registry=registry)
+validator.validate(instance=bundle)
+print("Schema validation with offline registry: PASS 100%!")
+
+out_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\anatomy-for-sculptors\.cangjie\capabilities\verified.yaml")
+out_path.write_text(yaml.safe_dump(bundle, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
+print(f"Written verified.yaml successfully: {out_path}")
+
+dest_path = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\anatomy-for-sculptors\.cangjie\capabilities\destinations.json")
+dest_path.write_text(json.dumps({
+    "bundle_id": bundle["bundle_id"],
+    "destinations": destinations_map
+}, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Updated destinations.json successfully: {dest_path}")

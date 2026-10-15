@@ -1,0 +1,107 @@
+import json
+from pathlib import Path
+
+eval_suite = {
+    "suite_id": "eval.animators-survival-kit.v1",
+    "pack_slug": "animators-survival-kit",
+    "split_seed": 42,
+    "train_ratio": 0.6,
+    "trigger_cases": [
+        {
+            "case_id": "case-timing-spacing-charts-01",
+            "prompt": "在动画原画制作中，时间（Timing）和空间幅度（Spacing）的本质区别是什么？如何绘制慢入慢出（Slow-In & Slow-Out）与偏心倾向（Favors）的轨目表（Spacing Chart）？",
+            "should_trigger": True,
+            "expected_capability": "timing-spacing-charts"
+        },
+        {
+            "case_id": "case-keys-extremes-breakdowns-01",
+            "prompt": "动画分级流水线中，关键帧（Keys）、空间极值帧（Extremes）与过渡原画（Breakdowns）的分工是什么？为什么说 Breakdown 决定了动作的弧线走向与质感？",
+            "should_trigger": True,
+            "expected_capability": "keys-extremes-breakdowns"
+        },
+        {
+            "case_id": "case-standard-walk-locomotion-01",
+            "prompt": "人类标准行走的四大黄金姿态（接触位 Contact、下沉位 Down、越过位 Passing、最高位 High）各自的特征与重心中轴高度是怎样的？如何配合 24 帧标准步频与骨盆反向倾斜？",
+            "should_trigger": True,
+            "expected_capability": "standard-walk-locomotion"
+        },
+        {
+            "case_id": "case-runs-jumps-airborne-01",
+            "prompt": "奔跑与行走的根本力学区别是什么？奔跑的完全腾空悬浮期（Airborne Phase）该如何编排？角色跳跃从蓄力、推离、滞空（Hang Time）到受压挤压的全周期是怎样的？",
+            "should_trigger": True,
+            "expected_capability": "runs-jumps-airborne"
+        },
+        {
+            "case_id": "case-weight-gravity-settle-01",
+            "prompt": "如何消除动画中的塑料轻飘感？如何依据自由落体加速度与材质刚性质感，表现落地撞击时的挤压拉伸（容积守恒）与重心中轴多级沉降缓冲（Settle）？",
+            "should_trigger": True,
+            "expected_capability": "weight-gravity-settle"
+        },
+        {
+            "case_id": "case-anticipation-overshoot-recoil-01",
+            "prompt": "角色在爆发猛烈动作前，为什么必须向反方向做动作预感（Anticipation）？高速肢体制动时，如何编排超量过冲 10%-20%（Overshoot）与弹簧阻尼回弹稳定（Recoil）？",
+            "should_trigger": True,
+            "expected_capability": "anticipation-overshoot-recoil"
+        },
+        {
+            "case_id": "case-arcs-waves-whips-01",
+            "prompt": "生物关节运动为什么必须严格遵循圆滑弧线（The Law of Arcs）？在挥鞭或摆尾动作中，手柄急停制动是如何通过正弦波反转在末梢转化为超大角速度鞭打效应（The Whip）的？",
+            "should_trigger": True,
+            "expected_capability": "arcs-waves-whips"
+        },
+        {
+            "case_id": "case-overlapping-action-drag-01",
+            "prompt": "如何杜绝角色肢体同帧起止的木偶病？主动力源（骨盆/脊椎）先行时，被动附属物（长发、披风、松弛下巴、尾巴）的滞后拖尾（Drag）与跟随（Follow-Through）该如何编排？",
+            "should_trigger": True,
+            "expected_capability": "overlapping-action-drag"
+        },
+        {
+            "case_id": "case-dialogue-phonemes-accents-01",
+            "prompt": "对白口型为什么必须比音频提前 2-4 帧开启？8 大核心视素嘴型该如何简化非重音音节？角色的头部下砸与手势等身体重音（Bodily Accents）如何与台词爆破点对齐？",
+            "should_trigger": True,
+            "expected_capability": "dialogue-phonemes-accents"
+        },
+        {
+            "case_id": "case-character-walks-personality-01",
+            "prompt": "如何通过变异行走的四大黄金帧演化角色的独特性格？小偷蹑手蹑脚潜行步（The Sneak）的脚尖触地与重心压低、以及跛脚步态（The Limp）的时间不对称该如何实现？",
+            "should_trigger": True,
+            "expected_capability": "character-walks-personality"
+        },
+        {
+            "case_id": "case-fast-runs-smears-multiples-01",
+            "prompt": "当角色在 1-2 帧内跨越大半个屏幕时，如何解决人眼视网膜频闪跳帧？如何运用单帧存活干刷涂抹（Smears）、多重肢体（Multiples）与旋转飞轮腿（Whirlwind Legs）？",
+            "should_trigger": True,
+            "expected_capability": "fast-runs-smears-multiples"
+        },
+        {
+            "case_id": "case-flipping-inbetween-diagnostics-01",
+            "prompt": "理查德·威廉姆斯的“五指翻页法”（The Five-Finger Flip）是如何自检动画流动性的？如何排查容积呼吸缩放、运动轨迹弧线折断与四肢旋转时的“糖纸扭曲”中割病灶？",
+            "should_trigger": True,
+            "expected_capability": "flipping-inbetween-diagnostics"
+        },
+        {
+            "case_id": "case-distractor-static-typography-01",
+            "prompt": "请为一本关于古典哲学的精装书籍设计网格版心，计算正文 10pt 衬线字体的栏宽、行距比例与烫金封面装帧工艺要求。",
+            "should_trigger": False,
+            "expected_capability": None
+        },
+        {
+            "case_id": "case-distractor-hydraulic-valve-01",
+            "prompt": "计算液压换向阀在 35MPa 额定工作压力下的流道压降与阀芯密封间隙泄漏量，绘制装配公差工程图。",
+            "should_trigger": False,
+            "expected_capability": None
+        },
+        {
+            "case_id": "case-distractor-audio-mastering-01",
+            "prompt": "在 Pro Tools 中配置 5.1 环绕声混音工程的多段动态压缩器（Multiband Compressor）分频点，并计算母带响度 LUFS 积分值。",
+            "should_trigger": False,
+            "expected_capability": None
+        }
+    ]
+}
+
+eval_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\animators-survival-kit\.cangjie\evals")
+eval_dir.mkdir(parents=True, exist_ok=True)
+suite_file = eval_dir / "eval-suite.json"
+suite_file.write_text(json.dumps(eval_suite, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Created Animators Survival Kit eval suite at: {suite_file}")

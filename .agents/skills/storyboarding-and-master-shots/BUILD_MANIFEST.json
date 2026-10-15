@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\animatic-timing-and-audio-sync.md": "214ae765486561daaebf7ec5d660cb7762bf974a6db8042d43ed50f04fa5fd87",
+    "references\\capabilities\\axis-of-action-and-180-rule.md": "7b185997f3d78b48abf01abcb2c998ddc9470129594b54e66e306540bfc207e7",
+    "references\\capabilities\\camera-movement-and-dynamic-tracking.md": "bf9619fe56fc93dccf83850d7d8c01c02f64117453dfd1ca97528ed4863fcf33",
+    "references\\capabilities\\continuity-editing-and-cutting-on-action.md": "6e7d8e0147723e234c11ce910a81f048bf99029fec1922ec059734a8d01483b2",
+    "references\\capabilities\\dialogue-shot-reverse-shot-mechanics.md": "753965925d7be28bb8c9ceed098c1b92a385323cd22e462075d24a7207f460bd",
+    "references\\capabilities\\dynamic-action-and-fight-choreography.md": "3f89b1a0dbaaab77e02807190eb04c6d62182335dfb18d20a5f8ca74834bfb81",
+    "references\\capabilities\\low-budget-master-shots-cinematic-tricks.md": "6c4809b4e8f711acb26ec9cf00014649383f0ffec8e0a3668356ed9673e9e776",
+    "references\\capabilities\\master-shot-staging-and-coverage.md": "7f6d4cd1cb334e9729ea133862e3a73d8c53704d2e2b3392dee23582470a3fc8",
+    "references\\capabilities\\montage-and-temporal-spatial-transitions.md": "f70bbbe9435c0a50fac5f0b3aab48b279b4f66c53ac62e463fb754ac1a801a3e",
+    "references\\capabilities\\shot-sizes-and-camera-optics.md": "f72c425bf1f7d3b5d63a0dfd11e2c862c73b46e978b1ecdc2993434c5975cfc5",
+    "references\\capabilities\\suspense-and-reveal-camera-grammar.md": "e179f3aa68da46f9d9465695474fe896e084a239029cfc6708707f65fbf3137b",
+    "references\\capabilities\\visual-depth-and-blocking-composition.md": "57e5088e25c705b3c764285bd70cf688b6a4d4b413efe45dfc87f7af763fb8b0",
+    "references\\capability-index.md": "467391d81d7204bfdc3eecdf76202c60fbaa706d3a690da44c07f9b8474b4d01",
+    "references\\cheatsheet.md": "03a63fe1c1b3e09a2a8aa3e8afa9331d82699d1ed1688cf7b79adc6892588a16",
+    "references\\glossary.md": "a08738191fc5b44e1ae021b2bc7f055e509ea4e5b2c0c176b4b8abcb498eb05f",
+    "references\\overview.md": "76f3d4d329ac61a81e31eda128f1a2e8991a38bee23fb4cde144f1f8304aa978",
+    "SKILL.md": "7c2bb7ee6e667acd68983d5ba61b1f3d6cc5f0104ec49f426a2bca366b49c45e"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.storyboarding-and-master-shots",
+  "bundle_sha256": "819ccfe2cedbfbd95292fa1b46a83e49d5f203d84f2c462e7539f44d12a90d1b",
+  "variant": "single",
+  "run_id": "run-20261006-222753-857a4c",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

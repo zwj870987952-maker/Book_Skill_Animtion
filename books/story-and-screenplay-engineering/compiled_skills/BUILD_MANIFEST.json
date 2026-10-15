@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\animation-screenplay-and-visual-gag.md": "46ab731353bc81377554841384c231b0e51cdfa5ff9b40883b70b3edcbbd4d3d",
+    "references\\capabilities\\animation-series-bible-and-pitching.md": "e705b8c64b6888875f3b6fbdafca1b169522e76d1bb8befcd5ebe3184e9d503f",
+    "references\\capabilities\\antagonist-and-forces-of-antagonism.md": "be941c36793ea82b4afb54197dc7f4d3b1d7f8f0c59251bacb824fc9f0d9ca73",
+    "references\\capabilities\\character-arc-and-inner-flaw.md": "a119460589233cc7c6ffe53389271d66e35e64f3d3061e317bb43744cbb95125",
+    "references\\capabilities\\controlling-idea-and-thematic-truth.md": "75c003e3adec3eee4c3ba2f2a9d95feb7345530eb7790e901b45ccd78416019c",
+    "references\\capabilities\\dialogue-subtext-and-exposition-delivery.md": "6cebf3c68c7daae3b28238f740bbafa0b6e6059ea77edad3b4e37598fb0a123b",
+    "references\\capabilities\\pacing-crisis-climax-and-resolution.md": "ef5226bb24e431f11f1e6b964b3d73f6248a59361d75750f6739d44a06293972",
+    "references\\capabilities\\scene-design-and-conflict-beats.md": "6d40602ecbce29a378193b8089641402e623989c1f6736af4b43f4fbf2cdac1d",
+    "references\\capabilities\\screenplay-formatting-and-action-lines.md": "793cf4a14bb5ed35a312d76e99b4a0a727d0d28562b798ef4a8e1a2dbc197d93",
+    "references\\capabilities\\screenplay-troubleshooting-and-rewrite-doctor.md": "9d2e7378dfa767dda2d56a6774356394ce39c5c9b97bb7cfd2b8a6c1ad66daad",
+    "references\\capabilities\\story-structure-and-three-act-architecture.md": "1b87e95d88a2bf9d72e31da522748edb1e07e2a70190c82fce1ae602a8d0936f",
+    "references\\capabilities\\sub-plot-and-character-ensemble.md": "4271c1c56b8949cdc5fd50e56a7212f5f6f2f9174f0a8e2770a3ae6144871bce",
+    "references\\capability-index.md": "1e3dc5800003a0c5ef22e711602bbb8799b0a0ca5b0c6f3e1ff29fedea0237eb",
+    "references\\cheatsheet.md": "d1d00d3235c640be1224b645bd80e8b31a46f49139ffecb95631521a873dd382",
+    "references\\glossary.md": "31b1e5eb702f1d2195cee0874c3e94d65982612865fcc3e6ee89712260a87e71",
+    "references\\overview.md": "22765e88ffe8eab098c651a0468b23dd16295881db7bc82e64c8654fe230195f",
+    "SKILL.md": "898e037c63ae8f385b55778a13825cf07792be0235453180588568c9564e848c"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.story-and-screenplay-engineering",
+  "bundle_sha256": "8c5447ed25caf55015eba3f142f90932937105d02b7e10fc635b264d06d93390",
+  "variant": "single",
+  "run_id": "run-20261006-224259-355b0e",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

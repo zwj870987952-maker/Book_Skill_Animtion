@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.anatomy-for-sculptors",
+  "destinations": {
+    "cap.anatomy-for-sculptors.bony-landmarks-blockout": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.torso-movable-masses-contrapposto": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.male-vs-female-proportions-fat": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.shoulder-girdle-deltoid-interlock": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.chest-back-torso-muscle-volume": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.planar-head-skull-architecture": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.facial-features-planes-volume": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.neck-muscles-sternocleidomastoid": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.arm-rotation-supination-pronation": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.hand-anatomy-carpal-arch": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.leg-muscles-quads-asymmetry": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    },
+    "cap.anatomy-for-sculptors.knee-foot-arch-ankle-mechanics": {
+      "target_pack_slug": "anatomy-for-sculptors",
+      "target_skill_slug": "anatomy-for-sculptors",
+      "action": "create"
+    }
+  }
+}

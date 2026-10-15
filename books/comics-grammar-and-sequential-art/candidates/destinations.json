@@ -1,0 +1,12 @@
+{
+  "bundle_id": "bundle.comics-grammar-and-sequential-art",
+  "bundle_title": "漫画视听文法与图像叙事工程手册",
+  "target_skills": [
+    {
+      "slug": "comics-grammar-and-sequential-art",
+      "name": "comics-grammar-and-sequential-art",
+      "type": "single",
+      "active_capabilities_count": 12
+    }
+  ]
+}

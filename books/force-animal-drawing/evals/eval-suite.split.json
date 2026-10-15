@@ -1,0 +1,22 @@
+{
+  "suite_id": "eval.force-animal-drawing.v1",
+  "seed": 42,
+  "train": [
+    "case-quadruped-gait-timing-01",
+    "case-negative-sql-query-01",
+    "case-predator-vs-prey-dynamics-01",
+    "case-animal-rhythm-ski-slope-01",
+    "case-negative-cloud-k8s-01",
+    "case-creature-anatomy-synthesis-01",
+    "case-animal-force-shape-asymmetry-01",
+    "case-plantigrade-bear-mass-01"
+  ],
+  "validation": [
+    "case-scapula-suspension-shock-01",
+    "case-digitigrade-feline-spine-01",
+    "case-unguligrade-equine-bridge-01",
+    "case-animal-locomotion-classes-01",
+    "case-animal-homology-limbs-01",
+    "case-animal-caricature-shape-01"
+  ]
+}

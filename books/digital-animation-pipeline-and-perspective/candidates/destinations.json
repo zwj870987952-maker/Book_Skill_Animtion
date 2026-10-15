@@ -1,0 +1,12 @@
+{
+  "bundle_id": "bundle.digital-animation-pipeline-and-perspective",
+  "bundle_title": "数字动画制作管线与透视速写工程手册",
+  "target_skills": [
+    {
+      "slug": "digital-animation-pipeline-and-perspective",
+      "name": "digital-animation-pipeline-and-perspective",
+      "type": "single",
+      "active_capabilities_count": 12
+    }
+  ]
+}

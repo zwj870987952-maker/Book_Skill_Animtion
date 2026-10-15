@@ -1,0 +1,654 @@
+schema_version: 1
+bundle_id: bundle.facial-expressions
+book:
+  title: 面部表情艺用解剖 (Anatomy of Facial Expression)
+  source_pack: books/facial-expressions
+  edition: Visual Reference Edition
+  authors:
+  - Uldis Zarins
+  - Sandis Kondrats
+  year: 2017
+entry:
+  name: facial-expressions
+  description: 全球三维角色艺术家、动画师与数字雕塑家面部解剖与表情绑定第一圣经。将达芬奇经典人体解剖学与保罗·埃克曼面部动作编码系统（FACS）完美统一。涵盖头骨
+    10 大硬质骨骼标志点刚性锚定、正交皮肤张力皱纹动力学定律、枕额肌与皱眉肌复合内中外三分段运动解耦（AU 1/2/4）、眼轮匝肌眶部与睑部张力闭合（AU 5/6/7/43）、四直肌与双斜肌矢量合成极速
+    1 帧扫视跳跃（AU 61-64）、鼻肌与上唇鼻翼提肌中面部滑移（AU 9/38/39）、口轮匝肌内外同心环与红唇白线体积守恒（AU 18/22/23/24）、颧大肌斜拉
+    vs 笑肌纯水平撕扯嘴角矢量网络（AU 11/12/13/20）、降口角肌与颏肌推高下巴橘皮纹（AU 15/16/17）、咬肌闭颌与 TMJ 双阶段旋转-平移张嘴运动学（AU
+    26/27/31）、深浅层脂肪垫与骨性支持韧带阻隔、杜氏真笑双肌群协同（AU 6+12）跨越恐怖谷，以及人类七大普适核心情绪（喜悦、悲伤、狂怒、恐惧、惊讶、厌恶、蔑视）全参数
+    FACS 拓扑合成与微表情时间线规范。
+  core_principles:
+  - 头骨标志点在任何极端表情下保持绝对刚性，软组织沿骨骼三维曲面滑移与堆叠。
+  - 正交皱纹动力学定律：动态皮肤折痕走向恒垂直于深层驱动肌纤维的收缩轴线。
+  - 杜氏真笑黄金闭环：眼轮匝肌眶外环（AU 6）的自发收缩与下眼睑拱起是真诚微笑不可或缺的解剖学标志。
+  - 悲伤肌群反向力偶：额肌内侧向上提拉（AU 1）与皱眉肌向内下拉（AU 4）对抗形成特征性倒八字眉峰与中央三角隆起。
+  - 恐惧水平撕扯 vs 惊讶垂直松弛：恐惧为笑肌（AU 20）水平横拉嘴唇且眉毛拉直；惊讶为下颌受重力松弛垂直下坠（AU 26）且眉毛高拱。
+  - 口角轴心（Modiolus）是 8 组表情肌力的矢量合成枢纽，决定酒窝生成与中下脸平衡。
+  - 颞下颌关节（TMJ）遵循双阶段运动学：张嘴前 20mm 为纯定轴旋转，大张嘴时髁突向前下方平移滑行 8-12mm。
+  out_of_scope:
+  - 纯工业机械齿轮传动与流体力学管道仿真
+  - 静态建筑钢筋混凝土承重力学计算
+  - 眼科白内障与激光视力矫正临床手术操作指南
+  stop_conditions:
+  - 用户仅咨询机械建筑或眼科眼科临床医学，不涉及角色面部解剖、表情绑定、动画表演与三维雕刻时判停
+  - 已输出明确的面部骨骼标志点坐标、FACS 动作单元参数、肌群收缩矢量、正交皱纹图或情绪合成方案时判停
+router_entry:
+  name: facial-expressions
+  description: 乌尔迪斯·扎林斯面部表情艺用解剖与表情绑定工程手册。提供头骨刚性标志点、正交张力皱纹定律、额肌皱眉肌解耦、眼轮匝肌真笑闭环、眼外肌扫视跳跃、鼻部与中面部滑移、口轮匝肌同心环与白线守恒、嘴角提升与水平撕扯矢量网络、降口角肌与颏肌橘皮下巴、TMJ
+    双阶段张嘴运动学、深浅脂肪垫韧带阻隔与七大核心情绪全参数 FACS 拓扑合成支持。
+promotion_budget: 8
+capabilities:
+- capability_id: cap.facial-expressions.cranial-landmarks-geometry
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: cranial-landmarks-geometry
+  title: 头骨解剖标志点与面部几何体块锚定系统
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 严格定位头骨 10 大刚性解剖标志点与三维几何基准面，确立软组织滑移与骨骼不可变形的绝对基座。
+  intents: &id001
+  - 如何实现头骨解剖标志点与面部几何体块锚定系统
+  - 应用头骨解剖标志点与面部几何体块锚定系统的解剖与几何规范
+  - 排查头骨解剖标志点与面部几何体块锚定系统相关的常见形变反模式与错误
+  keywords: &id002
+  - cranial-landmarks
+  - skull-anatomy
+  - bony-landmarks
+  - glabella
+  - nasion
+  - zygomatic-arch
+  - mental-protuberance
+  - facial-planes
+  also_read: &id003
+  - fat-pads-soft-tissue-wrinkles
+  - masseter-temporalis-tmj-mechanics
+  card: cards/cranial-landmarks-geometry.md
+  frontmatter:
+    title: 头骨解剖标志点与面部几何体块锚定系统
+    importance: core
+    one_liner: 严格定位头骨 10 大刚性解剖标志点与三维几何基准面，确立软组织滑移与骨骼不可变形的绝对基座。
+    requirements:
+    - 面部表情形变必须无条件锚定在不可变形的骨骼解剖标志点上
+    - 严格区分男女与年龄在眉弓厚度、下颌角角度与额骨倾角上的形态学差异
+    antirequirements:
+    - 严禁为了夸张表情而缩放或拉伸硬质颅骨骨骼标志点
+    - 严禁将软组织滑移误认为颅骨骨骼变形
+    intents: *id001
+    keywords: *id002
+    sources: &id004
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Cranial Bones & Surface Forms (P8-47)
+      excerpt: 严格定位头骨 10 大刚性解剖标志点与三维几何基准面，确立软组织滑移与骨骼不可变形的绝对基座。
+    also_read: *id003
+  source_evidence: *id004
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.depressors-mentalis-mouth-corners
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: depressors-mentalis-mouth-corners
+  title: 降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17）
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 精确解构降口角肌下拉（AU 15）、降下唇肌翻唇（AU 16）与颏肌推高下巴球体产生橘皮纹（AU 17）。
+  intents: &id005
+  - 如何实现降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17）
+  - 应用降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17）的解剖与几何规范
+  - 排查降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17）相关的常见形变反模式与错误
+  keywords: &id006
+  - depressor-anguli-oris
+  - depressor-labii-inferioris
+  - mentalis
+  - au15
+  - au16
+  - au17
+  - chin-dimpling
+  - sadness-mouth
+  also_read: &id007
+  - frontalis-corrugator-eyebrow-dynamics
+  - seven-universal-emotions-facs
+  card: cards/depressors-mentalis-mouth-corners.md
+  frontmatter:
+    title: 降口角肌、降下唇肌与颏肌下半脸张力（AU 15/16/17）
+    importance: core
+    one_liner: 精确解构降口角肌下拉（AU 15）、降下唇肌翻唇（AU 16）与颏肌推高下巴球体产生橘皮纹（AU 17）。
+    requirements:
+    - 严格正交解耦嘴角向下拽（AU 15）与下唇向外下翻转露出下牙（AU 16）
+    - 颏肌（AU 17）收缩时必须同时实现下巴球体向上顶高与橘皮状点状凹坑生成
+    antirequirements:
+    - 严禁在降口角时让下巴软组织整体向下塌陷
+    - 严禁在悲伤表情中遗漏 AU 17 的下唇中央向上拱起特征
+    intents: *id005
+    keywords: *id006
+    sources: &id008
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Depressors & Mentalis Mechanics (P98-107)
+      excerpt: 精确解构降口角肌下拉（AU 15）、降下唇肌翻唇（AU 16）与颏肌推高下巴球体产生橘皮纹（AU 17）。
+    also_read: *id007
+  source_evidence: *id008
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.duchenne-smile-vs-social-mask
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: duchenne-smile-vs-social-mask
+  title: 杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20）
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 建立真诚快乐（AU 6+12+25）与社交假面（AU 12/20 剥离 AU 6）的解剖学鉴别硬门与非对称微表情规范。
+  intents: &id009
+  - 如何实现杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20）
+  - 应用杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20）的解剖与几何规范
+  - 排查杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20）相关的常见形变反模式与错误
+  keywords: &id010
+  - duchenne-smile
+  - pan-am-smile
+  - social-mask
+  - au6
+  - au12
+  - au20
+  - au25
+  - uncanny-valley
+  - micro-expression
+  also_read: &id011
+  - orbicularis-oculi-eyelid-mechanics
+  - zygomaticus-risorius-smile-vector
+  card: cards/duchenne-smile-vs-social-mask.md
+  frontmatter:
+    title: 杜氏真诚微笑与社交假笑解剖学鉴别（AU 6+12 vs AU 12/20）
+    importance: core
+    one_liner: 建立真诚快乐（AU 6+12+25）与社交假面（AU 12/20 剥离 AU 6）的解剖学鉴别硬门与非对称微表情规范。
+    requirements:
+    - 真诚喜悦必须强制绑定眼轮匝肌眶部（AU 6）与大颧肌（AU 12）的双肌群协同闭环
+    - 社交假笑、冷笑与强颜欢笑必须准确剥离 AU 6，并引入笑肌（AU 20）或单侧非对称性
+    antirequirements:
+    - 严禁在表达真诚开怀大笑时出现眼周平坦、缺乏鱼尾纹的僵尸眼（恐怖谷）
+    - 严禁将社交假笑做成完美的双面对称真笑
+    intents: *id009
+    keywords: *id010
+    sources: &id012
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Smiling Dynamics & Duchenne vs Non-Duchenne
+        (P136-145)
+      excerpt: 建立真诚快乐（AU 6+12+25）与社交假面（AU 12/20 剥离 AU 6）的解剖学鉴别硬门与非对称微表情规范。
+    also_read: *id011
+  source_evidence: *id012
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.extraocular-gaze-saccade
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: extraocular-gaze-saccade
+  title: 眼外肌与视线扫视协同注视机制（AU 61-64）
+  importance: high
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的high级别解剖学与三维形变基座规范。
+  one_liner: 基于四直肌与双斜肌矢量合成实现极速 1 帧扫视跳跃（Saccade）、双眼聚焦注视与斜睨微表情。
+  intents: &id013
+  - 如何实现眼外肌与视线扫视协同注视机制（AU 61-64）
+  - 应用眼外肌与视线扫视协同注视机制（AU 61-64）的解剖与几何规范
+  - 排查眼外肌与视线扫视协同注视机制（AU 61-64）相关的常见形变反模式与错误
+  keywords: &id014
+  - extraocular-muscles
+  - gaze-direction
+  - saccade
+  - au61
+  - au62
+  - au63
+  - au64
+  - eyeball-rotation
+  also_read: &id015
+  - orbicularis-oculi-eyelid-mechanics
+  - seven-universal-emotions-facs
+  card: cards/extraocular-gaze-saccade.md
+  frontmatter:
+    title: 眼外肌与视线扫视协同注视机制（AU 61-64）
+    importance: high
+    one_liner: 基于四直肌与双斜肌矢量合成实现极速 1 帧扫视跳跃（Saccade）、双眼聚焦注视与斜睨微表情。
+    requirements:
+    - 眼球转动必须符合四直肌与双斜肌矢量运动学，并带动上眼睑跟随滑移
+    - 视线目标转移必须采用极速扫视跳跃（Saccade），严禁平滑缓动慢入慢出
+    antirequirements:
+    - 严禁眼球匀速慢速移动（漂浮死眼）
+    - 严禁下视或上视时上眼睑边缘保持静态不动
+    intents: *id013
+    keywords: *id014
+    sources: &id016
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Extraocular Muscles & Gaze Dynamics
+        (P62-73)
+      excerpt: 基于四直肌与双斜肌矢量合成实现极速 1 帧扫视跳跃（Saccade）、双眼聚焦注视与斜睨微表情。
+    also_read: *id015
+  source_evidence: *id016
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.fat-pads-soft-tissue-wrinkles
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: fat-pads-soft-tissue-wrinkles
+  title: 面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 解析浅层颧脂肪垫、深层 SOOF/ROOF 脂肪垫、骨性韧带锚点阻隔与肌肉收缩正交垂向皮肤皱折物理。
+  intents: &id017
+  - 如何实现面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则
+  - 应用面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则的解剖与几何规范
+  - 排查面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则相关的常见形变反模式与错误
+  keywords: &id018
+  - fat-pads
+  - malar-pad
+  - soof
+  - roof
+  - retaining-ligaments
+  - orthogonal-wrinkles
+  - langers-lines
+  - skin-turgor
+  also_read: &id019
+  - cranial-landmarks-geometry
+  - duchenne-smile-vs-social-mask
+  card: cards/fat-pads-soft-tissue-wrinkles.md
+  frontmatter:
+    title: 面部脂肪垫、支持韧带锚点与正交皮肤张力皱纹法则
+    importance: core
+    one_liner: 解析浅层颧脂肪垫、深层 SOOF/ROOF 脂肪垫、骨性韧带锚点阻隔与肌肉收缩正交垂向皮肤皱折物理。
+    requirements:
+    - 严格遵守兰格氏线与肌肉收缩矢量的正交垂直折痕法则
+    - 分离浅层可移动脂肪垫与深层固定结构，定义真骨性支持韧带的几何阻隔边界
+    antirequirements:
+    - 严禁在三维模型表面雕刻与皮下肌纤维收缩轴平行的动态皱纹
+    - 严禁将脂肪垫视为刚性整体或均匀无区隔的流体
+    intents: *id017
+    keywords: *id018
+    sources: &id020
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Soft Tissues, Fat Pads & Wrinkle Mechanics
+        (P128-135)
+      excerpt: 解析浅层颧脂肪垫、深层 SOOF/ROOF 脂肪垫、骨性韧带锚点阻隔与肌肉收缩正交垂向皮肤皱折物理。
+    also_read: *id019
+  source_evidence: *id020
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.frontalis-corrugator-eyebrow-dynamics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: frontalis-corrugator-eyebrow-dynamics
+  title: 枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4）
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 解耦内侧眉提升（AU 1）、外侧眉提升（AU 2）与皱眉肌（AU 4）水平挤压，建立正交川字纹与额头水平纹力学。
+  intents: &id021
+  - 如何实现枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4）
+  - 应用枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4）的解剖与几何规范
+  - 排查枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4）相关的常见形变反模式与错误
+  keywords: &id022
+  - frontalis
+  - corrugator-supercilii
+  - procerus
+  - au1
+  - au2
+  - au4
+  - glabella-wrinkles
+  - forehead-creases
+  also_read: &id023
+  - orbicularis-oculi-eyelid-mechanics
+  - seven-universal-emotions-facs
+  card: cards/frontalis-corrugator-eyebrow-dynamics.md
+  frontmatter:
+    title: 枕额肌与降眉间肌-皱眉肌复合动力学（AU 1/2/4）
+    importance: core
+    one_liner: 解耦内侧眉提升（AU 1）、外侧眉提升（AU 2）与皱眉肌（AU 4）水平挤压，建立正交川字纹与额头水平纹力学。
+    requirements:
+    - 眉毛运动必须解耦为内侧段（AU 1）、外侧段（AU 2）与挤压拉拢段（AU 4）
+    - 额头水平横纹与印堂垂直川字纹必须严格遵守肌肉收缩正交定律
+    antirequirements:
+    - 严禁将眉毛绑定为一条刚性上下平移的单一对象
+    - 严禁在皱眉时产生横向水平皱纹，或在挑眉时产生纵向竖纹
+    intents: *id021
+    keywords: *id022
+    sources: &id024
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Eyebrow Musculature & Action Units
+        1, 2, 4 (P52-55)
+      excerpt: 解耦内侧眉提升（AU 1）、外侧眉提升（AU 2）与皱眉肌（AU 4）水平挤压，建立正交川字纹与额头水平纹力学。
+    also_read: *id023
+  source_evidence: *id024
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.masseter-temporalis-tmj-mechanics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: masseter-temporalis-tmj-mechanics
+  title: 咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31）
+  importance: high
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的high级别解剖学与三维形变基座规范。
+  one_liner: 建立咬肌/颞肌闭颌咬牙（AU 31）与 TMJ 旋转铰链-平移滑行双阶段大幅张嘴（AU 26/27）运动学。
+  intents: &id025
+  - 如何实现咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31）
+  - 应用咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31）的解剖与几何规范
+  - 排查咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31）相关的常见形变反模式与错误
+  keywords: &id026
+  - masseter
+  - temporalis
+  - tmj
+  - temporomandibular-joint
+  - au26
+  - au27
+  - au31
+  - jaw-clench
+  - jaw-drop
+  also_read: &id027
+  - cranial-landmarks-geometry
+  - seven-universal-emotions-facs
+  card: cards/masseter-temporalis-tmj-mechanics.md
+  frontmatter:
+    title: 咬肌、颞肌与颞下颌关节咬合动力学（AU 26/27/31）
+    importance: high
+    one_liner: 建立咬肌/颞肌闭颌咬牙（AU 31）与 TMJ 旋转铰链-平移滑行双阶段大幅张嘴（AU 26/27）运动学。
+    requirements:
+    - 下颌骨张开必须实施 TMJ 双阶段运动学（旋转铰链阶段与髁突向前平移滑行阶段）
+    - 咬紧牙关（AU 31）时必须在咬肌与颞肌体表精准呈现硬块肌肉隆起
+    antirequirements:
+    - 严禁将下颌骨绑定为单一固定铰链轴的刚体旋转
+    - 严禁大幅度张嘴时下巴直接倒扣入颈部引发穿模
+    intents: *id025
+    keywords: *id026
+    sources: &id028
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Masticatory System & Jaw Mechanics
+        (P116-125)
+      excerpt: 建立咬肌/颞肌闭颌咬牙（AU 31）与 TMJ 旋转铰链-平移滑行双阶段大幅张嘴（AU 26/27）运动学。
+    also_read: *id027
+  source_evidence: *id028
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.nasalis-levator-midface
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: nasalis-levator-midface
+  title: 鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39）
+  importance: high
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的high级别解剖学与三维形变基座规范。
+  one_liner: 建立鼻翼扩张/收缩、上唇鼻翼提肌皱鼻（AU 9）与鼻唇沟几何起点的中面部脂肪推挤网络。
+  intents: &id029
+  - 如何实现鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39）
+  - 应用鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39）的解剖与几何规范
+  - 排查鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39）相关的常见形变反模式与错误
+  keywords: &id030
+  - nasalis
+  - levator-labii-superioris-alaeque-nasi
+  - au9
+  - au38
+  - au39
+  - nasolabial-fold
+  - nose-wrinkler
+  also_read: &id031
+  - seven-universal-emotions-facs
+  - zygomaticus-risorius-smile-vector
+  card: cards/nasalis-levator-midface.md
+  frontmatter:
+    title: 鼻肌、提上唇鼻翼肌与中面部滑移（AU 9/38/39）
+    importance: high
+    one_liner: 建立鼻翼扩张/收缩、上唇鼻翼提肌皱鼻（AU 9）与鼻唇沟几何起点的中面部脂肪推挤网络。
+    requirements:
+    - 明确鼻部深浅层肌群的骨性起源（梨状孔与上颌骨）
+    - 正确表达厌恶（AU 9）时的耸鼻横纹与鼻唇沟上端推挤隆起
+    antirequirements:
+    - 严禁将鼻子处理为不可动刚性体
+    - 严禁在皱鼻时破坏鼻梁正中骨骼硬度
+    intents: *id029
+    keywords: *id030
+    sources: &id032
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Nasal Musculature & Midface Dynamics
+        (P74-81)
+      excerpt: 建立鼻翼扩张/收缩、上唇鼻翼提肌皱鼻（AU 9）与鼻唇沟几何起点的中面部脂肪推挤网络。
+    also_read: *id031
+  source_evidence: *id032
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.orbicularis-oculi-eyelid-mechanics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: orbicularis-oculi-eyelid-mechanics
+  title: 眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43）
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 解析上睑提肌露白（AU 5）、眼轮匝肌眶部抬脸与鱼尾纹（AU 6）、睑部眯眼（AU 7）及球面眼睑滑移。
+  intents: &id033
+  - 如何实现眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43）
+  - 应用眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43）的解剖与几何规范
+  - 排查眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43）相关的常见形变反模式与错误
+  keywords: &id034
+  - orbicularis-oculi
+  - levator-palpebrae-superioris
+  - au5
+  - au6
+  - au7
+  - au43
+  - crows-feet
+  - eyelid-curvature
+  also_read: &id035
+  - duchenne-smile-vs-social-mask
+  - extraocular-gaze-saccade
+  card: cards/orbicularis-oculi-eyelid-mechanics.md
+  frontmatter:
+    title: 眼轮匝肌、睑肌与眼睑张力闭合力学（AU 5/6/7/43）
+    importance: core
+    one_liner: 解析上睑提肌露白（AU 5）、眼轮匝肌眶部抬脸与鱼尾纹（AU 6）、睑部眯眼（AU 7）及球面眼睑滑移。
+    requirements:
+    - 眼睑运动必须依附在直径约 24mm 的球形眼球曲面上滑动并保持厚度
+    - 严格解耦眼轮匝肌眶部（AU 6 面颊推挤）与睑部（AU 7 眯眼紧缩）
+    antirequirements:
+    - 严禁将眼睑闭合做成两块平面三角形直接相交拉伸
+    - 严禁在真诚大笑中丢失 AU 6 眶外环收缩与外眦鱼尾纹
+    intents: *id033
+    keywords: *id034
+    sources: &id036
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Orbicularis Oculi & Eyelid Musculature
+        (P56-61, 71)
+      excerpt: 解析上睑提肌露白（AU 5）、眼轮匝肌眶部抬脸与鱼尾纹（AU 6）、睑部眯眼（AU 7）及球面眼睑滑移。
+    also_read: *id035
+  source_evidence: *id036
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.orbicularis-oris-lip-mechanics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: orbicularis-oris-lip-mechanics
+  title: 口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24）
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 模拟口轮匝肌同心括约肌收缩、漏斗唇（AU 22）、噘嘴（AU 18）、紧抿唇（AU 23/24）与红唇白线体积守恒。
+  intents: &id037
+  - 如何实现口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24）
+  - 应用口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24）的解剖与几何规范
+  - 排查口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24）相关的常见形变反模式与错误
+  keywords: &id038
+  - orbicularis-oris
+  - vermilion-border
+  - au18
+  - au22
+  - au23
+  - au24
+  - lip-pucker
+  - lip-funnel
+  also_read: &id039
+  - zygomaticus-risorius-smile-vector
+  - depressors-mentalis-mouth-corners
+  card: cards/orbicularis-oris-lip-mechanics.md
+  frontmatter:
+    title: 口轮匝肌同心环与唇形形变动力学（AU 18/22/23/24）
+    importance: core
+    one_liner: 模拟口轮匝肌同心括约肌收缩、漏斗唇（AU 22）、噘嘴（AU 18）、紧抿唇（AU 23/24）与红唇白线体积守恒。
+    requirements:
+    - 将口轮匝肌严格建模为内外同心双层括约肌系统
+    - 维持红唇边缘（Vermilion border）高光白线的立体弧形厚度与体积守恒
+    antirequirements:
+    - 严禁将嘴唇拉伸为厚度归零的纸片状多边形网格
+    - 严禁在对白闭唇时让上下嘴唇顶点简单穿模重叠
+    intents: *id037
+    keywords: *id038
+    sources: &id040
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Orbicularis Oris & Lip Mechanics (P82-99)
+      excerpt: 模拟口轮匝肌同心括约肌收缩、漏斗唇（AU 22）、噘嘴（AU 18）、紧抿唇（AU 23/24）与红唇白线体积守恒。
+    also_read: *id039
+  source_evidence: *id040
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.seven-universal-emotions-facs
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: seven-universal-emotions-facs
+  title: 人类七大普适核心情绪与复合微表情 FACS 拓扑合成
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 跨肌群合成高兴、悲伤、狂怒、恐惧、惊讶、厌恶、蔑视七大情绪的解剖学参数网格与过渡时间线。
+  intents: &id041
+  - 如何实现人类七大普适核心情绪与复合微表情 FACS 拓扑合成
+  - 应用人类七大普适核心情绪与复合微表情 FACS 拓扑合成的解剖与几何规范
+  - 排查人类七大普适核心情绪与复合微表情 FACS 拓扑合成相关的常见形变反模式与错误
+  keywords: &id042
+  - universal-emotions
+  - facs-synthesizer
+  - anger
+  - sadness
+  - fear
+  - surprise
+  - disgust
+  - contempt
+  - joy
+  - composite-expressions
+  also_read: &id043
+  - duchenne-smile-vs-social-mask
+  - frontalis-corrugator-eyebrow-dynamics
+  - depressors-mentalis-mouth-corners
+  card: cards/seven-universal-emotions-facs.md
+  frontmatter:
+    title: 人类七大普适核心情绪与复合微表情 FACS 拓扑合成
+    importance: core
+    one_liner: 跨肌群合成高兴、悲伤、狂怒、恐惧、惊讶、厌恶、蔑视七大情绪的解剖学参数网格与过渡时间线。
+    requirements:
+    - 严格根据保罗·埃克曼与乌尔迪斯·扎林斯的解剖标准合成七大核心情绪
+    - 建立复杂复合表情（如悲喜交加、惊怒交加）的非线性参数融合机制
+    antirequirements:
+    - 严禁混淆恐惧与惊讶、悲伤与愤怒的动作单元组合
+    - 严禁在线性过渡中出现多肌群瞬间硬切跳变
+    intents: *id041
+    keywords: *id042
+    sources: &id044
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Universal Facial Expressions & FACS
+        Synthesizer (P146-203)
+      excerpt: 跨肌群合成高兴、悲伤、狂怒、恐惧、惊讶、厌恶、蔑视七大情绪的解剖学参数网格与过渡时间线。
+    also_read: *id043
+  source_evidence: *id044
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.facial-expressions.zygomaticus-risorius-smile-vector
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: zygomaticus-risorius-smile-vector
+  title: 颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20）
+  importance: core
+  importance_rationale: 该能力是《面部表情艺用解剖》中核心的core级别解剖学与三维形变基座规范。
+  one_liner: 量化颧大肌 45度斜向外上拉升（AU 12）与笑肌纯水平横向撕扯（AU 20）的正交矢量网络与酒窝机制。
+  intents: &id045
+  - 如何实现颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20）
+  - 应用颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20）的解剖与几何规范
+  - 排查颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20）相关的常见形变反模式与错误
+  keywords: &id046
+  - zygomaticus-major
+  - zygomaticus-minor
+  - risorius
+  - levator-anguli-oris
+  - au11
+  - au12
+  - au13
+  - au20
+  - modiolus
+  - smile-vector
+  also_read: &id047
+  - duchenne-smile-vs-social-mask
+  - depressors-mentalis-mouth-corners
+  card: cards/zygomaticus-risorius-smile-vector.md
+  frontmatter:
+    title: 颧大肌、颧小肌与笑肌嘴角矢量网络（AU 11/12/13/20）
+    importance: core
+    one_liner: 量化颧大肌 45度斜向外上拉升（AU 12）与笑肌纯水平横向撕扯（AU 20）的正交矢量网络与酒窝机制。
+    requirements:
+    - 严格正交解耦斜向提升（颧大肌 AU 12）与纯水平横向撕扯（笑肌 AU 20）
+    - 正确表达口角轴心（Modiolus）与颊脂垫的推挤酒窝形成机制
+    antirequirements:
+    - 严禁将恐惧横向拉扯（AU 20）误当做喜悦微笑（AU 12）
+    - 严禁在嘴角上提时丢失面颊脂肪的向上堆叠与法令纹深化
+    intents: *id045
+    keywords: *id046
+    sources: &id048
+    - source_id: zarins-anatomy-of-facial-expression-2017
+      citation: Anatomy of Facial Expression - Mouth Corner Muscles & Smile Vectors
+        (P100-115)
+      excerpt: 量化颧大肌 45度斜向外上拉升（AU 12）与笑肌纯水平横向撕扯（AU 20）的正交矢量网络与酒窝机制。
+    also_read: *id047
+  source_evidence: *id048
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema

@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\anthropomorphic-animal-design.md": "fda333b0be531a0c7173aa56012a278dea3bd96f0fcbcd0392df56f1b878594c",
+    "references\\capabilities\\architecture-with-character.md": "f903c5d321a4263d959ef5d371076edf2d3d8b2bec0ed7363e435e924b97e57f",
+    "references\\capabilities\\character-layout-staging.md": "68fb4b4bf98b0136901cb1a400626da1297b701eec52cb0826718787dbfd7b1c",
+    "references\\capabilities\\color-theory-character-costume.md": "616a65f1fd65494a10bab70ff290bc06c830364106a9bcd7a478083083edf3ef",
+    "references\\capabilities\\facial-ratios-caricature.md": "69f9bcd6ea8495922232b19c194de101b3f4f9ed2ae86fbcfa25c9566c36fec2",
+    "references\\capabilities\\forceful-shape-triangle.md": "b7e7191f0db784a88c60ed6a052b1ad0fd1992384d46dbcfdbc286967d30eb33",
+    "references\\capabilities\\life-reportage-to-character.md": "10b17e9ec057dc3d108cd2c421934d21519c9404afa40947f79c88565a95ecc8",
+    "references\\capabilities\\opinion-hierarchy-concept.md": "34dcc13b17843d4a01aaf425bf81e14a4062f19be03fde0522b70687bcbd6463",
+    "references\\capabilities\\pushing-poses-amazing-angles.md": "6979b02f6131d954073e30d01f43d8e42e592ea0ec0067e0f2a40f4241c6abe3",
+    "references\\capabilities\\shape-bounding-box-asymmetry.md": "b275d9519653ccead69bf11ab7e76d0ceb3496f77df21be73cfc229df617aeda",
+    "references\\capabilities\\spatial-bounding-box-depth.md": "bd70a93bac81d3f72348ef77a201d65dd0fdf357f4916eeea8dba29187d35f4e",
+    "references\\capabilities\\tone-value-visual-staging.md": "c478847ced83576d3391c5bb2cf5487990651e1f8067a286505cd15faf05556a",
+    "references\\capability-index.md": "46041de8b09e73f02f8efd87c27257639d231aad52c530042fde6be155272d9d",
+    "references\\cheatsheet.md": "70fad14a720981d36550d292510c7a2c917f71940f38e6d0719ba4c0bac795b5",
+    "references\\glossary.md": "cd153fb1818c14f8b1b4fbbc82f9f15f83def945143e54ec716317d1bfb8d666",
+    "references\\overview.md": "c007dd1f60296667eb4543411f52358ec42af324c2d343e126252122fce13dfa",
+    "SKILL.md": "b98c46788762d21f91c68fe729292e51b04c51fcafb5ec99af1f929703316e70"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.force-character-design",
+  "bundle_sha256": "40596d8ad358a7c18bf7de31f21639f251bf49ddd8b5646d152874643ab1592e",
+  "variant": "single",
+  "run_id": "run-20261006-200719-586a72",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

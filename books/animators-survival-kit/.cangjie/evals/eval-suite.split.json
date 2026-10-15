@@ -1,0 +1,23 @@
+{
+  "suite_id": "eval.animators-survival-kit.v1",
+  "seed": 42,
+  "train": [
+    "case-dialogue-phonemes-accents-01",
+    "case-distractor-hydraulic-valve-01",
+    "case-overlapping-action-drag-01",
+    "case-arcs-waves-whips-01",
+    "case-distractor-audio-mastering-01",
+    "case-distractor-static-typography-01",
+    "case-anticipation-overshoot-recoil-01",
+    "case-standard-walk-locomotion-01",
+    "case-character-walks-personality-01"
+  ],
+  "validation": [
+    "case-runs-jumps-airborne-01",
+    "case-weight-gravity-settle-01",
+    "case-flipping-inbetween-diagnostics-01",
+    "case-timing-spacing-charts-01",
+    "case-keys-extremes-breakdowns-01",
+    "case-fast-runs-smears-multiples-01"
+  ]
+}

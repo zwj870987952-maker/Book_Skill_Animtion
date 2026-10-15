@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.framed-ink",
+  "destinations": {
+    "cap.framed-ink.horizon-line-psychology": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.black-white-value-distribution": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.dynamic-geometric-tension": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.eye-leading-focal-paths": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.three-layer-spatial-depth": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.aspect-ratio-framing-psychology": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.visual-continuity-eye-trace": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.chiaroscuro-lighting-mood": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.scale-contrast-dominance": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.lens-perspective-wide-vs-telephoto": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.negative-space-graphic-economy": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    },
+    "cap.framed-ink.storyboard-cadence-editorial-flow": {
+      "target_pack_slug": "framed-ink",
+      "target_skill_slug": "framed-ink",
+      "action": "create"
+    }
+  }
+}

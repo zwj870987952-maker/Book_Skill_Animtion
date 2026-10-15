@@ -1,0 +1,18 @@
+{
+  "suite_id": "eval.physics-for-animators.v1",
+  "seed": 42,
+  "train": [
+    "case-liquid-pouring-01",
+    "case-punch-impact-01",
+    "case-jump-push-01",
+    "case-negative-scriptwriting-01",
+    "case-balance-tipping-01",
+    "case-explosion-torus-01"
+  ],
+  "validation": [
+    "case-negative-character-sketch-01",
+    "case-hair-secondary-01",
+    "case-odd-rule-01",
+    "case-free-fall-01"
+  ]
+}

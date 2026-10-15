@@ -1,0 +1,41 @@
+{
+  "bundle_id": "bundle.physics-for-animators",
+  "destinations": {
+    "cap.physics.odd-rule-acceleration": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.gravity-projectile-timing": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.center-of-gravity-balance": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.friction-drag-resistance": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.torque-lever-joints": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.action-reaction-impact": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.character-jump-mechanics": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.character-walk-energy": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.drag-follow-through-physics": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.liquid-fluid-dynamics": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.fire-explosion-fracture": {
+      "served_by": "physics-for-animators"
+    },
+    "cap.physics.light-shadow-optics": {
+      "served_by": "physics-for-animators"
+    }
+  }
+}

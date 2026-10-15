@@ -1,0 +1,598 @@
+schema_version: 1
+bundle_id: bundle.force-character-design
+book:
+  title: 动画师角色设计动态速写：Force 人物概念与戏剧造型工程手册
+  source_pack: books/force-character-design
+  edition: 1st Edition
+  authors:
+  - Mike Mattesi
+  year: 2008
+entry:
+  name: force-character-design
+  description: 动画角色设计、概念造型速写、戏剧夸张与视线调度工业工程手册。涵盖主观观点与金字塔层级设计哲学、极限推挤姿态与 45° 强角施加力、空间包围盒系统（尺寸即深度与位置即深度）、力量形状抽象与动能引导三角形、形状包围盒与三分法则不对称黄金分割（Apex
+    1/3 加速度）、面部戏剧化比例重构与五官特征解构、3-4 阶黑白灰明度层次与焦点舞台调度、色彩心理学冷暖对比与生活服装叙事、现场街头纪实速写向风格化角色演化、多角色群戏排版与镜头视线闭环、环境场景与建筑体量拟人化生命律动、动物拟人化与兽性向人性性格重构工程法则。
+  core_principles:
+  - 角色设计是画师对被画对象的主观评判与态度（Opinion）；克服恐惧并拥抱风险，绝不做照相机式的被动客观临摹。
+  - 严格遵循金字塔层级理论（Hierarchy Pyramid）：故事与性格内核第一，主力量流线第二，空间包围盒第三，几何形状第四，明度色彩与细节最末。
+  - 将写实姿态推向 120%-150% 物理极限；应用 45° 神奇角度施加力激发最高弹性反弹曲率与戏剧张力。
+  - 空间深度由两大定律确立：尺寸即深度（近大远小极端透视缩短）与位置即深度（地平面垂直落差与重叠遮挡）。
+  - 力量曲线严禁 50% 几何居中对称（死水病）；最高顶点必须偏向 1/3 或 2/3（三分法则），赋予线条鲜明的推进加速度。
+  - 打破面部三庭五眼 1:1:1 均分网格，通过主观拉伸或压缩下巴、额头与五官间距塑造独一无二的角色性格符号。
+  - 全画明度受控于 3-4 阶大明度系统，将最强黑白对比精准锚定在叙事焦点；服装道具必须体现生活磨损与重力配重代偿。
+  out_of_scope:
+  - 纯医学法医颅骨复原与人脸生物特征识别算法
+  - 机械工程工业零件 CAD 正交轴测图绘制与力学有限元网格剖分
+  - 商业建筑施工工程结构荷载计算书编制
+  stop_conditions:
+  - 用户仅咨询纯法医颅骨鉴定、工业数控图纸或建筑施工荷载计算，不涉及角色设计、动态速写与造型艺术时判停
+  - 已输出明确的主观观点提炼、45度角姿态推挤方案、空间包围盒步骤、面部比例重构或角色群戏排版方案时判停
+router_entry:
+  name: force-character-design
+  description: 动画师角色设计动态速写与概念造型工程手册。提供主观观点与金字塔层级、极限推挤与 45° 强角、空间包围盒进深、动能引导三角形、形状包围盒与三分法则、面部戏剧化比例重构、3-4 阶明度舞台调度、色彩心理与服装叙事、现场纪实速写向角色演化、群戏排版镜头调度、建筑拟人化生命律动与动物拟人化角色重构工业级工程支持。
+promotion_budget: 8
+capabilities:
+- capability_id: cap.force-character-design.opinion-hierarchy-concept
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: opinion-hierarchy-concept
+  title: 主观观点与金字塔层级核心设计哲学
+  importance: critical
+  importance_rationale: 角色设计的灵魂与决策引擎，克服照相机综合征，确立自顶向下的故事与观点统治地位
+  one_liner: 以克服恐惧与主动冒险为驱动，用一句话确立角色隐喻与主观观点，自顶向下统摄力量、空间、形状与细节
+  intents:
+  - 建立角色设计的核心主观观点与生物隐喻
+  - 遵循金字塔层级自顶向下决策防止过早陷入细节
+  - 排查照相机式客观抄袭模特导致的千人一面缺陷
+  keywords:
+  - 主观观点
+  - Opinion
+  - 金字塔层级
+  - Hierarchy
+  - 冒险精神
+  - Risk
+  - 角色隐喻
+  - 核心故事
+  also_read:
+  - pushing-poses-amazing-angles
+  - life-reportage-to-character
+  card: cards/opinion-hierarchy-concept.md
+  frontmatter:
+    description: 拒绝照相机临摹，克服恐惧与主动冒险，以画师主观观点与自顶向下故事层级引领角色设计。不适用于机械正交工业制图。
+    tags:
+    - character-design
+    - force
+    - philosophy
+    - hierarchy
+  source_evidence:
+  - source_id: src-main-book
+    location: Key Concepts，第 xiii–xiv 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.pushing-poses-amazing-angles
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: pushing-poses-amazing-angles
+  title: 极限推挤姿态与 45° 强角施加力
+  importance: critical
+  importance_rationale: 突破写实平庸的关键手法，45° 强角施加力激发最高弹性反弹曲率，姿态推向 150% 极值
+  one_liner: 将写实动态轴向放大 120%-150%，应用 45° 强角施加力制造剧烈反弹与极限挤压拉伸对立
+  intents:
+  - 将写实人体的平淡姿态推向戏剧性运动极值
+  - 应用 45° 神奇角度施加力激发强张力反弹曲线
+  - 在极限推挤中保持身体各体块的反向倾斜受力平衡
+  keywords:
+  - 推挤姿态
+  - Pushing Poses
+  - 神奇角度
+  - Amazing Angles
+  - 45度角
+  - 施加力
+  - 极值夸张
+  also_read:
+  - opinion-hierarchy-concept
+  - spatial-bounding-box-depth
+  card: cards/pushing-poses-amazing-angles.md
+  frontmatter:
+    description: 将写实动态推向戏剧极值，应用 45° 强角施加力放大关节力矩与反弹动能。不适用于静止无机零件刚体排线。
+    tags:
+    - character-design
+    - force
+    - posing
+    - dynamics
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 1 章，第 1–36 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.spatial-bounding-box-depth
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: spatial-bounding-box-depth
+  title: 空间包围盒系统：尺寸与位置决定深度
+  importance: critical
+  importance_rationale: 突破二维平面的三维进深支柱，尺寸即深度与位置即深度两大定律消除扁平剪纸感
+  one_liner: 以六面体空间包围盒为骨架，通过近大远小尺寸暴增与地平面垂直位置高低，构建极致透视压迫感
+  intents:
+  - 在二维纸面构建角色体块的三维空间进深与体积
+  - 应用尺寸即深度定律处理剧烈透视缩短 (Foreshortening)
+  - 运用位置即深度定律与重叠遮挡界定空间绝对坐标
+  keywords:
+  - 空间包围盒
+  - Spatial Bounding Box
+  - 尺寸即深度
+  - Size Equals Depth
+  - 位置即深度
+  - 透视缩短
+  - 空间进深
+  also_read:
+  - pushing-poses-amazing-angles
+  - forceful-shape-triangle
+  card: cards/spatial-bounding-box-depth.md
+  frontmatter:
+    description: 基于尺寸即深度与位置即深度两大定律，在二维纸面构建角色体块的三维空间进深。不适用于纯扁平矢量扁平插画。
+    tags:
+    - drawing
+    - perspective
+    - form
+    - depth
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 2 章，第 37–60 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.forceful-shape-triangle
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: forceful-shape-triangle
+  title: 力量形状抽象与动能引导三角形
+  importance: critical
+  importance_rationale: 复杂轮廓提炼与视线导航利器，动能三角形锐角作为矢量箭头以最高流速引导观众眼球
+  one_liner: 以直曲对抗构建力量抽象形状，利用非对称锐角动能三角形引导视线穿透空间直达叙事焦点
+  intents:
+  - 将人体复杂解剖提炼为纯粹的非对称力量形状
+  - 应用动能三角形锐角箭头引导观众视线流动
+  - 避免等腰三角形几何静态锁死并建立明确运动矢量
+  keywords:
+  - 力量形状
+  - Forceful Shape
+  - 动能三角形
+  - Forceful Triangle
+  - 直曲对抗
+  - 视线引导
+  - 锐角箭头
+  also_read:
+  - shape-bounding-box-asymmetry
+  - spatial-bounding-box-depth
+  card: cards/forceful-shape-triangle.md
+  frontmatter:
+    description: 直曲对抗力量形状抽象，运用具有强烈方向箭头的动能三角形引导观众视线穿透空间。不适用于对称机械图纸放样。
+    tags:
+    - character-design
+    - shape
+    - triangle
+    - composition
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 3 章，第 61–74 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.shape-bounding-box-asymmetry
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: shape-bounding-box-asymmetry
+  title: 形状包围盒与三分法则不对称黄金分割
+  importance: critical
+  importance_rationale: 大剪影统摄与动能加速度标尺，打破 50% 几何对称平淡，顶点置于 1/3 释放弹射加速度
+  one_liner: 用非对称大几何包围盒统摄外轮廓剪影，力量曲线顶点偏向 1/3 或 2/3 制造强烈推力加速度
+  intents:
+  - 运用大几何形状包围盒统摄复杂人体轮廓与碎衣褶
+  - 应用三分法则定位力量曲线最高凸起顶点 (Apex)
+  - 排查 50% 居中对称圆弧导致的软弱无方向线条缺陷
+  keywords:
+  - 形状包围盒
+  - Shape Bounding Box
+  - 三分法则
+  - Law of Thirds
+  - 不对称性
+  - Apex
+  - 加速度
+  also_read:
+  - forceful-shape-triangle
+  - facial-ratios-caricature
+  card: cards/shape-bounding-box-asymmetry.md
+  frontmatter:
+    description: 用外接大几何形状统摄复杂剪影，将力量曲线顶点锁定在 1/3 或 2/3 处创造推进加速度。不适用于均等圆弧工业模具绘制。
+    tags:
+    - character-design
+    - silhouette
+    - asymmetry
+    - law-of-thirds
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 3 章，第 74–88 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.facial-ratios-caricature
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: facial-ratios-caricature
+  title: 面部戏剧化比例重构与五官特征夸张
+  importance: high
+  importance_rationale: 突破三庭五眼千人一面的关键，主观解构面部空间比例，直观呈现角色智力与人性性格
+  one_liner: 打破 1:1:1 均分网格，戏剧化拉伸或压缩上中下三庭比例与眼距，重构角色独特的面部性格密码
+  intents:
+  - 重构面部三庭比例以匹配角色的戏剧性格原型
+  - 设计具有极端性格辨识度的五官间距与几何外框
+  - 排查套用古典写实均分比例导致的平庸千人一面病
+  keywords:
+  - 面部比例
+  - Facial Ratios
+  - 夸张
+  - Caricature
+  - 三庭五眼
+  - 性格解构
+  - 五官力学
+  also_read:
+  - shape-bounding-box-asymmetry
+  - tone-value-visual-staging
+  card: cards/facial-ratios-caricature.md
+  frontmatter:
+    description: 打破古典 1:1:1 均分网格，通过拉伸或压缩三庭与五官空间关系塑造鲜明角色性格。不适用于医学法医面部颅骨复原。
+    tags:
+    - character-design
+    - facial
+    - caricature
+    - head
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 3 章，第 88–94 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.tone-value-visual-staging
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: tone-value-visual-staging
+  title: 明度层次与视觉重心舞台化调度
+  importance: high
+  importance_rationale: 引导视觉注意力的终极工具，3-4 阶明度控制将最强黑白对比精准锁定在叙事第一焦点
+  one_liner: 将全画色调归纳为受控 4 阶大明度，以最高反差边缘锁定故事焦点，消灭杂乱碎灰调子
+  intents:
+  - 运用 3-4 阶明度系统规划角色的舞台化明暗层次
+  - 将最强明度反差 (白 vs 黑) 精准投放在故事核心焦点
+  - 排查明度碎花布杂乱与全画糊成中性灰的构图缺陷
+  keywords:
+  - 明度系统
+  - Tone
+  - Value
+  - 舞台调度
+  - Staging
+  - 最高反差
+  - 视觉焦点
+  - 黑白灰
+  also_read:
+  - color-theory-character-costume
+  - character-layout-staging
+  card: cards/tone-value-visual-staging.md
+  frontmatter:
+    description: 使用受控的 3-4 阶黑白灰明度阶梯，将最强对比精准投放在叙事焦点完成视觉引导。不适用于无层级乱排调子素描。
+    tags:
+    - character-design
+    - value
+    - tone
+    - staging
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 4 章，第 95–98 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.color-theory-character-costume
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: color-theory-character-costume
+  title: 色彩心理学与服装道具叙事动力学
+  importance: high
+  importance_rationale: 外化角色历史与阶层背景，冷暖对比与饱和度重音赋予服装生活磨损感与重力配重
+  one_liner: 以低饱和中性色为基底、高饱和暖色为叙事重音，结合生活磨损与重力代偿设计叙事性服装道具
+  intents:
+  - 基于冷暖色温与色彩心理学为角色构建专属色板
+  - 利用色彩重音 (Color Accent) 瞬间锚定第一视觉焦点
+  - 在服装与道具设计中融入重力悬挂、磨损与身体代偿力矩
+  keywords:
+  - 色彩理论
+  - Color Theory
+  - 冷暖对比
+  - 色彩心理学
+  - 服装设计
+  - Costume
+  - 生活磨损
+  - 道具重力
+  also_read:
+  - tone-value-visual-staging
+  - life-reportage-to-character
+  card: cards/color-theory-character-costume.md
+  frontmatter:
+    description: 基于冷暖对比、饱和度与色彩心理学，设计具有生活经历与身份象征意义的服装与道具。不适用于机械工业色彩标定。
+    tags:
+    - character-design
+    - color
+    - costume
+    - storytelling
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 4 章，第 99–170 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.life-reportage-to-character
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: life-reportage-to-character
+  title: 现场生活纪实速写向风格化角色演化
+  importance: critical
+  importance_rationale: 摆脱摆拍模特僵硬感的源泉，在非受控街头抓捕最本真的生理重心与人情味微动作
+  one_liner: 从街头现场抓捕路人松散懈怠的自然重心与生活习惯，注入主观观点放大 150% 蜕变为主流角色
+  intents:
+  - 在 5-30 秒内抓捕非受控路人的真实生理重心与微动作
+  - 将生活观察提炼为主观观点并施加 150% 风格化夸张
+  - 避免学院派死板摆拍感，赋予角色浓厚的人情味与烟火气
+  keywords:
+  - 现场纪实
+  - Reportage
+  - 生活观察
+  - 自然重心
+  - 微动作
+  - Mannerisms
+  - 角色蜕变
+  also_read:
+  - opinion-hierarchy-concept
+  - pushing-poses-amazing-angles
+  card: cards/life-reportage-to-character.md
+  frontmatter:
+    description: 从街头、地铁等非受控真实场景中捕捉路人的自然重心、人情味微动作并提炼为角色设计。不适用于照相机式机械描摹。
+    tags:
+    - drawing
+    - reportage
+    - observation
+    - character-design
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 5 章，第 171–187 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.character-layout-staging
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: character-layout-staging
+  title: 角色群戏排版布局与镜头视线引导
+  importance: high
+  importance_rationale: 多角色同框防混乱法则，通过主从层级、高低交错与前后遮挡构建闭环动能流场
+  one_liner: 建立明确主从层级与犬牙交错的高低前后重叠，利用角色动作与视线对角线编排闭环动能流场
+  intents:
+  - 排布多角色同框时的舞台主从层级与视觉第一焦点
+  - 运用高低错落 (Staggering) 与肢体遮挡 (Overlap) 构建纵深
+  - 设计角色间的动作与视线闭环，防止视觉能量射出画框
+  keywords:
+  - 角色排版
+  - Character Layout
+  - 群戏舞台调度
+  - Staging
+  - 空间重叠
+  - 视线闭环
+  - 构图母题
+  also_read:
+  - spatial-bounding-box-depth
+  - tone-value-visual-staging
+  card: cards/character-layout-staging.md
+  frontmatter:
+    description: 多角色同框时的舞台调度、高低重叠、主次关系与摄影机视线流动构建。不适用于单体证件照正视死板排布。
+    tags:
+    - character-design
+    - layout
+    - staging
+    - composition
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 5 章，第 188–195 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.architecture-with-character
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: architecture-with-character
+  title: 场景环境与建筑体量拟人化生命律动
+  importance: high
+  importance_rationale: 破除背景冰冷死板的关键，将重力下沉与情绪性格注入无机建筑，使其与角色产生戏剧共鸣
+  one_liner: 打破冷冰尺子直线，赋予屋脊、立柱与门窗以重力下沉、疲惫弯曲或傲慢挺拔的角色性格
+  intents:
+  - 赋予场景建筑与无机道具以生动的角色性格与情绪隐喻
+  - 运用受压外凸与微倾斜表现建筑承托数吨重力的物理张力
+  - 协调环境透视与角色地平线，消除角色与背景互不兼容感
+  keywords:
+  - 角色化建筑
+  - Architecture with Character
+  - 建筑拟人化
+  - 重力下沉
+  - 结构张力
+  - 场景呼吸感
+  also_read:
+  - spatial-bounding-box-depth
+  - character-layout-staging
+  card: cards/architecture-with-character.md
+  frontmatter:
+    description: 赋予无机建筑以重力下沉、疲惫倾斜或傲慢挺拔的角色性格，使场景与角色融为一体。不适用于精准建筑施工工程蓝图制图。
+    tags:
+    - environment
+    - architecture
+    - background
+    - character-design
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 5 章，第 196–206 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.force-character-design.anthropomorphic-animal-design
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: anthropomorphic-animal-design
+  title: 动物拟人化与兽性向人性性格重构
+  importance: high
+  importance_rationale: 动画工业热门领域的解剖底座，保留动物特征骨点（飞节/吻部）并与人类双足站姿与心理交融
+  one_liner: 保留动物 30% 核心生物力学标志 (悬空飞节/耳尾/吻部)，同源嫁接人类 70% 双足站姿与社会心理原型
+  intents:
+  - 设计解剖可信且性格鲜明的拟人化动物角色 (Furry/Creature)
+  - 保留物种专属的下肢运动力学特征 (如猫犬趾行悬空飞节)
+  - 赋予动物面部以清晰的人类眼白与眉毛微表情以传递复杂内心戏
+  keywords:
+  - 动物拟人化
+  - Anthropomorphic Animals
+  - 兽性格重构
+  - 飞节保留
+  - 生物力学嫁接
+  - 社会原型
+  also_read:
+  - opinion-hierarchy-concept
+  - facial-ratios-caricature
+  card: cards/anthropomorphic-animal-design.md
+  frontmatter:
+    description: 保留真实动物核心生物力学特征，同源嫁接人类站姿与社会心理原型。不适用于纯四足写实野生动物标本描摹。
+    tags:
+    - character-design
+    - anthropomorphic
+    - animal
+    - creature
+  source_evidence:
+  - source_id: src-main-book
+    location: 第 6 章，第 207–230 页
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由

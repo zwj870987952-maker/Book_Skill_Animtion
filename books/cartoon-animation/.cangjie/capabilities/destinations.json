@@ -1,0 +1,41 @@
+{
+  "bundle_id": "bundle.cartoon-animation",
+  "destinations": {
+    "cap.cartoon.character-construction-proportions": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.line-of-action-rhythm": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.facial-expressions-squash-stretch": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.cartoon-walk-types": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.cartoon-run-locomotion": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.animal-quadruped-cycles": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.wave-action-flexibility": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.exaggerated-takes-reactions": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.dialogue-viseme-mouth-shapes": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.acting-poses-staging": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.exposure-sheet-field-charts": {
+      "served_by": "cartoon-animation"
+    },
+    "cap.cartoon.model-sheet-uniformity": {
+      "served_by": "cartoon-animation"
+    }
+  }
+}

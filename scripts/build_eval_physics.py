@@ -1,0 +1,99 @@
+import json
+from pathlib import Path
+
+eval_suite = {
+    "suite_id": "eval.physics-for-animators.v1",
+    "pack_slug": "physics-for-animators",
+    "split_seed": 42,
+    "train_ratio": 0.6,
+    "trigger_cases": [
+        {
+            "case_id": "case-odd-rule-01",
+            "prompt": "帮我算一下一辆小车以恒力加速行驶，在 24fps 下前 6 帧的每一帧空间位移间距",
+            "should_trigger": True,
+            "expected_capability": "odd-rule-acceleration"
+        },
+        {
+            "case_id": "case-free-fall-01",
+            "prompt": "角色从 5 米高处自由落体掉下来，在时间过半的时候下落了多少米？怎么避免漂浮感？",
+            "should_trigger": True,
+            "expected_capability": "gravity-projectile-timing"
+        },
+        {
+            "case_id": "case-jump-push-01",
+            "prompt": "做个篮球运动员垂直起跳扣篮，深蹲下潜 0.4 米、跳起 0.8 米，请算一下推地时间和落地缓冲时间分别要几帧",
+            "should_trigger": True,
+            "expected_capability": "character-jump-mechanics"
+        },
+        {
+            "case_id": "case-punch-impact-01",
+            "prompt": "格斗游戏中重拳击中对方脸部的打击感怎么做？接触挤压要定格几帧？身体后坐力怎么传导？",
+            "should_trigger": True,
+            "expected_capability": "action-reaction-impact"
+        },
+        {
+            "case_id": "case-hair-secondary-01",
+            "prompt": "角色跑步时 80 厘米的长发和 20 厘米的短发摆动延迟帧数一样吗？摆动周期怎么换算？",
+            "should_trigger": True,
+            "expected_capability": "drag-follow-through-physics"
+        },
+        {
+            "case_id": "case-balance-tipping-01",
+            "prompt": "角色单脚站立为什么看起来要倒？怎么通过重力垂线和脚底支撑多边形判断姿态是否失衡？",
+            "should_trigger": True,
+            "expected_capability": "center-of-gravity-balance"
+        },
+        {
+            "case_id": "case-explosion-torus-01",
+            "prompt": "大爆炸特效中的蘑菇云甜甜圈环形涡流怎么画？地面脆性碎裂先画放射裂纹还是圆环裂纹？",
+            "should_trigger": True,
+            "expected_capability": "fire-explosion-fracture"
+        },
+        {
+            "case_id": "case-liquid-pouring-01",
+            "prompt": "倒水和倒高黏度蜂蜜的下落形态有什么区别？线圈堆叠 coiling 效果是怎么形成的？",
+            "should_trigger": True,
+            "expected_capability": "liquid-fluid-dynamics"
+        },
+        {
+            "case_id": "case-negative-scriptwriting-01",
+            "prompt": "帮我写一段两个侦探在雨夜废弃仓库里对话的悬疑剧本台词，要有戏剧冲突",
+            "should_trigger": False,
+            "negative_reason": "超出物理运动与动画力学范围，属于纯文学剧本文学写作"
+        },
+        {
+            "case_id": "case-negative-character-sketch-01",
+            "prompt": "帮我构思一个日系二次元魔法少女的人设发色和水手服线稿配色方案",
+            "should_trigger": False,
+            "negative_reason": "超出物理动力学范围，属于概念美术设计与二维上色"
+        }
+    ],
+    "output_cases": [
+        {
+            "case_id": "out-jump-01",
+            "prompt": "设计一个 1 米高垂直起跳的全身动力学动画，给出推地、空中抛物线和落地缓冲的完整帧数分配方案",
+            "assertions": [
+                "必须包含推地阶段（Push Time）时间计算，且帧数在 4-6 帧区间",
+                "必须包含滞空总时间（Hang Time）由高度 h=1m 计算，且滞空在 20-22 帧区间",
+                "必须包含落地深蹲缓冲时间（Stop Time）并在触地后屈膝缓冲",
+                "必须明确声明符合三阶段动力学闭环"
+            ]
+        },
+        {
+            "case_id": "out-free-fall-01",
+            "prompt": "排查一个角色从高台坠落的 24 帧动画，原作者在第 12 帧把角色放在总高度 50% 处，这有什么物理错误？如何修正？",
+            "assertions": [
+                "明确指出四分之一半时定理（Fourth Down at Half Time）",
+                "指出第 12 帧下落位移应为总高度的 25% 而非 50%",
+                "指出原动画在前半程速度过快导致后半程加速度不足产生虚假漂浮失重感",
+                "给出修正后的前 12 帧与后 12 帧位移比例"
+            ]
+        }
+    ]
+}
+
+out_dir = Path(r"c:\Users\zwj87\Documents\Book_Skill\books\physics-for-animators\evals")
+out_dir.mkdir(parents=True, exist_ok=True)
+suite_file = out_dir / "eval-suite.json"
+suite_file.write_text(json.dumps(eval_suite, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Written eval suite: {suite_file}")

@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\action-choreography-breakdown.md": "c9d513466cc1287902cc3089bec3175fa2fb37a5d82618846b50ae082bd232dc",
+    "references\\capabilities\\animatic-timing-previs.md": "29720b23820a4006ce02b8b9d84da2af126dc16f9be21ba582363572b86c13d3",
+    "references\\capabilities\\aspect-ratio-framing-geometry.md": "89c2f39813323d3bec6f3570c9aa119e289958a4166cdd6d6e3805483d7c94ed",
+    "references\\capabilities\\camera-movement-vector-arrows.md": "d5c03af96861469e80b4ac955ada0e75dafd2b15bbf916d82e74402e9f0777b0",
+    "references\\capabilities\\commercial-15-30s-storyboard.md": "f915fc662585fb4e21fe51ac420412177de25fc0c47f7fd595629888f29995e6",
+    "references\\capabilities\\compositional-focal-flow.md": "8b4cf095004e243a2894878064c84041e9870de859a92d1ce57aa6582c33b39b",
+    "references\\capabilities\\continuity-axis-screen-direction.md": "a582f61240dd3fc0eabd0a8bc185e841739fae6a0afe54e18c5213bf372839c0",
+    "references\\capabilities\\dramatic-lighting-silhouette.md": "f94f4e77c516607327f9499cc8b176666a056b6ae56cf41f694ca5faf6f52fe2",
+    "references\\capabilities\\perspective-grid-lens-distortion.md": "f41543534277341e0723636b4244c1886472f0566ccec1034a59e5c3c2dcb0ab",
+    "references\\capabilities\\shot-scale-visual-hierarchy.md": "948776e18f0469271727258e4703a2b93ec0a20f60d062b9d5af2aeddca126a8",
+    "references\\capabilities\\shot-transitions-optical-grammar.md": "e1b0d231d28ef858d114a0a01c8cd626db890d06fb393b18eb6459e9e929141b",
+    "references\\capabilities\\subject-action-directional-arrows.md": "3db89d9227f74324cf1858f89f78b3aa7caef7a28e248cb5bc71d4120788cbfa",
+    "references\\capability-index.md": "5720ae1fca36ee323b9fbbc9cdce044d2364381f96efe0d43d62c7246e9cc769",
+    "references\\cheatsheet.md": "ea59dc582d1def1b110014921d2177d21c0ff1464670a5b0af07136e1cbe5a5e",
+    "references\\glossary.md": "9887e258a4101b1a932cc5452b247bb32f81eaa28a9d3f268bafdb4ac560a96e",
+    "references\\overview.md": "ac0938499ec8fcee819a57c5137cdd3c8aa829e86d039be5e91ec746d263ad61",
+    "SKILL.md": "670e27d9f0ac618c071dcdd1c2ec880e93a36b90b7032ef62c05d822dfdbcb3b"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.storyboard-art",
+  "bundle_sha256": "7c36208da6d870153a426147214457ce0d7b0bfb704717a6e1fd2b9ef053dc2b",
+  "variant": "single",
+  "run_id": "run-20261006-213956-1b7b79",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

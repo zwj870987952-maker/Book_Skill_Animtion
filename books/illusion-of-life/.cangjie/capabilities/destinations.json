@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.illusion-of-life",
+  "destinations": {
+    "cap.illusion-of-life.squash-and-stretch": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.anticipation-physics": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.staging-clarity": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.straight-ahead-pose-to-pose": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.follow-through-overlapping": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.slow-in-slow-out": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.arcs-of-motion": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.secondary-action": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.timing-weight-acting": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.exaggeration-essence": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.solid-drawing-volume": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    },
+    "cap.illusion-of-life.appeal-character-soul": {
+      "target_pack_slug": "illusion-of-life",
+      "target_skill_slug": "illusion-of-life",
+      "action": "create"
+    }
+  }
+}

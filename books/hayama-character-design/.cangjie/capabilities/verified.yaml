@@ -1,0 +1,637 @@
+schema_version: 1
+bundle_id: bundle.hayama-character-design
+book:
+  title: 超人气动画角色设计攻略：羽山淳一的现场绘画解说课
+  source_pack: books/hayama-character-design
+  edition: Masterclass Edition
+  authors:
+  - Junichi Hayama (羽山淳一)
+  year: 2016
+entry:
+  name: hayama-character-design
+  description: 日本殿堂级总作画监督羽山淳一热血动画角色设计与动态作画实战工程手册。涵盖脊椎单一动作主线与动态骨架极速提炼（Line of Action）、头部脑颅球体与经纬十字基准线极端仰俯三维透视旋转、决意与咆哮表情及
+    45° 经典硬派影线分面雕刻、三棱柱体块化头发分组与发旋气流破风流线、胸腔梯形箱与骨盆倒梯形箱三轴对立平衡对抗（Contrapposto）、锁骨衣架力学与三角肌/二头肌手臂肌群旋转联动、手掌楔形块与掌骨拱门指关节阶梯透视抓握、腿部双
+    S 减震对抗曲线与内踝高外踝低解剖铁门、格斗出拳飞踢尺度爆炸与 T-Joint 重叠极限透视短缩法（Foreshortening）、服装拉伸辐射褶与战斗斗篷破风正弦波浪流线、0.2
+    秒纯黑剪影测试与负空间透光窗口排布，以及作画监督级线条物理重量感、中割时间图表（Time-chart）与圆弧导轨保形修正全套工业规范。
+  core_principles:
+  - 动作主线优先律：绘制任何姿态前必须先用一条贯穿脊椎的单一连续弧线（Line of Action）统领全身动量与重力平衡。
+  - 三维几何箱体对抗：胸腔箱与骨盆箱必须确立三轴方向上的对立平衡（Contrapposto），形成一侧紧缩（Pinch）与对侧拉伸（Stretch）的黄金非对称性。
+  - 极限透视短缩重叠截断定律：正对镜头的重拳与飞踢依靠尺度暴涨、T-Joint 遮挡截断与环形包裹线彻底破除截肢错觉。
+  - 头部球面经纬十字基准线：严格依据仰沉俯浮的透视规律排布五官，展现坚硬的颏下三角（Submental Triangle）底面。
+  - 内外踝高低差解剖铁门：脚踝结构恒定遵守内踝骨高、外踝骨低的物理规律，脚掌蹬地紧贴地面透视网格。
+  - 45° 影线与眼窝死黑：用纯黑深阴影切碎漫反射，眼窝全黑配合瞳孔锐利高光，排线保持严格平行的 45° 纯净倾角。
+  - 纯黑剪影 0.2 秒自明性：通过四肢外展制造透光的负空间窗口，确保招式意图与武器指向在纯黑投影下瞬间可读。
+  - 作画监督中割保形工程：运用运笔压感赋予线条重力重量感，标明 Time-chart 摄影表时序与运动圆弧导轨，防止中割抽搐崩坏。
+  out_of_scope:
+  - 纯工业机械齿轮模具注塑成型代码
+  - 静态纸质图书排版拼版与油墨化学配比化验
+  - 医学骨科人工关节置换手术临床操作规范
+  stop_conditions:
+  - 用户仅咨询机械注塑或骨科临床手术，不涉及角色设计、动画原画、作画监督、动态速写与格斗动作时判停
+  - 已输出明确的动作主线图式、箱体透视参数、肌肉体块交错、45° 影线图、剪影负空间或中割导轨方案时判停
+router_entry:
+  name: hayama-character-design
+  description: 羽山淳一动画角色设计与动态作画工程手册。提供动作主线、胸骨盆对立平衡箱体、头部十字线三维翻转、热血表情与 45° 影线分面、体块发束风力流线、锁骨肩臂联动、掌骨拱门阶梯、腿部双
+    S 曲线与内外踝高低差、重拳飞踢极限透视短缩、战斗斗篷布褶、纯黑剪影负空间与作监中割保形修正全流程工业支持。
+promotion_budget: 8
+capabilities:
+- capability_id: cap.hayama-character-design.block-hair-airflow-dynamics
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: block-hair-airflow-dynamics
+  title: 体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点）
+  importance: high
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的high级别工业原画与作监设计规范。
+  one_liner: 将发丝提炼为具厚度与明暗分面的主次三棱柱发块，锁定发旋物理锚点并模拟高速冲刺破风气流飘拂。
+  intents: &id001
+  - 如何实现体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点）
+  - 应用体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点）的角色设计与动态作画规范
+  - 排查体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点）相关的常见原画与作监反模式
+  keywords: &id002
+  - block-hair
+  - hair-chunks
+  - hair-crown-vortex
+  - airflow-dynamics
+  - wind-blown-hair
+  - anime-hair
+  - ribbon-hair
+  also_read: &id003
+  - cranial-crosshair-3d-rotation
+  - heroic-facial-expressions-shadow
+  card: cards/block-hair-airflow-dynamics.md
+  frontmatter:
+    title: 体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点）
+    importance: high
+    one_liner: 将发丝提炼为具厚度与明暗分面的主次三棱柱发块，锁定发旋物理锚点并模拟高速冲刺破风气流飘拂。
+    requirements:
+    - 头发造型必须基于三棱柱或片状三维体块分组（主发块、次发块、游离碎发）
+    - 所有发束根部必须严格锚定在头顶发旋或自然发际线，禁止悬空浮游
+    antirequirements:
+    - 严禁绘制没有体块厚度与体积感的单根杂乱细发丝（长毛猕猴桃反模式）
+    - 严禁头发完全僵硬板结如水泥头盔（缺乏动能飘逸感）
+    intents: *id001
+    keywords: *id002
+    sources: &id004
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 2 - Hair Construction
+        & Wind Dynamics (P96-110)
+      excerpt: 将发丝提炼为具厚度与明暗分面的主次三棱柱发块，锁定发旋物理锚点并模拟高速冲刺破风气流飘拂。
+    also_read: *id003
+  source_evidence: *id004
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.cranial-crosshair-3d-rotation
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: cranial-crosshair-3d-rotation
+  title: 头部十字基准线与球面多角度三维旋转体系
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 应用环绕头骨球面的经纬十字基准线，精确解构极端仰俯透视下的眼眶下沉、下颌颏下三角与耳朵相对位移。
+  intents: &id005
+  - 如何实现头部十字基准线与球面多角度三维旋转体系
+  - 应用头部十字基准线与球面多角度三维旋转体系的角色设计与动态作画规范
+  - 排查头部十字基准线与球面多角度三维旋转体系相关的常见原画与作监反模式
+  keywords: &id006
+  - cranial-crosshair
+  - 3d-rotation
+  - spherical-perspective
+  - low-angle-head
+  - high-angle-head
+  - submental-triangle
+  - facial-alignment
+  also_read: &id007
+  - heroic-facial-expressions-shadow
+  - block-hair-airflow-dynamics
+  card: cards/cranial-crosshair-3d-rotation.md
+  frontmatter:
+    title: 头部十字基准线与球面多角度三维旋转体系
+    importance: core
+    one_liner: 应用环绕头骨球面的经纬十字基准线，精确解构极端仰俯透视下的眼眶下沉、下颌颏下三角与耳朵相对位移。
+    requirements:
+    - 头部结构必须建立在脑颅正球体与面颅下颌梯形块的复合三维体块之上
+    - 极端仰俯透视中必须严格依据经纬十字线的球面曲率排布五官，展现颏下三角底面或头顶颅顶弧面
+    antirequirements:
+    - 严禁在仰俯角度下将五官画成扁平二维贴纸贴在脸上
+    - 严禁在仰视角中丢失耳朵相对于眼线向下沉降的解剖透视位移
+    intents: *id005
+    keywords: *id006
+    sources: &id008
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 2 - Facial Construction
+        & Perspective Crosshairs (P46-70)
+      excerpt: 应用环绕头骨球面的经纬十字基准线，精确解构极端仰俯透视下的眼眶下沉、下颌颏下三角与耳朵相对位移。
+    also_read: *id007
+  source_evidence: *id008
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.drapery-folds-costume-wind
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: drapery-folds-costume-wind
+  title: 服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流）
+  importance: high
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的high级别工业原画与作监设计规范。
+  one_liner: 提炼动画实战中的拉伸辐射褶与挤压堆叠褶，模拟战斗风衣与斗篷在超音速移动下的撕扯波浪流线。
+  intents: &id009
+  - 如何实现服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流）
+  - 应用服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流）的角色设计与动态作画规范
+  - 排查服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流）相关的常见原画与作监反模式
+  keywords: &id010
+  - drapery-folds
+  - costume-dynamics
+  - wind-flow
+  - tension-folds
+  - pipe-folds
+  - dynamic-cape
+  - anchor-points
+  also_read: &id011
+  - gestural-skeleton-line-of-action
+  - block-hair-airflow-dynamics
+  card: cards/drapery-folds-costume-wind.md
+  frontmatter:
+    title: 服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流）
+    importance: high
+    one_liner: 提炼动画实战中的拉伸辐射褶与挤压堆叠褶，模拟战斗风衣与斗篷在超音速移动下的撕扯波浪流线。
+    requirements:
+    - 服装布料必须严格区分悬挂锚点（Anchor Points）、拉伸受力张力线与挤压堆叠区
+    - 战斗风衣、斗篷与宽松裤腿在高速运动中必须严格顺应空气动力学风阻矢量形成波浪形破风流线
+    antirequirements:
+    - 严禁盲目在服装表面随意排布无物理拉力来源的碎布褶（脏乱杂线）
+    - 严禁斗篷在狂风冲刺中板结成毫无波浪起伏的铁板塑料片
+    intents: *id009
+    keywords: *id010
+    sources: &id012
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 4 - Costume, Drapery
+        & Dynamic Cape Flow (P151-165)
+      excerpt: 提炼动画实战中的拉伸辐射褶与挤压堆叠褶，模拟战斗风衣与斗篷在超音速移动下的撕扯波浪流线。
+    also_read: *id011
+  source_evidence: *id012
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.dynamic-silhouette-readability
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: dynamic-silhouette-readability
+  title: 纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 建立四肢外展的负空间透光窗口，通过 100% 纯黑剪影测试确保格斗招式与武器指向的瞬间清晰识别。
+  intents: &id013
+  - 如何实现纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性）
+  - 应用纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性）的角色设计与动态作画规范
+  - 排查纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性）相关的常见原画与作监反模式
+  keywords: &id014
+  - silhouette-readability
+  - negative-space-windows
+  - silhouette-test
+  - staging-clarity
+  - dynamic-pose
+  - anime-sakuga
+  - gesture-clarity
+  also_read: &id015
+  - gestural-skeleton-line-of-action
+  - keyframe-layout-supervision
+  card: cards/dynamic-silhouette-readability.md
+  frontmatter:
+    title: 纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性）
+    importance: core
+    one_liner: 建立四肢外展的负空间透光窗口，通过 100% 纯黑剪影测试确保格斗招式与武器指向的瞬间清晰识别。
+    requirements:
+    - 角色动态关键帧必须 100% 通过纯黑剪影测试（Silhouette Test）
+    - 核心发力肢体与武器之间必须预留透光的负空间窗口（Negative Space Windows）
+    antirequirements:
+    - 严禁四肢紧贴躯干抱成一团无透光孔隙的黑色无特征团块（黑色冬瓜病）
+    - 严禁武器与肢体在二维剪影中重叠交错导致动作意图完全无法识别
+    intents: *id013
+    keywords: *id014
+    sources: &id016
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 5 - Silhouette
+        Readability & Negative Space (P166-180)
+      excerpt: 建立四肢外展的负空间透光窗口，通过 100% 纯黑剪影测试确保格斗招式与武器指向的瞬间清晰识别。
+    also_read: *id015
+  source_evidence: *id016
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.extreme-foreshortening-combat
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: extreme-foreshortening-combat
+  title: 格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 解析正对镜头的重拳与飞踢尺度爆炸效应，运用 T-Joint 边缘截断与环形包裹线彻底破除截肢缩短假象。
+  intents: &id017
+  - 如何实现格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠）
+  - 应用格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠）的角色设计与动态作画规范
+  - 排查格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠）相关的常见原画与作监反模式
+  keywords: &id018
+  - extreme-foreshortening
+  - combat-action
+  - t-joint-overlap
+  - scale-explosion
+  - cross-contour
+  - punch-foreshortening
+  - kick-foreshortening
+  also_read: &id019
+  - hand-construction-power-grip
+  - leg-foreshortening-ground-contact
+  card: cards/extreme-foreshortening-combat.md
+  frontmatter:
+    title: 格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠）
+    importance: core
+    one_liner: 解析正对镜头的重拳与飞踢尺度爆炸效应，运用 T-Joint 边缘截断与环形包裹线彻底破除截肢缩短假象。
+    requirements:
+    - 极端透视短缩中前景击打肢体必须呈现尺度暴涨（放大 2 至 4 倍）与后景躯干形成剧烈视差
+    - 必须严格应用图层重叠截断定律（T-Joints）与环形横截面包裹线（Cross-contours）确立三维深度
+    antirequirements:
+    - 严禁单纯压扁肢体长度而缺乏重叠线（导致视错觉截肢断手）
+    - 严禁在强透视镜头中前后景物体尺寸比例保持平视均等
+    intents: *id017
+    keywords: *id018
+    sources: &id020
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 4 - Action Poses,
+        Foreshortening & Combat Dynamics (P126-150)
+      excerpt: 解析正对镜头的重拳与飞踢尺度爆炸效应，运用 T-Joint 边缘截断与环形包裹线彻底破除截肢缩短假象。
+    also_read: *id019
+  source_evidence: *id020
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.gestural-skeleton-line-of-action
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: gestural-skeleton-line-of-action
+  title: 脊椎动作主线与动态骨架极速提炼系统
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 以贯穿颈椎、腰椎至脚跟的单一连续 S/C 形动作主线确立全身动能，量化重力垂线与地面支撑多边形平衡。
+  intents: &id021
+  - 如何实现脊椎动作主线与动态骨架极速提炼系统
+  - 应用脊椎动作主线与动态骨架极速提炼系统的角色设计与动态作画规范
+  - 排查脊椎动作主线与动态骨架极速提炼系统相关的常见原画与作监反模式
+  keywords: &id022
+  - line-of-action
+  - gestural-skeleton
+  - gesture-drawing
+  - center-of-gravity
+  - base-of-support
+  - dynamic-pose
+  - kinetic-energy
+  also_read: &id023
+  - torso-box-contrapposto
+  - leg-foreshortening-ground-contact
+  card: cards/gestural-skeleton-line-of-action.md
+  frontmatter:
+    title: 脊椎动作主线与动态骨架极速提炼系统
+    importance: core
+    one_liner: 以贯穿颈椎、腰椎至脚跟的单一连续 S/C 形动作主线确立全身动能，量化重力垂线与地面支撑多边形平衡。
+    requirements:
+    - 起草任何动态姿态前必须先用单一连续曲线确立脊椎动作主线（Line of Action）
+    - 角色重心垂线与地面支撑多边形（Base of Support）的关系必须明确指示运动状态（静止平衡 vs 冲刺倒地）
+    antirequirements:
+    - 严禁先描摹四肢肌肉轮廓再尝试调整动态结构（陷入细节陷阱）
+    - 严禁头、胸、骨盆处于同一垂直刚性直线上导致僵尸木偶化
+    intents: *id021
+    keywords: *id022
+    sources: &id024
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 1 - Basic Anatomy
+        & Gestural Skeleton (P8-45)
+      excerpt: 以贯穿颈椎、腰椎至脚跟的单一连续 S/C 形动作主线确立全身动能，量化重力垂线与地面支撑多边形平衡。
+    also_read: *id023
+  source_evidence: *id024
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.hand-construction-power-grip
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: hand-construction-power-grip
+  title: 手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯）
+  importance: high
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的high级别工业原画与作监设计规范。
+  one_liner: 解析手掌厚度楔形块、掌骨拱门最高峰与指关节向外倾斜阶梯，构建极具握力感的热血握拳与持物手势。
+  intents: &id025
+  - 如何实现手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯）
+  - 应用手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯）的角色设计与动态作画规范
+  - 排查手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯）相关的常见原画与作监反模式
+  keywords: &id026
+  - hand-construction
+  - power-grip
+  - metacarpal-arch
+  - knuckle-staircase
+  - fist-anatomy
+  - thenar-eminence
+  - finger-blocks
+  also_read: &id027
+  - shoulder-arm-muscular-linkage
+  - extreme-foreshortening-combat
+  card: cards/hand-construction-power-grip.md
+  frontmatter:
+    title: 手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯）
+    importance: high
+    one_liner: 解析手掌厚度楔形块、掌骨拱门最高峰与指关节向外倾斜阶梯，构建极具握力感的热血握拳与持物手势。
+    requirements:
+    - 手部解剖必须基于手掌楔形块与手指四棱柱体块的三维几何归纳
+    - 握拳时必须严格呈现第三掌骨头（中指拳峰）为拱顶的掌骨拱门阶梯下沉
+    antirequirements:
+    - 严禁将手掌画成无厚度的扁平纸板或将五指画成平行香肠
+    - 严禁四指指关节排成一条僵死水平横线（丢失掌骨拱门弧度）
+    intents: *id025
+    keywords: *id026
+    sources: &id028
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 3 - Hands, Fingers
+        & Power Grip Dynamics (P106-125)
+      excerpt: 解析手掌厚度楔形块、掌骨拱门最高峰与指关节向外倾斜阶梯，构建极具握力感的热血握拳与持物手势。
+    also_read: *id027
+  source_evidence: *id028
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.heroic-facial-expressions-shadow
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: heroic-facial-expressions-shadow
+  title: 热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 解构怒吼、冷笑与痛苦咬牙的五官形变，结合眉弓眼窝死黑与 $45^{\circ}$ 经典动画硬派排线阴影切面。
+  intents: &id029
+  - 如何实现热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线）
+  - 应用热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线）的角色设计与动态作画规范
+  - 排查热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线）相关的常见原画与作监反模式
+  keywords: &id030
+  - heroic-facial-expressions
+  - action-hatching
+  - black-eye-socket
+  - roar-expression
+  - resolve-expression
+  - shadow-planes
+  - chiaroscuro
+  also_read: &id031
+  - cranial-crosshair-3d-rotation
+  - block-hair-airflow-dynamics
+  card: cards/heroic-facial-expressions-shadow.md
+  frontmatter:
+    title: 热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线）
+    importance: core
+    one_liner: 解构怒吼、冷笑与痛苦咬牙的五官形变，结合眉弓眼窝死黑与 $45^{\circ}$ 经典动画硬派排线阴影切面。
+    requirements:
+    - 角色面部情绪五官形变必须符合热血硬派动画的骨骼挤压拉伸特征
+    - 阴影切面必须规范应用眼窝死黑与统一 $45^{\circ}$ 倾角的细硬平行手绘影线（Action Hatching）
+    antirequirements:
+    - 严禁在热血表情中使用软绵绵的喷枪平滑模糊渐变
+    - 严禁排线方向杂乱交叉互打成黑叉（Cross-hatching Chaos）
+    intents: *id029
+    keywords: *id030
+    sources: &id032
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 2 - Heroic Expressions
+        & Action Hatching (P71-95)
+      excerpt: 解构怒吼、冷笑与痛苦咬牙的五官形变，结合眉弓眼窝死黑与 $45^{\circ}$ 经典动画硬派排线阴影切面。
+    also_read: *id031
+  source_evidence: *id032
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.keyframe-layout-supervision
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: keyframe-layout-supervision
+  title: 作画监督级原画修正与中割保形规范（线条重量感与运动圆弧）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 运用运笔压感赋予线条重力重量感，建立关键帧修形准则与中割运动圆弧导轨（Motion Arc），杜绝动画抽搐崩坏。
+  intents: &id033
+  - 如何实现作画监督级原画修正与中割保形规范（线条重量感与运动圆弧）
+  - 应用作画监督级原画修正与中割保形规范（线条重量感与运动圆弧）的角色设计与动态作画规范
+  - 排查作画监督级原画修正与中割保形规范（线条重量感与运动圆弧）相关的常见原画与作监反模式
+  keywords: &id034
+  - keyframe-supervision
+  - animation-director-correction
+  - line-weight
+  - in-betweening-guidelines
+  - motion-arc
+  - time-chart
+  - sakuga-standards
+  also_read: &id035
+  - dynamic-silhouette-readability
+  - gestural-skeleton-line-of-action
+  card: cards/keyframe-layout-supervision.md
+  frontmatter:
+    title: 作画监督级原画修正与中割保形规范（线条重量感与运动圆弧）
+    importance: core
+    one_liner: 运用运笔压感赋予线条重力重量感，建立关键帧修形准则与中割运动圆弧导轨（Motion Arc），杜绝动画抽搐崩坏。
+    requirements:
+    - 原画线条必须具备物理重力重量感（受光轻灵、承重/阴影交界处厚实坚实）
+    - 原画（Keyframes）必须在角标与草图层明确标明中割时序图（Time-chart）与四肢末端运动圆弧导轨（Motion Arc Rails）
+    antirequirements:
+    - 严禁绘制全画粗细均等、毫无顿挫压感的死板数字矢量线（死线）
+    - 严禁原画之间形变路径跳跃，导致中割师无法插值（产生中间画抽搐崩坏）
+    intents: *id033
+    keywords: *id034
+    sources: &id036
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 5 - Animation Director's
+        Corrections & Layout Supervision (P181-198)
+      excerpt: 运用运笔压感赋予线条重力重量感，建立关键帧修形准则与中割运动圆弧导轨（Motion Arc），杜绝动画抽搐崩坏。
+    also_read: *id035
+  source_evidence: *id036
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.leg-foreshortening-ground-contact
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: leg-foreshortening-ground-contact
+  title: 腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 量化股四头肌与小腿肚的直线对抗曲线，严守内踝高外踝低解剖铁门，建立脚掌蹬地紧扣地面的受力形变。
+  intents: &id037
+  - 如何实现腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差）
+  - 应用腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差）的角色设计与动态作画规范
+  - 排查腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差）相关的常见原画与作监反模式
+  keywords: &id038
+  - leg-mechanics
+  - ground-contact
+  - ankle-malleolus-offset
+  - double-s-curve
+  - quadriceps-tension
+  - calf-curve
+  - weight-bearing-foot
+  also_read: &id039
+  - gestural-skeleton-line-of-action
+  - extreme-foreshortening-combat
+  card: cards/leg-foreshortening-ground-contact.md
+  frontmatter:
+    title: 腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差）
+    importance: core
+    one_liner: 量化股四头肌与小腿肚的直线对抗曲线，严守内踝高外踝低解剖铁门，建立脚掌蹬地紧扣地面的受力形变。
+    requirements:
+    - 腿部外轮廓必须严格遵守“前凸后凹、外直内弧”的双 S 形曲线与直线对抗法则
+    - 踝关节必须严格体现“内踝骨位置高、外踝骨位置低”的不可逆解剖几何基准
+    antirequirements:
+    - 严禁将内外踝骨画在同一水平横线上（业余解剖事故）
+    - 严禁脚掌悬浮在透视网格上造成滑步飘浮无重力感
+    intents: *id037
+    keywords: *id038
+    sources: &id040
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 3 - Legs, Feet
+        & Ground Reaction Mechanics (P110-135)
+      excerpt: 量化股四头肌与小腿肚的直线对抗曲线，严守内踝高外踝低解剖铁门，建立脚掌蹬地紧扣地面的受力形变。
+    also_read: *id039
+  source_evidence: *id040
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.shoulder-arm-muscular-linkage
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: shoulder-arm-muscular-linkage
+  title: 锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 建立锁骨随手臂上扬的衣架力学，三角肌包裹肩关节，解构内外旋转下二头肌、三头肌与前臂旋前肌交错。
+  intents: &id041
+  - 如何实现锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错）
+  - 应用锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错）的角色设计与动态作画规范
+  - 排查锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错）相关的常见原画与作监反模式
+  keywords: &id042
+  - shoulder-linkage
+  - clavicle-hanger
+  - deltoid-clasp
+  - biceps-triceps
+  - forearm-pronator
+  - arm-rotation
+  - olecranon
+  also_read: &id043
+  - torso-box-contrapposto
+  - hand-construction-power-grip
+  card: cards/shoulder-arm-muscular-linkage.md
+  frontmatter:
+    title: 锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错）
+    importance: core
+    one_liner: 建立锁骨随手臂上扬的衣架力学，三角肌包裹肩关节，解构内外旋转下二头肌、三头肌与前臂旋前肌交错。
+    requirements:
+    - 手臂上抬时锁骨外端与肩胛骨必须严格遵循联动抬升规律（衣架力学）
+    - 三角肌必须呈倒水滴形完全扣抱在肩关节外侧，手臂旋转时二头肌与三头肌体块交错扭转
+    antirequirements:
+    - 严禁手臂高举过头时锁骨依然保持水平不动（僵尸断臂）
+    - 严禁将手臂画成圆柱面条直接插在胸壁侧面
+    intents: *id041
+    keywords: *id042
+    sources: &id044
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 3 - Arms, Shoulders
+        & Muscular Linkage (P86-105)
+      excerpt: 建立锁骨随手臂上扬的衣架力学，三角肌包裹肩关节，解构内外旋转下二头肌、三头肌与前臂旋前肌交错。
+    also_read: *id043
+  source_evidence: *id044
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema
+- capability_id: cap.hayama-character-design.torso-box-contrapposto
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: torso-box-contrapposto
+  title: 胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称）
+  importance: core
+  importance_rationale: 该能力是《羽山淳一动画角色设计与动态作画》中核心的core级别工业原画与作监设计规范。
+  one_liner: 建立胸腔与骨盆六面体箱体的三轴俯仰、侧倾与扭转对抗（Contrapposto），雕刻肋弓、腹直肌三段与腹外斜肌。
+  intents: &id045
+  - 如何实现胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称）
+  - 应用胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称）的角色设计与动态作画规范
+  - 排查胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称）相关的常见原画与作监反模式
+  keywords: &id046
+  - torso-box
+  - contrapposto
+  - thoracic-arch
+  - rectus-abdominis
+  - external-oblique
+  - pinch-and-stretch
+  - 3d-box-anatomy
+  also_read: &id047
+  - gestural-skeleton-line-of-action
+  - shoulder-arm-muscular-linkage
+  card: cards/torso-box-contrapposto.md
+  frontmatter:
+    title: 胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称）
+    importance: core
+    one_liner: 建立胸腔与骨盆六面体箱体的三轴俯仰、侧倾与扭转对抗（Contrapposto），雕刻肋弓、腹直肌三段与腹外斜肌。
+    requirements:
+    - 躯干必须建立在胸腔上梯形箱与骨盆下倒梯形箱的三维透视体块之上
+    - 必须正确应用三轴对立平衡（Contrapposto），形成一侧腰部紧缩褶皱（Pinch）与对侧舒展拉伸（Stretch）的黄金非对称性
+    antirequirements:
+    - 严禁将胸腔与骨盆画在同一平面且朝向相同（纸片人僵直）
+    - 严禁腹肌像棋盘格一样死板对称排布在无扭转的平面上
+    intents: *id045
+    keywords: *id046
+    sources: &id048
+    - source_id: hayama-anime-drawing-masterclass-2016
+      citation: Junichi Hayama Anime Drawing Masterclass - Chapter 1 - Torso Blocks
+        & Contrapposto Dynamics (P20-45)
+      excerpt: 建立胸腔与骨盆六面体箱体的三轴俯仰、侧倾与扭转对抗（Contrapposto），雕刻肋弓、腹直肌三段与腹外斜肌。
+    also_read: *id047
+  source_evidence: *id048
+  promotion:
+    source: cangjie-phase2
+    validated_by: human-and-schema

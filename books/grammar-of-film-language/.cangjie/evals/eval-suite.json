@@ -1,0 +1,98 @@
+{
+  "suite_id": "eval.grammar-of-film-language.v1",
+  "pack_slug": "grammar-of-film-language",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "case-axis-of-action-180-rule-01",
+      "prompt": "在影视分镜中，180° 动作轴线（Line of Action）是如何确立的？为什么机位无准备跳轴会导致受众空间感知崩溃？请详述四种合法的越轴手法（如移动镜头、走位等）。",
+      "should_trigger": true,
+      "expected_capability": "axis-of-action-180-rule"
+    },
+    {
+      "case_id": "case-triangle-principle-setups-01",
+      "prompt": "双人对话场景中，三角形机位系统（The Triangle Principle）的三大机位顶点（主镜头 Master 与双向反打 Reverse Shots）是如何布局的？如何确保反打的角度与景别对称？",
+      "should_trigger": true,
+      "expected_capability": "triangle-principle-setups"
+    },
+    {
+      "case_id": "case-ots-vs-clean-single-01",
+      "prompt": "过肩外反打（Over-The-Shoulder / OTS）与纯净内反打（Clean Single）在戏剧心理学上有什么本质区别？何时使用 OTS 建立空间博弈，何时切入 Clean Single 强化极致孤立与情感爆发？",
+      "should_trigger": true,
+      "expected_capability": "ots-vs-clean-single"
+    },
+    {
+      "case_id": "case-parallel-screen-dialogue-01",
+      "prompt": "当两个角色在汽车前排并排坐或在吧台并肩站立时，如何进行镜头调度？后排 Master、车门外侧交叉反打与利用后视镜反射的潜望机位该如何架设？",
+      "should_trigger": true,
+      "expected_capability": "parallel-screen-dialogue"
+    },
+    {
+      "case_id": "case-three-character-triangles-01",
+      "prompt": "在三人复杂群戏中，动作轴线是如何随着发言者的改变而在 A-B、B-C、A-C 之间动态转移的？如何运用角色转头的枢纽镜头（Pivot Shot）与外围观察者的反应镜头？",
+      "should_trigger": true,
+      "expected_capability": "three-character-triangles"
+    },
+    {
+      "case_id": "case-eyeline-match-convergence-01",
+      "prompt": "视线匹配（Eyeline Match）的几何学原理是什么？在反打镜头中，如何确保水平偏角对称、垂直仰视与俯视角度精确互补（$+\\theta$ 与 $-\\theta$），以及留出对称的视线留白（Looking Room）？",
+      "should_trigger": true,
+      "expected_capability": "eyeline-match-convergence"
+    },
+    {
+      "case_id": "case-screen-direction-continuity-01",
+      "prompt": "屏幕运动方向守恒（Screen Direction Continuity）的规则是什么？为什么必须遵循“右出画必左入画”？在追逐场景中两车追逐与两军相撞在屏幕方向上有什么根本区别？",
+      "should_trigger": true,
+      "expected_capability": "screen-direction-continuity"
+    },
+    {
+      "case_id": "case-cutting-on-action-momentum-01",
+      "prompt": "什么是动量动作剪辑（Cutting on Action）？为什么说动量是最好的剪辑隐形衣？在角色起立、开门或拔枪动作中，如何在做功最高潮的中间帧执行隐形切分？",
+      "should_trigger": true,
+      "expected_capability": "cutting-on-action-momentum"
+    },
+    {
+      "case_id": "case-pov-three-step-architecture-01",
+      "prompt": "经典主观视点镜头（POV）的三步法心理闭环（Looking -> POV Target -> Reaction）是怎样构成的？为什么缺少第三步反应特写的 POV 会丧失灵魂与情感共鸣？",
+      "should_trigger": true,
+      "expected_capability": "pov-three-step-architecture"
+    },
+    {
+      "case_id": "case-master-shot-coverage-system-01",
+      "prompt": "好莱坞主镜头覆盖体系（The Master Shot Coverage System）是如何运作的？全景主镜头、过肩中景、近景反打与插入镜头（Inserts）是如何在后期剪辑中进行时空装配的？",
+      "should_trigger": true,
+      "expected_capability": "master-shot-coverage-system"
+    },
+    {
+      "case_id": "case-actor-blocking-reposition-01",
+      "prompt": "如何通过演员的自然走位（Actor Blocking）驱动场景几何重构并自然旋转动作轴线？摄影机如何绑定跟随角色的踱步与移动，并合法重置全新的机位工作半圆？",
+      "should_trigger": true,
+      "expected_capability": "actor-blocking-camera-reposition"
+    },
+    {
+      "case_id": "case-sequence-shot-choreography-01",
+      "prompt": "一镜到底长镜头场面调度（The Sequence Shot）是如何在画框内完成动态蒙太奇的？如何在同一个不间断镜头中，通过走位与机位三维推拉摇移实现全景、中景到特写的无缝景别转换？",
+      "should_trigger": true,
+      "expected_capability": "sequence-shot-choreography"
+    },
+    {
+      "case_id": "case-distractor-cnc-threading-01",
+      "prompt": "在数控车床上使用复合螺纹切削循环 G76 加工 M30x2 外螺纹，计算斜进刀角度与每次切深吃刀量。",
+      "should_trigger": false,
+      "expected_capability": null
+    },
+    {
+      "case_id": "case-distractor-offset-printing-01",
+      "prompt": "四色胶印机印刷过程中，水墨平衡不良引发油墨乳化油脏故障的机理及润版液 pH 值与电导率控制规范是什么？",
+      "should_trigger": false,
+      "expected_capability": null
+    },
+    {
+      "case_id": "case-distractor-gastroscopy-biopsy-01",
+      "prompt": "胃镜下发现早期胃癌巴黎分型 0-IIc 型病变时，内镜粘膜下剥离术（ESD）的手术适应证与术中电凝止血操作规范是什么？",
+      "should_trigger": false,
+      "expected_capability": null
+    }
+  ]
+}

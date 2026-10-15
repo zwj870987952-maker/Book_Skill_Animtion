@@ -1,0 +1,625 @@
+schema_version: 1
+bundle_id: bundle.drawn-to-life
+book:
+  title: '生命的原画：迪士尼动画黄金20年大师讲义 (Drawn to Life: 20 Golden Years of Disney Master Classes Volume 1 & Volume 2)'
+  source_pack: books/drawn-to-life
+  edition: 1st Edition
+  authors:
+  - Walt Stanchfield
+  - Don Hahn
+  year: 2009
+entry:
+  name: drawn-to-life
+  description: 经典手绘与三维动画角色设计、动态速写、生命律动与表演艺术大师级工程手册。涵盖动词意图驱动与主导动力线姿态速写 (Gesture Drawing & Vital Force)、质量与体积绝对守恒挤压拉伸 (Squash
+    & Stretch)、坚韧直线对抗饱满外凸曲线力学跑道 (Straights Against Curves)、0.1 秒纯黑剪影测试与舞台空间视线引导 (Silhouette Clarity & Staging)、头胸盆三大刚体三轴反向倾斜对抗与对立平衡
+    (Contrapposto & Opposing Forces)、果断纯净长动力线与线条经济学 (Line Economy & Drawing Calories)、主动力先行与次级柔性附着物正弦波滞后拖尾 (Overlap & Follow-Through)、单帧浓缩过去当下未来之意图故事表演
+    (Animation Acting in a Pose)、思维先行眼神扫视跳跃与情绪顿悟眨眼节拍 (Facial Acting & Eye Direction)、环绕包裹线三维空间进深与地平面坚实重力踩踏 (Spatial Depth
+    & Ground Plane)、交响乐多声部律动与爆发性动作重音 (Rhythm & Bodily Accents)、几何基本型戏剧夸张提炼与迪士尼终极吸引力 (Simplicity, Caricature & Supreme Appeal)
+    黄金法则规范。
+  core_principles:
+  - 不要画形体是什么，要画形体在做什么（Don't draw what it is, draw what it is doing）！动作意图与生命动量永远先于局部解剖细节。
+  - 严格遵循几何质量与体积守恒：挤压（Squash）必须伴随侧向膨胀展平，拉伸（Stretch）必须伴随径向纤细收束，严禁无故增减容积。
+  - 直线对抗曲线是迪士尼力量设计的最高美学：支撑受力侧使用坚韧挺拔的直线作为视觉加速跑道，施力对抗侧使用饱满外凸的张力大弧线，彻底消灭均等对称香肠肢体。
+  - 剪影可读性是视觉传达的绝对试金石：在 0.1 秒纯黑剪影测试下动作与情绪动机必须瞬间可读，彻底消灭轮廓切线（Tangents）与肢体模糊粘连。
+  - 重力场中生命体依靠反向倾斜维持动态平衡：头、胸、盆三大刚体在三维空间中严禁平行呆滞，必须呈现多轴反向错落与空间扭矩代偿。
+  - 惯性遵循多级滞后链条：主动力核心（盆骨与重心中轴）先行，次级柔性附着物（毛发、披风、松弛肌肉）沿正弦波阻尼滞后拖尾并在停顿刹车时产生超量鞭打过冲。
+  - 极简是真理的终极凝练，夸张是本质的戏剧放大：消除所有消耗视觉卡路里的杂乱线条，提炼角色的深层性格特质放大 150%-200%，构筑跨越时代的终极吸引力（Appeal）。
+  out_of_scope:
+  - 非生物刚体工业机床齿轮啮合机械制图
+  - 静态死板写实医学人体标本防腐解剖测绘
+  - 纯抽象数学分形几何无重力无质量图形渲染
+  stop_conditions:
+  - 用户仅咨询工业齿轮制图或法医解剖标本防腐，不涉及动画、动态速写、角色设计、表演与运动规律时判停
+  - 已输出明确的主导动力线规范、挤压拉伸容积公式、直曲对抗结构、剪影排查指标、多级重叠延迟时序或迪士尼表演夸张方案时判停
+router_entry:
+  name: drawn-to-life
+  description: 迪士尼动画大师讲义与生命动态速写工程手册。提供动词意图姿态速写、体积守恒挤压拉伸、直线对抗曲线跑道、0.1秒纯黑剪影测试、三大体块反向倾斜对抗、线条经济学、多级重叠拖尾跟随、角色心理故事姿态、眼神扫视先行内心戏、三维空间地平面踩踏、多声部交响动作重音与极简明晰迪士尼终极吸引力工程支持。
+promotion_budget: 8
+capabilities:
+- capability_id: cap.drawn-to-life.gesture-drawing-vital-force
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: gesture-drawing-vital-force
+  title: 姿态速写与生命力捕捉
+  importance: critical
+  importance_rationale: 动画速写与表演的原点，打破解剖死尸图，以动词意图 (Doing) 一笔抓取全身主导动力线与动量
+  one_liner: 以动词意图优先于解剖细节，笔尖不离纸面划出贯通全身的单一主导动力线与三大体块反向倾斜
+  intents:
+  - 在动画速写与原画设计中捕捉角色的核心动作意图与情感动机
+  - 提炼贯穿全身的第一笔主导动力线 (The Driving Line of Action)
+  - 排查从眼睛局部细碎抠图导致全身动作僵死散架的画法缺陷
+  keywords:
+  - 姿态速写
+  - Gesture Drawing
+  - 生命力
+  - Vital Force
+  - 主导动力线
+  - Line of Action
+  - 意图动词
+  - The Doing
+  also_read:
+  - opposing-forces-contrapposto-twist
+  - acting-performance-story-pose
+  card: cards/gesture-drawing-vital-force.md
+  frontmatter:
+    description: 以动作意图为灵魂、一笔抓取角色正在进行的动能与情感动量的速写规程。不适用于静态机械装配工程图。
+    tags:
+    - animation
+    - gesture
+    - vital-force
+    - drawing
+    - life-drawing
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 1 & Section 12; Volume 2, Chapter 1
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.squash-stretch-volume-weight
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: squash-stretch-volume-weight
+  title: 挤压拉伸与恒定容积重力感
+  importance: critical
+  importance_rationale: 迪士尼动画十二黄金法则之首，在弹性形变中注入生物肌肉组织柔韧性与绝对质量体积守恒
+  one_liner: 在重力冲撞与蓄力中展现极端挤压拉伸形变，严格遵循几何体积守恒公式与半流体软组织动力学
+  intents:
+  - 表现角色落地冲击、起跳蓄力与受撞击时的弹性容积变形
+  - 保持角色在三维空间中挤压拉伸时的绝对体积与质量守恒
+  - 排查拉伸时形体吹气球般膨胀或压缩时萎缩的容积失真病灶
+  keywords:
+  - 挤压拉伸
+  - Squash and Stretch
+  - 恒定容积
+  - Constant Volume
+  - 重量感
+  - Weight
+  - 重力下沉
+  - 弹性形变
+  also_read:
+  - opposing-forces-contrapposto-twist
+  - rhythm-accents-animation-timing
+  card: cards/squash-stretch-volume-weight.md
+  frontmatter:
+    description: 在重力做功与动能释放中体现生物组织的弹性形变，同时保持绝对体积守恒。不适用于绝对刚性金属零件冲压。
+    tags:
+    - animation
+    - squash-and-stretch
+    - volume
+    - weight
+    - dynamics
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 3 & Section 18; Volume 2, Chapter 4
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.straights-against-curves-design
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: straights-against-curves-design
+  title: 直线对抗曲线与张力跑道设计
+  importance: critical
+  importance_rationale: 迪士尼造型设计核心美学与视觉力学，杜绝均等对称香肠手香肠腿，构筑刚柔并济的力量跑道
+  one_liner: 支撑受拉侧使用坚韧挺拔直线作为视觉加速跑道，对抗肌肉蓄力侧的饱满外凸张力弧线
+  intents:
+  - 在角色人体四肢与躯干造型中构建直线对抗曲线的张力结构
+  - 利用笔直支撑线作为视觉引导跑道快速引导观者视线至动作核心
+  - 排查肢体两侧均为对称膨胀弧线导致的米其林轮胎人/香肠肢体病
+  keywords:
+  - 直线对抗曲线
+  - Straights Against Curves
+  - 张力跑道
+  - Design
+  - 非对称
+  - Asymmetry
+  - 支撑受力
+  - 力量流动
+  also_read:
+  - gesture-drawing-vital-force
+  - silhouette-clarity-staging
+  card: cards/straights-against-curves-design.md
+  frontmatter:
+    description: 在肢体与躯干设计中运用直线对抗曲线构建结构张力与视觉引导通道。不适用于无骨骼等轴球体水滴模拟。
+    tags:
+    - animation
+    - design
+    - straights-against-curves
+    - aesthetics
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 5 & Section 27; Volume 2, Chapter 6
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.silhouette-clarity-staging
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: silhouette-clarity-staging
+  title: 剪影清晰度与舞台视线引导
+  importance: critical
+  importance_rationale: 银幕视网膜神经瞬间识别门槛，纯黑剪影 0.1 秒故事可读性与消除切线空间粘连
+  one_liner: 以 0.1 秒纯黑剪影测试检验动作叙事瞬间可读性，消灭共线切线并拉开肢体几何负空间
+  intents:
+  - 检验动画关键原画姿态在纯黑剪影状态下的瞬间故事叙事可读性
+  - 消除轮廓线共线、相切与模糊交叠引发的深度错觉与切线 (Tangents)
+  - 在银幕舞台空间中布局视觉焦点与肢体负空间三角形引导视线
+  keywords:
+  - 剪影清晰度
+  - Silhouette
+  - 舞台调度
+  - Staging
+  - 切线排查
+  - Tangents
+  - 负空间
+  - Negative Space
+  - 瞬间可读性
+  also_read:
+  - acting-performance-story-pose
+  - straights-against-curves-design
+  card: cards/silhouette-clarity-staging.md
+  frontmatter:
+    description: 利用高对比度纯黑剪影与几何负空间测试检验舞台调度与瞬间叙事清晰度。不适用于纯环境氛围宏观全景散点透视。
+    tags:
+    - animation
+    - silhouette
+    - staging
+    - clarity
+    - composition
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 8 & Section 34; Volume 2, Chapter 8
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.opposing-forces-contrapposto-twist
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: opposing-forces-contrapposto-twist
+  title: 对抗力、躯干扭转与动态平衡
+  importance: critical
+  importance_rationale: 重力场中生命体稳定站立与发力的三维力学基石，三大刚体反向倾斜与脊椎空间螺旋扭矩
+  one_liner: 头胸盆三大体块三维空间三轴反向倾斜对抗，单脚承重骨盆上倾与胸腔代偿构筑动态平衡
+  intents:
+  - 构建角色在三维空间中的对立平衡站姿 (Contrapposto) 与脊柱扭转
+  - 布局头部、胸廓与骨盆在倾斜角与朝向上的三轴相互抵消代偿
+  - 排查三大体块朝向完全平行导致的角色呆板僵硬塑料玩偶病
+  keywords:
+  - 对抗力
+  - Opposing Forces
+  - 对立平衡
+  - Contrapposto
+  - 躯干扭转
+  - Body Twist
+  - 三大体块
+  - 动态平衡
+  also_read:
+  - gesture-drawing-vital-force
+  - squash-stretch-volume-weight
+  card: cards/opposing-forces-contrapposto-twist.md
+  frontmatter:
+    description: 头胸盆三大刚性体块在空间中的多轴反向倾斜与扭矩对抗机制。不适用于无脊椎完全流体软泥怪物变形。
+    tags:
+    - animation
+    - contrapposto
+    - balance
+    - twist
+    - mechanics
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 10 & Section 22; Volume 2, Chapter 3
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.line-economy-drawing-calories
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: line-economy-drawing-calories
+  title: 线条经济学与绘画卡路里法则
+  importance: high
+  importance_rationale: 动画工业级生产与艺术纯度的黄金平衡，极简纯净长弧线消灭犹豫碎线与视觉卡路里消耗
+  one_liner: 以最少线条承载最丰富解剖与动作信息，用大臂带动画笔消灭鸡啄米式犹豫碎线与装饰性阴影
+  intents:
+  - 执行线条极简化纯度提炼，降低动画绘制与上色环节的视觉干扰与计算卡路里
+  - 消除犹豫试探性细碎排线 (Chicken Scratching) 并确立果断自信的长动力弧线
+  - 在原画设计中去除无结构意义的琐碎皱褶，突出大体块骨骼支撑与受力走向
+  keywords:
+  - 线条经济学
+  - Line Economy
+  - 绘画卡路里
+  - Drawing Calories
+  - 极简明晰
+  - 果断长线
+  - 结构支撑
+  also_read:
+  - gesture-drawing-vital-force
+  - simplicity-caricature-appeal
+  card: cards/line-economy-drawing-calories.md
+  frontmatter:
+    description: 以极致纯净的线条数量承载最大动力学与解剖信息的绘制规程。不适用于古典铜版画密集网状交叉排线雕版。
+    tags:
+    - animation
+    - line-economy
+    - drawing
+    - clarity
+    - efficiency
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 14 & Section 40; Volume 2, Chapter 9
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.overlap-follow-through-drag
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: overlap-follow-through-drag
+  title: 动作重叠、跟随惯性与柔性拖尾
+  importance: critical
+  importance_rationale: 打破机械木偶式同步运动，重物主动力源先动、末端柔性附着物参差滞后的有机物理波浪
+  one_liner: 主动力核心先行，次级柔性附着物沿正弦波路径延迟滞后拖尾并在刹车时产生鞭打过冲回弹
+  intents:
+  - 编排角色头发、披风、尾巴、松弛衣物等次级附属物的波浪滞后动画
+  - 处理躯干停止位移时末端四肢与软组织的惯性跟随 (Follow-Through) 与过冲超量
+  - 排查全身体块同帧启动、同帧制动导致的机械僵直机器人运动缺陷
+  keywords:
+  - 动作重叠
+  - Overlapping Action
+  - 跟随惯性
+  - Follow-Through
+  - 柔性拖尾
+  - Drag
+  - 次级运动
+  - 鞭打效应
+  also_read:
+  - rhythm-accents-animation-timing
+  - squash-stretch-volume-weight
+  card: cards/overlap-follow-through-drag.md
+  frontmatter:
+    description: 重力与惯性在多级串联关节与柔性附着物上的多级参差延迟与阻尼回弹动力学。不适用于完全绝对刚体无延迟平移。
+    tags:
+    - animation
+    - overlapping-action
+    - follow-through
+    - drag
+    - physics
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 7 & Section 31; Volume 2, Chapter 5
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.acting-performance-story-pose
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: acting-performance-story-pose
+  title: 动画表演、角色心理与意图姿态
+  importance: critical
+  importance_rationale: 赋予画作叙事深度与生命灵魂，单帧关键原画蕴含角色的过去动机、当下挣扎与未来意图
+  one_liner: 以角色潜台词与深层心理欲望驱动全身姿态，在单帧标志性姿态中浓缩过去、现在与未来叙事
+  intents:
+  - 在动画原画姿态设计中注入深层心理欲望、生理重压与戏剧冲突
+  - 设计传达角色特定性格、社会身份与情绪阶段的黄金故事姿态 (Story Pose)
+  - 排查空洞摆拍无戏剧动机导致的无灵魂模特塑料人体病灶
+  keywords:
+  - 动画表演
+  - Acting
+  - 故事姿态
+  - Story Pose
+  - 心理动机
+  - Subtext
+  - 潜台词
+  - 戏剧性
+  also_read:
+  - gesture-drawing-vital-force
+  - facial-acting-eye-expression
+  card: cards/acting-performance-story-pose.md
+  frontmatter:
+    description: 以角色心理动机驱动外在身体姿态、在单帧原画中注入故事潜台词的表演工程。不适用于纯机械物理无意识碰撞。
+    tags:
+    - animation
+    - acting
+    - performance
+    - storytelling
+    - character
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 15 & Section 44; Volume 2, Chapter 7
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.facial-acting-eye-expression
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: facial-acting-eye-expression
+  title: 面部呼吸、眼神视线与内心戏传达
+  importance: high
+  importance_rationale: 心灵之窗与神经中枢外化，思维先于动作的眼神扫视先行、眨眼情绪顿悟与面部五官呼吸感
+  one_liner: 以思维电位驱动眼神视线提前 2-4 帧跳跃扫视，配合非对称眨眼与口轮眼轮匝肌有机呼吸张力
+  intents:
+  - 设计角色思维转变、顿悟与情绪爆发时的眼神视线先行与眨眼节拍
+  - 调校面部眉弓、眼轮匝肌与嘴角的非对称微表情与情绪呼吸感
+  - 排查双眼死死盯着目标毫无扫视与眨眼的“僵尸死鱼眼呆滞病”
+  keywords:
+  - 面部表演
+  - Facial Acting
+  - 眼神视线
+  - Eye Direction
+  - 扫视先行
+  - Saccade
+  - 眨眼节拍
+  - 内心戏
+  also_read:
+  - acting-performance-story-pose
+  - rhythm-accents-animation-timing
+  card: cards/facial-acting-eye-expression.md
+  frontmatter:
+    description: 眼神视线扫视先行、情绪顿悟眨眼节拍与面部五官有机呼吸联动的内心戏传达。不适用于无眼球无表情面具人。
+    tags:
+    - animation
+    - facial-acting
+    - eyes
+    - expression
+    - acting
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 20 & Section 48; Volume 2, Chapter 10
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.perspective-spatial-depth-environment
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: perspective-spatial-depth-environment
+  title: 空间进深、透视力学与角色环境互动
+  importance: high
+  importance_rationale: 将纸面二维平涂转换为深邃三维现实，地平面坚实物理踩踏、透视环绕包裹线与道具重量传递
+  one_liner: 以环绕包裹截面线确立三维体块空间进深，角色脚底重重压入地平面并与环境道具产生真实重量反作用
+  intents:
+  - 构建角色在三维透视网格中的前后进深重叠与环绕包裹厚度 (Cross-Contour)
+  - 表现角色双足与地面、身体与桌椅道具之间的受力压缩与真实重力踩踏
+  - 排查角色双脚浮在虚空无踩踏受力感导致的“太空漫步漂浮病”
+  keywords:
+  - 空间进深
+  - Depth
+  - 透视力学
+  - Perspective
+  - 地平面
+  - Ground Plane
+  - 环绕包裹线
+  - 环境互动
+  also_read:
+  - squash-stretch-volume-weight
+  - opposing-forces-contrapposto-twist
+  card: cards/perspective-spatial-depth-environment.md
+  frontmatter:
+    description: 环绕包裹线建立空间体积厚度，角色双足与地平面及环境道具产生物理接触与反作用力。不适用于零重力虚空漂浮场景。
+    tags:
+    - animation
+    - perspective
+    - spatial-depth
+    - ground-plane
+    - environment
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 11 & Section 38; Volume 2, Chapter 11
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.rhythm-accents-animation-timing
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: rhythm-accents-animation-timing
+  title: 动画韵律、身体动作重音与节拍律动
+  importance: critical
+  importance_rationale: 生命脉搏的音乐性外化，打破节拍器均速运动，以多声部交响律动与爆发重音编排动作节拍
+  one_liner: 摒弃均速节拍器死板运动，编排极慢蓄力与极速撕裂的爆发重音，多声部肢体参差律动注入呼吸停顿
+  intents:
+  - 编排具有交响乐般轻重缓急的动作节拍，分配爆发性动作重音 (Melodic Accent)
+  - 构建极慢蓄力与闪电爆发的速度极端反差，杜绝线性匀速缓动 (Linear Ease)
+  - 在动作段落中注入富有弹性的生命呼吸停顿 (The Living Hold) 与参差滞后
+  keywords:
+  - 动画韵律
+  - Rhythm
+  - 动作重音
+  - Bodily Accents
+  - 节拍律动
+  - Timing
+  - 速度反差
+  - 生命脉搏
+  also_read:
+  - overlap-follow-through-drag
+  - squash-stretch-volume-weight
+  card: cards/rhythm-accents-animation-timing.md
+  frontmatter:
+    description: 动作轻重缓急、爆发重音与多声部肢体参差律动的动画时间掌握与节奏编排。不适用于机械匀速传送带运转。
+    tags:
+    - animation
+    - timing
+    - rhythm
+    - accents
+    - musicality
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 16 & Section 50; Volume 2, Chapter 2 & Chapter 12
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由
+- capability_id: cap.drawn-to-life.simplicity-caricature-appeal
+  revision: 1
+  status: active
+  aliases: []
+  supersedes: []
+  merged_into: null
+  split_into: []
+  slug: simplicity-caricature-appeal
+  title: 极简明晰、戏剧夸张与迪士尼终极吸引力
+  importance: critical
+  importance_rationale: 迪士尼动画艺术皇冠上的明珠，极简提炼真理本质，主观戏剧夸张放大灵魂特质，构筑跨越时代的终极魅力
+  one_liner: 提炼角色性格核心特质并主观放大 150%-200%，以极简几何大形态与优雅大弧线构建无与伦比的视觉吸引力
+  intents:
+  - 提炼角色精神与生理核心形容词，并用极端化的几何基本型进行戏剧性夸张重组
+  - 消除一切无关叙事的装饰性细碎线条与杂质，实现 0.1 秒纯粹明晰的视觉传达
+  - 在角色外轮廓中注入大中小黄金比例与优雅大弧线，赋予其令人过目不忘的迷人吸引力 (Appeal)
+  keywords:
+  - 极简明晰
+  - Simplicity
+  - 戏剧夸张
+  - Caricature
+  - 终极吸引力
+  - Appeal
+  - 本质放大
+  - 迪士尼黄金法则
+  also_read:
+  - line-economy-drawing-calories
+  - silhouette-clarity-staging
+  card: cards/simplicity-caricature-appeal.md
+  frontmatter:
+    description: 对生命本质特征的主观提炼与戏剧性美学放大，赋予角色跨越时代的迪士尼至高吸引力。不适用于纯写实法医学人脸复原。
+    tags:
+    - animation
+    - appeal
+    - caricature
+    - simplicity
+    - disney-principles
+  source_evidence:
+  - source_id: src-main-book
+    location: Volume 1, Section 2 & Section 52; Volume 2, Chapter 13 & Chapter 14
+  promotion:
+    destination: router
+    gate:
+      independent_intent: false
+      independent_contract: true
+      independent_run: true
+      independent_reuse: false
+      independent_eval: true
+    notes: Single 模式下归入主入口统一路由

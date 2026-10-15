@@ -1,0 +1,393 @@
+{
+  "version": "1.0.0",
+  "suite_id": "hayama-character-design-eval-suite",
+  "book_id": "hayama-anime-drawing-masterclass",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "eval-block-hair-airflow-dynamics-trigger-1",
+      "description": "Trigger eval for 体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.block-hair-airflow-dynamics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "block-hair",
+          "hair-chunks",
+          "hair-crown-vortex"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-block-hair-airflow-dynamics-trigger-2",
+      "description": "Trigger eval for 体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查体块化头发分组与受风飞扬动力学（三棱柱发块与发旋锚点）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.block-hair-airflow-dynamics"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "hair-chunks",
+          "hair-crown-vortex",
+          "airflow-dynamics"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-cranial-crosshair-3d-rotation-trigger-1",
+      "description": "Trigger eval for 头部十字基准线与球面多角度三维旋转体系 via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现头部十字基准线与球面多角度三维旋转体系，有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.cranial-crosshair-3d-rotation"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "cranial-crosshair",
+          "3d-rotation",
+          "spherical-perspective"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-cranial-crosshair-3d-rotation-trigger-2",
+      "description": "Trigger eval for 头部十字基准线与球面多角度三维旋转体系 via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查头部十字基准线与球面多角度三维旋转体系相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.cranial-crosshair-3d-rotation"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "3d-rotation",
+          "spherical-perspective",
+          "low-angle-head"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-drapery-folds-costume-wind-trigger-1",
+      "description": "Trigger eval for 服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.drapery-folds-costume-wind"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "drapery-folds",
+          "costume-dynamics",
+          "wind-flow"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-drapery-folds-costume-wind-trigger-2",
+      "description": "Trigger eval for 服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查服装布褶动力学与斗篷风力流线（拉伸辐射褶与破风气流）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.drapery-folds-costume-wind"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "costume-dynamics",
+          "wind-flow",
+          "tension-folds"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-dynamic-silhouette-readability-trigger-1",
+      "description": "Trigger eval for 纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.dynamic-silhouette-readability"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "silhouette-readability",
+          "negative-space-windows",
+          "silhouette-test"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-dynamic-silhouette-readability-trigger-2",
+      "description": "Trigger eval for 纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查纯黑剪影瞬间可读性与负空间力场（0.2秒姿态自明性）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.dynamic-silhouette-readability"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "negative-space-windows",
+          "silhouette-test",
+          "staging-clarity"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-extreme-foreshortening-combat-trigger-1",
+      "description": "Trigger eval for 格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.extreme-foreshortening-combat"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "extreme-foreshortening",
+          "combat-action",
+          "t-joint-overlap"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-extreme-foreshortening-combat-trigger-2",
+      "description": "Trigger eval for 格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查格斗出拳与飞踢的极限透视短缩法（尺度暴涨与 T-Joint 重叠）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.extreme-foreshortening-combat"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "combat-action",
+          "t-joint-overlap",
+          "scale-explosion"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-gestural-skeleton-line-of-action-trigger-1",
+      "description": "Trigger eval for 脊椎动作主线与动态骨架极速提炼系统 via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现脊椎动作主线与动态骨架极速提炼系统，有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.gestural-skeleton-line-of-action"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "line-of-action",
+          "gestural-skeleton",
+          "gesture-drawing"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-gestural-skeleton-line-of-action-trigger-2",
+      "description": "Trigger eval for 脊椎动作主线与动态骨架极速提炼系统 via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查脊椎动作主线与动态骨架极速提炼系统相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.gestural-skeleton-line-of-action"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "gestural-skeleton",
+          "gesture-drawing",
+          "center-of-gravity"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-hand-construction-power-grip-trigger-1",
+      "description": "Trigger eval for 手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.hand-construction-power-grip"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "hand-construction",
+          "power-grip",
+          "metacarpal-arch"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-hand-construction-power-grip-trigger-2",
+      "description": "Trigger eval for 手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查手部体块几何构建与力量感抓握手势（掌骨拱门与指关节阶梯）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.hand-construction-power-grip"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "power-grip",
+          "metacarpal-arch",
+          "knuckle-staircase"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-heroic-facial-expressions-shadow-trigger-1",
+      "description": "Trigger eval for 热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.heroic-facial-expressions-shadow"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "heroic-facial-expressions",
+          "action-hatching",
+          "black-eye-socket"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-heroic-facial-expressions-shadow-trigger-2",
+      "description": "Trigger eval for 热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查热血角色面部表情与硬派影线分面雕刻（怒吼、决意与 45° 影线）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.heroic-facial-expressions-shadow"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "action-hatching",
+          "black-eye-socket",
+          "roar-expression"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-keyframe-layout-supervision-trigger-1",
+      "description": "Trigger eval for 作画监督级原画修正与中割保形规范（线条重量感与运动圆弧） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现作画监督级原画修正与中割保形规范（线条重量感与运动圆弧），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.keyframe-layout-supervision"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "keyframe-supervision",
+          "animation-director-correction",
+          "line-weight"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-keyframe-layout-supervision-trigger-2",
+      "description": "Trigger eval for 作画监督级原画修正与中割保形规范（线条重量感与运动圆弧） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查作画监督级原画修正与中割保形规范（线条重量感与运动圆弧）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.keyframe-layout-supervision"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "animation-director-correction",
+          "line-weight",
+          "in-betweening-guidelines"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-leg-foreshortening-ground-contact-trigger-1",
+      "description": "Trigger eval for 腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.leg-foreshortening-ground-contact"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "leg-mechanics",
+          "ground-contact",
+          "ankle-malleolus-offset"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-leg-foreshortening-ground-contact-trigger-2",
+      "description": "Trigger eval for 腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查腿部透视短缩与脚掌重力抓地力学（双S曲线与内外踝高低差）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.leg-foreshortening-ground-contact"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "ground-contact",
+          "ankle-malleolus-offset",
+          "double-s-curve"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-shoulder-arm-muscular-linkage-trigger-1",
+      "description": "Trigger eval for 锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.shoulder-arm-muscular-linkage"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "shoulder-linkage",
+          "clavicle-hanger",
+          "deltoid-clasp"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-shoulder-arm-muscular-linkage-trigger-2",
+      "description": "Trigger eval for 锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查锁骨、三角肌与手臂肌群旋转联动（衣架力学与体块交错）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.shoulder-arm-muscular-linkage"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "clavicle-hanger",
+          "deltoid-clasp",
+          "biceps-triceps"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-torso-box-contrapposto-trigger-1",
+      "description": "Trigger eval for 胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称） via primary intent",
+      "prompt": "在动画角色设计或原画动态绘制中，如何实现胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称），有哪些关键作画规范与解剖体块法则？",
+      "expected_triggers": [
+        "cap.hayama-character-design.torso-box-contrapposto"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "torso-box",
+          "contrapposto",
+          "thoracic-arch"
+        ]
+      }
+    },
+    {
+      "case_id": "eval-torso-box-contrapposto-trigger-2",
+      "description": "Trigger eval for 胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称） via diagnostic query",
+      "prompt": "原画绘制或作画监督修形时遇到了相关问题：排查胸腔箱与骨盆箱的扭转对抗立体雕刻（三轴对抗与黄金非对称）相关的常见原画与作监反模式，如何根据羽山淳一的工业标准进行纠偏排障？",
+      "expected_triggers": [
+        "cap.hayama-character-design.torso-box-contrapposto"
+      ],
+      "forbidden_triggers": [],
+      "context": {
+        "keywords": [
+          "contrapposto",
+          "thoracic-arch",
+          "rectus-abdominis"
+        ]
+      }
+    }
+  ]
+}

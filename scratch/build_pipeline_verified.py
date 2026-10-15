@@ -1,0 +1,284 @@
+# -*- coding: utf-8 -*-
+import yaml
+import os
+
+capabilities_raw = [
+    {
+        "slug": "pencil-to-pixel-digital-pipeline",
+        "title": "从传统手绘逐帧到无纸数字动画全流程（铅笔到像素管线模型与阶段交接）",
+        "one_liner": "托尼·怀特无纸数字动画管线模型、从动态台本至最终渲染生产全周期与交接契约。",
+        "keywords": ["pencil-to-pixel", "digital-pipeline", "paperless-animation", "animatic-lock", "cleanup-inking", "compositing"],
+        "also_read": ["digital-cleanup-inking-and-color-styling", "shot-builder-and-scene-layout-assembly"],
+        "requirements": [
+            "严格遵循前期概念→动态台本Animatic→Layout→原画→修型清线→数字上色→合成全生命周期",
+            "执行动态故事板签字锁定制度，严禁未锁定镜头帧数盲目开启原画制作",
+            "建立跨工段规范交接契约与全流程版本控制机制"
+        ],
+        "antirequirements": [
+            "严禁在镜头帧数尚未锁定的情况下盲目绘制精细原画造成海量返工作废",
+            "严禁各工段缺乏调色板资产约束导致角色色彩在不同镜头中严重跳跃"
+        ]
+    },
+    {
+        "slug": "maya-mel-and-python-scripting",
+        "title": "Maya动画师自动化脚本编程与管线工具开发（MEL/mayapy批处理与Undo保护）",
+        "one_liner": "MEL/mayapy自动化脚本开发、命名空间安全隔离、原子撤销块Undo Chunk与动画曲线批处理。",
+        "keywords": ["maya-scripting", "mel-python", "mayapy", "undo-chunk", "anim-curves", "pipeline-tools"],
+        "also_read": ["rigging-interfacing-and-animation-caching", "pipeline-troubleshooting-and-asset-audit"],
+        "requirements": [
+            "脚本编写必须遵循命名空间安全原则（Namespace Safety），动态解析节点或获取完整DAG路径",
+            "批处理工具首尾必须使用try...finally严格包裹undoInfo -openChunk与-closeChunk保证原子回滚",
+            "熟练使用keyframe与copyKey/pasteKey脚本化批量操作动画曲线与切线类型"
+        ],
+        "antirequirements": [
+            "严禁在脚本中硬编码裸节点名导致多角色场景节点重名冲突报错",
+            "严禁批量操作脚本缺少Undo Chunk导致Ctrl+Z回滚失败污染整个生产场景"
+        ]
+    },
+    {
+        "slug": "perspective-geometry-and-focal-grids",
+        "title": "透视学几何法则与空间网格系统（1/2/3点透视与鱼眼极坐标曲面网格）",
+        "one_liner": "视平线与心点绝对基准、一点/两点/三点透视几何构造、斜面椭圆短轴律与鱼眼球极曲面透视。",
+        "keywords": ["perspective-geometry", "horizon-line", "vanishing-point", "two-point-perspective", "three-point-perspective", "fisheye-grid"],
+        "also_read": ["shot-builder-and-scene-layout-assembly", "human-locomotion-kinesiology"],
+        "requirements": [
+            "全场景共享绝对唯一的视平线高度基准，严格对齐虚拟摄影机物理高度",
+            "两点透视中左右灭点与视点夹角在空间几何中严格保持90度正交直角",
+            "三点透视根据视点高低精确配置垂直灭点（虫视天顶 vs 鸟瞰地底），椭圆短轴与回转主轴共线"
+        ],
+        "antirequirements": [
+            "严禁同一镜头内背景与角色的视平线相互游离漂移导致物理空间崩塌",
+            "严禁在两点透视中将左右两灭点画在画框内过近距离引发严重广角畸变"
+        ]
+    },
+    {
+        "slug": "human-locomotion-kinesiology",
+        "title": "艺用人体结构运动学与骨骼关节力矩（脊柱三轴运动、骨盆胸腔对抗与平衡）",
+        "one_liner": "骨盆与胸腔反向扭转倾斜（Contrapposto）、重心理学与支撑面动态失衡、关节旋转极限。",
+        "keywords": ["kinesiology", "opposing-torso", "contrapposto", "center-of-gravity", "base-of-support", "joint-limits"],
+        "also_read": ["dynamic-posing-and-pose-to-pose-staging", "pose-library-and-gesture-atlas"],
+        "requirements": [
+            "躯干运动严格遵循骨盆与胸腔的反向扭转与对立倾斜（Contrapposto），消灭机器人平移",
+            "重力垂直投影线与双脚支撑面多边形严格保持力学平衡与动态位移协调",
+            "严格遵守球窝关节与单向铰链关节的生理旋转极限，杜绝反关节骨折穿模"
+        ],
+        "antirequirements": [
+            "严禁胸腔与骨盆无相位差完全同步平行移动的僵死机器人躯干（Robot Torso）",
+            "严禁单腿站立时身体不向支撑脚横移导致重心投影悬空假摔"
+        ]
+    },
+    {
+        "slug": "dynamic-posing-and-pose-to-pose-staging",
+        "title": "关键姿态设计与Pose-to-Pose阶段化工作流（单一动势线与黄金剪影瞬时可读性）",
+        "one_liner": "单一连贯C/S型动势线（Line of Action）、纯黑剪影瞬时可读性、负空间与Keys/Breakdowns阶段化。",
+        "keywords": ["line-of-action", "silhouette-test", "negative-space", "pose-to-pose", "key-poses", "breakdowns"],
+        "also_read": ["human-locomotion-kinesiology", "pose-library-and-gesture-atlas"],
+        "requirements": [
+            "关键姿态必须由贯穿脚踝、脊柱直到头顶指尖的单一平滑C弧或S弧动势线统领",
+            "通过纯黑剪影测试（The Silhouette Test），核心关节与道具从躯干推开保留清晰负空间",
+            "严格恪守Keys（极致关键帧）→ Breakdowns（分解中继帧）→ Inbetweens（加中间画）阶段化流水线"
+        ],
+        "antirequirements": [
+            "严禁动势线出现锯齿状打折与多重相互抵消的破碎乱向线条",
+            "严禁手臂紧贴胸口、双腿并拢导致涂黑后变成毫无可读性的肉块剪影"
+        ]
+    },
+    {
+        "slug": "pose-library-and-gesture-atlas",
+        "title": "1584/6000例人体极限姿态速写索引图谱（强动力冲刺、腾跃受挫与重心理学）",
+        "one_liner": "《1584个姿势》与《人体动态6000例》极端动态图谱、冲刺前倾、空中滞空与受击反弹力矩。",
+        "keywords": ["gesture-atlas", "sprinters", "aerial-suspension", "impact-knockback", "extreme-poses", "weight-mechanics"],
+        "also_read": ["dynamic-posing-and-pose-to-pose-staging", "human-locomotion-kinesiology"],
+        "requirements": [
+            "冲刺起步姿态躯干前倾与地面夹角达到30-45度，后蹬腿完全伸直锁定爆发动力",
+            "高空跳跃与腾跃顶点精准呈现速度归零的无重力滞空姿态与衣物惯性翻飞",
+            "受挫打击姿态凹陷受力点与头部肢体滞后反弹力矩严密契合动量守恒"
+        ],
+        "antirequirements": [
+            "严禁角色跑步冲刺时上半身呈90度笔直垂直地面的“铅笔人奔跑（Pencil Sprint）”",
+            "严禁高空落地接触帧缺少深度弯曲挤压缓冲（Squash）导致骨骼碎裂感"
+        ]
+    },
+    {
+        "slug": "digital-cleanup-inking-and-color-styling",
+        "title": "数字动画修型清稿与色彩上色工艺（无纸矢量清理、闭合断线检测与调色板）",
+        "one_liner": "无纸矢量清线修型规范、绝对闭合断线检测、动态线条压感收尖与色盘阴影分层。",
+        "keywords": ["digital-cleanup", "vector-inking", "line-taper", "color-styling", "gap-closing", "shadow-pass"],
+        "also_read": ["pencil-to-pixel-digital-pipeline", "shot-builder-and-scene-layout-assembly"],
+        "requirements": [
+            "草图线条提炼为单一纯净且绝对闭合的矢量轮廓线，外粗内细且末端自然收尖（Taper）",
+            "执行严格的闭合断线审计与自动缝隙闭合设置，杜绝油漆桶漏色泛滥全屏",
+            "建立全局只读的色盘资产矩阵，阴影层独立分离为带环境色相偏移的正片叠底层"
+        ],
+        "antirequirements": [
+            "严禁描线留有微小未闭合断点引发数字上色漏色事故",
+            "严禁使用简单纯黑色50%透明度充当阴影导致画面色彩发灰变脏"
+        ]
+    },
+    {
+        "slug": "shot-builder-and-scene-layout-assembly",
+        "title": "镜头搭建工程与场景空间布局集成（Pro Shot Builder、摄像机视差与资产对齐）",
+        "one_liner": "三维镜头搭建工程管线、资产只读引用Reference、摄像机参数加锁与前景中景背景视差对齐。",
+        "keywords": ["shot-builder", "scene-assembly", "asset-referencing", "camera-lock", "parallax-staging", "ground-collision"],
+        "also_read": ["perspective-geometry-and-focal-grids", "rigging-interfacing-and-animation-caching"],
+        "requirements": [
+            "所有资产必须以只读引用（Reference）模式载入并分配隔离命名空间，严禁直接Import",
+            "导入审批通过的Layout摄像机后严格锁定焦距、画幅宽高比与近远裁切面",
+            "明确拆分前景、中景行动区与远景背景，严格校验摄像机运动时的三维视差（Parallax）"
+        ],
+        "antirequirements": [
+            "严禁直接Import静态资产导致场景文件急剧膨胀且无法同步上游更新",
+            "严禁角色在未对齐地面网格的虚空中制作动画导致镜头装配时出现深陷与滑步"
+        ]
+    },
+    {
+        "slug": "world-animation-history-and-stylistic-paradigms",
+        "title": "世界动画史流派演化与美学范式（古典全动画 vs 日本有限动画与CG数字革命）",
+        "one_liner": "好莱坞古典全动画一拍一/二、日本战后一拍三有限动画革命、欧洲作者定格与索尼/皮克斯跨媒介CG混血范式。",
+        "keywords": ["animation-history", "full-animation", "limited-animation", "mushi-pro", "cg-revolution", "stylistic-paradigms"],
+        "also_read": ["pencil-to-pixel-digital-pipeline", "syntopic-reading-and-knowledge-engineering"],
+        "requirements": [
+            "深刻理解古典全动画（Full Animation）的体积守恒与一拍一/二高密度写实表演",
+            "掌握日本有限动画（Limited Animation）的一拍三抽帧、口型抽离与镜头电影化调度精髓",
+            "把握现代三维CG革命与索尼《平行宇宙》2D/3D跨媒介混血风格化范式"
+        ],
+        "antirequirements": [
+            "严禁在低预算有限动画项目中盲目死磕高成本全动画导致制作周期崩盘",
+            "严禁纯三维数字动画完全依赖默认机械样条曲线插值导致动作呈现塑料感漂浮"
+        ]
+    },
+    {
+        "slug": "syntopic-reading-and-knowledge-engineering",
+        "title": "动画知识工程与主题阅读心智模型（艾德勒四层阅读法向视觉知识工程的升华）",
+        "one_liner": "莫提默·艾德勒四层阅读法、基础/检视/分析/主题阅读在视觉管线与Agent知识工程中的实操落地。",
+        "keywords": ["syntopic-reading", "knowledge-engineering", "inspectional-reading", "analytical-reading", "agent-modeling", "epistemology"],
+        "also_read": ["world-animation-history-and-stylistic-paradigms", "pipeline-troubleshooting-and-asset-audit"],
+        "requirements": [
+            "掌握检视阅读（10分钟全局目录扫描）与分析阅读（单本书逻辑因果骨架解构）技术",
+            "运用主题阅读（Syntopic Reading）跳出单一作者局限，就核心工业命题整合跨门类经典",
+            "将高维艺术理论知识严格降维为工业级标准检查清单（Checklist）与Agent可执行规程"
+        ],
+        "antirequirements": [
+            "严禁单一盲信某一部教材为绝对教条，排斥其他流派的最佳工业实践",
+            "严禁停留于抽象哲学词藻背诵而无法将概念转化为具体参数与代码接口"
+        ]
+    },
+    {
+        "slug": "rigging-interfacing-and-animation-caching",
+        "title": "三维角色绑定接口与动画缓存导出管线（控制器选集、归零法则与Alembic/USD）",
+        "one_liner": "绑定API接口规范、全选打关键帧选集组、控制器零姿态归零法则、Alembic/USD点缓存烘焙管线。",
+        "keywords": ["rigging-interface", "controller-zeroing", "selection-sets", "alembic-cache", "usd-export", "decoupling"],
+        "also_read": ["maya-mel-and-python-scripting", "shot-builder-and-scene-layout-assembly"],
+        "requirements": [
+            "绑定必须提供ALL_CTRLS与BODY/FACE控制器选集组并配备一键IK/FK无缝匹配脚本",
+            "角色默认A/T姿态下所有控制器平移旋转属性必须绝对保持零值（0.0, 1.0）",
+            "动画表演审核签字后，强制将模型网格解耦烘焙为纯Alembic (.abc)或USD点缓存交付渲染"
+        ],
+        "antirequirements": [
+            "严禁控制器默认初始值残留非零脏数据导致动画师归零时角色姿态瞬间崩解",
+            "严禁直接将携带复杂计算绑定的场景文件发往渲染农场导致农场并发读取崩溃"
+        ]
+    },
+    {
+        "slug": "pipeline-troubleshooting-and-asset-audit",
+        "title": "数字动画管线排障与资产审计流水线（浮点亚帧漂移、欧拉角死锁与脏节点清除）",
+        "one_liner": "自动化场景健康度审计流水线、亚帧浮点关键帧Snap强制吸附、欧拉角死锁修复与未知脏节点清除。",
+        "keywords": ["pipeline-troubleshooting", "asset-audit", "subframe-drifting", "gimbal-lock", "euler-filter", "unknown-nodes"],
+        "also_read": ["maya-mel-and-python-scripting", "rigging-interfacing-and-animation-caching"],
+        "requirements": [
+            "执行自动化场景静态质检流水线：重名检测、浮点亚帧检测、枢轴点与变换归零检测",
+            "遇浮点亚帧漂移灾难必须通过Snap Keys算法强制吸附回整数物理帧",
+            "运用Euler Filter算法消除旋转曲线360度欧拉角暴跳，脚本自动化清理unknown脏节点"
+        ],
+        "antirequirements": [
+            "严禁关键帧落在带小数点的非整数浮点帧上导致渲染农场跳帧抽搐",
+            "严禁场景遗留缺失插件的unknown脏节点导致其他工作站打开文件时报错阻断"
+        ]
+    }
+]
+
+capabilities = []
+for cap in capabilities_raw:
+    slug = cap["slug"]
+    intents = [
+        f"如何理解和应用{cap['title']}",
+        f"在数字动画管线与透视速写中实施{slug}的最佳实践",
+        f"排查与修复{slug}相关的管线故障与人体空间透视失误"
+    ]
+    capabilities.append({
+        "capability_id": f"cap.digital-animation-pipeline-and-perspective.{slug}",
+        "slug": slug,
+        "title": cap["title"],
+        "importance": "high",
+        "importance_rationale": f"托尼·怀特《从铅笔到像素》、Maya脚本、透视几何与人体运动学核心支柱：{cap['one_liner']}",
+        "one_liner": cap["one_liner"],
+        "intents": intents,
+        "keywords": cap["keywords"],
+        "also_read": cap["also_read"],
+        "card": f"cards/{slug}.md",
+        "frontmatter": {
+            "title": cap["title"],
+            "importance": "high",
+            "one_liner": cap["one_liner"],
+            "requirements": cap["requirements"],
+            "antirequirements": cap["antirequirements"]
+        }
+    })
+
+bundle_data = {
+    "schema_version": 1,
+    "bundle_id": "bundle.digital-animation-pipeline-and-perspective",
+    "book": {
+        "slug": "digital-animation-pipeline-and-perspective",
+        "title": "数字动画制作管线与透视速写工程手册",
+        "subtitle": "融合托尼·怀特《从铅笔到像素》、Maya MEL/Python动画脚本、透视几何学、艺用人体运动学6000例速写与世界动画史论",
+        "authors": [
+            "Tony White (托尼·怀特)",
+            "Autodesk Maya Pipeline Team (Maya工业管线组)",
+            "Mortimer J. Adler (莫提默·J·艾德勒)",
+            "Giannalberto Bendazzi (吉安纳尔伯托·本达齐)"
+        ],
+        "edition": "Industrial Digital Pipeline & Perspective Engineering Edition",
+        "summary": "涵盖从传统手绘逐帧向无纸数字动画演进模型、Maya MEL/Python自动化工具流、一点/两点/三点与鱼眼极坐标透视网格系统、艺用人体结构运动学与生物力学杠杆、单一动势线与黄金剪影瞬时可读性、1584/6000例极限动态姿态图谱、数字修型与色彩上色工艺、Pro Shot Builder镜头装配、世界动画史四大美学范式、艾德勒主题阅读知识工程、Alembic/USD动画点缓存导出与管线资产自愈审计流水线。"
+    },
+    "entry": {
+        "name": "digital-animation-pipeline-and-perspective",
+        "description": "数字动画工业制作管线、Maya动画脚本开发、透视空间几何网格、人体运动速写与动画知识工程权威实战指南。",
+        "core_principles": [
+            "铅笔到像素工业跨越：动态台本Animatic锁定时长，规范交接契约与全流程版本控制",
+            "Maya自动化脚本安全法则：命名空间安全隔离，原子撤销块Undo Chunk与动画曲线批处理",
+            "空间透视绝对一致性：视平线与摄影机高度绝对等高，灭点夹角90度正交，椭圆短轴与回转主轴共线",
+            "躯干对立抗衡运动（Contrapposto）：胸腔与骨盆反向扭转倾斜，重力投影与支撑面动态失衡与恢复",
+            "单一连贯动势线与黄金剪影：C/S型动势主轴，纯黑二值化剪影0.1秒瞬时可读性与通透负空间",
+            "极限动态速写图谱：冲刺前倾30-45度，高空腾跃速度归零滞空，受击反弹力矩动量守恒",
+            "数字修型与色彩上色：单一纯净闭合矢量轮廓线，末端收尖，色盘资产化与环境色相阴影分离",
+            "镜头搭建装配工程：资产只读引用Reference，Layout摄像机参数加锁，前景中景背景视差对齐",
+            "世界动画史四大范式：古典全动画一拍一/二、日本战后有限动画一拍三抽帧、欧洲作者定格与跨媒介CG混血",
+            "艾德勒主题阅读知识工程：四层次阅读法，跨越单一著作局限，降维提取可执行工业规范与测试用例",
+            "三维绑定与缓存解耦：控制器零姿态归零法则，一键IK/FK匹配，Alembic/USD点缓存烘焙交付渲染",
+            "场景健康度自愈审计：强制吸附消除亚帧浮点，Euler Filter消除欧拉角死锁，清理unknown脏节点"
+        ],
+        "out_of_scope": [
+            "电影分镜头台本180度轴线与实拍视线匹配（参见 storyboarding-and-master-shots）",
+            "电影剧本三幕八序列好莱坞排版（参见 story-and-screenplay-engineering）",
+            "二维漫画分格コマ割り与竖屏条漫文法（参见 comics-grammar-and-sequential-art）"
+        ],
+        "stop_conditions": [
+            "数字动画管线流程与交接契约完备，脚本工具通过命名空间隔离与Undo原子测试",
+            "透视空间几何与视平线灭点绝对一致，人体姿态具备连贯动势线与纯黑高可读剪影",
+            "场景资产通过静态质检审计，无亚帧浮点、无欧拉角死锁、无未知脏节点"
+        ]
+    },
+    "router_entry": {
+        "name": "digital-animation-pipeline-and-perspective",
+        "description": "提供数字动画生产管线规划、Maya脚本工具开发、透视空间网格搭建、人体运动学动态速写、镜头装配与资产审计排障支持。"
+    },
+    "promotion_budget": 8,
+    "capabilities": capabilities
+}
+
+target_path = "books/digital-animation-pipeline-and-perspective/.cangjie/capabilities/verified.yaml"
+with open(target_path, "w", encoding="utf-8") as f:
+    yaml.dump(bundle_data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+
+print(f"Successfully generated {target_path} with {len(capabilities)} capabilities!")

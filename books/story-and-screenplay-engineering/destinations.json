@@ -1,0 +1,67 @@
+{
+  "pack_name": "story-and-screenplay-engineering",
+  "book_id": "story-and-screenplay-engineering",
+  "mode": "single",
+  "capabilities": [
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.story-structure-and-three-act-architecture",
+      "slug": "story-structure-and-three-act-architecture",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.controlling-idea-and-thematic-truth",
+      "slug": "controlling-idea-and-thematic-truth",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.character-arc-and-inner-flaw",
+      "slug": "character-arc-and-inner-flaw",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.scene-design-and-conflict-beats",
+      "slug": "scene-design-and-conflict-beats",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.dialogue-subtext-and-exposition-delivery",
+      "slug": "dialogue-subtext-and-exposition-delivery",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.antagonist-and-forces-of-antagonism",
+      "slug": "antagonist-and-forces-of-antagonism",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.animation-screenplay-and-visual-gag",
+      "slug": "animation-screenplay-and-visual-gag",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.pacing-crisis-climax-and-resolution",
+      "slug": "pacing-crisis-climax-and-resolution",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.sub-plot-and-character-ensemble",
+      "slug": "sub-plot-and-character-ensemble",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.screenplay-formatting-and-action-lines",
+      "slug": "screenplay-formatting-and-action-lines",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.animation-series-bible-and-pitching",
+      "slug": "animation-series-bible-and-pitching",
+      "target_skill": "story-and-screenplay-engineering"
+    },
+    {
+      "capability_id": "cap.story-and-screenplay-engineering.screenplay-troubleshooting-and-rewrite-doctor",
+      "slug": "screenplay-troubleshooting-and-rewrite-doctor",
+      "target_skill": "story-and-screenplay-engineering"
+    }
+  ]
+}

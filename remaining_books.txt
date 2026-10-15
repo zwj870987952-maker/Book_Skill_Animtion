@@ -1,0 +1,60 @@
+Total PDFs found: 56
+
+Index | Pages  | Text  | Size(MB) | Filename
+------------------------------------------------------------------------------------------
+1     | 490    | True  | 14.5     | Drawn to Life 20 Golden Years of Disney Master Classes Volume 1 The Walt Stanchfield Lectures by Walt Stanchfield, Don Hahn.pdf
+2     | 387    | True  | 15.9     | 微妙网-CGM《动画表情书籍》.Sybex.Stop.Staring.Facial.Modeling.and.Animation.Done.Right..pdf
+3     | 364    | True  | 38.1     | Drawn to life 2 20 golden years of Disney master classes volume 2 the Walt Stanchfield lectures by Hahn, DonStanchfield, Walt.pdf
+4     | 357    | True  | 15.2     | Physics for animators (Bousquet, Michele).pdf
+5     | 256    | True  | 26.3     | Force Character Design from Life Drawing by Mike Mattesi.pdf
+6     | 245    | True  | 10.0     | Force_ Dynamic Life Drawing for Animators by Mike Mattesi - Focal Press (2006).pdf
+7     | 228    | True  | 20.6     | anatomy for sculptors.pdf
+8     | 222    | True  | 331.0    | 面部表情艺用解剖中文版V1.2.pdf
+9     | 221    | True  | 45.6     | Force Animal Drawing Animal locomotion and design concepts for animators by Mike Mattesi.pdf
+10    | 205    | True  | 54.5     | 6.世界动画史（缺页）.pdf
+11    | 202    | True  | 41.4     | Cartoon Animation by Preston Blair.pdf
+12    | 145    | True  | 0.8      | 编剧步步为营.pdf
+13    | 140    | True  | 13.3     | 8.动画的时间掌握.pdf
+14    | 104    | True  | 7.9      | 微妙网-《大师镜头——低成本拍大片的100个高级技巧》.pdf
+15    | 38     | True  | 6.5      | 【分享库www.fxku.cn】《镜头在说话：电影造型语言分析》认识视觉语言规律、把握影像创作窍门.pdf
+16    | 15     | True  | 6.0      | Pro Shot Builder 2025-7-28 94212 1.pdf
+17    | 1004   | False | 36.9     | 1584个姿势.样本.官方版.pdf
+18    | 558    | False | 48.3     | 9.生命的幻象：迪斯尼动画造型设计（美）弗兰克·.pdf
+19    | 548    | False | 290.6    | The illusion of life Disney animation by Frank Thomas, Ollie Johnston.pdf
+20    | 517    | False | 11.0     | 《故事》罗伯特麦基-著.pdf
+21    | 443    | False | 84.3     | 1.从铅笔到像素  数字动画经典教程-扫描版.pdf
+22    | 404    | False | 82.7     | Maya动画师MEL脚本编程全攻略.pdf
+23    | 391    | False | 63.2     | 迪士尼动画黄金圣典  卷1.pdf
+24    | 387    | False | 14.7     | 如何阅读一本书完整高清中文版.pdf
+25    | 365    | False | 154.1    | 电影语言的语法  插图修订版.pdf
+26    | 365    | False | 19.1     | 电影剧本写作基础.pdf
+27    | 358    | False | 132.4    | 透视学+绘画透视设计透视.pdf
+28    | 353    | False | 29.6     | 微妙网-微表情 .pdf
+29    | 351    | False | 150.7    | 2.动画师生存手册.pdf
+30    | 351    | False | 58.8     | Animators Survival Kit.pdf
+31    | 346    | False | 31.9     | 迪士尼动画黄金圣典 卷2.pdf
+32    | 330    | False | 12.2     | 你的剧本逊毙了！（美）威廉·M·埃克斯.pdf
+33    | 306    | False | 24.0     | 写作这回事：创作生涯回忆录.pdf
+34    | 302    | False | 35.5     | 电影编剧创作指南  修订版_12931934.pdf
+35    | 294    | False | 8.5      | 人体动态6000例.pdf
+36    | 288    | False | 25.2     | 日本漫画为什么有趣  表现和“文法”（日）夏目房之介著.pdf
+37    | 287    | False | 13.6     | 畅销书写作技巧（美）德怀特·V·斯温.pdf
+38    | 259    | False | 49.7     | 制造漫画.pdf
+39    | 241    | False | 19.7     | 4.准备分镜图.pdf
+40    | 238    | False | 39.4     | 3.storyboarding分镜头脚本设计.pdf
+41    | 227    | False | 53.5     | 图说动画规律（日）尾泽直志.pdf
+42    | 226    | False | 33.7     | 图说动画规律-给角色赋予生命力(PDF格式).pdf
+43    | 226    | False | 12.8     | 动画剧本创作与营销—Jeffrey Scott （完整版）.pdf
+44    | 221    | False | 35.0     | 理解漫畫.pdf
+45    | 218    | False | 22.5     | 开拍之前：故事板的艺术（美）约翰·哈特.pdf
+46    | 209    | False | 61.5     | 剪辑的语法  插图修订第2版.pdf
+47    | 200    | False | 59.9     | 镜头的语法插图修订第2版.pdf
+48    | 198    | False | 49.4     | 超人气动画角色设计攻略羽山淳一的现场绘画解说课_14376168.pdf
+49    | 194    | False | 46.4     | [动画师必备]艺用人体结构运动学.pdf
+50    | 194    | False | 77.9     | 1519美国漫画脚本写作教程.pdf
+51    | 194    | False | 43.9     | 分镜头脚本设计教程.pdf
+52    | 170    | False | 12.3     | 电影镜头入门（美）杰里米·温尼尔德.pdf
+53    | 159    | False | 34.3     | 成为作家.pdf
+54    | 127    | False | 58.0     | 《Framed ink》汉化众译版.pdf
+55    | 56     | False | 18.2     | 微妙网-ADVANCED_ANIMATION_BY_PRESTON_BLAIR_pdf.pdf
+56    | -1     | False | 15.2     | 微妙网-[动画-角色的运动和动作].(美).克里斯.韦伯斯特.扫描版.pdf

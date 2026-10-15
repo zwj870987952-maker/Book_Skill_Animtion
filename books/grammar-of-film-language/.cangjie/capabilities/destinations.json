@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.grammar-of-film-language",
+  "destinations": {
+    "cap.grammar-of-film-language.axis-of-action-180-rule": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.triangle-principle-setups": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.ots-vs-clean-single": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.parallel-screen-dialogue": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.three-character-triangles": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.eyeline-match-convergence": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.screen-direction-continuity": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.cutting-on-action-momentum": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.pov-three-step-architecture": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.master-shot-coverage-system": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.actor-blocking-camera-reposition": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    },
+    "cap.grammar-of-film-language.sequence-shot-choreography": {
+      "target_pack_slug": "grammar-of-film-language",
+      "target_skill_slug": "grammar-of-film-language",
+      "action": "create"
+    }
+  }
+}

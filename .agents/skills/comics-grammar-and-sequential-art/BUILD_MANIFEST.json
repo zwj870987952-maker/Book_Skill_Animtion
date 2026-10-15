@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\american-comic-scriptwriting-format.md": "dbe36e9e60e2afcaca0dfdeb56600a86c8f63721670d705240b046168a04bbfa",
+    "references\\capabilities\\character-design-expressiveness-and-facial-acting.md": "42aef72acfb5f8c3f839fa81e4f1858d7097ab71eb449c1bb0301e03e5f8609f",
+    "references\\capabilities\\comics-troubleshooting-and-flow-auditing.md": "c43ec0818b79c36cf8b7ec59675b030a5d8f736cbd0c3c74c308fed774e7eb82",
+    "references\\capabilities\\gutter-closure-and-six-panel-transitions.md": "89745af9240bb4e427a8ea06744453ab1a2d449d16bfb8659e1113d1b968df1c",
+    "references\\capabilities\\line-dynamics-synaesthesia-and-emotive-marks.md": "3b7cb37749b45f854473b296d5e3eaa93b9cb751d2532305912ea5d8fcb8ede0",
+    "references\\capabilities\\manga-visual-grammar-and-koma-flow.md": "dc04be74064f2b79f39c436722f5a66dd2903fb9500531cf39b4fc2b1f6b8db9",
+    "references\\capabilities\\page-layout-and-dramatic-page-turn.md": "9023ff926fe03a89328c5a985e072369f83dae9e9db2e755e75862b2e8262aaf",
+    "references\\capabilities\\sound-effects-and-lettering-typography.md": "e7fad07a73919a945422014da83dad989b23645964405d7d41ed70f28f4d6bb0",
+    "references\\capabilities\\time-space-mapping-and-panel-duration.md": "4e19f2a85543f806759ce43970d59a218be6d757b272e27fe3bdf806ec47d257",
+    "references\\capabilities\\visual-iconography-and-abstraction-pyramid.md": "61695d37443cfb15485091acc83939148e5fb456ab7a721dff285fb385ac34be",
+    "references\\capabilities\\webtoon-vertical-scroll-grammar.md": "398ced870ac327f3c5e92a1addf82edbcba0f0176757edf51f9d77de5d24ca95",
+    "references\\capabilities\\word-and-picture-seven-combinations.md": "68516bc114a7d111bd292faf776debcbcce69151ef22cf3cd51ca3425a1a20b0",
+    "references\\capability-index.md": "aacb65880b22c96ec8c74b3ca0b2ae9b10e042f30a9e3fd469aa3e77e758e09f",
+    "references\\cheatsheet.md": "2b43c6565d81463d2973a9ab4f9733e61540c5ee6622a0b6d67810a932cf1010",
+    "references\\glossary.md": "3331f67158a010c70f0471c1c2c000cb10a4685396b3c1fff9c9269ad6349f69",
+    "references\\overview.md": "70e7c528c0e05dec6fdf8d7f744f8e3f0b7e1724a4620eeb0f35101d312e5b4e",
+    "SKILL.md": "63d660409500cb3e96ebce0cd1d93f8296d7a8c6922f526c47a2a917093efcf1"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.comics-grammar-and-sequential-art",
+  "bundle_sha256": "6eea1cd6a2c34f6ee826ff182cdcbd7d7085864fe9f10c776ee6e8fa7c2c3a7f",
+  "variant": "single",
+  "run_id": "run-20261006-225638-f49f68",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

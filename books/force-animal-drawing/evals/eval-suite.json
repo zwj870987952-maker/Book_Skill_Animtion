@@ -1,0 +1,114 @@
+{
+  "suite_id": "eval.force-animal-drawing.v1",
+  "pack_slug": "force-animal-drawing",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "case-animal-locomotion-classes-01",
+      "prompt": "在画四足动物时，如何区分蹠行（Plantigrade）、趾行（Digitigrade）与蹄行（Unguligrade）？熊、猫狗与马在足部着地几何和重心高度上有何本质差异？",
+      "should_trigger": true,
+      "expected_capability": "three-locomotion-classes"
+    },
+    {
+      "case_id": "case-animal-homology-limbs-01",
+      "prompt": "为什么很多人会把马和狗的后腿画成反向膝盖？人手手臂骨骼与四足动物前肢（前膝腕部）、后肢飞节在同源解剖上是如何对应的？各关节屈伸方向是什么？",
+      "should_trigger": true,
+      "expected_capability": "homologous-limb-mechanics"
+    },
+    {
+      "case_id": "case-plantigrade-bear-mass-01",
+      "prompt": "如何表现大灰熊磅礴的重力下沉与体量压迫感？肩背肌肉驼峰（Shoulder Hump）、桶状胸腔与全脚掌贴地在力量流线上如何构建？",
+      "should_trigger": true,
+      "expected_capability": "plantigrade-bear-mass-power"
+    },
+    {
+      "case_id": "case-digitigrade-feline-spine-01",
+      "prompt": "猎豹冲刺扑杀时腰椎是如何像水流波浪一样剧烈屈伸的？悬空飞节（Hock）与跟腱弹簧是如何与弓形脊椎波浪协同产生爆发力矩的？",
+      "should_trigger": true,
+      "expected_capability": "digitigrade-feline-canine-spine"
+    },
+    {
+      "case_id": "case-unguligrade-equine-bridge-01",
+      "prompt": "为什么奔马的背线不能画成猫科那样大幅弓起？马体高刚性悬索桥脊椎、项韧带与飞节下方超长炮骨（Cannon Bone）杠杆力学是如何运作的？",
+      "should_trigger": true,
+      "expected_capability": "unguligrade-equine-bridge-leverage"
+    },
+    {
+      "case_id": "case-animal-force-shape-asymmetry-01",
+      "prompt": "画四足动物修长的腿部时，如何彻底消除平行水管病与对称香肠病？主受力外凸弧线与刚性支撑平直线该如何配合？适度凹弧怎么用？",
+      "should_trigger": true,
+      "expected_capability": "force-shape-asymmetry-animals"
+    },
+    {
+      "case_id": "case-animal-rhythm-ski-slope-01",
+      "prompt": "四足动物速写如何抓取第一笔贯通动能线？后腿蹬地反作用力是如何像滑雪跳台（Ski Slope）一样顺着背脊俯冲入胸腹底槽并弹射出头部的？",
+      "should_trigger": true,
+      "expected_capability": "animal-rhythm-ski-slope"
+    },
+    {
+      "case_id": "case-predator-vs-prey-dynamics-01",
+      "prompt": "在生物力学与角色姿态上，掠食者（低重心向心聚焦）与被捕食者（高重心发散警戒）的视野、头颈角度与肌肉蓄能状态有何核心对立？",
+      "should_trigger": true,
+      "expected_capability": "predator-vs-prey-dynamics"
+    },
+    {
+      "case_id": "case-quadruped-gait-timing-01",
+      "prompt": "四足动物的行走（Walk 4拍）、小跑（Trot 2拍对角）与极速飞奔（Gallop）的触地足序和腾空期是怎样的？如何避免摇马式劈叉落地？",
+      "should_trigger": true,
+      "expected_capability": "quadruped-walk-trot-gallop-timing"
+    },
+    {
+      "case_id": "case-scapula-suspension-shock-01",
+      "prompt": "四足哺乳动物锁骨退化后，肩胛骨是如何沿胸廓自由上下滑动的？承重前腿肩胛骨顶破背脊轮廓线的浮动悬挂减震机制该如何画？",
+      "should_trigger": true,
+      "expected_capability": "scapula-suspension-shock"
+    },
+    {
+      "case_id": "case-animal-caricature-shape-01",
+      "prompt": "如何运用圆形（友善软萌）、方形（厚重稳固）与三角形（敏捷危险）基础形状语言设计动物角色？120%-150% 戏剧性特征夸张该如何把握？",
+      "should_trigger": true,
+      "expected_capability": "animal-caricature-shape-language"
+    },
+    {
+      "case_id": "case-creature-anatomy-synthesis-01",
+      "prompt": "设计幻想巨兽与奇美拉怪物时，如何基于真实哺乳动物同源解剖进行重构？如何确保多肢运动防冲突与重力杠杆守恒？",
+      "should_trigger": true,
+      "expected_capability": "creature-anatomy-synthesis"
+    },
+    {
+      "case_id": "case-negative-sql-query-01",
+      "prompt": "在 PostgreSQL 中使用 EXPLAIN ANALYZE 排查一个带 JSONB 字段的 GIN 索引慢查询",
+      "should_trigger": false,
+      "negative_reason": "超出动物运动力学与生物设计范围，属于数据库系统调优"
+    },
+    {
+      "case_id": "case-negative-cloud-k8s-01",
+      "prompt": "编写一个 Kubernetes StatefulSet 部署清单，挂载动态 PVC 存储卷并配置节点反亲和性",
+      "should_trigger": false,
+      "negative_reason": "超出动物力量速写与四足步态动画范围，属于云原生容器编排"
+    }
+  ],
+  "output_cases": [
+    {
+      "case_id": "out-cheetah-gallop-rhythm-01",
+      "prompt": "分析猎豹极速飞奔（Gallop）全周期的动力学关键姿态，详细拆解腹下聚拢与空中拉伸两大腾空相位中的脊椎波浪、后腿推进力矩与悬空飞节弹性蓄能",
+      "assertions": [
+        "明确指出旋转飞奔（Rotary Gallop）具备腹下聚拢（Gathered）与空中拉伸（Extended）两次离地腾空期（Suspension）",
+        "指出聚拢阶段脊椎向上极限拱起，后脚爪探出至前腿外侧前方，蓄满弹性势能",
+        "指出拉伸阶段脊椎下凹拉平展平，全身形成水平前冲箭矢，后肢完全后蹬释放动能",
+        "分析悬空飞节（Hock）与跟腱在触地时承受并转化巨大地面反作用力"
+      ]
+    },
+    {
+      "case_id": "out-bear-vs-horse-mechanics-01",
+      "prompt": "对比大灰熊（蹠行）与纯血马（蹄行）在承重、下肢力矩臂长以及背部中轴脊椎刚度上的生物力学差异，给出速写造型指导",
+      "assertions": [
+        "指出熊后脚掌全长贴地（Plantigrade），重心极低，以巨大桶状胸廓与肩背肌肉驼峰形成压迫性重力下沉",
+        "指出马仅以单只角质马蹄着地（Unguligrade），飞节高悬于下肢中段，炮骨构成极长骨骼力矩手臂",
+        "指出马的背部脊椎为高刚性悬索桥结构（Rigid Suspension Bridge），奔跑时垂直起伏极小，依靠项韧带抗衡头颅重力",
+        "说明四肢直曲对抗造型中，支撑侧坚挺长直线与肌肉发力侧饱满外凸弧线的正确配对"
+      ]
+    }
+  ]
+}

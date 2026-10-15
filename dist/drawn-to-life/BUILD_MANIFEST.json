@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\acting-performance-story-pose.md": "b712c88682e857c2a1851d027375a3cfdca808982a12408acb0ac6f9d02ff715",
+    "references\\capabilities\\facial-acting-eye-expression.md": "d106514f2102df56f2d6d6721030c076e7782d44916d975775cfd5e0ab347377",
+    "references\\capabilities\\gesture-drawing-vital-force.md": "be5e2cf4a61f0ddacba88bbf296ad9996f3ccf24a88526866c5ce748af691358",
+    "references\\capabilities\\line-economy-drawing-calories.md": "d570cfd5556953700298866659b78ab0d45198d788365f5b928cfe736ccbf871",
+    "references\\capabilities\\opposing-forces-contrapposto-twist.md": "e918ce6aae34d4300e4f487b5329785b06566d9d7a32524b490db535b13f2a98",
+    "references\\capabilities\\overlap-follow-through-drag.md": "364a2ccb9fd737dd8e4c4e4b244dc0fb74d0eff86c726d5dc8beab62190d557a",
+    "references\\capabilities\\perspective-spatial-depth-environment.md": "2ddc7cb8d175dfbcc90832c96f1f4448152c6c7edb46083502d7935314165e66",
+    "references\\capabilities\\rhythm-accents-animation-timing.md": "1fb65db81404fe25fc277da704223cb1b2b46c873b99585a459dfed5a8e26840",
+    "references\\capabilities\\silhouette-clarity-staging.md": "b77e59ef3f7f71da9f4324f21bf2b0570e0b7c6cbca7df80f51803f74b71fff5",
+    "references\\capabilities\\simplicity-caricature-appeal.md": "1bbf4272d8272bf66d964a23318a31a1eebce6d294de78f1190e36684d51bda1",
+    "references\\capabilities\\squash-stretch-volume-weight.md": "dcdea597b78084df518e70c6ac880676073f80cd14fe01b4d59d54e6ef635773",
+    "references\\capabilities\\straights-against-curves-design.md": "9b636f106919330c3261cd57ec5db1d10c2a86cce54e9b1f9fcd57b60b051126",
+    "references\\capability-index.md": "0a4023a07e1de107a0c507c8498d5b2fbfe094109cc9358c7254584cb7883873",
+    "references\\cheatsheet.md": "d7b35a5610d1818936a039445bbf5add6b448e31fc02ca0ebc4ce33158febeac",
+    "references\\glossary.md": "8d36ed26dff7ea7bd29eb65a4e2fdd1f6e5f3b845edb49a2660ec6750e92af4d",
+    "references\\overview.md": "94d2ea2dc56eddb771cfe0d9c3d15f84b8475732a4e99166e503c372c593ba08",
+    "SKILL.md": "ef654cb5e1a7aa4182a1af75a5ea3b5470a23256dac5260fa2b62d01e5cbcc50"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.drawn-to-life",
+  "bundle_sha256": "01b8a4f7814ac31bbc505b9ff33b82f8db47f502a17012702ea9bedece5d2a3e",
+  "variant": "single",
+  "run_id": "run-20261006-203016-fec2b6",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

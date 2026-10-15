@@ -1,0 +1,23 @@
+{
+  "suite_id": "eval.drawn-to-life.v1",
+  "seed": 42,
+  "train": [
+    "case-facial-acting-eye-direction-01",
+    "case-distractor-forensic-tissue-01",
+    "case-acting-story-pose-01",
+    "case-overlap-follow-through-01",
+    "case-distractor-pure-fractal-01",
+    "case-distractor-industrial-lathe-01",
+    "case-line-economy-calories-01",
+    "case-straights-curves-design-01",
+    "case-perspective-ground-plane-01"
+  ],
+  "validation": [
+    "case-silhouette-clarity-staging-01",
+    "case-opposing-forces-contrapposto-01",
+    "case-simplicity-caricature-appeal-01",
+    "case-gesture-drawing-vital-force-01",
+    "case-squash-stretch-volume-01",
+    "case-rhythm-bodily-accents-01"
+  ]
+}

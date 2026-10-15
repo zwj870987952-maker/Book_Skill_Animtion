@@ -1,0 +1,22 @@
+{
+  "suite_id": "eval.anatomy-for-sculptors.v1",
+  "seed": 42,
+  "train": [
+    "case-forearm-supination-pronation-01",
+    "case-negative-golang-goroutines-01",
+    "case-neck-scm-dynamics-01",
+    "case-facial-features-volume-01",
+    "case-negative-mysql-innodb-01",
+    "case-knee-ankle-foot-arches-01",
+    "case-planar-head-skull-01",
+    "case-gender-fat-pads-01"
+  ],
+  "validation": [
+    "case-hand-carpal-arch-01",
+    "case-shoulder-deltoid-interlock-01",
+    "case-chest-back-volume-01",
+    "case-bony-landmarks-blockout-01",
+    "case-torso-contrapposto-01",
+    "case-quads-asymmetry-01"
+  ]
+}

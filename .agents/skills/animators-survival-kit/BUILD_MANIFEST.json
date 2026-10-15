@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\anticipation-overshoot-recoil.md": "40d1600d64ad6b7f6283c6d6175094c144083f082ac70c7e7d0e23e8ec979af4",
+    "references\\capabilities\\arcs-waves-whips.md": "4c149a3ad9889be0161a1a4cc625dc26dfa0e4a6f72278faa0677f5a96c9ad1d",
+    "references\\capabilities\\character-walks-personality.md": "050daef318044967f550cbc1cf86add673ddafefa0bbdb4011d039f0e71a2ac7",
+    "references\\capabilities\\dialogue-phonemes-accents.md": "7222d5c0f55d67f107cf949561ba5cf0e8bab923052cb8cff64bb28d6ecdfc81",
+    "references\\capabilities\\fast-runs-smears-multiples.md": "e9e6ca941c929a273d6eb5c7b08e93315b4a695a8802cddb52692180856664b7",
+    "references\\capabilities\\flipping-inbetween-diagnostics.md": "bc15c0c00e73debfa4a135444abd215786d109897cbff6438a7ec5befc9f116d",
+    "references\\capabilities\\keys-extremes-breakdowns.md": "719bdd184680eea88989894e30f87689b8b1db70f33738fa3bf8e803087a29da",
+    "references\\capabilities\\overlapping-action-drag.md": "5b8d0d44700e4f5edc5abf3954902ec35f5baf9f1f97abc9eb33c9b8a983507f",
+    "references\\capabilities\\runs-jumps-airborne.md": "f3d6b70d59e2320ff6f97fa7d65d36d6f60fcfbba63676a3ed4a55f381e41e3e",
+    "references\\capabilities\\standard-walk-locomotion.md": "4be5d0e57102d58bedde5e1de9ee5a5be3805243f2165c584c52e665e26b0652",
+    "references\\capabilities\\timing-spacing-charts.md": "2ec232303fc4294a24340d007bff354276de71a4a0fa89bb7d47783f19d6ad02",
+    "references\\capabilities\\weight-gravity-settle.md": "9f62ba5ce2b624d41b4ab658aba1e018fb305a4e8d4e91b83b20244d3ce10f11",
+    "references\\capability-index.md": "ac6379ab01d3f465f9f3ce1acf0af133e6d74f83a1d7f5b0a2faab8f2a6ba8d5",
+    "references\\cheatsheet.md": "534882fd497c7d13e0ef219e610a96ab06a34078833743ac610edfeee3a3bab6",
+    "references\\glossary.md": "14eddd32b4c6f154bf56e4d16259777b9de82f3c6128f4acc9bd5eeff45f2062",
+    "references\\overview.md": "1088c2b21f3cd14084441b720baa7bc3ac04fa2d39d393e8808241244df91a2e",
+    "SKILL.md": "18ede96898f2de1b896c275eab2da787870006308e005f42b69bfb33a0f985b8"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.animators-survival-kit",
+  "bundle_sha256": "85fd113bee6f43ace3cdc6e5521de64cd78bf4c1abf2196123b77a72a8f73348",
+  "variant": "single",
+  "run_id": "run-20261006-204026-a83408",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

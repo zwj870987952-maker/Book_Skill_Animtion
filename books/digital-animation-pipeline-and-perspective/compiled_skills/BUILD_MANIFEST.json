@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\digital-cleanup-inking-and-color-styling.md": "ac1e0c8c5996e2ca48aebcfda5ba29e328002958dc41bb65306bfc2bd18cafb4",
+    "references\\capabilities\\dynamic-posing-and-pose-to-pose-staging.md": "ba8992d29f18f266b97ff73ed6e9b80393a08346d38574be6e181f7493f897f1",
+    "references\\capabilities\\human-locomotion-kinesiology.md": "8dd3bf7fdb7e80d7653c89f00cba1edaea7feb10ccf75b49803c7bfc5d0b34d7",
+    "references\\capabilities\\maya-mel-and-python-scripting.md": "3c246a6eec076bbb40dad2af01fdaef6400a197315a15a589a5e2d4c5deb87c7",
+    "references\\capabilities\\pencil-to-pixel-digital-pipeline.md": "d6ff05636ff6f6bfe838c78eb2ba0276a8c5645ab378cec3cb5661b16795bd85",
+    "references\\capabilities\\perspective-geometry-and-focal-grids.md": "b3ea30099960f1608860712f9e5a01265e832622bc88d49ee1ee23c0be6e0f2a",
+    "references\\capabilities\\pipeline-troubleshooting-and-asset-audit.md": "f4540283a9c1396ac0a298cf9884115ac15490dd6d8ddd60e0aac77a090dfcd9",
+    "references\\capabilities\\pose-library-and-gesture-atlas.md": "66e274a8f7add1f3a32f4806a6aa787255a5aed55d74d65ba91409c2ecbba5aa",
+    "references\\capabilities\\rigging-interfacing-and-animation-caching.md": "d77bb2f0ca81d3d854d66d1a75c79937ac81d98ea8736434f61741c2b114606c",
+    "references\\capabilities\\shot-builder-and-scene-layout-assembly.md": "91026bd5df9a2f6652232dc33e926795e4cd43cbbf3fbec71e5ee9414e549aec",
+    "references\\capabilities\\syntopic-reading-and-knowledge-engineering.md": "bb6e0a3f95432ec64db7893c050f5e4922af2f2073eeea8f1ddc5003da8a09ca",
+    "references\\capabilities\\world-animation-history-and-stylistic-paradigms.md": "21c4de956139bebddbe094860dbe385cf547fd00991de3f8b52a5c1b18a77e9c",
+    "references\\capability-index.md": "56034843bb53b4bae9d31150f23878323de2955a113a581f30e01119399880cb",
+    "references\\cheatsheet.md": "34821922789794f544bbfc7921a78ef6c0a48044f69d7fdaf89a36af247fc453",
+    "references\\glossary.md": "b4520c5a1d5ed13e966f7696429cfcec80cb7de865a8c6ab92e8fe9a521e097c",
+    "references\\overview.md": "a5e433900fe2655b4f4d4739d90c58fc880e669ea97c9c0d0a90ac2f2edde9c9",
+    "SKILL.md": "1fdd1136d3de77c97a40e75eb4a1a73ab503536e23c48657a888910c1a9650eb"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.digital-animation-pipeline-and-perspective",
+  "bundle_sha256": "bd33c6c2bc8f4d98afa4fbcb79d3234bfb043f25340cb4914ce2881d1053ca68",
+  "variant": "single",
+  "run_id": "run-20261006-230524-e372ac",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

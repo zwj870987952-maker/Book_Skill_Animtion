@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\animal-caricature-shape-language.md": "172e4dc45aa10d98a2c314a98079b4a894b60e909f65da68cc44fab2b781b6d4",
+    "references\\capabilities\\animal-rhythm-ski-slope.md": "7170767ca7d8b91721c540e781a3e316947228d7c5499565811b30ad61821a61",
+    "references\\capabilities\\creature-anatomy-synthesis.md": "56d1ffbf0c543ee14ad4bad9292659785d661b8e766c52369e97ddc6275e28ef",
+    "references\\capabilities\\digitigrade-feline-canine-spine.md": "d24e68600feaacdb327ab7850dda997e7812d4dbc3a5314a5eae5a9372ed5ca8",
+    "references\\capabilities\\force-shape-asymmetry-animals.md": "a63e9f9a2de9f8578e7ce612238351b0994bc4d5cd8e36f06891463466a730a7",
+    "references\\capabilities\\homologous-limb-mechanics.md": "d7be5ca800d1a0a4024bab66733c06b17cf45300d2b693a4f6a73fa663480e81",
+    "references\\capabilities\\plantigrade-bear-mass-power.md": "8e8fcafc4ecfd23e9c4cddb260e3072644cd8a062801d152d86e556f1d09c1e2",
+    "references\\capabilities\\predator-vs-prey-dynamics.md": "fd74a0f359722037ff2b7bdb07811b37dbe40bf540c0091605e36e04b48a8711",
+    "references\\capabilities\\quadruped-walk-trot-gallop-timing.md": "87c12ade39d7a4ddfd8e65f0741eacba84e649144601f36157ab63633f2e0d93",
+    "references\\capabilities\\scapula-suspension-shock.md": "ae8dec4c04c4e5aaf2de2539e200c73823d52924333ba3147acafd6d8f21e82f",
+    "references\\capabilities\\three-locomotion-classes.md": "872002d05469a2fff8db5a683330552964a10ecc4ddb6c91cfa371e3f3136d10",
+    "references\\capabilities\\unguligrade-equine-bridge-leverage.md": "df6447c5a6c674573bb30a677afeada5d88e42845c37b502990907e3be6e971b",
+    "references\\capability-index.md": "136ba14921877ce30552d8e36d933eb5ca2ca1f9e084b9e4344222269d0d65c7",
+    "references\\cheatsheet.md": "219e0ab35503fc796996c08cec9d8575447e9ff5760dc451eb16ef07e42b321a",
+    "references\\glossary.md": "d06a7e36be29accfd3cbd6d3856600280a567cc6fe4e234388581b011e2e2f8a",
+    "references\\overview.md": "1cde347d2c5d3224a403a1c18fdab1e4c4179ada6e5e1b2627e28427a74319d9",
+    "SKILL.md": "121f4162e03ec189d4db93cb763cefb2e1c20a09a55b654297a57332eed1f51d"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.force-animal-drawing",
+  "bundle_sha256": "b1caec6727838492bf434d4ac2329f792f9e2b8c5905c32a79361c43f05bebc2",
+  "variant": "single",
+  "run_id": "run-20261006-195612-b5a046",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "suite_id": "eval.framed-ink.v1",
+  "seed": 42,
+  "train": [
+    "case-scale-contrast-dominance-01",
+    "case-distractor-pathology-endoscope-01",
+    "case-chiaroscuro-lighting-mood-01",
+    "case-visual-continuity-eye-trace-01",
+    "case-distractor-barcode-label-01",
+    "case-distractor-cnc-toolpath-01",
+    "case-aspect-ratio-framing-psychology-01",
+    "case-dynamic-geometric-tension-01",
+    "case-lens-perspective-wide-telephoto-01"
+  ],
+  "validation": [
+    "case-eye-leading-focal-paths-01",
+    "case-three-layer-spatial-depth-01",
+    "case-storyboard-cadence-editorial-flow-01",
+    "case-horizon-line-psychology-01",
+    "case-black-white-value-distribution-01",
+    "case-negative-space-graphic-economy-01"
+  ]
+}

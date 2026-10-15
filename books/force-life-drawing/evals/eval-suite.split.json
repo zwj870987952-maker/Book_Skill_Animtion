@@ -1,0 +1,20 @@
+{
+  "suite_id": "eval.force-life-drawing.v1",
+  "seed": 42,
+  "train": [
+    "case-clothing-folds-01",
+    "case-asymmetry-thirds-01",
+    "case-opposing-torso-01",
+    "case-quick-sketch-01",
+    "case-animal-homology-01",
+    "case-silhouette-negative-01",
+    "case-negative-cloud-docker-01"
+  ],
+  "validation": [
+    "case-wrapping-cross-contour-01",
+    "case-straight-vs-curved-01",
+    "case-force-directional-applied-01",
+    "case-force-rhythm-rollercoaster-01",
+    "case-negative-sql-query-01"
+  ]
+}

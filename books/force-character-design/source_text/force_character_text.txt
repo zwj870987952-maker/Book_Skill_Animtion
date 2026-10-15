@@ -1,0 +1,2997 @@
+--- PAGE 1 ---
+
+--- PAGE 2 ---
+Force
+--- PAGE 3 ---
+This page intentionally left blank 
+--- PAGE 4 ---
+Force
+Character Design 
+from Life Drawing
+By Michael D. Mattesi
+Visit me at:
+Drawingforce.com
+Enterartacad.com
+AMSTERDAM  BOSTON  HEIDELBERG  LONDON 
+NEW YORK  OXFORD  PARIS  SAN DIEGO 
+SAN FRANCISCO  SINGAPORE  SYDNEY  TOKYO
+Focal Press is an imprint of Elsevier
+--- PAGE 5 ---
+Acquisitions Editor: Georgia Kennedy
+Publishing Services Manager: George Morrison
+Project Manager: Paul Gottehrer
+Cover Designer: Alisa Andreola
+Focal Press is an imprint of Elsevier
+30 Corporate Drive, Suite 400, Burlington, MA 01803, USA
+Linacre House, Jordan Hill, Oxford OX2 8DP, UK
+Copyright © 2008, Elsevier Inc. All rights reserved.
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted 
+in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, 
+without the prior written permission of the publisher. 
+Permissions may be sought directly from Elsevier’s Science & Technology Rights 
+Department in Oxford, UK: phone: (/H1100144) 1865 843830, fax: (/H1100144) 1865 853333, 
+E-mail: permissions@elsevier.com. You may also complete your request on-line via the 
+Elsevier homepage (http://elsevier.com), by selecting “Support & Contact” then 
+“Copyright and Permission” and then “Obtaining Permissions.”
+Library of Congress Cataloging-in-Publication Data
+Application submitted
+British Library Cataloguing-in-Publication Data
+A catalogue record for this book is available from the British Library.
+ISBN: 978-0-240-80993-9
+For information on all Focal Press publications 
+visit our website at www.books.elsevier.com
+08 09 10 11 12  5 4 3 2 1
+Printed in China
+--- PAGE 6 ---
+This book is dedicated to all of my students. 
+Thank you for allowing me to inspire you and watch you grow. 
+I am so proud of you!
+--- PAGE 7 ---
+Special Thanks
+I want to thank the many people that made this book happen. First off to Paul Temme 
+for ﬁ  nding my ﬁ  rst book, Force: the Key to Capturing Life Through Drawing  and bring-
+ing it over to Focal Press. If that had not happened then this book would not exist. To 
+Georgia Kennedy, my editor at Focal, thank you for your trust in my ideas, nothing is 
+more priceless! Thank you to all of the models who work hard to inspire us artists! 
+Speaking of artists, a special thanks to the contributing friends/professionals that took 
+their own time to share with us their insight on character design! Always a thank you to 
+my family for helping me not feel so guilty for the time I lose with you as I work on my 
+books! I love you.
+Mike/Daddy
+--- PAGE 8 ---
+Foreword ix
+Preface xi
+Key Concepts xiii
+Fear xiii
+Risk xiii
+Opinion xiii
+Hierarchy xiv
+Contrast and Afﬁ  nity xiv
+Chapter 1: Force with Character 1
+Amazing Angles 15
+Developing Ideas 22
+Chapter 2: Space with Character 37
+Forceful Form 37 
+The Spatial Bounding Box—Size Equals Depth 43 
+Location Equals Depth 54 
+Chapter 3: Shape with Character 61
+Abstraction of Shapes 62
+Forceful Shape 64
+The Forceful Triangle 69
+The Brilliant Bounding Box Returns 74
+The Law of Thirds 81
+Facial Ratios 88
+Chapter 4: Costume with Character 95
+Tone or Value 96
+Color Theory 99
+Character Inspiration 150
+Imaginative Design 154
+Chapter 5: Reportage with Character 171
+Finding Character 172
+Character Layout 188
+Architecture with Character 196
+Chapter 6: Animals with Character 207
+Closing 229
+Artist Bios 231
+Index 237
+Contents
+--- PAGE 9 ---
+This page intentionally left blank 
+--- PAGE 10 ---
+The main thing about character design is that the character, whether good or evil, 
+MUST have appeal and tell a story. Look at pirate drawings by Marc Davis. They have 
+a wonderful appeal and charm even though they are tough guys. The ability to do 
+drawings that have a touch of humor and personality in them is key and something we 
+all strive for. Even if you do a character that is a cliché, you never want to draw an 
+illustrated cliché. You want to keep it fresh and appealing and full of character.
+Simply put, if I were going to design a fat man I would study Jackie Gleason and 
+observe how he carries himself, his mannerism, and his way of posing and moving. If 
+I were to design a skinny guy I would study Stan Laurel or Dick Van Dyke and how 
+they carry themselves and how they move. Then I’d study the differences and incorpo-
+rate the personality traits and back story that are signature to that character. That is 
+character design.
+My cartooning heroes were the great sport cartoonist Willard Mullin, British cartoonist 
+by way of New Zealand for the Evening Standard of London, David Low, who 
+Winston Churchill said was worth two battleships during WWII, that’s how good 
+he was.
+Character design is always about the story as much as the drawing.
+Rik Maki
+Foreword
+--- PAGE 11 ---
+This page intentionally left blank 
+--- PAGE 12 ---
+The book you hold in your hands is a ﬁ  rst of its kind. There are ﬁ  gure drawing books 
+and there are character design books but there is no book that explains the bridge 
+between the two. From my own work experience, this I have found is one very impor-
+tant bridge, a bridge of inspiration!
+In high school, I remember refusing to look up reference for the comic books and other 
+art projects I was working on. I thought that was uncreative and cheating. I could not 
+have been further from the truth. In my own professional history, now spanning sixteen 
+years through ﬁ  lm, television, and video games, I know that when I am cornered with 
+the lack of an idea or my own repetitive thoughts, I look up reference! The more I know 
+about my subject, the more sophisticated my ideas become.
+As I get acquainted with an ever growing pool of professionals in the entertainment 
+industries, I consistently see that the best of them use reference all of the time. This 
+grows the “internal encyclopedia.” Without all of this research, your well is very shal-
+low or almost dry. So, with this theory in mind, I will show you in the pages of this 
+book how we can experiment and explore creativity through experiencing the encyclo-
+pedia of the ﬁ  gure!
+In drawing from a model, you are given a tremendous amount of information to be 
+inspired by. The vast variety of forces, forms, shapes, textures, and colors can keep 
+you intrigued for a lifetime!
+Many schools do not instruct their students on how to enjoy drawing from the model or 
+that they have the power and control to make creative choices from the model. In run-
+ning Entertainment Art Academy, I saw students come from other schools of thought 
+where measuring and pure technical prowess were the forefront to drawing. These stu-
+dents came to me in hopes of enjoying the act of drawing again. There is no right or 
+wrong to ﬁ  gure drawing. You MUST ﬁ  nd a way that is enjoyable to you. The drawings 
+you see in my books are MY way of enjoying myself while drawing. Since I am self-
+analytical, I can teach what I do when I play. Believe it or not, there is method to my 
+madness. These methods and desires are what I share with you.
+My ﬁ  rst book, Force: Dynamic Figure Drawing for Animators, discussed how to under-
+stand and experience the organic, rhythmic energy of humanity and translate it in your art. 
+I discussed how the foundation to all creation is honesty. First one must be able to capture 
+basic truth. What do I mean by that? Well, I mean a pure, lucid UNDERSTANDING of 
+Preface
+--- PAGE 13 ---
+the particular model at a particular time. There is as little opinion as possible. There is only 
+an appreciation and understanding of what you are experiencing in front of you. One of 
+the hardest things to do is be visually honest. Once you understand, you can’t help but 
+admire the magniﬁ  cence of the humanity in front of you.
+This book deals with forcing your drawings to become what YOU want them to 
+become. What are your OPINIONS about the subject? How will you tackle realizing 
+YOUR IDEAS?
+An invasion of armies could be resisted, but not an idea whose time has come.
+Victor Hugo
+Opinion of the story in front of you can lead to a clearer truth of the model. In admiring 
+the model, you open yourself up to being more sensitive to what is in front of you. This 
+sensitivity creates opinion.
+Learning to draw the ﬁ  gure with opinion leads to many jobs out in the world of enter-
+tainment art. The best character designers, storyboard artists, and visual development 
+artists use life as their reference point.
+Character is what drives great intellectual properties. Think back to the ﬁ  lms or car-
+toons that really made an impression on you. Characters, not plots, drove them. The 
+clearer the character the more the audience, us, gets connected to the story. Know 
+WHO the character is and why the character is that way. How does this character act 
+in different situations? In Burbank, home of the world’s top animation studios, one test 
+for a good character is to put it in a box and know how the character would react to 
+the situation. Would it get scared, frustrated, happy, angry, or curious …? The choices 
+are limitless. A great character is so clear in your mind that you know how it would act 
+in ANY situation. Mickey Mouse, Bugs Bunny, or Snoopy are all clearly deﬁ  ned. They 
+would all act differently in the box.
+The character designer’s job is to create the character’s morals and thoughts visually on 
+the page. Is this character funny, naïve, serious, aggressive, dumb, etc.? Know its role; 
+know if the visual representation of the character presents it well.
+On the following pages you will ﬁ  nd drawings that represent my ideas and the fun 
+experiences I had creating them along with many professional artists’ experiences.
+xii Preface
+--- PAGE 14 ---
+There are some basic key concepts to help you with your journey. Let’s go through them 
+together.
+FEAR
+Here I am again writing about fear. I have been teaching an additional six years since 
+the ﬁ  rst printing of Force and I can honestly say again, that fear is the biggest detriment 
+to the forward pursuit of education. Fear comes in all forms, some more obvious than 
+others. The fastest way out is to listen to your internal dialogue. Notice when and why 
+you are indecisive or concerned. Let drawing be about your experience and curiosity, 
+not ﬁ  nal product. You create the fear so rid yourself of it! It will only slow you down.
+RISK
+Well, we just spoke about fear and here we are talking about risk. Doesn’t that cause 
+fear? Yes, good fear. What can happen to you if you take a risk and you don’t get the 
+results you want? In order to have opinion, you MUST be able to take risk! You 
+MUST ﬁ  ght your fears. You MUST be willing to fall on your face to pursue your creativ-
+ity! Once you break the bonds of fear, and love feeling risk while you work, you 
+will never turn back. Besides, we are not sky diving, we are drawing. Nothing can 
+harm you!
+OPINION
+Strengthening your ability to take greater and greater risks allows you to get out of the 
+“kind of” factor. New students look at life and “kind of” see it. You must see truth in 
+order to form opinion. Opinions come from heightened clarity! Don’t draw with medi-
+ocrity, stride for opinion through clarity. What are you trying to say? In my ﬁ  rst book, I 
+discuss writing your purpose on the drawing page itself. The purpose in the other book 
+was a concept based on force. In this book, we can bring that concept to creative 
+ideas. You might have a thought that is an analogy. Perhaps the model’s pose reminds 
+you of an animal, natural power, architecture, culture, a time period, a character, auto-
+mobile or other famous artists’ work. Draw upon your intuition to inspire your 
+experience.
+Key Concepts
+--- PAGE 15 ---
+HIERARCHY
+Thinking hierarchically, or from big to small, is a profound method to assessing chal-
+lenges. Hierarchy creates a clearly deﬁ  ned path that then assists in the comprehension 
+of complex ideas. It seems human nature to initially resist this idea. We want to get  
+mired in the details instead of seeing the big picture. Hierarchy is so profound that you 
+can use it on anything, not just your drawing experience. It could be used to organize 
+your process for food shopping, the ﬂ  ow of automotive trafﬁ  c, personal relationships, 
+and more.
+In drawing the ﬁ  gure, whole pyramid represents the main idea of the pose. Then within 
+it, the top of the pyramid is the biggest idea, and they get smaller as we travel down 
+the levels of the pyramid. So, a pose is the whole pyramid, the top is the hip to rib-
+cage relationship, the next tier is arms, legs, and head, and then the last is hands, feet, 
+ﬁ  ngers, and toes. As one gets more sophisticated, the top of the pyramid might be the 
+face and right hand because they best represent the main idea or story of a pose.
+CONTRAST AND AFFINITY
+While working at Walt Disney Feature Animation, one of the best rules I learned was 
+“CONTRAST CREATES INTEREST.” Never forget that. Beware mediocrity through the 
+lack of contrast. Look for idiosyncrasies. Watch out for symmetry, parallel moments, and 
+monotonous line. This rule works for character design, landscape painting, ﬁ  lm editing, 
+writing, and all works artistic. Contrast is self-explanatory but how many ideas can be 
+contrasted? That is where the magic happens. A line on a piece of paper can have 
+much contrast or little contrast. Is the line parallel to the edges of the paper or is it at a 
+xiv Key Concepts
+--- PAGE 16 ---
+forty-ﬁ  ve degree angle? Is there variety in the weight of the line? How long or short is 
+the line? Does it go off of the page? All of these possibilities represent different ideas in 
+the world of art. Remember that every mark on the page has meaning, a meaning to 
+create the bigger purpose of the artist’s statement!
+Afﬁ  nity or unity means pick what repeats in the drawings. Now, with the nude ﬁ  gure, 
+there is the obvious, such as two hands or two feet. In creating character designs and 
+especially clothed ones there can be patterns in shape, color, tone, line, and much more.
+Design is an abstract way of looking at our world and using it to communicate our 
+thoughts. Your art is only as powerful as your thoughts and how you communicate them 
+with your skills. I hope to present you with some new tools to assist you in communicat-
+ing your experiences. Enjoy the journey!
+ Key Concepts xv
+--- PAGE 17 ---
+This page intentionally left blank 
+--- PAGE 18 ---
+In this ﬁ  rst chapter, we are going to experience the risk of pushing our drawings to their 
+forceful extremes. Why? Because pushing poses helps you deﬁ  ne character. How far 
+can a drawing go before it falls apart? In what direction do I push the pose? Let’s 
+investigate these and other questions in our search for answers.
+The golden rule I abide by in designing from life is that the drawing must work or 
+function the way my subject did. So, if it is a ﬁ  gure, it has to follow my rules from the 
+ﬁ  rst book. Rhythm must continue through the ﬁ  gure in discussion. Does my understand-
+ing of the ﬁ  gure’s rhythms come through all of my other opinions?
+So, as a Force refresher, the arrows in the following diagrams represent the lines you 
+draw with. Each line is a force. In my book Force: Dynamic Life Drawing for Animators, 
+I discuss in great detail how force works and the pitfalls that artists fall into that disrupt 
+force in their experience. These diagrams show how the abstraction of force operates 
+and how we can manipulate it.
+The image on the left shows a weak amount of applied force, the orange arrow, 
+pushing upon the dark blue directional force. If we take the same directional force 
+and apply more force to it as shown in the right diagram, see how much more 
+curved it becomes.
+Force with Character
+Chapter 1
+--- PAGE 19 ---
+2 Force: Character Design from Life Drawing
+The rhythm on the left side of the page is weaker simply because the angle of applied 
+force, represented here by the orange arrow, is weaker. On the right, we can see an 
+illustration of a more dramatic rhythm because the applied forces are on much stronger, 
+forty-ﬁ ve degree angles. I am going to walk you through this chapter starting with 
+more subtle drawings of opinion to clear and loud exaggerations.
+
+--- PAGE 20 ---
+ Force with Character 3
+This drawing presents subtle opinion. The arm’s leftward stretch is in opposition to 
+that of the lower belly. My experience here is clearly spoken without any real 
+exaggeration. It states my intent without screaming. Notice the line weight in the 
+lower abdomen. I added more pressure to my marks because of my thinking about 
+the forces and gravity found there.
+
+--- PAGE 21 ---
+4 Force: Character Design from Life Drawing
+Force is starting to get extreme. The upward thrust in the hip is the obvious main 
+focus. Knowing this is what allows me to push that main idea. Without that thought, 
+I cannot push an opinion. The strength of that curve is what makes it feel so extreme.
+
+--- PAGE 22 ---
+ Force with Character 5
+The pulling inward with the hands and curving of the back help the body in one clear 
+purpose. The trick here is to be aware of the relationship of these forces. The arms 
+are brackets of force from the back to the shoulders, down to the elbows, and into 
+the hands. The unobvious lies in being sensitive to this experience. I had to allow the 
+drama and energy of this pose to affect me for the drawing to have this impact. If I 
+disconnect myself from it and maybe confronted the experience through the act of 
+measuring, I would have lost this feeling in the drawing. It is his effort that I wanted 
+to empathize with.
+
+--- PAGE 23 ---
+6 Force: Character Design from Life Drawing
+Rhythm is of primary concern to this experience. Force number one moves down to 
+the hips and splits off into the legs. I used the orange arrows here to represent 
+applied force and how it connects forces. The thrust in the upper body, linked into the 
+arms and hands, must work here in conjunction with the hips and legs. I love the 
+gnarled right hand. My immediate impression came across in the drawing. This 
+drawing was achieved with a Lyra 9B lead crayon.
+--- PAGE 24 ---
+ Force with Character 7
+Weight was the main idea here. With this in mind and as my main story point, I 
+pushed that thought into the belly, the hanging of the arms, the drop of the legs, and 
+the pull on the feet. The forward charge of the head also assists in this sensation.
+
+--- PAGE 25 ---
+8 Force: Character Design from Life Drawing
+Here the main idea of the story is the lunge in the right shoulder. You can see my 
+effort placed into this moment in the pose. From there, force slides its way down to 
+the feet and down through the right arm.
+
+--- PAGE 26 ---
+ Force with Character 9
+This one-minute drawing shows how powerful the simplicity of force is. The curves of 
+force in the upper body, legs, and arms relate to one another to keep the ﬁ gure 
+connected.
+
+--- PAGE 27 ---
+10 Force: Character Design from Life Drawing
+The meandering right shoulder of the model creates an interesting shape to that area 
+of her body. The overlapping in her knees becomes an evident trick of line. The 
+ﬁ ngers of her left hand feel ﬂ uid, thick, and delicate.
+
+--- PAGE 28 ---
+ Force with Character 11
+The main expression here is the leftward momentum in the back. You can see by the 
+way I reacted to the arms that I was aware of the muscular tension found here.
+
+--- PAGE 29 ---
+12 Force: Character Design from Life Drawing
+So the main objective in this drawing was the massive size and thrust of energy in 
+the closer shoulder. Notice the change in idea from one hand to the other. There is an 
+interesting story here between the face and model’s left hand. The almost parallel 
+orientation between his left hand and face creates a unity.
+
+--- PAGE 30 ---
+ Force with Character 13
+Here the opposite directions in force were the priority. The leftward thrust of the back 
+and the suspension bridge of the arms looming rightward pull this ﬁ gure on a 
+horizontal line. The angle of the back left foot anchors the ﬁ gure down onto the ﬂ oor.
+
+--- PAGE 31 ---
+14 Force: Character Design from Life Drawing
+The shoulder pushing its way into the model’s face was my ﬁ rst thought here. Next 
+was the curiosity behind the relationship between the two arms. There is a repetition 
+in the hands and wrists that somehow completes the pose.
+
+--- PAGE 32 ---
+ Force with Character 15
+AMAZING ANGLES
+I covered a great deal of the power of the curve in Force: Dynamic Life Drawing for 
+Animators. Now let’s discuss straight lines relative to force. A perfect vertical or hori-
+zontal on the page is far less dramatic than the forty-ﬁ  ve degree angle. This is the most 
+dramatic angle on the page. I use angles in an abstract manner. I do not draw for the 
+sake of seeing and measuring angles. Implement angles as another tool for a higher 
+purpose. Don’t make angles and measuring the end result of your ﬁ  gure drawing 
+experience!
+There are two ways to use angles. The ﬁ  rst is what I describe at the beginning of the 
+chapter. Angles are actually created by the relationship between two forces. The 
+angles are applied forces. These applied forces are created by the strength of the cur-
+vature of the directional forces.
+The second is the abstraction of just an angle on the page. The force here to consider 
+relative to an angle is gravity and how angles relate to each other on the page. 
+Visually this may not be very exciting but the simplicity behind its application is pure 
+power. There is for me a sense of imagined gravity in the world of the page. I have 
+indicated that with the orange arrows. With that in mind, the vertical thought falls, 
+the horizontal lays ﬂ at, and the diagonal at forty-ﬁ ve degrees has the most 
+movement and drama. It ﬁ ghts gravity and redirects it from one location to another. 
+Think of the orange arrow as water.
+--- PAGE 33 ---
+16 Force: Character Design from Life Drawing
+Let’s look now at a perfect, vertical, horizontal, and forty-ﬁ ve degree angled line 
+with force coming in at it on a ninety-degree angle. Force, represented by the orange 
+arrows, smashes into the black lines. This occurs because of the perpendicular 
+relationship. In the ﬁ rst diagram on the left, force smashes into the line and then it 
+falls. The second drawing shows it fall to the ﬂ oor. In the last, force crashes into the 
+line but then falls on a forty-ﬁ ve degree angle, redirected to a new location.
+As our angle tightens, or comes in at forty-ﬁ ve degrees relative to the surface, force 
+does not smash directly into the black line. It starts to slide along the black line as if 
+it wants to continue moving. All instances are dramatic with the drawing to the right 
+having the most drama because force continues on a forty-ﬁ ve degree angle.
+Use the idea of angles to help you see more clearly and abstractly. Angles are a tool 
+to help you become more opinionated.
+
+--- PAGE 34 ---
+ Force with Character 17
+So let’s look at some drawings with the power of angles in mind. Here you can see 
+the potency of force driving into the shoulder and how it travels down the arm to the 
+base of the hand. The slightest variation in the angles would vary the intensity of 
+force in each part of the anatomy because of the chain of command in the pose. The 
+angles can be used to see the ﬁ gure abstractly for placement but more important, I 
+want you to understand how they relate to gravity and then rhythm.
+
+--- PAGE 35 ---
+18 Force: Character Design from Life Drawing
+Here is a great example of the power in forty-ﬁ ve degree angles. Starting at the 
+model’s head, the angle ﬂ ips in the upper body and then in the legs. This change 
+from forty-ﬁ ve to forty-ﬁ ve creates an aggressive pose across the page. Again, 
+imagine water running its way down the orange arrows starting at the top of 
+the page.
+
+--- PAGE 36 ---
+ Force with Character 19
+The length of the model’s ribcage in this position is what struck me as amazing. Next, 
+I went after the left shoulder blade poking out of the back and the subtle rhythms 
+found in his upper body to move us down into the hip region. The main angle here is 
+the trunk of the body and against the arm and leg.
+
+--- PAGE 37 ---
+20 Force: Character Design from Life Drawing
+This drawing and the next are basically the same setup in angles. Here you can see 
+the main peak in those angles at the model’s right hip.
+
+--- PAGE 38 ---
+ Force with Character 21
+Here the angles meet at the model’s ribcage. In the last two drawings we obtained 
+two totally different ideas in the poses but from an abstract technical standpoint, 
+they are the same.
+
+--- PAGE 39 ---
+22 Force: Character Design from Life Drawing
+DEVELOPING IDEAS
+Where do ideas come from? First and foremost they come from seeing the truth. They 
+often come from a past reference or a combination of many. My point here is that with-
+out your own life experience or information, there are no ideas. You are as limited as 
+your knowledge and experiences. Drawing is your skill to visualize into physical form 
+those ideas and enjoy your experience in doing so. To form opinions in drawing, you 
+must have vast wells to work from.
+Your ideas may be based on force, form, shape, analogies, from art, ﬁ  lm, theatre, liter-
+ature, or ANYTHING else that interests you! Perhaps you see something that reminds 
+you of a distant culture, a plant, war, or act of nature. As you draw the ﬁ  gure, open 
+your mind to your thoughts and reactions to the visual stimuli you experience.
+Bring visual inspiration with you to drawing class. The most common is an artist’s work 
+that inspires you. It may also be more indirect like a photo of a Buddhist temple, a 
+medieval sword, or a candy wrapper ... whatever interests you. Sometimes these ideas 
+will be absorbed into your work and other times they may not.
+The idea of force alone makes me often think of water, wind, ﬁ  re, and earth. In my 
+book Force: Dynamic Life Drawing for Animators  we used the concept of blind ﬂ  ight 
+and a journey to distant lands to bring creative concepts to drawing.
+Drawing does not have to be about accuracy to the image in front of you in the 
+manner of mathematical angles and tones. It does not have to be from a plaster cast. It 
+does not have to take nine hours to feel safe and fulﬁ  lled with a drawing. If you enjoy 
+that process approach drawing in that way, but more often than not, I see many stu-
+dents frustrated with this approach to art.
+What I enjoy is coming up with ideas and the challenge of drawing them. I go after 
+what my main point of interest is. Let’s look at some examples.
+--- PAGE 40 ---
+ Force with Character 23
+So let’s start with a drawing that has subtle opinions or ideas. This will give me the 
+opportunity to show you that a drawing this traditional is still full of opinion. This is 
+not an act for the lazy. See how the model’s bottom left ribcage is where the drawing 
+has the most force. The face and hand were handled with an abstract ﬂ at shape that 
+I ﬁ lled with structure because of their complexity. Her left thigh has the ﬂ eshy texture 
+I was after against her harder knee. I pushed her right arm back with tone to 
+accentuate the shape of her breast. By doing this, it contrasts her other breast and 
+shows us the function of her ribcage to the pose and its story. While all of this occurs, 
+her pose stays rhythmic.
+
+--- PAGE 41 ---
+24 Force: Character Design from Life Drawing
+This is an example of my opinion guiding me closer to the truth of the moment. 
+Instead of copying the model, I went after an idea. The idea was the anguish shown 
+through the model’s humanity. This idea led me to look for clues. I paid more attention 
+to the stress of the hands, upward push of the nose, and frown found in the mouth.
+
+--- PAGE 42 ---
+ Force with Character 25
+Watch how force drives the opinion. The upward force found in the model’s right 
+shoulder determines the massive size of the shoulder. Then the other arm’s design is 
+determined by its function of a curved stretch. Her arm is like a rubber band pulled 
+from the hand around a large object. The verbs are what I accentuate to form an 
+opinion.
+
+--- PAGE 43 ---
+26 Force: Character Design from Life Drawing
+Here, numerous ideas transpired. The ﬁ rst, obvious one was the long and narrow 
+ﬂ uidity of the right arm and how it slid into the hand. Then, the play of that rhythm 
+against the opposing pull in the neck gave me an idea of an attitude in the pose.
+
+--- PAGE 44 ---
+ Force with Character 27
+The ideas are getting more extreme. The upward thrust in the hip helped dictate its 
+size and importance to the drawing. The right leg sat in this pose like a Greek column. 
+You can see how I swept the right shoulder outward at an aggressive angle because 
+of how much applied force was evident there.
+
+--- PAGE 45 ---
+28 Force: Character Design from Life Drawing
+You can see on this drawing my notes from when I just started teaching students 
+how to extract character from the models. In my Force classes I discuss the analogy 
+of being a journalist with your drawing. That means draw what is happening and 
+know what is most important to the story. This journalism starts with hard facts but 
+here I want you to write more juicy stories with smart opinion. It is a dangerous 
+edge to write on. I also wrote in the corner to think about adjectives. In the drawing, 
+look at all of the different opinions I had. There is the T-square-like corner in the jaw, 
+the wrinkled skin on her neck, the boney shoulder and weapon-like scapula, and the 
+angle of the arm and neck versus the right angle of the body and legs. There is much 
+to look at and discuss while drawing. There is much to have fun with and sink your 
+teeth into!!
+
+--- PAGE 46 ---
+ Force with Character 29
+Here are three drawings of the same model. The story of each pose, though, is 
+extremely different. My impressions and ideas are based on the speciﬁ c moments 
+I have with the model per pose or story. This one talks about the size and distance of 
+her head relative to her legs. I also was attracted to her scapula poking out past her 
+arm. Every line in these drawings was put down with great deliberateness. What 
+you see is what you get. There was no blue-sky phase (a phase when artists use a 
+blue pencil to think on the page and have liberty with how sloppy they are in this 
+process. Then they clean up their concept with lead or ink).
+
+--- PAGE 47 ---
+30 Force: Character Design from Life Drawing
+In this story I went for the long thinness of her hands and ﬂ at broadness of her butt. 
+Look again at the straight to curve design in her ribcage to back. I love the tiny right 
+foot all the way back in the page. This pose with its design could easily become a 
+motorcycle or spaceship.
+
+--- PAGE 48 ---
+ Force with Character 31
+Look at the wrinkles in the neck, the hard curve at the bottom right corner of the 
+ribcage, and the thinness of the waist. These moments were exiting experiences that 
+I moved through in drawing this story. His posture and neck reminded me of a bird 
+as I drew him. The small, tightness of the right hand and the open left hand was a 
+thoughtful moment.
+
+--- PAGE 49 ---
+32 Force: Character Design from Life Drawing
+Interesting ideas occurred here. The main contrast was in the ﬂ uidity and thickness of 
+the back relative to the ﬁ rm vertical impression of the hips and legs. This story is like 
+a snake on top of a tree stump. Then to top all of this off, we have the story between 
+the left hand out in space and its relationship to the model’s face.
+
+--- PAGE 50 ---
+ Force with Character 33
+The silhouette in this drawing is where the idea was for me. The clear read and 
+personality of the model’s right hand out in space and how it related to the model’s 
+body was intriguing. It sat out there like a spatula.
+
+--- PAGE 51 ---
+34 Force: Character Design from Life Drawing
+So here you can see how force has inspired design! The upward thrust of the back 
+helped push the design of the pose. I also went after the right arm’s concept of 
+“hanging.” Notice how each foot was handled differently based on its function to the 
+pose. This feels like a lazy bull.
+
+--- PAGE 52 ---
+ Force with Character 35
+So this drawing is basically two forty-ﬁ ve degree angles. The ﬁ rst starts at the top 
+right corner of the page and the second takes us from the hips to the bottom right 
+corner of the page. Look at the vertical strength of the left arm in relationship with 
+the horizontal platform of the right hand. Combined, they create a ninety degree 
+angle that gives us structure for the dynamic forty-ﬁ ve degree angle.
+
+--- PAGE 53 ---
+36 Force: Character Design from Life Drawing
+Exercises
+1. Use short amounts of time in the beginning of your drawing session to push 
+you into trusting yourself. Don’t second-guess your choices!
+2. Warm up your arm. Draw big arcs. Draw big straight lines. Then draw with 
+your elbow, wrist, hand, and ﬁ  ngers. Your arm is hierarchical just like our 
+theory in force and design.
+3. Go after one clear point of force. Where is it most obvious to you? Go after it 
+with everything you’ve got. Make it clear and strong.
+4. See clearly the angles or applied forces created by the relationships of direc-
+tional forces in the ﬁ  gure. Use them to create as much or as little drama as 
+intended.
+5. Stay aware of gravity.
+6. Use outside sources to inspire you in class. They may be photos, other artists’ 
+drawings, your own drawings, or audio.
+7. In my classes, sometimes I will play movie soundtracks to motivate the class into 
+feeling and thinking in a certain way.
+--- PAGE 54 ---
+FORCEFUL FORM
+I believe that the well-rounded draftsperson has the capacity to understand how to draw 
+depth and understand the ﬂ  at plane of the page at the same time. No matter how well 
+you can depict perspective, form, light, etc., there is real power in understanding that 
+you are still working on a two-dimensional surface.
+Space with Character
+Chapter 2
+The shape on the left shows us a ﬂ at circle; the shape on the right shows us the form 
+of a sphere. This incredible change occurs because of the two orange, curved lines. 
+They make our minds think that the ﬂ at blue circle is round. Of course the circle is not 
+and never will be, but look at how deceiving some simple curved lines can be on this 
+circle shape. Let’s look at some ﬁ gure drawings that show how the curved line 
+implies form.
+--- PAGE 55 ---
+38 Force: Character Design from Life Drawing
+So this drawing is full of forceful surface lines. These lines explain the speciﬁ c roundness 
+of the anatomy, what direction in space it is moving in, and what direction force is 
+pushing it in. That is a bang for your buck. Each of the lines give you three pieces of 
+information!
+--- PAGE 56 ---
+ Space with Character 39
+Here is a drawing that shows how curved lines show the forms of the ﬁ gure moving 
+in space. Remember that this is all an illusion, just lines on a page.
+--- PAGE 57 ---
+40 Force: Character Design from Life Drawing
+As complicated as this may seem, all of the surface lines assist in describing how this 
+model is moving through a tubular space. See how the lines continuously wrap 
+around the forms to clarify the understanding of roundness.
+--- PAGE 58 ---
+ Space with Character 41
+In this drawing we have lines of forceful form showing the roundness of the ﬁ gure 
+and we have a good deal of depth. See how each leg has a clear direction in space. 
+This is achieved by the curves at the top of the model’s left leg and the curves at his 
+right knee. The other trick I am using here is size. See the size difference between the 
+two knees.
+--- PAGE 59 ---
+42 Force: Character Design from Life Drawing
+This is the last drawing for showing form. See how the concept of form assists in the 
+forces found in the shoulders, arms, lower back, and hips. The form of the left 
+shoulder bulging out in space helps punctuate how much force is found there. That 
+forceful area exists because of the model leaning to the left and leveraging against 
+the pole that the hand is holding onto.
+Obtaining the ability to create form and depth on the page is the artist’s trick, our illu-
+sion. As soon as you draw two straight lines converging, our mind interprets it as per-
+spective. Curved lines are the beginning of describing round forms. The great artists of 
+the Renaissance used these tricks to describe landscapes, architecture, and the amazing 
+human ﬁ  gure!
+Students usually start their process of depth with line by learning the rules of perspec-
+tive. These rules help the artist become aware of the four dimensions of space we live 
+in. Students then learn anatomy and the linear description of form. After many years of 
+mastery in this, you realize that there are shortcuts to deﬁ  ning these rules on a ﬂ  at sheet 
+of paper. You ﬁ  nally reveal what lies beyond the Green Curtain! In my book, Force: 
+Dynamic Life Drawing for Animators, I cover the basic tricks, listed below:
+1. Size
+2. Overlap
+3. Convergence (perspective)
+4. The denial of tangents
+--- PAGE 60 ---
+ Space with Character 43
+What I want to show you in this chapter is an extremely powerful tool for controlling 
+these rules to create images with even more depth and opinion. When students in my 
+classes were exposed to this tool, their art EXPLODED with depth. Are you ready? OK, 
+here it is!
+THE SPATIAL BOUNDING BOX—SIZE EQUALS DEPTH
+A line drawing of a box. A spatial bounding box. Big deal, you say. Ah, yes it is a big 
+deal. It has taken me many years and even more drawings to come up with this 
+simple tool to teach depth. See, when our minds have something as simple as a box 
+to ﬁ ll with information, we are not intimidated to do so. This framework allows us to 
+push our boundaries. How does it do this? Next illustration.
+The box on the right is smaller than the one on the left. What does that mean? It 
+means it is farther away, right? Well, it could be or it could mean it is just smaller and 
+the same distance from us as the other box. In this chapter, we are going to use it 
+as our tool to push the depth of our page!
+If we want to further clarify the depth on the page we could overlap the boxes. In 
+the image on the left, there is implied perspective since the box that is farther away 
+from us is smaller. The image on the right is slightly confusing with the closer box 
+being smaller. The overlap here is what saves us from misunderstanding the spatial 
+relationship in the drawing. This shows you how powerful the two drawing ideas, 
+size and overlap, are.
+--- PAGE 61 ---
+44 Force: Character Design from Life Drawing
+I control depth through size and a simple way of controlling size is through seeing 
+abstract ﬂ  at parameters. Look at the bounding boxes around the different areas of the 
+ﬁ  gure. In the beginning, do this with realistic purpose. For instance, a foot that is closer 
+to you would be larger than a foot farther away. You can do this on a photograph. 
+This concept is visually real. This happens because of the roundness of our eyes.
+Another way I describe this idea to my students is that areas of the page take up a cer-
+tain amount of acreage, as if the paper is land.
+Here, form helps in the exaggeration of ﬂ uidity. Look at how force comes from the 
+buttocks over the thigh and down its far side to the knee and then continues into a 
+rhythm to the ankle.
+--- PAGE 62 ---
+ Space with Character 45
+You can see the exaggeration in space here between the foot and the model’s head. 
+The overlapping moments on the left side of the body, starting at the ribcage and 
+moving down to the left foot, clearly deﬁ ne the ﬁ gure’s direction in space.
+--- PAGE 63 ---
+46 Force: Character Design from Life Drawing
+Here are more examples of the bounding box idea. Look at the acreage that the 
+distant hand occupies versus the closer hand. The amount of ﬂ at space the hand 
+takes fools our brains into thinking that an object is close or far to us. To really apply 
+this idea, there should be two of the same object, such as the hands. The human 
+body is built in pairs so there is a great opportunity for this.
+--- PAGE 64 ---
+ Space with Character 47
+The top drawing was my ﬁ rst pass at this story. I then attempted stretching the space 
+between the head and the closer foot. Look at the size difference in the spatial boxes! 
+The most drastic change is between the feet. The far foot in the bottom drawing is tiny 
+in comparison to the closer foot. All of this space is designed through change in size of 
+the box!
+--- PAGE 65 ---
+48 Force: Character Design from Life Drawing
+The size of the model’s head and ribcage relative to the size of her legs creates the 
+illusion of depth on the page. This creates a feeling of power since we feel like we 
+are looking up at her, as if she was a giant.
+--- PAGE 66 ---
+ Space with Character 49
+Look closely at the bounding box I drew for the model’s head. I brought her foot and 
+knee out in this image. The leg with the large knee comes forward aggressively and 
+recedes back in space to the small foot. This radical size difference opened the door 
+for me to consider the amount of pressure being pushed upon the smaller foot.
+--- PAGE 67 ---
+50 Force: Character Design from Life Drawing
+This is the furthest I render a drawing. I show it to you because of all of the tricks I 
+used in the presentation of my idea. First, let’s talk about the spatial bounding box. 
+Notice the size variety in the spots on the pillow in the foreground. Look at the 
+direction of the strokes I used for the forceful form in the left shoulder. They point 
+right up to the artist’s face. I also slightly thickened the outline of the model’s edge to 
+separate her from the background. Know your objective and use the right tools for 
+the right job to get your point across.
+--- PAGE 68 ---
+ Space with Character 51
+This drawing has a more subtle implication of size equating depth. You can feel how 
+the hand comes toward us because it is slightly larger than it should be compared to 
+the size of the model’s head. All of the overlapping moments in the journey from the 
+head to the hand also describe depth to us.
+--- PAGE 69 ---
+52 Force: Character Design from Life Drawing
+In this series of three drawings, I kept pushing the idea of the weight in the legs and 
+the stress that it applied to the upper body. How did I do this? I kept shrinking the size 
+of the ribcage and increasing the size of the legs. This pushed the ribcage back into the 
+page and brought the legs forward. Also, our minds think that the bigger something is, 
+the heavier it is.
+--- PAGE 70 ---
+ Space with Character 53
+Here is our last image in this section. The obvious size variation here is in the head 
+to the hand relationship. There is the more subtle difference between the two eyes. 
+I love that the lines are our paths along the ﬂ at surface of the page but our mind 
+makes us think we travel away in space.
+--- PAGE 71 ---
+54 Force: Character Design from Life Drawing
+Let’s uncover one last trick about depth. Location on the page or the height of one 
+object relative to another on the page also helps deﬁ ne space. The ﬁ rst box on the 
+left shows that perspective could be going in either direction. Is the horizon high or 
+low on the page? Hard to tell. In the middle box height, assisted by size, makes us 
+think that the horizon line is low on the page. The orange arrow shows the direction 
+that space is moving outward. The third diagram shows us the opposite. It looks as 
+though space is moving outward, going from the top to the bottom square. This 
+would mean that the horizon line is high on the page since the smallest an object can 
+be is right on the horizon if the object is on the same plane as you.
+Here is a two point perspective diagram to show you why this concept works. By 
+choosing a horizon or eye line, we can start to see how objects get smaller as they get 
+closer to that line or get larger as they get farther away. In the drawing that follows, I 
+will show you my eye line in creating the drawing and how the spatial bounding box 
+works relative to the line.
+LOCATION EQUALS DEPTH
+--- PAGE 72 ---
+ Space with Character 55
+Let’s test these ideas. The model’s upper body is on the same plane as us. I show you 
+this with the blue line that indicates our horizon line. We can start our ride at the 
+model’s hands and move up into the shoulder, over the upper back, and keep moving 
+until we make our way down to the foreground foot. The change in size between the 
+two feet is the clear contrast that deﬁ nes a vast amount of depth. Connecting the feet 
+with a line gives you an angle on the page that will lead you up to the horizon. That 
+horizon line is your line of vision relative to the farthest location of the plane you are 
+standing on, which more likely than not is Earth.
+--- PAGE 73 ---
+56 Force: Character Design from Life Drawing
+Here the model’s body divides its weight between her left foot and right knee. 
+Once again we have her feet show us the dramatic sense of depth on the page. 
+See how small her head and hands are in comparison to that right foot. Feel how 
+the relationship between the feet once again describes the plane the model is 
+standing on.
+--- PAGE 74 ---
+ Space with Character 57
+I love looking at the pair of arms against the pair of legs in this image. Force still 
+makes its way through the ﬁ gure. See the vast amount of space this pose occupies 
+because of the size and height difference between the feet.
+--- PAGE 75 ---
+58 Force: Character Design from Life Drawing
+Here is a clear example of the spatial bounding box. I actually used the concept as a 
+design element. The head is much smaller, and the feet, which are larger, help deﬁ ne 
+a bigger spatial bounding box.
+--- PAGE 76 ---
+ Space with Character 59
+Again, the extreme appendages, head and feet, deﬁ ne this triangular pose and the 
+space it occupies. Keep in mind that all of these images are on ﬂ at sheets of paper. 
+There is no depth. Your brain thinks there is and understands what it sees because 
+the artist, me, sees the same way you do.
+--- PAGE 77 ---
+60 Force: Character Design from Life Drawing
+Exercises
+1. Start off your drawings by laying down a pass of bounding boxes. Draw them 
+relative to your ideas on what you want to bring closer to you and what you 
+want to push into the page.
+2. Take the process from above and exaggerate it even further. Make the boxes 
+contrast in size even more. Make the large boxes larger and the small boxes, 
+smaller.
+3. Once you understand the rules of depth then you can have fun breaking them. 
+Take something closer to you and make it smaller, then take something farther 
+away and make it larger. You can equalize or ﬂ  atten depth by making areas 
+the size.
+4. When you have models pose for you, direct them to give you poses with a lot 
+of space.
+5. Draw the model from a close proximity to notice the variety in real space.
+6. Draw the model from far away. See how the amount of space she occupies 
+diminishes. This is where you can use the spatial bounding box to recreate 
+close proximity depth.
+--- PAGE 78 ---
+In Chapter 2 I mentioned the importance of understanding depth and ﬂ  atness at the 
+same time in art. Shape makes this point real clear. You may draw dimensionally but 
+you can still outline a silhouette. This immediately gives an image a sense of ﬂ  atness. 
+Drawings can start to feel like a jigsaw puzzle. You start seeing how one puzzle piece 
+ﬁ  ts perfectly into another. You start to shape design the large, medium, and small 
+shapes. Remember, you are still working on a ﬂ  at plane.
+As children, we start the act of drawing through simple shapes. As we become teenag-
+ers and young adults, we travel through a period of striving for reality in the art. 
+Ironically, in maturity it is a return to childhood that balances out our interpretation of 
+our world. Let’s return back to a tiny sliver of childhood and look at some shapes.
+Every child is an artist. The problem is how to remain an artist once he grows up.
+Pablo Picasso
+When learning how to draw, it is form that creates shape. There is no silhouette to see 
+without a form to create it. Be aware of jumping into shape too early. It can quickly 
+become a crutch and lead you to weak drawings with no structure.
+After fully understanding form, there are many times that I will start a drawing with 
+shape ﬁ  rst and then ﬁ  ll it with form. Drawing in this order allows you to push your cre-
+ativity. It is more complex to start drawing an idea from a form instead of a shape. 
+Your initial shape may need some tweaking to properly ﬁ  ll it with form, but you will at 
+least have an interesting launch point.
+Shape with Character
+Chapter 3
+--- PAGE 79 ---
+62 Force: Character Design from Life Drawing
+Above are some basic shapes—the triangle, oval, rectangle, and a double triangle. 
+They are static because of their symmetry. What is interesting to note here is that at 
+this basic level they already imply character. Below, I have added some force to these 
+shapes. You can see how easily they come to life.
+ABSTRACTION OF SHAPES
+Typically, each of these shapes has some general emotional relationship to us.
+Triangle: With its point downward, the triangle can represent an athletic ﬁ  gure. It is 
+also often used for villains because of its pointiness and dynamism. Precariousness 
+could also be implied by it trying to balance on its point. Flipped around, where the 
+point is on top, the triangle suggests solidity, like a pyramid, unmoving. The triangle is 
+the most dynamic of all basic shapes because of its strong angles. Used with force, it 
+is like an arrow, directing energy from one location to another.
+Circle (Oval): This shape is considered the friendliest of the shape family. No pointy 
+or dangerous corners. In the real world, typically things that are round are soft and 
+safe. It is no accident that Mickey Mouse’s head and ears are circles. Our pupils, the 
+windows to the soul, are circles.
+--- PAGE 80 ---
+ Shape with Character 63
+Square (rectangle):  This shape deﬁ  nes strength. If stretched horizontally, it feels 
+like a solid base or foundation. Vertically, it is like a column of strength. This is the 
+shape I love using for size and proportion in design.
+One way of using just these preliminary shapes is to see them at the top of the pyramid 
+in the pose. Does the model look like a rectangle, triangle, or circle. Maybe a pose con-
+tains multiple shape ideas. DO NOT get trapped into drawing the model in this method, 
+it is NOT Forceful. In fact it is quite dead. The shapes are abstract parameters 
+of the ﬁ gure for placement relationships. Here is an example.
+Here I shaped out for you the triangle created by the back leg and the rectangle that 
+is created by the arm, back, and lower leg. Again, I don’t draw these ideas because 
+they don’t excite me with passion through the theory of force, they are quick abstract 
+thoughts to help me with the placement of the ﬁ gure. Students constantly ask me 
+about proportion. As I have mentioned before, proportion is a secondary thought to 
+me while force is the forefront. This is a great way of obtaining proportion without 
+measuring every line and having that process take over your drawing experience.
+--- PAGE 81 ---
+64 Force: Character Design from Life Drawing
+FORCEFUL SHAPE
+Let’s get back to Forceful shapes. My ﬁ  rst book on force (Force: Dynamic Life Drawing for 
+Animators) covers this philosophy in extreme detail. Let’s take a quick look at it again.
+This design concept is so simple and powerful. When I instruct, this shape clearly 
+deﬁ  nes what is working and what is not in a drawing. The key is seing shapes even 
+though you are looking at a line drawing.
+Just to refresh our minds on the concept of forceful shape, what we want to ﬁ nd are 
+straight to curved shapes or something that looks like the letter “D” or half a pie. The 
+straight represents structure and the curve represents force. Here is how the idea of 
+straights and curves combined creates forceful shape!
+--- PAGE 82 ---
+ Shape with Character 65
+Here is a more traditional drawing that was founded on the straight to curve or 
+forceful shape concept. The straight line of the back clearly deﬁ nes the forward thrust 
+of the chest.
+--- PAGE 83 ---
+66 Force: Character Design from Life Drawing
+The straight to curve here is the opposite in its function. The curve is in the back and 
+the straight is the chest. See the shape also in the lower left leg. The front of the shin 
+is the straight and the back is the curve. All of the ﬁ gure is designed with shape, 
+some areas are just more obvious than others.
+--- PAGE 84 ---
+ Shape with Character 67
+This is the last example for forceful shape at its iconic simplicity. Again, I used it in the 
+ribcage area. The back is the curve and the front of the chest is the straight. The right 
+thigh is another obvious example. The front of the thigh is the curve and the 
+hamstring is the straight.
+--- PAGE 85 ---
+68 Force: Character Design from Life Drawing
+In my book Force: Dynamic Drawing for Animators,  I discussed the rules of straight to 
+curve design in depth to create these forceful shapes. In the last few years, I have dis-
+covered a new way of instructing students about this concept by using cut paper. I 
+have my classes cut out D-shaped pieces of paper before the model takes the pose. 
+Then, students glue stick these shapes on the page relative to the forces they under-
+stand in the ﬁ  gure. After sticking down these shapes they draw the ﬁ  gure on top of 
+them. This is an excellent way to comprehend straight to curve or forceful design. 
+Remember, the curve represents force and the straight, structure.
+Try this exercise. It causes you to make clear decisions. That clarity allows for the real-
+ization of what direction the shape must be in to function! Let’s look at some examples.
+Forceful shape is used in the back. The curve deﬁ nes the directional force that came 
+from the neck and applied itself in the peak of the back. What I ﬁ nd of great interest 
+in this image is the ﬂ at shape of the brown cut paper versus the depth created by the 
+lines drawn on top of it.
+--- PAGE 86 ---
+ Shape with Character 69
+The areas I designed with the forceful cut out shapes are the ribcage and the model’s 
+left leg. The ribcage is thrusting upward with the straight of the back supporting it. 
+The same occurs in the leg. As an added bonus, I added the student drawing behind 
+the model. Notice how small he is. Again, your mind immediately understands that 
+the student is a certain distance away from the model.
+Throughout the rest of the book, I will apply the shape concept through digital overlays. 
+Again, this exercise with cut paper is a must. The speed with which clarity is received 
+on forceful shape is high.
+THE FORCEFUL TRIANGLE
+Now let’s take our forceful shape and make it less graphic and more organic. First 
+we take the three points of the forceful shape. The third point is the peak of the 
+curve. This gives us a triangle. We slightly bend our straight side and start to create a 
+ﬂ exible triangle. This triangle is a powerful shape. The triangle, because of its point, 
+innately points in a direction, like an arrowhead. Having one triangle point itself to 
+another creates rhythm with shape.
+--- PAGE 87 ---
+70 Force: Character Design from Life Drawing
+Just to up the ante of this concept, remember that force is hierarchal (look in the Key 
+Concepts section at the front of the book), meaning look at it from big to small ideas. 
+So, let’s take this shape and use it to see the abstraction of an ENTIRE pose or, the full 
+pyramid. That’s right, we can now take the pyramid/triangle and have it actually rep-
+resent the entire pose.
+Here it is! I have deﬁ ned the pose with a rhythmic triangle. This triangle shows us the 
+big idea or the full hierarchical pyramid. The top half of the triangle pushes right and 
+the bottom of the triangle pushes to the left. You can see these energies in the model’s 
+ribcage and hips. I then went in and deﬁ ned the multiple rhythms with the forceful 
+shapes that clarify those concepts.
+--- PAGE 88 ---
+ Shape with Character 71
+This drawing of the same model shows the shift in the hips moving in the opposite 
+direction. See the straight of the right side of the ribcage and the curved left side. This 
+curve of the ribcage slides into the curve of the hip. It then travels into the knee and 
+down into the right side of the calf. See the clear forceful triangle of the left arm.
+--- PAGE 89 ---
+72 Force: Character Design from Life Drawing
+Here is another example of forceful shape as the focal thought in execution. See how 
+there is not much interior line to determine form. It is primarily determined by the 
+overlapping of the shapes.
+--- PAGE 90 ---
+ Shape with Character 73
+Our last drawing of clear straight to forceful shape design used to exaggerate the 
+ﬁ gure reveals itself in the ribcage and thighs. Look more closely and you will also see 
+it in the shin, arm, ear, and eyelids.
+--- PAGE 91 ---
+74 Force: Character Design from Life Drawing
+THE BRILLIANT BOUNDING BOX RETURNS
+Years back, a friend of mine would hold drawing sessions in his studio. I was teaching 
+four classes at the time and this personal drawing time let me further my own experi-
+ences with the model. Out of those sessions came the drawing below.
+This drawing was at the beginning of my journey into abstraction with ﬂ at, inorganic 
+shapes. As simple as it may seem, just playing with these abstract shapes against 
+the design of the male nude was a real breakthrough in a ﬁ gure drawing 
+environment for me. The three boxes in the background became design elements. 
+Notice how I started breaking those boxes down into smaller boxes. Look at the 
+shape in the lumbar region of the back. Notice how it suggests perspective but just 
+like any other shape on the page, it is FLAT!
+--- PAGE 92 ---
+ Shape with Character 75
+These abstract shapes bring me back to the infamous bounding box. This time, though, 
+it is not spatial but used for ratio so it is our ratio bounding box . What is so 
+important about this? Well once again, your mind will be able to ﬁ  ll the simple shape 
+of a box because it is so simple. This accessibility allows you to be more opinionated 
+and creative. The real challenge is to have an opinion based on truth or you could 
+push or pull in the wrong direction.
+Seeing abstractly is one of the keys to great design.
+So here we see two simple boxes. Starting with what they have in common, they are 
+both rectangles. They are both taller than they are wide and they have the same 
+color perimeter. The difference between is what is most important. One is taller and 
+thinner than the other.
+--- PAGE 93 ---
+76 Force: Character Design from Life Drawing
+A great way to start with the concept of the ratio bounding box is to put the entire 
+ﬁ gure in a box. Once again cut paper is an excellent tool for you committing to your 
+ideas and staying clear with your thoughts. I love the way the ﬂ at box ﬁ lled with the 
+weight, ﬂ uidity, and structure of the model sits on the tiny bench. The long orange 
+horizontal box is just an accentuation to bring focus to the head.
+--- PAGE 94 ---
+ Shape with Character 77
+This drawing has three bounding boxes. Each one deﬁ nes different areas of the 
+ﬁ gure. The box for the hand assisted me in stretching it horizontally while the one for 
+the foot made it larger and brought it closer to me. The pink one was to deﬁ ne the 
+acreage of the ﬁ gure.
+--- PAGE 95 ---
+78 Force: Character Design from Life Drawing
+In creating these long, yellow rectangles, I give myself the freedom to manipulate 
+any part of the ﬁ gure I want. Keep in mind, the shape of the paper is determined by 
+my opinion. So with the hand, for instance, I felt that is should be vertically long 
+because I was after the hanging feel it gave me. His head felt more horizontal than 
+vertical. The red box assisted me in the idea of design.
+--- PAGE 96 ---
+ Shape with Character 79
+In creating this image, I pasted the pink squares and decided prior to the model 
+taking the pose that one would represent the head and the other, one of the feet. 
+Well, this presented a challenge when the model’s foot in reality was much farther to 
+the left than in my layout. I had to lengthen the back and make the force still hook 
+up from the head to the foot. This restriction allowed for the creation of this design.
+--- PAGE 97 ---
+80 Force: Character Design from Life Drawing
+This drawing is our ﬁ rst without cut paper to assist in the designing of the model. 
+Here we have a falling rectangle and a stable box. I also played with the space 
+relationship of the head to the foot. This drawing is a clear example of ﬁ tting the 
+ﬁ gure inside predetermined shapes.
+--- PAGE 98 ---
+ Shape with Character 81
+THE LAW OF THIRDS
+Here is our iconic box on its side. You can use the rectangle this way also. This grid is 
+great to use in studying ﬁ lm. Later in the book, you will see research of mine from 
+ﬁ lm. This box is one of the tools I always use in analyzing composition.
+Now I have taken our box that is split into thirds in its vertical height and in the 
+second image split it in half from left to right. This waters down our design again. In 
+the last image we have the iconic image of design in thirds, our rectangle divided in 
+thirds, vertically and horizontally. Remember this image!
+The law of thirds is a crucial design law. The box on the left shows no divisions. The 
+second box shows a half-way division. This immediately causes symmetry. That means 
+that the top and bottom of the box or the ﬁ gure are the same. It is this sameness that 
+we are trying to avoid in our work. Our minds want to create symmetry and the irony 
+is that this causes disinterest in art. Remember, contrast creates interest. So, that leads 
+us to our third box on the right. Here I have divided it into thirds!
+--- PAGE 99 ---
+82 Force: Character Design from Life Drawing
+The law of thirds can also pertain to the dynamic shape of the triangle. The number 
+three is a powerful number. In general, you want to stay away from even numbers 
+because they have a tendency to create symmetry. The number one does also. 
+Between the forceful triangle and the rules of thirds, you should be able to create 
+dynamic designs if you so desire.
+So here we see a ﬁ gure conﬁ ned to the parameters of the bounding box. See how 
+powerful this tool is? We have a tall, thin character and a shorter more squat 
+character. I gave them general vertical proportions. They both have their waist 
+around the center of the rectangle. Now, let’s play with ratios.
+--- PAGE 100 ---
+ Shape with Character 83
+I have pushed the shoulder line upward and brought the waistline downward. With 
+this simple adjustment, we have new, interesting characters. Look at the amount of 
+rich variety created by sliding these simple horizontal ratio lines up and down 
+relative to one another. Simple right? This is so darn simple that it becomes powerful. 
+Now I did this with the full shape of the ﬁ gure. You can do this with any area as long 
+as you have a clear reason or opinion as to why you are doing it. You can also apply 
+this concept by sliding vertical lines.
+--- PAGE 101 ---
+84 Force: Character Design from Life Drawing
+This drawing presents my preliminary bounding boxes. If we look within each 
+bounding box as a separate design, we can make assessments as to if they are 
+broken into thirds. The box for the ribcage shows a great division with the breast line 
+at the top third of the box. The horizontal leg, on the other hand, shows the seam of 
+the stocking right in the center of the box. It would have been more interesting if I 
+had pushed the seam closer to the body or the knee.
+--- PAGE 102 ---
+ Shape with Character 85
+I saw the main section of the ﬁ gure as the legs, trunk, and head with the hands and 
+feet beyond the parameters of the box. I then played with the proportions of those 
+areas once they left the box. I like the way the hands rest on top of the box the 
+ﬁ gure is drawn within.
+--- PAGE 103 ---
+86 Force: Character Design from Life Drawing
+This decision about the proportion of the box came from the model and her pose. 
+Look at how the rectangle is divided in thirds. Her head, chest, and hips are all 
+occupying a third of the main rectangle. I then used color and value to assist the 
+image. I applied a hot orange red for her sensuality but kept her skin bone white. To 
+further pronounce the red, I placed a green box in the design. Lastly, I designed 
+circular shapes in the background to accentuate her femininity. I like the opposing 
+angles of her facial direction to that of her shoulder.
+--- PAGE 104 ---
+ Shape with Character 87
+This page layout was designed prior to the time period with the model. The ratio 
+bounding boxes allowed me to tell a visual story about the pose. I really enjoy the 
+arm and the solution to the hand. The small square box became the perimeter for the 
+ﬁ ngers and that created a long palm.
+--- PAGE 105 ---
+88 Force: Character Design from Life Drawing
+Let’s take a look at some line drawings with these ratios. Notice how the drawing to 
+the left feels the most generic and comfortable. The middle one can make the 
+character feel tough or dumb … or both. The drawing to the right makes our 
+character feel smart or baby like.
+Here is the same “thirds” concept with a face. The face is represented by the rectangle. 
+It could be any shape. I chose the rectangle. Look at what happens when we move the 
+eye line away from its typical center. At the simplest level, because the second shows 
+the line brought to a top third, the cranium is assigned less real estate and the jaw is 
+given more. In the last image the cranium is assigned the majority of real estate when 
+the jaw is given the smaller amount. What does this mean to character?
+FACIAL RATIOS
+--- PAGE 106 ---
+ Shape with Character 89
+This is a demonstration I did for class at Nickelodeon that shows how taking the 
+simple ratio bounding box idea allows you to take control of your opinions. You can 
+see how I pushed and pulled the model’s head in different directions relative to the 
+static reality.
+--- PAGE 107 ---
+90 Force: Character Design from Life Drawing
+I broke this portrait down into ratio bounding boxes. The ﬁ rst box of course is the 
+head. Then, we can work our way down in size. The ear is next and the inside of the 
+ear is less than a third of the ear bounding box. Then, the same happens with the nose. 
+The bottom of the nose is a box and the nostril is two-thirds of that bounding box.
+--- PAGE 108 ---
+ Shape with Character 91
+The next two drawings are of the same model. This one is obviously more real. 
+I present it to you as a comparison to the following drawing.
+--- PAGE 109 ---
+92 Force: Character Design from Life Drawing
+See how I pushed around the ratios of the model’s head. Long forehead and 
+compression of his face are two ideas that I used off the top. Shape was also a 
+strong ﬁ lter for me in looking at his hair and facial features.
+--- PAGE 110 ---
+ Shape with Character 93
+Here again, I picked an area of the ﬁ gure to crop and design. The colors have also 
+been designed into shapes. Notice the complementary reds and greens with the 
+golden yellow right in between the two. I’m not sure if you have noticed this yet, but 
+I try to stay away from a perfect square. I love the stretched proportions of these 
+rectangles. This allows for asymmetry right from the beginning.
+--- PAGE 111 ---
+94 Force: Character Design from Life Drawing
+Exercises
+1. In the beginning, we start with ﬁ tting the entire ﬁ gure in the box to help see the 
+overall proportion and design of a pose.
+2. Use the concept of proportion to state your opinion.
+3. Think of the power of simple shapes but keep them ﬂ  uid.
+4. Draw an entire pose with just rectangles. Then go back and ﬁ  ll them with the 
+ﬂ  uid shapes and proportions that you predetermined.
+5. Predesign a page with shapes, like a comic book. Then go into your ﬁ  gure- 
+drawing session and try to tell a story with the drawings.
+6. Apply shapes to assist you with proportion and design.
+7. Create multiple designs based off of forceful shapes from the ﬁ  gure and then 
+try to have these different moments create continuous, new rhythms. Again, 
+working within the boxes really helps your mind think about design.
+--- PAGE 112 ---
+This chapter is very special in that friends/fellow professionals from the feature and televi-
+sion animation industries along with video game designers have contributed character 
+designs based on photos that I supplied them with of costumed models!
+This gives you the opportunity to see the variety of opinions that can come from reality. 
+Their visions vary in depth, color, tools, textures, and ideas. They each answer the 
+question “Why” differently. I hope this shows you how vast and personal your choices 
+can be. Let’s get started!
+Costume adds another great level to the character you are drawing. Shapes, colors, 
+textures, patterns, and more lead to opinions and a new world of choices and experi-
+ences for you the artist.
+Imagine that the marks you make can help a viewer understand what something feels 
+like to the touch. If you see a feather, your past experiences tell you what it feels like as 
+a fellow human. As the artist and human yourself, you can visually inform someone of 
+what something FEELS like by SHOWING it to them. The beginning of this process, 
+though, is your attention to texture.
+When it comes to texture feeding character, what does it say if a woman is wearing a 
+black leather jacket with a studded black shirt or wearing a soft pink, high turtleneck, 
+and cashmere sweater. Your mind immediately conjures images and opinions.
+Do not ignore these instincts when drawing on location or drawing a costumed model. 
+Let them feed your design process. This process in turn will feed you on the job, creat-
+ing characters with rich ideas about the clothes they wear.
+Clothing can also inform us of a time period. What are the shapes of the clothes and 
+why? What are the colors of a particular era? What was society’s disposition during 
+the different periods?
+Occupation determines costume. Is the uniform that of a fast food employee, a gladia-
+tor, or a rock star? Perhaps the character is a super hero!
+Costume with Character
+Chapter 4
+--- PAGE 113 ---
+96 Force: Character Design from Life Drawing
+Culture is another deﬁ  ner of costume. Are the clothes French, German, or Spanish? As 
+you can see, if you start combining these ideas, you can obtain a very speciﬁ  c charac-
+ter of an individual with the costume. How do the characters feel about the clothes they 
+wear? Are they forced to wear them? Are they by personal choice? Do their clothes 
+make them feel proud?
+“Why” is the most important question to answer as you create. Why do I think this way 
+about these clothes? Why does the character wear these clothes? Why does this pose 
+with these clothes give me this story? Why are these fabrics the colors that they are? 
+Why, why, why!
+Every person has deﬁ  ned his or her own persona. This is a representation of his or her 
+internal character. Enjoy the quest to discover what is affecting you, how it affects you, 
+and why! “Why” will help you form opinions.
+Exaggeration, the inseparable companion to greatness.
+ Voltaire
+In this chapter, there are three different scenarios within which the art was created.
+1. Drawing from life, a real costumed model. All decisions were made on the spot.
+2. A drawing based on a drawing of a model from life or photo.
+3. Drawing from a photo of the model.
+ When people ask me to characterize my style, I always say I am an escape artist. 
+Style should be like a marriage: you only agree to it if it’s irresistible. I’m more 
+interested in character than style. Character comes out of the work. Style is applied 
+or imposed on the work. Style can be a prison.
+ Elaine de Kooning
+TONE OR VALUE
+Getting out a soft lead or black marker and a white piece of paper is a fast way to 
+create character designs. Silhouette is a powerful tool to see the posture of a character, 
+and that posture can immediately give the viewer a quick read of the character. Is the 
+character standing with his chest pushed out? Is he bent over with his hands in his 
+face? Either silhouette describes a clear sense of character.
+--- PAGE 114 ---
+ Costume with Character 97
+I was extremely fortunate in having Will Eisner as an instructor in my senior year of art 
+school. He used to discuss how important the clarity of silhouette was for character and 
+story. In his book, Comics and Sequential Art, he describes this anatomy of expression 
+by showing the silhouette of a basic pose, like resting your head in your head, under 
+different circumstances. This pose represents different ideas when shown as a response 
+to multiple scenarios. These silhouettes show extremes of human emotion. The open 
+posture on the left and closed posture on the right conjure emotional concepts for us.
+Then, when I went on to work at Disney Animation, the idea of clear silhouette was 
+imposed upon me again! From one pose to the next, the clear storytelling of the charac-
+ter comes across in the silhouette. When a character is holding an object, you will see at 
+Disney how the character places it outside the shape of the body to clearly present the 
+object. Once you understand the rule, it becomes blatantly obvious when it is utilized.
+Once you have ﬁ  gured out your silhouette, think about values. A simple rule to know is 
+that the higher contrast an area has the more attention it brings to itself. Where is the 
+most important part of the ﬁ  gure visually? Is it the face? Then design with the highest tonal 
+contrast near the face. Is it an emblem on a hero’s chest? Then put the contrast there.
+
+--- PAGE 115 ---
+98 Force: Character Design from Life Drawing
+This is a real simple example of tonal design. The gray triangle on the left is 50% 
+black, the middle is 25%, and the right is pure white. See how each of them relates 
+to the black shape of the ﬁ gure. The clearest triangle shape is the white one because 
+it creates the most contrast with the black ﬁ gure. You can do what you want with 
+tonal contrast. You may want to be subtler for character reasons. Then you could go 
+with the 50% contrast.
+Another quick read on character along with posture is facial expression. We, as 
+humans, are extremely sensitive to each other’s expressions. The slightest change in the 
+corner of the mouth or raise of an eyebrow can suggest an entirely different thought 
+and emotion. Eyes as the windows of ours souls lead to the close-up in all story genres, 
+be it ﬁ  lms, television, or video games.
+Between the understanding of body language and the subtle sophistication of facial 
+expression, you can come up with a limitless amount of characters and stories. Then, 
+imagine dressing them up with clothes that represent them internally! Let’s go to the last 
+step on design, color.
+--- PAGE 116 ---
+ Costume with Character 99
+COLOR THEORY
+I am by far, no master of color but I will try my best here to tell you what I know 
+about how it relates to character design. Here goes nothing.
+Color’s importance relative to character design was brought to my attention while I 
+worked at Disney. They discussed the character design of Worthington Foulfellow, the 
+fox with hat and cape in Pinocchio. What really stuck out in my mind was their point 
+on the color selection of his cape. The exterior was blue and the interior was red. This 
+color combination personiﬁ  es the character. He acted friendly (blue) but was internally 
+evil (red). I thought that was damn clever. Below I have written a quick list of some 
+color deﬁ  nitions relative to character.
+1. Red — anger, evil, love, hatred, blood, hot, active, emotional
+2. Orange — warm, danger
+3. Yellow — excited, happy, light,
+4. Green — organic, rich, digital, gross, sickly, money
+5. Blue — friendly, sad, diffused, calm
+6. Indigo — royal
+7. Black — evil, fear, cool, empty
+8. White — heroism, holy, cleanliness
+This list is not written in stone. Look at the movie The Matrix . All of the heroes are 
+dressed in black. There are many varieties of the colors described in the list above.
+You should know basic color theory — primaries, secondary, and tertiary colors. Then, 
+know how to use analogous or complementary color harmonization. From my own expe-
+rience, it is better to start off monochromatic and slowly lead into more complex color 
+palettes than to use all colors. Former painting instructors and friends have agreed with 
+this process. Start with primaries and know how to mix. Don’t work in too many saturated 
+colors. Use the colors to make a statement. Know what you are after and trying to say.
+--- PAGE 117 ---
+100 Force: Character Design from Life Drawing
+Here I feel I was most successful in capturing the feel of the feather boa and the 
+power of Nicole Strafaci’s pose. See how I handled her upper body with shape as my 
+approach. The powerful curve of her back against the ﬂ uid right leg is a nice contrast 
+of ideas.
+
+--- PAGE 118 ---
+ Costume with Character 101
+ERIN LEONG
+This particular photo was chosen because of its interesting pose and variety of 
+garment. I decided to take a fashion illustrative approach and start by thinning out 
+the character and elongating her neck, arms, torso, and legs. It was intentional to not 
+copy the pose exactly; instead I wanted to focus on the silhouette for readability. This 
+resulted in pulling the front arm back and pushing out the back leg. I was pleased 
+with the initial colors such as the pink and purple, and wanted a color that would 
+help push those colors forward. Since yellow is complementary of purple, I tried to 
+work that into the background and create a subtle color that would still contrast with 
+the character.
+--- PAGE 119 ---
+102 Force: Character Design from Life Drawing
+TEDDY NEWTON
+I start with a colorful magazine. When I come across a good texture with a lot of 
+surface area, I cut away. Then, I’ll try and reinterpret what those textures are. For 
+instance, I’ll turn lips into hair, or I’ll turn a wrinkled napkin into a hardened face. It’s 
+a great starting point before I add the rest of the pieces. It’s sort of like visual 
+improvisation. I do not plan a piece with an under drawing. I simply let the pages in 
+the magazine surprise me, then I act off that.
+When I received this photo of the woman in the pink hat, I ﬁ rst thought it was a man 
+in drag. Only later did I ﬁ nd out that this person was “all woman.” So my use of the 
+winter forest for the legs and arms was simply to exaggerate the ideas of hairy 
+scratchy skin that would tip you off that this was really a man underneath sexy 
+womanly shapes.
+--- PAGE 120 ---
+ Costume with Character 103
+Look at the angularity of the boots in comparison to the soft curves of the legs. You 
+can see that I had a clear thought about making the neckline of the shirt as an 
+obvious shape. I enlarged the shape of the hat to further frame out the character’s 
+face.
+
+--- PAGE 121 ---
+104 Force: Character Design from Life Drawing
+DEANNA MARSIGLIESE
+In my opinion, character designing is purely intuitive; knowing what shapes, colors, 
+and lines will best depict your character’s personality. My approach is to doodle 
+without direction until I’ve experimented with several different ideas. In the case of 
+this design, I began by drawing her as a tall, thin, model-like woman. Although she 
+seemed appealing, the character did not exude enough personality. As I continued to 
+play with different proportions, I discovered that designing her as a heavier woman 
+allowed me to have more fun with the shapes — and it was much funnier! When 
+designing, I try to incorporate straights, curves, bold blocks of color, interesting 
+shapes, textures, and fun patterns. Never be afraid to try something unique. For this 
+design, I’ve chosen to ignore the transparent nature of the blouse, keeping it as a 
+
+--- PAGE 122 ---
+ Costume with Character 105
+solid, simpliﬁ ed black shape. I’ve used line work to suggest stylized rufﬂ es in the 
+fabric, as well as texture in the hair and eyelashes. I’ve also had a bit of fun using 
+“dotted patterns” to suggest the strap of her purse and the embellishments on her 
+cowboy boots. When drawing the ﬁ nal version of a design, I prefer to use clean, 
+seamless line work.
+In the initial stages, however, I try to be as loose as possible, using long, ﬂ uid lines. 
+I like to imagine a character as a living, breathing individual. This helps me to 
+evaluate whether or not the design is believable. Most important, have fun! Never be 
+afraid of a bad drawing or constructive criticism. It’s all part of the process.
+The mob was on my mind in these images. The cigar, loud Hawaiian shirt, and the 
+trunk brought to mind a murder whose remnants were hidden in the trunk. Foul play 
+was at work as I illustrated this story. Always feel comfortable playing with media. 
+This was done with Dr. Martin’s dyes, a pen, and a marker.
+--- PAGE 123 ---
+106 Force: Character Design from Life Drawing
+Story behind the character was a key element here. The facial expression and pose 
+tell us how much the gold means to the pirate. Look at his gaze and see his love for 
+the gold. John Tucker, the model, did a great job of acting out this moment.
+
+--- PAGE 124 ---
+ Costume with Character 107
+This design was inspired from the photograph and my drawing done from life. I 
+drew the character with lead and then painted it rapidly in Photoshop. Notice the 
+curve that I injected into the barrel to accentuate the weight and direction of the 
+pirate’s body. I made the background green to pop the red out in the scarf and shirt. 
+I then brought focus to the main story by designing the yellow circle.
+
+--- PAGE 125 ---
+108 Force: Character Design from Life Drawing
+Here is another exploration from the same pirate image. I decided to go more 
+abstract. I loved the idea of the worn shirt and highlighted that feature by giving it a 
+lot of real estate in the image. Then, I played up the idea of the pirate’s tools of the 
+trade — his sword and gun. To play off of the shape of the shirt, I created skinny 
+black legs to add some humor to the design. This was all designed with ﬂ atness in 
+mind. See how the shapes relate to one another. Look at the difference in size 
+between the two hands. Notice his mischievous expression. Color is all analogous 
+and accentuated with the black.
+
+--- PAGE 126 ---
+ Costume with Character 109
+STEPHEN SILVER
+My goal when I’m drawing from life or drawing from photographs is ﬁ rst and 
+foremost to push it. I do not want to just copy what is in front of me, mainly because 
+I feel I lose the life and energy of the pose. I also learn more that way. The ﬁ rst step 
+in the process is getting some lines down on the paper, the gesture. The next phase is 
+to tighten that drawing up slightly and make it a little clearer to see if it is working 
+for me. The third phase is cleaning it up. This one was cleaned in Alias Sketchbook 
+Pro. The most important aspect of the whole process is to make sure you don’t just 
+trace your previous drawings. That tends to take out all the life. The ﬁ nal phase was 
+coloring it in Painter.
+--- PAGE 127 ---
+110 Force: Character Design from Life Drawing
+DEAN YEAGLE
+I rarely work out a character directly from a model, but I will often use a person or 
+pose that I’ve seen before in real life. There are a surprising number of people 
+walking around who, with a little tweaking, can be turned into pirates. Sometimes 
+it’s just an expression or a pose that suggests a type. In this case, since the model is 
+already a character, fully costumed at that, it’s just a matter of twisting that image 
+into cartoon form — exaggerating the various pirate-like attributes. A bigger, more 
+broken nose, scrawnier arms, more of a paunch, a squint (or closing one eye entirely 
+— it was good enough for another cartoon sailor), and perhaps removing one of his 
+legs below the knee and replacing it with a leg from a coffee table. Exaggerating the 
+pose, and changing whatever seems to work against the character you’re trying to 
+create. The angle of the head, or making an open hand into a ﬁ st, is important.
+--- PAGE 128 ---
+ Costume with Character 111
+And going a little further with each successive drawing helps to work out whatever 
+you’ve held back, or kept needlessly close to the original model. Very early on in the 
+process, I’m not looking at the model anymore at all. I’m working from what I’ve 
+gotten from that ﬁ rst, more “realistic” drawing. It’s always good to go back again 
+and look, in case you’ve left behind an important bit of information that you can get 
+from the model; once you’ve got the character in mind, it’s best to give your 
+imagination free reign. When I’m near to the character I want, I’ll try the face in 
+different positions and expressions to see if it’s working and if the personality is 
+coming together. I also want to see if I’ve got an original looking character and not 
+one that I have already drawn before. And then, of course, it never hurts to add a 
+parrot.
+
+--- PAGE 129 ---
+112 Force: Character Design from Life Drawing
+Here is my oldest daughter, Makenna, as a mermaid. This started as a pencil design 
+on animation paper. I gave her a long, ﬂ uid body and used colors right from the 
+photo to paint with in Photoshop. The image is also about how something as simple 
+as the seashell brings the mermaid happiness.
+
+--- PAGE 130 ---
+ Costume with Character 113
+STEPHANIE LABERIS
+In the case of the mermaid, I wanted to 
+illustrate a more energetic moment than the 
+original pose depicted. Because the subject 
+was slightly older than the upcoming 
+butterﬂ y girl, I aged her up a little further 
+and I thought of illustrating that awkward 
+phase where the boys start to take notice 
+but still in a very innocent way. I chose 
+very ﬂ uid and thin shapes to emphasize 
+both her weightlessness underwater and 
+the physical awkwardness of a pre-
+pubescent girl. I also left a few of her 
+younger physical qualities intact, such as 
+the button nose and “outie” belly button 
+while leaving more of the swooping curves 
+intact, trying to balance qualities of 
+childhood with the onset of impending 
+womanhood. Once again, I wanted the 
+character to have a focal point, so the 
+smooching ﬁ sh was a must.
+
+--- PAGE 131 ---
+114 Force: Character Design from Life Drawing
+Here the pirate is sitting back enjoying a beverage with his pistol at his side. I played 
+with the size of his hand and foot. I also compressed his upper body. I felt as though 
+I lost his character so I proceeded to take another shot.
+
+--- PAGE 132 ---
+ Costume with Character 115
+This drawing was done with black ink right from the inkbottle dropper. What I like 
+about my second version is that I got the attitude that I wanted. The tilted head gives 
+the character a feeling of conﬁ dence, arrogance, and achievement. He also feels like 
+a wet rat because of the ﬂ uid drippy lines. See how the harder lines of the cup 
+contrast his lines.
+
+--- PAGE 133 ---
+116 Force: Character Design from Life Drawing
+JOHN NEVAREZ
+As I began the sketch, I ﬁ rst just visualized simple shapes using the shape tool in 
+Photoshop. Once I blocked out basic proportion of the head and body, I did another 
+pass blocking out volume in a graphic form. My third pass was using the pastel 
+brush and creating a quick texture. In the end, I would squiggle in lines here and 
+there for effect. The intent was to do a very quick caricature, not necessarily getting 
+the likeness, but rather the essence of his personality. This exercise took about 
+15 minutes to complete.
+JOHN NEVAREZ
+As for the pencil drawing, I treated it as quick gestural exercise. I ﬁ rst found the 
+forms and then committed to volumes with tone using the ﬂ at of my pencil.
+
+--- PAGE 134 ---
+ Costume with Character 117
+This pass was my ﬁ rst study of the fallen boxer. Simple shapes led to design and 
+shading.
+The boxer lays down for the ten count in the last round. Again, this was created from 
+abstract shapes. Story comes into the drawing. Thinking about the referee giving the 
+boxer the ten count or the Rocky theme music are sounds I thought of while creating 
+this image.
+
+--- PAGE 135 ---
+118 Force: Character Design from Life Drawing
+Victorious he stands, after having knocked out his opponent with seconds to spare. I 
+purposely chose the low angle or worm’s eye to create a powerful portrayal of this 
+pose. When you are drawing a model, and you have story in mind, pick the view of 
+the model that will assist in telling the story you are after.
+
+--- PAGE 136 ---
+ Costume with Character 119
+This design of my youngest daughter, Marin, shows her as a princess. I added the 
+crown and slippers to push the story moment. I sized up her head shape and dress to 
+make her feel young. Again, the story that the character exudes was the main focus. 
+Her relationship to the slipper is the focal point.
+
+--- PAGE 137 ---
+120 Force: Character Design from Life Drawing
+STEPHANIE LABERIS
+I used the poses in the photos as a starting point for my characters, but chose to alter 
+them to better tell a story. In the case of the butterﬂ y girl, I wanted her face to be 
+visible, engage the viewer, and make her pose a little more carefree and child-like. 
+I added the butterﬂ y to both give her a focal point and to play off the shape of the 
+bows on her dress. In that process I decided on a dress-up/make-believe theme for 
+the piece and further altered her costuming to play off the shape of the butterﬂ y with 
+the ribbons suggesting wings and the headband resembling antennae. Finally, I 
+sharpened a few of the curves and left the hair somewhat scrappy to insinuate a 
+slight tomboy edge to her; I had to balance all that cute stuff out somehow!
+
+--- PAGE 138 ---
+ Costume with Character 121
+On to our gangster. The big suit with the pinstripe was a blast to draw. His huge 
+meaty hand with the ﬁ ngernails was great. Look at the ﬂ at, long foot. His expression 
+and pose depict an air of arrogance. David Roon, the model, gave me a great deal to 
+ﬁ nd interest in.
+
+--- PAGE 139 ---
+122 Force: Character Design from Life Drawing
+The posture of the pose was my ﬁ rst thought. I pushed the curvature of the 
+gangster’s back along with the size of his hand and right foot. Increasing the size of 
+his hand assists in the exaggeration of his back by saying it is coming so close to us 
+when his head is far away.
+
+--- PAGE 140 ---
+ Costume with Character 123
+This cowgirl, modeled by Jennifer Fabos Patton, sits on an imagined barrel of hay. 
+See the shape of the hat and the vest. The forceful shape is also in the belt. I like the 
+texture of the denim shorts implied by the line in the wrinkles. The look on her face 
+and body language are key elements here.
+
+--- PAGE 141 ---
+124 Force: Character Design from Life Drawing
+John Tucker poses here as a cowboy. Great costume, great facial expression, and 
+great pose make it easy to come up with a fun design. One of the changes I made 
+was in the color of his handkerchief and value of his hat. Why? Well, most of his 
+costume is yellow, so I went with the complementary color right near the face to draw 
+attention to it. Then I did that again by making the hat dark in contrast to the value 
+of the face. For fun, I put some cacti silhouettes in the blue background by his face.
+
+--- PAGE 142 ---
+ Costume with Character 125
+Here is our cowboy again but broken down into his most abstract shapes. I did these 
+drawings in response to other ideas I had after the experience of the ﬁ rst design. I 
+wanted to simplify and push this further. Let’s describe what these shapes mean. Let’s 
+start with the long, dark vertical shape. This is the overall shape and proportion of 
+my idea. Then, you can see the angle of the shoulders and how they lean down 
+toward the hand, which is in clear silhouette. The angle of the feet shows the sense 
+of depth the ﬁ gure occupies through the angle and size relationship found between 
+them. I then created a circle shape for the focus placed on the hand.
+
+--- PAGE 143 ---
+126 Force: Character Design from Life Drawing
+MARC PERRY
+The best way I could explain the thought process that goes into doing most of my 
+designs is for me. I guess you might say I think in a more cartoony way. I think more 
+in shapes; different or unusual shapes. Then it’s feeling an attitude within the 
+character or one I want to create and then trying to exaggerate, simplify, and stylize 
+it. It could be something you feel in your body or see in your head. As you draw 
+hopefully that voice in your head says, “that feels like what I was thinking about.” If 
+not, do it again, again, and again, just have fun. The other process, as simple as it 
+may sound, depending on the style of the character, if it feels good, looks funny, and 
+makes you laugh then hopefully it will affect others in the same way.
+Western six-shooter pose was fun in playing with different shape ideas and playing 
+up the pose keeping things simple, cartoony, and clear. I wanted only to use what 
+was necessary for the character.
+
+--- PAGE 144 ---
+ Costume with Character 127
+RAGNAR
+My initial intent was to generally keep with the ninja’s theme in the overall design, 
+but decided I wanted her to hold something heavier and with more volume. This 
+gives her the presence of being physically stronger. I elongated the limbs. This is 
+something I almost always do, certainly with female characters. I ﬁ nd it gives me 
+more to work with and helps with lines of action.
+I opened up her eyes a bit to give her a bit of aggression and deﬁ ance in her 
+expression. I also used her hand to support the extra weight of the gun by placing 
+it on her thigh. This also helps to close the visual loop that was left open in the 
+model’s pose.
+
+--- PAGE 145 ---
+128 Force: Character Design from Life Drawing
+I kept her costume sparse but changed the shapes and moved the lines around some. I 
+often use nude models and clothe them during the design process. I ﬁ  nd that starting 
+with a blank canvas helps avoid having preconceived ideas about where to take the 
+design.
+In this case I felt that the swing of the pose would hold up to a very heavy costume 
+such as armor. What I went after from this photo was the attitude of the character. 
+She struck me with a tough cockiness. Her head thrown back along with the strong 
+thrust into her right hip create this impression. I pushed the length of her legs and 
+wrapped the dragon tattoo around one of them. I also made the closer leg wider to 
+widen her stance. To the left are some other designs for her face.
+--- PAGE 146 ---
+ Costume with Character 129
+PHIL RYNDA
+I ﬁ nd that drawing “with” character can be the most important thing about drawing 
+“a” character, especially early in the development of a design. For me, it’s all about 
+interest. What makes me interested in this character? What’s my artistic opinion of 
+this character? When drawing from life or photo reference, your personal opinion of 
+
+--- PAGE 147 ---
+130 Force: Character Design from Life Drawing
+what you’re looking at is of extreme importance. It’s very easy to become a slave to 
+your reference and all you will ﬁ nd yourself doing is attempting to copy your source 
+material. You have to allow the reference to spark some interest in your heart and 
+then you have to run with your gut and don’t stop. Conﬁ dence is key, but it comes at 
+a price. Pure conﬁ dence and no fundamentals won’t get you very far. You have to 
+learn and practice observational drawing as well as drawing characters from the 
+ground up with solid underlying forms and structure. With a solid grasp of the 
+fundamentals, when you begin to impose your opinions on a drawing they will be 
+grounded and will begin take shape as one clear idea.
+PHIL RYNDA
+For me, this type of drawing is how I start almost every design I do. I try to work 
+loose and quick. The purpose of these drawings is to learn something. You’re not 
+shooting for a ﬁ nal drawing, but instead a drawing that will inform what might be 
+the ﬁ nal. My drawings included in this book were drawn extremely quickly. I only 
+allowed myself to take a few minutes to get the drawing down on paper. This way, if 
+I was going to move forward with a ﬁ nal design, I can see what my initial opinion of 
+the character was. For me, this is the purest way to draw and create.
+--- PAGE 148 ---
+ Costume with Character 131
+My design is off of a real model session so you’ll notice that the sword is in a 
+different location than the photo. It is good to be aware of how that slight change in 
+position says something different about this character. In the photo, he seems 
+tougher, more stoic. When it comes to shape, I pushed a long vertical rectangle on 
+him to make him feel strong and proud. The sword is the only object that really 
+breaks that parameter and tells us he is sensitive as a ruler.
+
+--- PAGE 149 ---
+132 Force: Character Design from Life Drawing
+Mike Schmidt plays an attacking barbarian. Many ideas are happening here. There is 
+the forceful shape with the straight bottom and curved top. The reverse action is 
+found in the arm. The size comparison of his body to his head and the texture of the 
+furry costume were all ideas in this experience.
+TEDDY NEWTON
+I chose ﬂ at pink for the skin because I thought it looked the most naked against the 
+gray costuming. As far as the helmet, I ﬁ gured that bricks were a good description of 
+what a hard head this character could be.
+
+--- PAGE 150 ---
+ Costume with Character 133
+I tried bringing high energy to this story. The drawing is angular in nature but still 
+rhythmic. Notice the shape of the neck hole, the broadness of the shoulders, and the 
+time it took to draw this. It took three minutes and much was accomplished in that 
+short period of time.
+
+--- PAGE 151 ---
+134 Force: Character Design from Life Drawing
+Taking ﬁ rst impressions a step further, I pushed the forces of the pose and changed 
+the direction of the sword. I ﬁ gured out a design to his face that expressed the way I 
+thought he would feel.
+
+--- PAGE 152 ---
+ Costume with Character 135
+The top row of faces takes the face from the prior design and plays with different 
+facial expressions. The bottom row displays the face morphed to different head 
+shapes. I drew the silhouettes of the heads underneath the designs for your 
+convenience.
+
+--- PAGE 153 ---
+136 Force: Character Design from Life Drawing
+PATRICK MORGAN
+When I draw a character from a photograph, I try not to copy it, but rather use the 
+photo as reference. I’ll usually start by getting the pose down as simply as possible 
+with a bunch of quick rough sketches. I try to push the proportions around a bit 
+making sure the pose has a nice ﬂ ow to it. Once I’m happy with the pose, I either 
+add or eliminate the details needed for the piece. I then put the photo away so I 
+don’t get caught up with “copying” the photo. I then start overlaying drawing after 
+drawing until I am satisﬁ ed with the ﬁ nal art.
+I scan the ﬁ nal drawing into Photoshop for the color process. I like using textured 
+paper for my work. Sometimes I’ll draw on brown paper, and other times like this 
+piece, on white paper. I have scanned a blank piece of colored textured paper, 
+shifted the color of the paper to the desired hue, and overlaid my drawing on a layer 
+above. The character art layer is set to multiply in order to see the textured paper 
+
+--- PAGE 154 ---
+ Costume with Character 137
+through the art. On separate layers also set to multiply, I start to drop ﬂ at color over 
+the top of the character. Once I am happy with the color choices I’ve made, I then 
+merge the color and the drawing to one layer, and set that layer to multiply, which 
+again enables the textured paper behind the art to show through and merge the art 
+and paper together. Once merged I then use the dodge and burn tools to add 
+highlights, and shadows to punch up the piece. The rendering on the drawing itself 
+also contributes to the shadows and highlights. Hope that makes sense. Enjoy!
+MARC PERRY
+Gun Girl. I loved the costume but wanted to give her a more silhouetted and playful 
+pose. I wanted to try different ideas. I liked pushing the shapes on most of these to 
+play up the almost unrealistic cartooniness of them.
+--- PAGE 155 ---
+138 Force: Character Design from Life Drawing
+TEDDY NEWTON
+This was fun to create. I found some images of wet belt buckles on black 
+backgrounds. This was like killing two birds with one stone. The buckles felt like 
+bondage, and the wetness felt like slick rubber; perfect for this futuristic sexpot.
+
+--- PAGE 156 ---
+ Costume with Character 139
+JAKE KAZDAL
+I started with a quick sketch with a brush I made in Photoshop similar in grain and 
+texture to a Prismacolor pencil. I just loosely sketched the character, trying to “force” 
+every bit that I could to accentuate the pose. I then clean up the basic pose and work 
+on smaller details like the shapes of her arms and little bits like the bellybutton, etc.
+
+--- PAGE 157 ---
+140 Force: Character Design from Life Drawing
+The greatest thing about working digitally is the ability to take your sketch and 
+further push it once you have your main details worked out. I gave her longer legs 
+and pushed her torso out to the right even farther, giving her more weight and 
+drama. The cleaned up sketch is now ready to apply paint to. First I block in the 
+background, then on separate layers I apply a “block-out” pass of skin, black, and 
+hair. Everything I do going forward will use one of these three layers as their base. 
+Each of these three main layers has preserve transparency on it, and when I decide 
+to add, for example, shading to the skin layer I do it on a new layer using the “use 
+previous layer to create clipping mask” option that comes up when creating a new 
+layer. Basically, what this means is I can paint quick and dirty on this new layer and 
+yet I will never have to clean up or stay inside the lines.
+Once these main layers are established I switch into Corel Painter and use a smeary 
+oil brush to simulate large brush strokes, especially on her dress and hair. Once this 
+is done I switch back to Photoshop where I am more comfortable with adjusting ﬁ ner 
+details. With a large generic brush I paint in her skin tones, shading, the gun, and a 
+bit of photoscrap dropped on for her tattoos. While I would have liked to take the 
+time to noodle and design the tattoos myself, my time budget was tight so I was able 
+to get an effective look quickly using whatever resources available. Such is the life of 
+a production concept artist!
+--- PAGE 158 ---
+ Costume with Character 141
+When Mike Schmidt dresses in this Roman-like costume, he looks innocent and 
+almost humorous to me. It changes the way I think and draw him. I love the 
+expression on the face, the little head, and the ﬂ at shape of the chalice he holds.
+--- PAGE 159 ---
+142 Force: Character Design from Life Drawing
+This image was about the joyousness of the character and his wine, like Bacchus. The 
+pose itself had a clear silhouette, but I tried to push the concept by enlarging the 
+wine glass in the negative space between his head and extended hand. I also curved 
+his back to make him more jovial instead of proud.
+--- PAGE 160 ---
+ Costume with Character 143
+MARC PERRY
+Looking at the happy toasting Roman, I liked the pose a lot but wanted to play up 
+the shape different ways and push the playfulness I thought the character should 
+have, again thinking cartoony and humorous.
+
+--- PAGE 161 ---
+144 Force: Character Design from Life Drawing
+GRISELDA SASTRAWINITA
+I start drawing ﬁ rst. I brainstorm and generate some ideas. I usually try to make 
+sure that they are different from one another to varying degrees. Then when I have 
+settled on a concept that I feel is the one that I want, I reﬁ ne the concept even further. 
+I think of the composition and positive and negative space as they pertain to the 
+dimensions of the page. Then, I do color comps to explore different color schemes. 
+I do these to try and get some different ideas for color. I try to keep these simple. 
+When I have decided on a ﬁ nal color scheme, I proceed to do the ﬁ nal painting. 
+I paint in order — back to front, dark to light, and dull to bright.
+
+--- PAGE 162 ---
+ Costume with Character 145
+Ah, a matador! This image from The Drawing Club of Mark Russo is fantastic! I love 
+the contrast of large ﬂ at colors to the ornate pattern found on the shoulder. Mark’s 
+face and neck felt like one idea to me, so I shaped it out as such.
+
+--- PAGE 163 ---
+146 Force: Character Design from Life Drawing
+Here is a more humorous approach to the matador. The thin legs and pose push the 
+idea of him being tired of playing matador. One of the main ideas I pulled from my 
+prior interpretation was the neck and head relationship.
+
+--- PAGE 164 ---
+ Costume with Character 147
+So here is another version of the matador. In this one, I went after his long thin neck 
+and oval-shaped head again but pushed the abstraction a step further. I shortened 
+up his torso and thinned down his legs. This type of style is tricky because your 
+choice in shapes has to be clear and well chosen. It is much easier to hide behind 
+much rendering than to put yourself out with clear-cut decisions.
+
+--- PAGE 165 ---
+148 Force: Character Design from Life Drawing
+TEDDY NEWTON
+When I found the photo of the cloth drapes, I immediately connected this to the 
+matador’s cape. However, I thought it would be more interesting to use the drapery 
+for the wrinkles on his angry face. To me, this is where the creativity comes in. It’s 
+more compelling to use the textures of these cutouts symbolically than literally.
+
+--- PAGE 166 ---
+ Costume with Character 149
+These are ﬁ ve minute drawings of my friend David Lockhardt. His rich costume truly 
+assisted in feeding the character. The lush fabrics coupled with interesting poses 
+made for an enjoyable drawing session.
+--- PAGE 167 ---
+150 Force: Character Design from Life Drawing
+CHARACTER INSPIRATION
+Other media are great sources for character inspiration. You can’t beat the sets and 
+costumes found in ﬁ  lms. Millions of dollars were spent to give you a rich experience. 
+Use drawing as your vehicle to do so. The only shortcoming here is that it is not real. It 
+is ﬂ  at and predesigned. You, on the other hand, can bring your opinion to the table 
+and push ideas into these stunning visuals. Let them inform you.
+The drawings on the left were done while watching Peter Jackson’s King Kong. The 
+top two were an analysis on simplifying layout through shape and tone. The top 
+drawing was closer to the actual ﬁ lm shot. In the bottom study, I simpliﬁ ed the light 
+shape into a triangle over the closer eye to focus us on the smaller one eye. The 
+bottom drawings of Kong are thoughts on playing with the expression of the 
+character through the ﬂ exibility of the jaw. The drawings on the right are from The 
+Good, the Bad and the Ugly, and drawn differently. In the top right corner is a study 
+of composition. The drawings below study character shapes and personalities.
+--- PAGE 168 ---
+ Costume with Character 151
+More ﬁ lms. The top left designs are from Troy, the top right are from Minority 
+Report, and the bottom right are from Master and Commander. I love the drawing of 
+the king on the left side of the page. The actor with the long, thin head is Peter 
+O’Toole! The length adds to his power and royalty. I pushed asymmetry into his 
+costume, which could subtly suggest some chaos or dynamic within him. You can see 
+how I played with Brad Pitt’s proﬁ le.
+
+--- PAGE 169 ---
+152 Force: Character Design from Life Drawing
+Love this Brad Pitt and Eric Bana. In the top drawing of Bana, you can see the ﬂ at 
+shape of the head and then how I worked my way back in space from the forehead 
+to the nose and then the mouth and chin. At the top of the page are compositional 
+studies. You can see how ﬂ at shapes are my method to analysis. The shape of the 
+helmets was great also. Troy is a fun movie to draw from.
+
+--- PAGE 170 ---
+ Costume with Character 153
+These are more ﬁ lm studies inspired by King Arthur. Again, I started with the 
+abstract exterior shape and ﬁ lled it with the reference from the ﬁ lm. The shape I 
+chose related to the character’s pose. DVDs are such a great technology for the sake 
+of research. Use the vast library available to you!
+
+--- PAGE 171 ---
+154 Force: Character Design from Life Drawing
+IMAGINATIVE DESIGN
+This part of Chapter 4 shows examples of design that are purely from imagination. 
+Now, of course, that imagination is ﬁ  lled with many years of reference. Some of the 
+images are from prior jobs; some are just doodled while my brain needed a creative 
+escape.
+I hear often from students that they don’t know what to draw unless being told. 
+Understandable. That is one of the values of school and work. If you want to create 
+your own ideas, though, you need to be self-motivated. Writing these books is not the 
+easiest job. Granted, I love doing it but it’s not easy. What keeps me going? Well, the 
+ﬁ  rst thing is I have a deadline to hit with my publisher. If you are responsible to some-
+one else, that usually makes a person more timely in the delivery. Try to be responsible 
+to yourself or to someone else. So, a DEADLINE is key … especially to bigger 
+projects.
+I imagine seeing the ﬁ  nished product and hearing feedback from students on how the 
+book inspired and educated them! Use your imagination to foresee the future and moti-
+vate you to completion.
+Give yourself a speciﬁ  c time to do this work. I ﬁ  nd that the more I organize my time, 
+the easier my life becomes. People ask me all the time how I am juggling so many dif-
+ferent things. Time management. Believe me, I am no pro in this area, but enough so 
+to get everything I want done … sooner or later.
+Find out what you love to draw! If just doodling, up the ante and maybe put two ideas 
+together. For instance, I love drawing super heroes. What if I combined that with battle 
+ships or insects?
+Sometimes I just get a random thought and have the strong desire to experience illus-
+trating that idea. I am sure you have all felt that. DO NOT LET IT PASS YOU BY! Seize 
+the moment! Go fulﬁ  ll that artistic desire.
+Don’t fear the page. Throw something down. I don’t care if it is a smudge. Get some-
+thing down and move forward.
+Another route to go is to just draw and see what comes out of you. Be one with the tip 
+of the drawing utensil. Follow it across the page. See what develops.
+Anyway, I hope these suggestions help.
+--- PAGE 172 ---
+ Costume with Character 155
+This is a typical doodle page for me. I basically drew in ﬂ at shapes to create faces 
+and bodies. I then went in and rendered them with simple tone gradations. I love the 
+way it worked out with the man’s face on the middle left side of the page. Notice 
+that I used shapes that were created by drawing through the head to deﬁ ne the 
+back.
+
+--- PAGE 173 ---
+156 Force: Character Design from Life Drawing
+The ﬁ reman is a change in materials to create the charred clothes. Black Caran 
+d’Ache crayons and whiteout brought this story moment together. This illustration 
+occurred because of a ﬁ re in Burbank that I saw right from the Disney lot. I 
+remember coming out of one of the buildings and wondering what was falling from 
+the sky. It was ash! As I turned the corner, I saw the twenty-foot high ﬂ ames just 
+across the freeway.
+--- PAGE 174 ---
+ Costume with Character 157
+The man on the left was done as a reaction to the sophisticated simplicity from 
+television animation. I am deﬁ ning ﬂ at shapes and ﬁ lling them with form. The 
+woman was based on the thought of just creating rhythm and ﬁ tting a body to it. The 
+hair silhouettes the face in this design.
+
+--- PAGE 175 ---
+158 Force: Character Design from Life Drawing
+These three boxers are all deﬁ ned from their silhouettes. Notice the more raised arms 
+in the top drawing and how in the last, the arms of the boxer are against his sides. 
+Look at the variety in shapes deﬁ ning their anatomies. Their poses tell something 
+about their personalities. I did this thinking about designing an occupation that 
+interests me and showing different characters in a basic uniform.
+--- PAGE 176 ---
+ Costume with Character 159
+These images, once again, represent a process from ﬂ atness to dimensionality. In the 
+football player see the ﬂ at, pink spatial bounding boxes. They assisted me in 
+designing the image. I really enjoyed pushing the legs far back in space under the 
+character’s body. A habit I have in designing faces is the straight line across the 
+brow. Then I love hanging the eye shape from it. As in the top, center drawing.
+
+--- PAGE 177 ---
+160 Force: Character Design from Life Drawing
+In the Hunchback design, the cut paper came ﬁ rst. Its corner provoked the idea of 
+this character. See how the ﬂ at, blue shape in the bottom design creates the illusion 
+of space. The small stove reads as being far back because our minds ﬁ ll in our own 
+information from experience as to how large it should be relative to the character. 
+The character’s costume tells us he is a chef. Lastly, we have story with the ﬁ sh in the 
+pot and his expression.
+
+--- PAGE 178 ---
+ Costume with Character 161
+Here I was drawing primarily with straight lines to deﬁ ne this military character. The 
+idea of what type of dominant line to use, in itself, is a creative choice for you 
+relative to what you are trying to say. The character is obviously not ﬂ exible in his 
+choices. His body is a box. The ﬁ ghter plane is a basic forceful shape.
+
+--- PAGE 179 ---
+162 Force: Character Design from Life Drawing
+This character, on the other hand, has strong robust curves that reﬂ ect his inﬂ ated 
+anatomy, and ego for that matter.
+
+--- PAGE 180 ---
+ Costume with Character 163
+This design for a video game inspires rough and toughness through its use of chaotic 
+line and texture. The splash of red behind the ﬁ gure is used to make the green pop 
+forward and insinuate violence.
+
+--- PAGE 181 ---
+164 Force: Character Design from Life Drawing
+Working in black and white is another great way to consider and practice the clarity 
+of design. See the clarity of the old lady’s two arms. One arm is out in space, away 
+from the body, the other is silhouetted against the black dress.
+
+--- PAGE 182 ---
+ Costume with Character 165
+Here are some caricatures I did based 
+on rectangular shapes. You can see 
+how I colored the design based on the 
+same shape also.
+Some of these are random caricatures. I believe the top left design is 
+Ed Norton. I like the ﬂ uid shapes of the girl in the bottom right corner. 
+See how the shapes of her eye in proﬁ le still indicate that the eyeball 
+is round.
+
+--- PAGE 183 ---
+166 Force: Character Design from Life Drawing
+So here are six faces that are drawn from my imagination but were fed from real 
+life. I pulled from my encyclopedia to design these. In the bottom left face, see how 
+the design started as a ﬂ at shape to represent the head, and then I pushed in the 
+ﬂ uid quality of the nose and built up the rest of the face around it.
+
+--- PAGE 184 ---
+ Costume with Character 167
+These designs were executed in a few phases. First I painted the yellow shapes that 
+now represent the heads. I then painted the brown hair shapes. Look at the bottom 
+image and how the hair shape looks as though it wraps around the head. I then 
+drew the facial features and painted the red of their noses. I want you to understand 
+how from ﬂ at shapes, form emerged.
+
+--- PAGE 185 ---
+168 Force: Character Design from Life Drawing
+These designs came about as I was watching a Western ﬁ lm. The cowboy is more ﬂ at 
+and graphic. The Indian has more form and structure within his silhouette. Each 
+carries his weapon of choice, just recently used.
+
+--- PAGE 186 ---
+ Costume with Character 169
+Exercises
+1. Draw a model while using a reference of a preset style of design next to you.
+2. Go to a costume workshop!
+3. Think about character as you draw. What is the costume and pose telling you 
+about the character? Use these answers to push your ideas.
+4. Draw from ﬁ  lms and television. Don’t copy what you see, learn from it and 
+form an opinion.
+5. Look at your reference only as a launch pad. Form some ideas and then design 
+without looking at your reference.
+6. Use different media to vary your processes. Use what best describes what you 
+have to say.
+7. Look at different themes, cultures, sports, and more. Realize that the world is 
+an endless resource of inspiration.
+--- PAGE 187 ---
+This page intentionally left blank 
+--- PAGE 188 ---
+Drawing “on location,” or what I like to call reportage, allows you to really build your 
+reservoir of information for creativity. The different personalities, faces, clothes, and 
+architecture out in the world are truly inspiring! There is nothing better than watching 
+people when it comes to the vast richness of characters that live in our world.
+Watching people’s mannerisms and gestures informs you for your own character 
+designs. Keep a keen eye for human behavior. An excellent book about human behav-
+ior is called Man Watching by Desmond Norris. This book is a must buy for any artist 
+drawing characters that communicate humanity.
+One of the most fun places for me to draw is Epcot in Disney World. Half of the park 
+is dedicated to giving its guests the experience of traveling around the world in a day. 
+Imagineers went and created environments mimicking different countries around the 
+world. So they have the architecture, food, music, costumes, and more to let you feel 
+the experience! Plus you get to observe real tourists from around the world enjoying the 
+theme park. Granted, if you want China, it’s better to go to China, but for one-stop 
+drawing this is a great experience!
+Explore your own neighborhood. The supermarket, mall, movie theater, or park are 
+great places also. You don’t need to go far for humanity. Look at yourself and watch 
+what you do, when you do it, and why! The best place to learn is within yourself.
+The last quarter of a century of my life has been pretty 
+constantly and faithfully devoted to the study of the human 
+race—that is to say, the study of myself, for in my individual 
+person I am the entire human race compacted together.
+Mark Twain
+This has been said a million times so pardon the cliché, but bring a sketchbook with 
+you everywhere and draw a lot. Practice makes perfect! Great work takes skill, in your 
+mind and in your hands. The more time you put in, the faster you become skilled.
+Reportage with Character
+Chapter 5
+--- PAGE 189 ---
+172 Force: Character Design from Life Drawing
+FINDING CHARACTER
+The easiest way to start reportage is to observe one person at a time. Watch the per-
+son. Look at the mannerisms, clothes, and personality.
+These are some little caricatures of people I drew while eating lunch at the zoo. 
+Shape is my method for executing what type of character I feel they are. One thing 
+that can help you is thinking about an imaginative occupation and history for the 
+people you are observing. There is the librarian with her little glasses and deep cut 
+neckline in the top left corner. Under her is the tough guy with a beach hat.
+--- PAGE 190 ---
+ Reportage with Character 173
+Here is the unhappy, middle America Dad. His children were causing some problems 
+at the playground and this was his internal reaction to them. Look at how forceful 
+shape is still involved. His head, body, and arm are clear examples of the shape. The 
+drawing on the right is another caricature.
+--- PAGE 191 ---
+174 Force: Character Design from Life Drawing
+As soon as you have more than one person, you have a new dynamic. The relation-
+ship is what you are after. Notice how the characters deﬁ  ne the relationship. How do 
+they act toward one another? What is truly amazing is how we can read each other if 
+we only pay attention. So much lost is lack of connection in a moment.
+The top drawing is a father and his daughter sitting on a bench at the park. She was 
+talking and he was not paying attention to their conversation. Below them you can 
+see a mother screaming at her child. Lastly, there was a tall thin man that struck me 
+because of his interesting posture while strolling. He rested all of his weight on the 
+back of his heel.
+--- PAGE 192 ---
+ Reportage with Character 175
+MIKE DALEY
+This is my neighbor who walks his dog around the block. He is easily spotted by the 
+pipe sticking out of his white beard. He always looks a little suspicious of his 
+surroundings and walks with his toes pointing outward, so I decided to push those 
+qualities in this drawing. Everyone is surrounded by great characters in life, it may 
+just take a bit of careful observation to recognize them.
+--- PAGE 193 ---
+176 Force: Character Design from Life Drawing
+This was a fun moment. This father had an incredibly large baby carrier on his back 
+while his child had no interest in being carried in it. I pushed the size of the carrier 
+and the child to contrast the two.
+--- PAGE 194 ---
+ Reportage with Character 177
+The next few drawings were done while sitting on a curb at a farmer’s market in my 
+neighborhood. I found it intriguing that one woman was pulling her hair as the other 
+was selling the products on the table. The ﬁ rst woman seemed either nervous or 
+insecure in this conversation.
+--- PAGE 195 ---
+178 Force: Character Design from Life Drawing
+MIKE DALEY
+This woman was bent over at the counter, inspecting the cookies on display. She had 
+quite a lot of questions and the person helping her behind the counter seemed to 
+have been through this routine a thousand times. “Are these cookies organic?” 
+“Yes.” “Are these gluten free?” “No.” She had a thin, pointy nose so I pushed that a 
+bit to accentuate her pointing. Her back and butt also make a great triangular shape 
+with her face to emphasize this even more.
+--- PAGE 196 ---
+ Reportage with Character 179
+The drawing on the left was about an awkward moment with this tall father and his 
+tiny baby. Then I drew the bicyclist stretching and using the toll meter to do so. Lastly, 
+I like the way this brother and sister were sampling from one of the tables.
+--- PAGE 197 ---
+180 Force: Character Design from Life Drawing
+Here is another father and son both eating an apple on the curb. This is a moment of 
+mimicry. Ever notice how a small group of people will copy each other’s poses? 
+Yawning is probably the most famous case of this idea. Sometimes you can actually 
+mimic a person and then lead them into copying you! Try it out, and notice how 
+connected we are to each other.
+--- PAGE 198 ---
+ Reportage with Character 181
+I love when little children are trying to push their own carriage. I think about adults 
+attempting to push their own cars. In the lower image, the father is with his two 
+daughters. Notice how the one daughter, the youngest, is in between the others, 
+protected. Kneeling down allows the father to more closely connect to his youngest 
+daughter.
+--- PAGE 199 ---
+182 Force: Character Design from Life Drawing
+This is a clear example of a frustrated person. This man is impatient in waiting for 
+the elderly woman to choose and pay for her items. The crossed arms and backward 
+lean indicate his judging of her.
+--- PAGE 200 ---
+ Reportage with Character 183
+What I ﬁ nd of interest here is my note, “too cartoony, and not satirical enough.” At 
+the time I drew this, that meant that I needed to bring forth more of the reality to 
+feed the design. I made up too much of the story.
+--- PAGE 201 ---
+184 Force: Character Design from Life Drawing
+This musician was a great character! As you look through the drawing, be sensitive 
+to all of the decisions you see. Notice the sloped-in chin, look at his ﬁ ngers playing. 
+These are all reactions I had in the moment.
+--- PAGE 202 ---
+ Reportage with Character 185
+Here were some tired parents. I took full advantage of drawing them while they 
+were sleeping. Great story moment. I love that the woman was resting on the man’s 
+shoulder and that he had his legs and ﬁ ngers entwined.
+--- PAGE 203 ---
+186 Force: Character Design from Life Drawing
+This drawing was purely about story. I wanted to get the idea across of the adults 
+and children each having their own conversations. Notice they are created with line 
+and the background in black. This helps silhouette the main ideas of the drawing.
+--- PAGE 204 ---
+ Reportage with Character 187
+In this image, two story moments connected into one through the abstract shapes of 
+the ﬂ oor and the umbrella. The top image is of another artist diligently illustrating 
+the vast scene in front of her. The other shows two men in thought during a 
+conversation. Interesting to see how neither is looking directly at the other.
+--- PAGE 205 ---
+188 Force: Character Design from Life Drawing
+CHARACTER LAYOUT
+In this section of the chapter, you will see how I am composing the image along with 
+the people that reside within it. I want you to see the bare bones to drawing environ-
+ments and placing people in them. See how simple and abstract the shapes are that 
+deﬁ  ne the space. I try to draw in long vertical or horizontal frames. This already begins 
+a strong and contrasted design. I choose if I am going horizontal or vertical depending 
+on what I want to say. I use the same rule of thirds that I described in Chapter 3. See 
+people as shapes, individuals, or crowds.
+MIKE DALEY
+A group of people in line at a popular café by Dolores Park in San Francisco. It’s 
+interesting to see people stand next to each other and organize themselves in a line 
+while doing everything in their power to not look at each other. I also notice that most 
+of the chairs seem to be empty, which tells me that this group of people are 
+sophisticated urbanites on the go, getting their quick caffeine ﬁ x and leaving.
+--- PAGE 206 ---
+ Reportage with Character 189
+A few years ago I was asked by Beijing University to come out and launch their mas-
+ters program for animation. I was there for two weeks and had ﬁ  fty students to inspire 
+and prepare for their projects. We all went to The Forbidden Palace (by taxi with ﬁ  fty 
+students, an interesting site) for a day to inspire cultural concepts for their short ani-
+mated ﬁ  lm ideas that they were going to pitch to me a week later.
+The two weeks I spent in China were a great experience. In between classes, my close 
+friend Russ took me site seeing. This ﬁ  nally leads me to the illustrations below.
+In the top left corner, you can see that 
+I wanted the length of the Great Wall so 
+I could go after its stairs, so vertical was a 
+better choice. In the top two images on the 
+right I was ﬁ guring out the relationship 
+between the two buildings in the frame. 
+Notice how I changed their sizes and how 
+I inverted the curve between them to 
+change the composition. The bottom two 
+drawings are about the relationship 
+between the two people. Notice the 
+change in the level of intimacy in each. 
+The far shot gives us location where the 
+horizontal shot tells us a more intimate 
+story.
+--- PAGE 207 ---
+190 Force: Character Design from Life Drawing
+So here is another page from my China sketchbook, which by the way was bought in 
+China. It is an accordion-style book that I believe Chinese write in, vertically. For me 
+this book was great because it was thin and long so it already was a great shape. It 
+can be opened in different widths and ratios because of its accordion-styled structure.
+--- PAGE 208 ---
+ Reportage with Character 191
+This is a study to feed my brain. My thought in this design was to look at the detail 
+of the rooﬂ ine and see how it deﬁ ned the awesome silhouettes of these beautiful 
+structures! This is about big to small and detail to big shapes.
+Here is the second image from the Lamma Temple. This visual was from a 
+walkway between many different buildings in the complex. I loved the little bells 
+that hung from the roofs and played with them for design. They represent contrast 
+and afﬁ nity. I broke up the vertical shape of the frame with the soft horizontal 
+curves of the roofs. If I were to go back to this design to improve it, I would 
+enlarge the negative space in the top of the frame. Why? Because the roof line on 
+the right cuts in close to the halfway mark of the vertical distance of the frame.
+--- PAGE 209 ---
+192 Force: Character Design from Life Drawing
+This was executed while standing on The Great Wall of China! Again, I used ﬂ at 
+shapes to help me compose the image. I placed the next guard station at the peak of 
+the design to describe the height of the mountain the wall was constructed on. The 
+stairs in the foreground curve in one direction and I then placed the wall to the left as 
+if it had been pushed out of the wall. All of the detail and time were placed within 
+my initial abstract thumbnail.
+--- PAGE 210 ---
+ Reportage with Character 193
+Here is another example of looking at reality and extracting design. This lets me then 
+use it for more ideas. I boil it down. These were done in MGM Studios in Florida. So, 
+besides me looking at shapes, with line, I also played with black and white shapes. I 
+love the image in the bottom right. After concentrating on shape, I turned my focus 
+on this story moment of tourists walking the streets in raincoats and umbrellas.
+--- PAGE 211 ---
+194 Force: Character Design from Life Drawing
+This image started off as a black line drawing. At this stage I am thinking about the 
+design based on story. I later brought the drawing into Photoshop and added this 
+monochromatic color scheme all based on tonal contrast. I pushed my idea of making 
+the mother the focal point by making her the lightest area in the design and placing 
+that light color next to the father, who is the darkest red in the design. I also cheated 
+in a shadow shape on the back wall on a diagonal right into the mother’s head. You 
+are now forced to look at her. I also left my palette on the side for you to see how 
+simply this is painted.
+--- PAGE 212 ---
+ Reportage with Character 195
+This image is a compositing of different moments at a Lama temple. I drew it at the 
+front gate to the temple and added the monks to the image. Their variation in size 
+deﬁ ned the vast sense of depth.
+--- PAGE 213 ---
+196 Force: Character Design from Life Drawing
+During my stay in Beijing, I went to the Summer Palace. This is its entrance. The 
+stamp in the right hand corner is my name, which in Chinese means long stride, 
+ironic since I am 6’2”. My point to this information is pushing culture and 
+personalization into this reportage drawing. Space or depth is indicated by the ratio 
+relationship between the people. The larger ones are in the foreground and smaller 
+in the background.
+ARCHITECTURE WITH CHARACTER
+All of the different methods I have shown you for seeing and designing with opinion to 
+clarify character also pertain to inanimate objects. In the case of reportage, this is usu-
+ally architecture.
+I went to The School of Visual Arts to become a comic book penciler. I struggled for 
+years far beyond school trying to ﬁ  gure out how I would draw architecture and back-
+grounds. I hated drawing them. It was abstraction and design that led me to a method 
+that I found intriguing and satisfying enough to draw anything. I went down the profes-
+sional path of animation but I still want to and will illustrate comics.
+--- PAGE 214 ---
+ Reportage with Character 197
+This was done at the China Pavilion at Epcot in Disney World. The architecture was my 
+primary character. I wanted to get the sweeping rooﬂ ines and rich colors. The crowds 
+of vacationers were secondary here so they are drawn in a thin gold line, along with 
+some of the architecture. Therefore, they become part of the background but not as 
+important as the red and green areas. I try not to make a big deal out of materials. 
+After learning your trade with basic tools like china markers and smooth newsprint, 
+go and play with what you think feels right to your experience. In this case, the 
+sweeping rooﬂ ines were drawn with the ink dropper tip from the Dr. Martin’s dye of 
+the color I was using. On top of that, I drew with a gold pen and marker.
+--- PAGE 215 ---
+198 Force: Character Design from Life Drawing
+These designs are of the African section of Animal Kingdom. Notice how all three 
+images are designed in thirds.
+Simply curving 
+the street adds 
+a fun, animated 
+feel to the design. 
+The trick is 
+understanding 
+perspective well 
+enough to make 
+all of the street’s 
+elements ﬁ t into 
+this pushed grid 
+of perspective.
+--- PAGE 216 ---
+ Reportage with Character 199
+This page is full of studies of the Germany pavilion at Epcot in Florida. The page is a 
+composition of moments to reﬂ ect the feel of the location. All of this information feeds 
+the illustration on the next page.
+--- PAGE 217 ---
+200 Force: Character Design from Life Drawing
+Simple curved lines caricature the architecture. I also played with the ratios, 
+stretching the roof against the base of the building. The building is basically a 
+triangle sitting on top of a rectangle. Reality sets into the drawing with the shingles I 
+drew on the roof. Detail on top of pushed design makes it believable.
+--- PAGE 218 ---
+ Reportage with Character 201
+The top drawing of this Viking boat is my study. You can read my notes about the 
+details and character of the boat. The adjectives I use to describe it feed my desire to 
+push beyond pure analysis. The second drawing is my reaction to my study. It almost 
+ﬁ ghts its way out of me after studying the boat. My desire is to get my opinions down 
+on the page.
+--- PAGE 219 ---
+202 Force: Character Design from Life Drawing
+This is a drawing of the Haunted House in the Magic Kingdom. The idea here of course 
+was to go after the eeriness of the environment. I silhouetted the house and made it 
+feel as if the black were either dripping or grabbing at the tombstones below. In a 
+way, it reveals the death that resides under the ground at the base of the house.
+--- PAGE 220 ---
+ Reportage with Character 203
+I love this drawing. Remember at the beginning of the chapter how I explained I had 
+found a way of drawing architecture that is satisfying to me? Here it is. This is all 
+abstract shapes to me. Look at the chimney tops. Notice that they are ﬂ at boxes of 
+varying heights and widths with some tone. The windows and bricks of the building 
+are the same. I then contrasted all of this line with the black gutters and overhang.
+--- PAGE 221 ---
+204 Force: Character Design from Life Drawing
+Here is a great example of using the ratio bounding box. You can see how I 
+stretched the car vertically and kept the headlights low. In the top right corner you 
+can see my initial thumbnails. The most important part of this design is that the 
+slogan, “A Tall Order,” is why I applied the vertical stretch.
+--- PAGE 222 ---
+ Reportage with Character 205
+This last design was a rough concept illustration. All of the abstract ideas for this 
+design came from the prior knowledge discussed in this book. I wanted skewed 
+perspective, like the main building. See how the building gets larger as it moves into 
+the sky. It should get smaller. The seams on the sidewalk move in haphazard 
+directions. See how with tone, I brightened one side of the building for focus. I also 
+made the street lamp point toward that building. Notice the rule of thirds from left to 
+right and top to bottom.
+--- PAGE 223 ---
+206 Force: Character Design from Life Drawing
+Exercises
+1. Travel small and light. It is fun and exciting to work on location. I have found 
+that it helps me to plan a bit before I go out. Have a backpack or shoulder bag 
+ﬁ lled with sketchbooks, pads, scissors, pens, markers, and water.
+2. Bring a reference book with you to inspire some direction in your work in case 
+you don’t feel it on location. This book can also be predetermined. For exam-
+ple, you might go to Chinatown and bring a book on China or on Germany 
+and combine cultures!
+3. Draw three hundred and sixty degrees around you. This is a great challenge! 
+Look for the multiple points of perspective.
+4. Add something from the environment into your image. For instance, glue down 
+a menu from a cafe you are sitting in or a train ticket from a location you are 
+traveling to.
+5. When looking at people, imagine their personality, lifestyle, occupation, and 
+family. Use these ideas to feed the design.
+6. Be an excellent observer of the humanity you are a part of. Take nothing for 
+granted.
+--- PAGE 224 ---
+When drawing animals, we will use all of the tools we have used in previous chapters. 
+The main difference here is the obvious; we are now drawing different species of life.
+So what do we do? We imbue them with humanity! We search and ﬁ  nd human char-
+acter traits from facial features and expressions to body language that creates story. I 
+try to get some expression in the animals’ faces to humanize them. We relate to the 
+work on a more emotional level through these human ideas.
+Animals give us interesting shapes to play with and be inspired by. Know your human 
+and animal anatomy to assist you in creating informed designs. Knowing animals gives 
+you a whole new pool of information to work from. You could combine humans and 
+animals to create new races of aliens, monsters, and other species for intellectual 
+properties.
+In the past, the style for this combination was anthropomorphism. That would be to cre-
+ate human characters with animal heads and hair as skin. Today, most animal charac-
+ters stay true to shape and function with their faces suggesting that of the actor that 
+gives them a voice.
+In the following pages, I am going to show you how to create character from animals 
+at the zoos I frequent.
+Animals with Character
+Chapter 6
+--- PAGE 225 ---
+208 Force: Character Design from Life Drawing
+When I take a class to the zoo, I start with the seals then move on to the more and 
+more complicated grades of animal anatomy. The most complex animals are those 
+with hoofs. Why do I do this? Well the shapes above answer that question. The top 
+shape is the seal. This basic shape can be found in almost every animal. The animal 
+must have a spine to ﬁ t into this theory. The second shape could be cats, dogs, 
+horses, goats, etc. The body shape could be an ostrich or other type of bird. Just by 
+tweaking the proportions, you can draw any animal!
+
+--- PAGE 226 ---
+ Animals with Character 209
+This kangaroo was designed with a calligraphy marker. This allows for the quick thick 
+to thin lines. I love the expressiveness the line receives with this tool. See how the 
+base created by the kangaroo’s feet was a thought for me. I like the large feet and 
+their placement with their size difference to form a solid base for the kangaroo to 
+stand on. In the top right, I pulled out the shape of the body for you to see how it 
+ﬂ ows to the head.
+
+--- PAGE 227 ---
+210 Force: Character Design from Life Drawing
+This coyote was given a long neck and thin legs 
+with large paws. He seemed unhappy and 
+uncaring. The downward angle of the eyes is what 
+gives him that emotion. Again, I have given you 
+the forceful shape of the body into the head. You 
+can start with shapes when drawing animals.
+--- PAGE 228 ---
+ Animals with Character 211
+I love drawing elephants. In these images of the entire elephant, you can see how 
+the triangle is the dominant shape of design. The straight is used for the strength of 
+the back while the soft, forceful, gravity stricken belly is curved. The inverted triangle 
+is used for the head. Here the curve is the forward arc of the face and trunk.
+--- PAGE 229 ---
+212 Force: Character Design from Life Drawing
+So in this design, the back is again straight and the curve is the belly. I used a 
+rectangle for the shape of the head. When it comes to ratios, look at how large the 
+body shape is in comparison to the head and feet.
+
+--- PAGE 230 ---
+ Animals with Character 213
+The blue bounding boxes are used as the overall shape of the elephant. The amount 
+of the box occupied by the elephants’ heads and their ears changes from one design 
+to another.
+--- PAGE 231 ---
+214 Force: Character Design from Life Drawing
+My focus here is the character found in the elephant’s eye. His inquisitive and 
+untrusting visage implies that something is occurring behind him. The drawing is 
+basically ﬂ at but some simple tone and surface line suggest depth.
+
+--- PAGE 232 ---
+ Animals with Character 215
+Here is the head of the elephant. You can see how reference creates the more “real” 
+design that then led to the others. The top right design is ﬂ at and the bottom right his 
+some form applied to it by pushing the curve of the front. This curve turns the head to 
+the left, allowing us to see the right side.
+
+--- PAGE 233 ---
+216 Force: Character Design from Life Drawing
+These rapid designs of an American Black Bear were all made possible through the 
+understanding of simple shapes and silhouette. I used a fat calligraphic marker. I love 
+the different personalities that came out of these impressionistic designs.
+
+--- PAGE 234 ---
+ Animals with Character 217
+This ostrich’s body is basically a FORCEFUL shape. The bottom of the body is a 
+straight and the back is a curve. Notice how the arch of the back ﬂ uidly sweeps into 
+the neck and tail feathers. The ostrich has a somewhat goofy look.
+This ostrich, on the other hand, looks disgruntled. I made him stouter with the 
+shortening and thickening of his legs. The body language and the stance are more alert 
+and aggressive.
+--- PAGE 235 ---
+218 Force: Character Design from Life Drawing
+These interesting animals are Red River Hogs. You can see that with every drawing I 
+went after different ideas. The top idea was the length of the nose. The second 
+drawing, based on the change in direction the hog gave me, caused me to be inspired 
+by the width of its snout. In the last image I brought out the triangular shape I saw in 
+the proﬁ le. I made him angry and played up the mouth. I also shrunk the size of the 
+legs to size up the head.
+
+--- PAGE 236 ---
+ Animals with Character 219
+This page is the beginning of my giraffe explorations. Already, you can see how I 
+have started to design reality. See form in the drawings shown on the left at the base 
+and top of the neck. I sculpted in these areas to deﬁ ne the change in direction of the 
+tube. The drawing on the right is a proﬁ le but I ﬁ lled it with structure.
+
+--- PAGE 237 ---
+220 Force: Character Design from Life Drawing
+These drawings are great examples of process from study to design. What does that 
+mean? Well, ﬁ rst I wanted to absorb the anatomy of the giraffe, its patterns, and 
+forms. You can see that in the two drawings on the left. The drawing on the top right 
+shows how I extracted the idea of sloping from the peak of the head down to the 
+mouth as ONE idea. That takes abstracting what you are seeing and creating ideas 
+and opinions. The giraffe’s head, like the body of the Red River Hog, is triangular. See 
+how I worked the bottom lip onto the shape of the triangle. Giraffe’s have large eyes 
+and eyelashes. You can see that I played up the size of the eyes and the smallness of 
+the nostrils. The drawing on the bottom right shows me acknowledging the rhythm 
+and strength of their necks.
+
+--- PAGE 238 ---
+ Animals with Character 221
+Look for the triangles in this design. There is the body as a whole. Then within the 
+body there are multiple triangles in the limbs. They stay connected through force and 
+rhythm. I then gave the giraffe a long and thin head.
+--- PAGE 239 ---
+222 Force: Character Design from Life Drawing
+These leaves are right from the zoo ﬂ oor. What inspired me to use them for the 
+giraffe designs was the spotted, tan pattern on the leaves. You can see this clearly in 
+the head on the top left leaf. I love using found objects from the location of the 
+design.
+
+--- PAGE 240 ---
+ Animals with Character 223
+One way to clearly commence your design with animals is to approach their proﬁ le. I 
+decided to remove the height of the giraffe and double triangled the head. Then, I 
+added the pattern of the giraffe to the shape to accent its head.
+The tortoise designs were shape-based and then ﬁ lled with information. All are 
+different because of their ratio variations. Notice how clear the head shapes become 
+when surrounded by the black shapes.
+--- PAGE 241 ---
+224 Force: Character Design from Life Drawing
+This is the Common Eland. What an interesting animal to draw. These ﬁ rst drawings 
+were amazing explorations of its muscular proportions. Its face held long slitted eyes 
+that in this moment reﬂ ected a look of suspicion.
+The drawing on the left is a more real take on this zebra. On the right, I pushed the 
+size of the head and shrunk the legs and feet. Form is quick and easy with the zebra 
+because of its natural stripes.
+
+--- PAGE 242 ---
+ Animals with Character 225
+Going off of my ﬁ rst impression, I executed the top drawing, showing off this 
+weightlifter-like physique. Lying on the ground, you can see how the shoulder 
+dominated the mountain range of the Eland’s reclined silhouette.
+
+--- PAGE 243 ---
+226 Force: Character Design from Life Drawing
+Bringing different supplies with you to the zoo could inspire your creativity. These 
+chimps were designed with black masking tape and charcoal pencil. The crudeness of 
+the tape allowed me to see more simply and make some clear decisions. First I went 
+after the basic body silhouette with the tape and then added hands and faces with 
+the pencil. The top right image reminds me of the movie The Godfather.
+
+--- PAGE 244 ---
+ Animals with Character 227
+The image above is a silhouette of multiple chimpanzees. I ripped white tape to create 
+the rough bottom that represented the terrain. So, in the drawing of the head, I 
+simply stretched the proportions or ratio vertically. Look at how small the face is 
+compared to the rest of the head.
+
+--- PAGE 245 ---
+228 Force: Character Design from Life Drawing
+This was done at the zoo also. Not sure what inspired the boxing idea but it was 
+entertaining to design. The fat calligraphic marker inspired the large, sweeping 
+strokes. His boxer-like face presents him ready for his next opponent.
+Exercises
+1. Know human anatomy and how to compare it to animals.
+2. Look at the animals as imbued with humanity. What type of person is this animal?
+3. Bring a book of celebrity photos with you to the zoo. See if you can combine 
+the photos with the animals. Or, better yet, bring a family photo album with 
+you!
+4. Work with shapes!
+5. Attempt combining two different animals.
+--- PAGE 246 ---
+I hope you have enjoyed this book. I had great pleasure in creating it. There are a 
+great deal of artists out in the world who are fantastic at copying and rendering. 
+Personally, this has never impressed me. Show me someone who is creative, that has 
+opinion, and I am interested in what they have to say. I may love or hate someone’s 
+work, but I will admire it for its clarity of opinion.
+ I paint objects as I think them, not as I see them.
+Pablo Picasso
+I feel we all have opinion. Over time, some lose it more than others because they 
+allow it to be taken from them. It then takes time to get it back. Allow yourself to ﬁ  nd 
+YOU. Do, buy, eat, talk, work, and play in ways that bring you happiness. Funny how 
+sometimes the most difﬁ  cult thing to do is to be yourself. Trust that you know you better 
+than anyone else does, including me.
+ I saw the angel in the marble and carved until I set him free.
+Michelangelo
+Draw what you want to draw, with the tools you like, when you like, and how you like. 
+This is the fastest road to exposing your voice. I give you my voice in this book along 
+with some of my friends’ voices.
+Enjoy being opinionated. I look forward to hearing and seeing what 
+you have to say about yourself and the world you live in.
+Mike Mattesi
+Closing
+--- PAGE 247 ---
+This page intentionally left blank 
+--- PAGE 248 ---
+RIK MAKI
+Originally from Vancouver, Canada, Rik Maki is one of the most proliﬁ  c quick sketch 
+artists in the animation and cartoon industry today. Eighteen years as character 
+designer for every major feature animated ﬁ  lm created at Walt Disney Feature 
+Animation, his creative imagination combined with skill and dedication to the art form 
+of drawing has brought him 13 feature ﬁ  lm credits in such ﬁ  lms as Finding Nemo , 
+Treasure Planet, A Bug’s Life, and Dinosaur.
+Rik‘s clients include Walt Disney Feature Animation, Pixar Animation, Blue Sky 
+Animation, Fox Animation Studios, DNA Helix, and Marvel, and his work has been 
+published in The Art of Lion King , The Art of Hercules , The Art of The Hunchback of 
+Notre Dame, The Art of A Bug’s Life, The Art of Treasure Planet, and in his sketchbooks 
+“Scribblin’ Away at Mike’s Cafe,” “Scribblin’ on Scrap,” and his latest sketchbook, 
+“Scribblin’ A–Z,” all available from DigitalorNot.com and through Amazon.com.
+Surrounded by technology and affectionately known as Mr. Old School, Rik just keeps 
+drawing. His skill combined with his endless ﬂ  ow of creative ideas makes him one of 
+the most popular character designers and character design instructors around. He can 
+be reached at his studio Digital or Not — www.digitalornot.com.
+STEPHEN SILVER
+Aspiring to be a professional artist my whole life, I ﬁ  rst got involved in drawing at the 
+age of six when I found an artist’s original sketchbook laying in my backyard. From 
+that point on I knew that drawing would be my purpose in life. In 1992 I got my pro-
+fessional start drawing caricatures at amusement parks and then went on to establish 
+my own illustration business and caricature concession company called Silvertoons. In 
+1996 I was hired as a graphic designer for the clothing company “No Fear.” Then, in 
+1997 I was hired at Warner Bros. Television Animation as a character designer and 
+later went on to develop the characters for Kevin Smith’s Clerks the Animated Series , 
+Disney’s Kim Possible , and Nickelodeons Danny Phantom . I believe there are three 
+treasures to success in life: Determination, Passion, and Desire. These are the three 
+rules I live by, thereby giving me what it takes to keep on drawing. To see more of my 
+work you can visit www.silvertoons.com and visit my blog @ www.stephensilver.
+blogspot.com. If you’re interested in learning from me, the art of Character Design, 
+I teach a one-on-one online character design course at SCHOOLISM.com.
+Artist Bios
+--- PAGE 249 ---
+232 Force: Character Design from Life Drawing
+DEAN YEAGLE
+Dean Yeagle started in animation in Philadelphia, PA. After marrying Barbara (also an 
+artist, and musician) and the birth of their daughter, Becky, the need for actual money 
+drove them to New York, and a job as designer, animator, and eventually director with 
+one of the top animation houses in NYC. In 1986, with partner Nancy Beiman, he 
+opened Caged Beagle Productions, Inc., a full-service animation studio, and has pro-
+duced, directed, designed, and animated innumerable TV commercials and CD-ROMs, 
+with clients across the United States and Europe. Dean was named Animator of the 
+Year by the National Cartoonists Society.
+He also does work for corporate clients, designing characters for various products, and 
+works on a continuing series of children’s books and designs the occasional toy. For 
+the past 7 years he’s contributed regular gag cartoons to Playboy Magazine, which 
+has led to self-published sketchbooks and a pinup-girl character, Mandy, who has just 
+been hired for her ﬁ  rst international modeling gig.
+JAKE KAZDAL
+Jake Kazdal has been involved in the video games industry since 1990, when he worked 
+at Nintendo of America as a gameplay counselor, playing games and answering 
+phones helping people get through games like the original Legend of Zelda and Final 
+Fantasy. After high school he attended the Vancouver Film School, graduating with a 
+degree in Classical Animation in 1996 and starting work the next Monday as a produc-
+tion artist at Boss Game Studios in Redmond, WA. In 1999 Jake had the unique oppor-
+tunity to join a new team as the only non-Japanese staff member, working for Tetsuya 
+Mizuguchi at Sega in Tokyo, Japan. As a production 3D artist, concept artist, and ani-
+mator, he cut his teeth working with some of the top talent in the industry, working on 
+games such as Space Channel 5, Rez, and Astroboy. Inspired by the incredible design 
+skills of his co-workers, in 2003 Jake decided to dedicate his career path to drawing, 
+designing, and painting, and left Tokyo to attend the Art Center College of Design in 
+Pasadena, CA, where he focused on Industrial Design and Entertainment Design. Since 
+March 2006 Jake has been a staff concept artist at Electronic Arts Los Angeles.
+www.jakekazdal.com
+GRISELDA SASTRAWINATA
+I graduated from Art Center College of Design in Pasadena as the Valedictorian. I got 
+my ﬁ  rst job at IDTE/Starz Animation and I am currently working at Dreamworks as a 
+visual development artist.
+please visit my blog: www.griseldasastrawinata.blogspot.com
+PATRICK MORGAN
+Patrick, “Mr. Morgan” to his friends, not only loves to draw, but has an afﬁ  nity for corn 
+holders. (You know those little fork-type things that look like tiny little corn on the cobs.) 
+--- PAGE 250 ---
+ Artist Bios 233
+Patrick recently migrated from animation over to the video game industry as a concept 
+designer at Heavy Iron Studios. Patrick also once saw a guy get struck by lightning. 
+Really! No lie!! In the past, Patrick has worked for such companies as Disney, 
+Nickelodeon, Warner Bros., and Sony. He has also released his ﬁ  rst vinyl toy of his char-
+acter “Whaleboy” and released his third art book. Check out more of his work and pick up 
+some of his books at www.patrickmorgan.com, www.patrickmorganart.blogspot.com, or 
+pick up your very own Whaleboy vinyl toy at www.whaleboytoy.com.
+RAGNAR
+Ragnar has been a character designer for video games, television, ﬁ  lm, and books for 
+the better part of a decade. He also writes, directs, and illustrates in the afore men-
+tioned arenas. The clients that have hired him to do so include Disney, Nickelodeon, 
+Warner Brothers, Sony, Dark Horse, Cartoon Network, and DC Comics. When not 
+doing any of the above he paints and whatnot.
+ERIN LEONG
+Erin Leong is currently an Animator and Designer of video games at Leapfrog. In addi-
+tion to games, she has a great interest in fashion illustration which she practices in her 
+spare time.
+MARC PERRY
+Born and raised in the Bay Area, drawing since I was a kid being inﬂ  uenced by so 
+many different artists and styles I came to Southern Cal to pursue I guess you would 
+say a childhood dream to draw cartoons and work at a studio. I’ve been very fortu-
+nate to see that dream come true. I have many people to thank for all the great proj-
+ects I’ve had the opportunity to work on and all the talented people I’ve had the 
+privilege to work with.
+TEDDY NEWTON
+Teddy Newton dropped out of the California Institute of the Arts in the early 1990s. 
+His hopes were to become a ﬁ  lmmaker like his hero Bob Fosse. However, after a lack 
+of planning, mixed with bad decision-making, Newton blindly went on to join up with 
+the Disney Animation Studios. This dissatisfying experience left him disillusioned about 
+the ﬁ  lm industry all together. Nonetheless, his conﬁ  dence was rapidly rebuilt with the 
+understanding of his good friend and composer, Michael Giacchino. Giacchino hired 
+Newton with the hopes they could tackle more independent animated ﬁ  lm projects. 
+Unfortunately, after only one year, the poorly managed company fell into bankruptcy. 
+Desperate for cash, Newton sharply hooked a job on the Warner Bros. animated fea-
+ture, The Iron Giant. It was on that picture that director Brad Bird encouraged Newton 
+to freely create rousing drawings to inspire fellow animators. Newton eventually left for 
+the Pixar Animation Studios. There, Newton would create the look and feel for all of 
+the major characters in the Academy Award winning ﬁ  lm, The Incredibles. His designs 
+included: Mr. Incredible, Frozone, Elastigirl, Mirage, Violet, Dash, Edna Mode (E), and 
+--- PAGE 251 ---
+234 Force: Character Design from Life Drawing
+many others. His design skills were also instrumental in the creation of the dynamic 
+animated end titles of The Incredibles and Ratatouille. Currently, Newton perseveres in 
+his quest for independence. He and long time friend, Gregor Joackim continue to illogi-
+cally bankroll Newton’s life savings on costly black & white ﬁ  lms with no credible stars.
+STEPH LABERIS
+I have been drawing since I was old enough to steal stacks of typing paper from my 
+Mom’s home ofﬁ  ce. My early obsession with cartoons, toys, and video games came 
+full-circle after I graduated from RISD and was fortunate enough to work in all three 
+respective ﬁ  elds. I never planned on doing character design for a living; it was a very 
+special teacher during my senior year of college who rekindled my passion for design 
+and storytelling and I haven’t looked back since. Of course, big props go to my friends 
+and family for the endless support, patience, inspiration, and the occasional helpful cri-
+tique or two.
+I have only recently begun to do character design in Illustrator. When I look at a model 
+(or anything from life really) I focus on two key elements: gesture and shape. Rendering 
+and even line work are secondary to me. I ﬁ  nd that the pen tool in Illustrator is great for 
+creating the swooping, expressive shapes I’m looking for and that the limitations of 
+working initially in ﬂ  at color cause me to focus on the clarity of the silhouette, some-
+thing often neglected with a lot of rendered character work I see currently.
+I have been playing with the “papercut” technique for a little while and want to push 
+the authentic look of it further, perhaps playing with fabric or wood textures and striving 
+for more depth. Achieving this look is relatively simple; once I have my initial design in 
+Illustrator, I copy/paste each individual shape as a separate layer in Photoshop. I add 
+drop shadows to the layers and overlay the paper textures (which come from my per-
+sonal library of scanned papers, some of which I made myself from pulp). I then add a 
+little texture with a chalk brush and I’m good to go.
+Website: http://www.ﬂ  yingclam.com
+Blog: http://stephsketches.blogspot.com
+JOHN NEVAREZ
+John Nevarez is visual development artist for Imagi Animation Studios in Sherman 
+Oaks, California, where he’s currently providing background designs for AstroBoy. 
+Prior to Imagi, John worked for Disneytoon Studios, working in various capacities as a 
+storyboard artist and layout designer on such projects as Kim Possible, Kronk’s New 
+Groove, and the Tinkerbell Movie. He is also working on several personal projects as 
+well as completing a personal sketchbook.
+john-nevarez.blogspot.com
+--- PAGE 252 ---
+ Artist Bios 235
+MIKE DALEY
+Michael Daley is excited and thankful to be a part of this fantastic drawing book. 
+Working as a designer, illustrator, and animator for various companies, Michael cur-
+rently resides in San Francisco where he works as an animation art director at 
+Leapfrog. He enjoys sketching, riding bikes, playing chess, and traveling.
+Visit his site at http://www.biocreep.com and his blog at http://biocreep.blogspot.com.
+PHIL RYNDA
+Phil Rynda is currently a Character Designer at Cartoon Network Studios. In 2007 he was 
+awarded an Emmy for his character design work on The Grim Adventures of Billy and 
+Mandy. You can see some of his work at www.rynda.com.
+DEANNA MARSIGLIESE
+Deanna is a Canadian animation artist with a strong passion for illustration and con-
+ceptual design. Deanna’s pieces are created with a variety of media; her favorites 
+being ink, marker, and gouache. She has experience in various facets of the animation 
+industry, designing characters for both television and feature ﬁ  lm.
+Visit her site at www.pinkydee.blogspot.com
+MODELS
+I want to personally thank the models whose photos were used in 
+this book.
+John Tucker Pirate and cowboy
+Nicole Stafaci Pink and Boa Woman
+Mark Russo Matador
+David Roon Gangster
+Mike Schmidt Barbarian and Bachus
+Jennifer Fabos Patton Cowgirl www.jenniferpatton.net
+A special thanks to characterdesign.com and the drawingclub.com for the great char-
+acter photos of the models that assisted in the creation of this book.
+SUGGESTED READING
+Force: Dynamic Life Drawing for Animators, Second Edition, by Mike Mattesi
+Reportage 01, by Mike Mattesi
+Manwatching, A Field Guide to Human Behavior, by Desmond Morris
+Comics and Sequential Art, by Will Eisner
+Cartoon Modern: Style and Design in 1950s Animation (Hardcover), by Amid Amidi
+--- PAGE 253 ---
+236 Force: Character Design from Life Drawing
+Art And Flair of Mary Blair, by John Canemaker
+“The Cat on a Hot Thin Groove: The Complete Collection of 78rpm Artwork,” from the 
+Legendary Record Changer Magazine
+Desene: Sketches & Scribbles, by Ovi Nedelcu
+The Art of Silver, by Stephen Silver
+The Art of The Incredibles, by Mark Cotta Vaz, Brad Bird, and John Lasseter
+Ronald Searle (Hardcover), by Ronald Searle
+Drawing Blood: Forty-ﬁ  ve Years of Scarfe Uncensored, by Gerald Scarfe
+The Art of Mulan (Hardcover), by Jeff Kurtti
+The Illusion of Life: Disney Animation, by Ollie Johnston and Frank Thomas
+Drawers, Claire Wendling
+The Weatherly Guide to Drawing Animals, by Joe Weatherly
+The Art of Animal Drawing: Construction, Action Analysis, Caricature  (Dover Books on 
+Art Instruction, Anatomy), by Ken Hultgren
+The Art of Animal Character Design, by David Colman and Daniel Morris
+The Art of Star Wars, Episode II — Attack of the Clones , by Mark Vaz
+The Complete Book of Caricature, by Bob Staake
+Mandy’s Shorts, by Dean Yeagle
+Rowland Emett, Form Punch to Chitty Chitty Bang Bang and Beyond
+Stars, by Sebastian Kruger
+WEBSITES
+www.drawingforce.com
+www.enterartaacad.com
+www.characterdesigns.com
+www.thedrawingclub.com
+www.characterdesign.blogspot.com
+www.drawingboard.org
+www.cartoonbrew.com
+--- PAGE 254 ---
+A
+abstraction, 74, 108, 147, 187
+force, of, 1
+key to design, 75
+aggression, 127
+anatomy, 42
+anger, 148
+angles
+aggressive, 28
+curves, comparison to, 103
+opinionated, help make artist more, 16
+power of, 17, 18, 19
+relationship between forces, 15
+relationship to other angles, 15, 16, 21, 
+22
+relationship to page, 15, 16
+animals
+anthropomorphism, 207
+bear, 216
+body language, 217
+bounding boxes used to draw, 214
+chimpanzees, 227, 228
+coyote, 210
+depth, 214
+eland, 224, 225
+elephants, 211–15
+giraffes, 218, 220, 221, 223
+gorilla, 226
+hogs, 218
+impressionistic, 216
+kangaroos, 209
+muscular proportions, 224
+ostrich, 217
+seals, 208
+shapes, 207, 208, 209, 210, 211, 
+218, 221
+tortoise, 223
+zebra, 224
+animation, television, 157
+anthropomorphism, 207. See also animals
+artist bios, 230–35
+asymmetry, 92
+B
+black and white design, 164
+blue-sky phase, 30
+body language, 98, 123, 217
+bounding box, 213. See also ratio bounding 
+box; spatial bounding box
+C
+calligraphy marker, 209
+Caran d’Ache crayons, 156
+caricature, 116, 165, 173
+chaos, 151
+character
+analysis, 150
+artistic opinion of, 129
+color, conveyed by, 99
+costume, conveyed by (see costume)
+inanimate objects, conveyed through, 196, 
+197, 198, 199, 200, 202, 203
+inspiration for, 150–53
+layout, 188, 189, 190
+observing, 172, 175, 177, 181, 182, 
+184, 185
+reportage, 171, 172
+circle, 62
+clarity, 164
+color
+complementary, 92, 101
+deﬁ  nitions related to character, 99
+theory, 99
+conﬁ  dence, 130
+contrast, 33, 176
+attention, relationship between, 97
+ideas, of, 100
+convergence, 42
+Corel Painter, 140
+costume
+character, conveying, 95, 158
+culture, 95
+fabrics, 149
+occupation, 95, 158, 160, 161
+persona, 96
+Index
+--- PAGE 255 ---
+238 Index
+costume (continued)
+texture, 95
+time period, 95
+curves, 37, 38
+elephant drawings, 211, 212, 215
+movement, depicting, 39
+power of, 15
+robust, 162
+roundness, depicting, 40
+D
+Daley, Mike, 175, 178, 188
+de Kooning, Elaine, 96
+depth, 37, 41, 42, 125, 195, 214
+perspective, 54
+size, to convey, 48
+spatial bounding box tool (see spatial 
+bounding box)
+design, forceful, 68. See also force
+detail, 191, 193, 200
+digital work, 140
+dimensionality, 159
+E
+earth, 23
+Eisner, Will, 97
+energy, 133
+exaggeration, 45, 96, 102, 110, 122
+exercises, 36, 60, 93, 169, 206, 228
+extremes, in drawings, 1, 4, 59
+F
+faces
+expressions (see facial expression)
+features, 167
+ratios within, 87
+facial expression, 98, 121, 135, 142
+femininity, 85
+ﬁ  lms, 150–53
+ﬁ  re, 23
+ﬂ  uidity, 27, 44, 105
+force
+applied, 15
+opinion, relationship between, 26
+relationship to other forces, 5, 15
+shapes, in (see shapes)
+simplicity of, 9
+form, 42
+G
+golden rule of designing from life, 1
+gravity, 17
+H
+horizon line, 55
+humanity, conveying, 171
+humor, 143, 146
+I
+ideas
+developing, 23
+imagination, 154, 166
+inspiration, 23, 150–53
+imagination, designing from, 154, 166
+impressionistic design, 216
+inanimate objects
+conveying character through, 196, 197, 
+198, 199, 200, 202, 203
+inspiration, 23, 150–53. See also ideas
+intuition, 104
+K
+Kazdal, Jake, 139
+King Arthur, 153
+King Kong, 150
+L
+Laberis, Stephanie, 113, 120
+law of thirds, 81, 82, 83, 87, 205
+Leong, Erin, 101
+lines, 163
+Lockhardt, David, 149
+M
+Makenna (artist’s daughter), 112
+mannerisms, 172
+Marin (artist’s daughter), 119
+Marsigliese, Deanna, 104–5
+Master and Commander, 151
+Michelangelo, 229
+mimicry, 180
+Minority Report, 151
+momentum, 11
+monochromatic, 99
+Morgan, Patrick, 136
+movement, 8, 39
+N
+Nevarez, John, 116
+Newton, Teddy, 102, 132, 138, 148
+Norris, Desmond, 171
+Norton, Ed, 165
+O
+objective, deﬁ  ning your, 50
+observations, 172, 175, 177, 181, 182, 
+184, 185
+--- PAGE 256 ---
+ Index 239
+opinionated drawings, 16, 25, 26, 201
+journalism analogy, 29
+oval, 62
+overlap, 42
+P
+patterns, 222
+Patton, Jennifer Fabos, 123
+Perry, Marc, 126, 137, 143
+personality, 104, 111, 115, 116, 172
+perspective, 42, 54
+Photoshop, 107, 112, 136, 139, 194
+Picasso, Pablo, 61, 229
+posture, 122, 174
+power, 48
+Prismacolor pencil, 139
+proﬁ  les, 223
+R
+Ragnar, 127, 128
+ratio bounding box, 75, 76, 77, 78, 79, 
+80, 84, 85, 86, 88, 89, 204. See 
+also spatial bounding box
+reality, extracting design from, 192
+rectangle, 63
+repetition, 14
+reportage, 171
+resources/suggested reading, 235–36
+rhythm, 2, 6, 17, 24, 69, 70, 157, 220
+Roon, David, 121
+rule of thirds. See law of thirds
+Russo, Mark, 145
+Rynda, Phil, 129, 130
+S
+Sastrawinita, Griselda, 144
+satire, 183
+Schmidt, Mike, 132, 141
+shape, in drawings, 10
+shapes. See also speciﬁ  c shapes
+abstract, 117, 125
+abstract parameters, 63
+character, conveying, 172, 173, 178
+facial features, 91
+ﬂ  at, 155, 159, 193
+forceful, 64, 65, 66, 67, 68, 72, 73, 
+161, 210, 217
+importance of understanding, 61
+playfulness, conveying, 143
+silhouette, 96, 97, 125, 157, 158, 168, 
+186, 225, 227
+Silver, Stephen, 109
+size, 12, 41, 42
+depth, conveying, 51
+movement, conveying, 53
+weight, conveying, 52
+space, 57
+spatial bounding box, 43, 44, 46, 47, 49, 
+50, 54, 55, 58, 74. See also ratio 
+bounding box
+square, 63
+static reality, 88
+story in drawings, 29, 31, 32, 33, 106, 
+107, 118, 119, 160, 186
+Strafaci, Nicole, 100
+strength, 220
+squares and rectangles, conveyed by, 63
+structure, 219
+subtlety, 3, 20, 24, 51, 53
+T
+tangents, denial of, 42
+tape and pencil drawings, 226
+television animation, 157
+texture, 95, 163
+thirds, law of. See law of thirds
+thrust, 12, 13, 35, 65
+time management, 154
+tonal design, 98
+tone, 96
+traditional drawing, 24
+triangle, 62
+accentuating, 178, 211
+body drawings, 98
+forceful, 69, 71
+multiple, 221
+rhythmic, 70
+Troy, 151, 152
+truth in art, 25
+Tucker, John, 106, 124
+Twain, Mark, 171
+V
+value, 96
+Voltaire, 96
+W
+water, 23
+weight, 7, 52, 56
+wind, 23
+Y
+Yeagle, Dean, 110
